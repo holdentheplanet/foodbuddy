@@ -22,8 +22,8 @@ type USDASearchResponse = {
   foods?: USDAFood[];
 };
 
-// FoodBuddy backend running on your Mac
-const API_URL = 'http://10.0.0.121:3001';
+// FoodBuddy backend running on vps
+const API_URL = 'http://www.skrimpf.club/skrimpf/backend';
 
 function mapFood(food: USDAFood): GroceryProduct {
   return {
