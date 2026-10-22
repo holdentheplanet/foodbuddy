@@ -23,7 +23,7 @@ type USDASearchResponse = {
 };
 
 // FoodBuddy backend running on vps
-const API_URL = 'http://www.skrimpf.club/skrimpf/backend';
+const API_URL = 'http://10.0.0.121:3001';
 
 function mapFood(food: USDAFood): GroceryProduct {
   return {
