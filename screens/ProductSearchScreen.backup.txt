@@ -1,0 +1,630 @@
+
+import React, { useEffect, useState } from 'react';
+import {
+  ActivityIndicator,
+  Alert,
+  Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
+} from 'react-native';
+
+import {
+  GroceryProduct,
+  searchProducts,
+} from '../services/productApi';
+
+import {
+  AllergyCheckResult,
+  checkProductAllergies,
+} from '../services/allergyChecker';
+
+const GREEN = '#183D32';
+const BLUE = '#172B4D';
+const CREAM = '#F7F5EF';
+
+type Props = {
+  userId: number;
+  onBack: () => void;
+};
+
+export default function ProductSearchScreen({
+  userId,
+  onBack,
+}: Props) {
+  const [query, setQuery] = useState('');
+  const [products, setProducts] = useState<GroceryProduct[]>([]);
+  const [selected, setSelected] = useState<GroceryProduct | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [checking, setChecking] = useState(false);
+  const [hasSearched, setHasSearched] = useState(false);
+  const [checkResult, setCheckResult] =
+    useState<AllergyCheckResult | null>(null);
+  const [checkError, setCheckError] = useState(false);
+
+  async function handleSearch() {
+    if (!query.trim() || loading) return;
+
+    setLoading(true);
+    setSelected(null);
+    setHasSearched(false);
+    setProducts([]);
+
+    try {
+      const results = await searchProducts(query);
+      setProducts(results);
+      setHasSearched(true);
+    } catch (error) {
+      console.error(error);
+      Alert.alert(
+  'Product Search Unavailable',
+  error instanceof Error
+    ? error.message
+    : 'Could not load products. Please try again later.'
+);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  useEffect(() => {
+    let active = true;
+
+    async function runCheck() {
+      setCheckResult(null);
+      setCheckError(false);
+
+      if (!selected) {
+        setChecking(false);
+        return;
+      }
+
+      setChecking(true);
+
+      try {
+        const result = await checkProductAllergies(
+          userId,
+          selected
+        );
+
+        if (active) {
+          setCheckResult(result);
+        }
+      } catch (error) {
+        console.error('Allergy check error:', error);
+
+        if (active) {
+          setCheckError(true);
+        }
+      } finally {
+        if (active) {
+          setChecking(false);
+        }
+      }
+    }
+
+    runCheck();
+
+    return () => {
+      active = false;
+    };
+  }, [selected, userId]);
+
+  function renderAllergyStatus() {
+    if (checking) {
+      return (
+        <View style={styles.statusBox}>
+          <ActivityIndicator color={GREEN} />
+          <Text style={styles.statusDescription}>
+            Checking your saved allergies...
+          </Text>
+        </View>
+      );
+    }
+
+    if (checkError || !checkResult) {
+      return (
+        <View style={styles.statusBox}>
+          <Text style={styles.statusTitle}>
+            ⚠️ Unable to Verify
+          </Text>
+          <Text style={styles.statusDescription}>
+            FoodBuddy could not complete the allergy check.
+            Review the product packaging carefully.
+          </Text>
+        </View>
+      );
+    }
+
+    if (checkResult.savedAllergyCount === 0) {
+      return (
+        <View style={styles.statusBox}>
+          <Text style={styles.statusTitle}>
+            ⚠️ No Saved Allergies
+          </Text>
+          <Text style={styles.statusDescription}>
+            Add allergies in My Allergy Profile to get
+            personalized ingredient warnings.
+          </Text>
+        </View>
+      );
+    }
+
+    const result = checkResult;
+
+    const title =
+      result.status === 'conflict'
+        ? '🚨 Potential Allergy Conflict'
+        : result.status === 'caution'
+        ? '⚠️ Possible Cross-Contact'
+        : result.status === 'unknown'
+        ? '⚠️ Unable to Verify'
+        : '🔎 No Known Matches Found';
+
+    const description =
+      result.status === 'conflict'
+        ? 'A saved allergen or related ingredient was detected.'
+        : result.status === 'caution'
+        ? 'A saved allergen was found in the possible traces information.'
+        : result.status === 'unknown'
+        ? 'Ingredient information is missing or incomplete.'
+        : 'No saved allergens were detected by this basic text check. This does not guarantee the product is safe.';
+
+    return (
+      <View
+        style={[
+          styles.statusBox,
+          result.status === 'conflict' && styles.dangerBox,
+          result.status === 'no_matches' && styles.neutralBox,
+        ]}
+      >
+        <Text style={styles.statusTitle}>{title}</Text>
+        <Text style={styles.statusDescription}>
+          {description}
+        </Text>
+
+        {result.matches.map((match, index) => (
+          <View
+            key={`${match.allergen}-${match.matchedIngredient}-${match.source}-${index}`}
+            style={styles.matchRow}
+          >
+            <Text style={styles.matchText}>
+              • {match.allergen}: {match.matchedIngredient}
+            </Text>
+            <Text style={styles.matchSource}>
+              Found in {match.source}
+            </Text>
+          </View>
+        ))}
+      </View>
+    );
+  }
+
+  return (
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      keyboardShouldPersistTaps="handled"
+    >
+      <TouchableOpacity
+        style={styles.backButton}
+        onPress={() => {
+          if (selected) {
+            setSelected(null);
+          } else {
+            onBack();
+          }
+        }}
+      >
+        <Text style={styles.backText}>
+          {selected ? '← Back to Results' : '← Back to Home'}
+        </Text>
+      </TouchableOpacity>
+
+      {selected ? (
+        <View style={styles.detailCard}>
+          {selected.image ? (
+            <Image
+              source={{ uri: selected.image }}
+              style={styles.largeImage}
+              resizeMode="contain"
+            />
+          ) : (
+            <View style={styles.imagePlaceholder}>
+              <Text style={styles.placeholderText}>🛒</Text>
+            </View>
+          )}
+
+          <Text style={styles.productTitle}>
+            {selected.name}
+          </Text>
+
+          <Text style={styles.brand}>
+            {selected.brand}
+          </Text>
+
+          {renderAllergyStatus()}
+
+          <Text style={styles.sectionTitle}>
+            Ingredients
+          </Text>
+          <Text style={styles.body}>
+            {selected.ingredients ||
+              'Ingredient information is unavailable.'}
+          </Text>
+
+          <Text style={styles.sectionTitle}>
+            Listed Allergens
+          </Text>
+          <Text style={styles.body}>
+            {selected.allergens.length
+              ? selected.allergens.join(', ')
+              : 'No allergen information provided.'}
+          </Text>
+
+          <Text style={styles.sectionTitle}>
+            May Contain / Traces
+          </Text>
+          <Text style={styles.body}>
+            {selected.traces.length
+              ? selected.traces.join(', ')
+              : 'No trace information provided.'}
+          </Text>
+        </View>
+      ) : (
+        <>
+          <Text style={styles.title}>
+            Ingredient Checker
+          </Text>
+
+          <Text style={styles.subtitle}>
+            Search real grocery products and check for
+            ingredients related to your saved allergies.
+          </Text>
+
+          <View style={styles.searchContainer}>
+            <TextInput
+              style={styles.searchInput}
+              placeholder="Search products or brands..."
+              placeholderTextColor="#999"
+              value={query}
+              onChangeText={setQuery}
+              returnKeyType="search"
+              onSubmitEditing={handleSearch}
+              autoCorrect={false}
+            />
+
+            <TouchableOpacity
+              style={styles.searchButton}
+              onPress={handleSearch}
+              disabled={loading}
+            >
+              <Text style={styles.searchButtonText}>
+                Search
+              </Text>
+            </TouchableOpacity>
+          </View>
+
+          {!hasSearched && !loading && (
+            <View style={styles.welcomeCard}>
+              <Text style={styles.welcomeIcon}>🔎</Text>
+              <Text style={styles.welcomeTitle}>
+                Find your next grocery item
+              </Text>
+              <Text style={styles.welcomeDescription}>
+                Search by product name or brand to explore
+                ingredients and personalized allergy warnings.
+              </Text>
+            </View>
+          )}
+
+          {loading && (
+            <ActivityIndicator
+              size="large"
+              color={GREEN}
+              style={styles.loader}
+            />
+          )}
+
+          {hasSearched && products.length === 0 && (
+            <View style={styles.emptyCard}>
+              <Text style={styles.emptyTitle}>
+                No products found
+              </Text>
+              <Text style={styles.emptyText}>
+                Try another product name or brand.
+              </Text>
+            </View>
+          )}
+
+          {hasSearched && products.length > 0 && (
+            <>
+              <Text style={styles.resultsHeading}>
+                Search Results
+              </Text>
+
+              {products.map(product => (
+                <TouchableOpacity
+                  key={product.code}
+                  style={styles.productCard}
+                  onPress={() => setSelected(product)}
+                >
+                  {product.image ? (
+                    <Image
+                      source={{ uri: product.image }}
+                      style={styles.productImage}
+                      resizeMode="contain"
+                    />
+                  ) : (
+                    <View style={styles.smallPlaceholder}>
+                      <Text>🛒</Text>
+                    </View>
+                  )}
+
+                  <View style={styles.productInfo}>
+                    <Text
+                      style={styles.productName}
+                      numberOfLines={2}
+                    >
+                      {product.name}
+                    </Text>
+                    <Text style={styles.brand}>
+                      {product.brand}
+                    </Text>
+                    <Text style={styles.viewText}>
+                      Check Ingredients →
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              ))}
+            </>
+          )}
+        </>
+      )}
+
+      <Text style={styles.attribution}>
+        Product data: Open Food Facts contributors.
+        Always verify current packaging and manufacturer warnings.
+      </Text>
+    </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: CREAM,
+  },
+  content: {
+    padding: 22,
+    paddingBottom: 50,
+  },
+  backButton: {
+    alignSelf: 'flex-start',
+    paddingVertical: 10,
+    marginBottom: 18,
+  },
+  backText: {
+    color: GREEN,
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: BLUE,
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 15,
+    color: '#777',
+    lineHeight: 22,
+    marginBottom: 25,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    gap: 10,
+    marginBottom: 25,
+  },
+  searchInput: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: '#E3E5E0',
+    borderRadius: 12,
+    paddingHorizontal: 15,
+    paddingVertical: 13,
+    fontSize: 15,
+    color: BLUE,
+  },
+  searchButton: {
+    backgroundColor: GREEN,
+    borderRadius: 12,
+    paddingHorizontal: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  searchButtonText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  welcomeCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 20,
+    padding: 30,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  welcomeIcon: {
+    fontSize: 40,
+    marginBottom: 15,
+  },
+  welcomeTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: BLUE,
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  welcomeDescription: {
+    fontSize: 14,
+    color: '#777',
+    textAlign: 'center',
+    lineHeight: 22,
+  },
+  loader: {
+    marginTop: 35,
+  },
+  resultsHeading: {
+    fontSize: 19,
+    fontWeight: 'bold',
+    color: BLUE,
+    marginBottom: 6,
+  },
+  productCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 15,
+    padding: 14,
+    marginTop: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  productImage: {
+    width: 85,
+    height: 85,
+    marginRight: 14,
+  },
+  smallPlaceholder: {
+    width: 85,
+    height: 85,
+    backgroundColor: '#F1F1F1',
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 14,
+  },
+  productInfo: {
+    flex: 1,
+  },
+  productName: {
+    color: BLUE,
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  brand: {
+    color: '#777',
+    fontSize: 13,
+    marginBottom: 8,
+  },
+  viewText: {
+    color: GREEN,
+    fontWeight: 'bold',
+    fontSize: 13,
+  },
+  emptyCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 15,
+    padding: 25,
+    alignItems: 'center',
+  },
+  emptyTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: BLUE,
+    marginBottom: 8,
+  },
+  emptyText: {
+    fontSize: 14,
+    color: '#777',
+  },
+  detailCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 20,
+    padding: 22,
+  },
+  largeImage: {
+    width: '100%',
+    height: 220,
+    marginBottom: 20,
+  },
+  imagePlaceholder: {
+    height: 200,
+    backgroundColor: '#F1F1F1',
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+  },
+  placeholderText: {
+    fontSize: 45,
+  },
+  productTitle: {
+    fontSize: 23,
+    fontWeight: 'bold',
+    color: BLUE,
+    marginBottom: 6,
+  },
+  statusBox: {
+    backgroundColor: '#FFF0D9',
+    borderRadius: 12,
+    padding: 16,
+    marginTop: 20,
+  },
+  dangerBox: {
+    backgroundColor: '#FFE4E4',
+  },
+  neutralBox: {
+    backgroundColor: '#E8F0EB',
+  },
+  statusTitle: {
+    color: BLUE,
+    fontWeight: 'bold',
+    fontSize: 16,
+    marginBottom: 7,
+  },
+  statusDescription: {
+    color: '#555',
+    fontSize: 13,
+    lineHeight: 20,
+  },
+  matchRow: {
+    marginTop: 12,
+    borderTopWidth: 1,
+    borderTopColor: '#DDD',
+    paddingTop: 10,
+  },
+  matchText: {
+    color: BLUE,
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  matchSource: {
+    color: '#666',
+    fontSize: 12,
+    marginTop: 4,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: GREEN,
+    marginTop: 24,
+    marginBottom: 8,
+  },
+  body: {
+    fontSize: 14,
+    color: '#555',
+    lineHeight: 22,
+  },
+  attribution: {
+    fontSize: 11,
+    color: '#888',
+    textAlign: 'center',
+    marginTop: 30,
+    lineHeight: 17,
+  },
+});
