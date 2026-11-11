@@ -54,8 +54,11 @@ export async function initializeDatabase(): Promise<void> {
     -- Searchable food allergy catalog
     CREATE TABLE IF NOT EXISTS allergens (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      name TEXT NOT NULL UNIQUE COLLATE NOCASE,
-      is_custom INTEGER NOT NULL DEFAULT 0
+      user_id INTEGER DEFAULT NULL,
+      name TEXT NOT NULL COLLATE NOCASE,
+      is_custom INTEGER NOT NULL DEFAULT 0,
+      FOREIGN KEY (user_id) REFERENCES users(id)
+        ON DELETE CASCADE
     );
 
     -- Allergen derivatives and alternative ingredient names
@@ -78,6 +81,11 @@ export async function initializeDatabase(): Promise<void> {
       FOREIGN KEY (allergen_id) REFERENCES allergens(id)
         ON DELETE CASCADE
     );
+
+    -- One built-in allergen per name, and one custom allergen per name per user.
+    -- IFNULL turns NULL (built-in) into 0 so built-in duplicates are caught.
+    CREATE UNIQUE INDEX IF NOT EXISTS idx_allergens_name_user
+      ON allergens(name, IFNULL(user_id, 0));
 
     -- Indexes for faster ingredient and allergy searches
     CREATE INDEX IF NOT EXISTS idx_allergen_derivatives_name
