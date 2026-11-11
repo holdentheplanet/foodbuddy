@@ -1,7 +1,9 @@
 
 import { db } from '../database/db';
 import { getUserAllergyProfile } from '../database/allergyCatalog';
-import { GroceryProduct } from './productApi';
+import type { GroceryProduct } from './productApi';
+import type { LocalProductDetails } from './localProductService';
+import { compareLocalProductAllergies } from './localAllergyMatching';
 
 export type AllergyMatch = {
   allergen: string;
@@ -169,4 +171,9 @@ export async function checkProductAllergies(
     matches: [],
     savedAllergyCount: allergies.length,
   };
+}
+
+/** Uses the same saved profile/catalog as the legacy checker, without network access. */
+export async function checkLocalProductAllergies(userId: number, product: LocalProductDetails) {
+  return compareLocalProductAllergies(await loadSavedAllergies(userId), product);
 }
