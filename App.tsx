@@ -12,6 +12,8 @@ import {
   View,
 } from 'react-native';
 
+import HomeScreen from './screens/HomeScreen';
+import NearbyStoresScreen from './screens/NearbyStoresScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import AllergyProfileScreen from './screens/AllergyProfileScreen';
 import ProductSearchScreen from './screens/ProductSearchScreen';
@@ -31,10 +33,11 @@ const GREEN = '#183D32';
 const BLUE = '#172B4D';
 const CREAM = '#F7F5EF';
 
-type Tab = 'home' | 'products' | 'allergies' | 'settings';
+type Tab = 'stores' | 'home' | 'products' | 'allergies' | 'settings';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<Tab>('home');
+  const [storeSessionOwner, setStoreSessionOwner] = useState<number | null>(null);
   const [user, setUser] = useState<User | null>(null);
   const [ready, setReady] = useState(false);
   const [mode, setMode] = useState<'login' | 'signup'>('login');
@@ -44,6 +47,11 @@ export default function App() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!user) setStoreSessionOwner(null);
+    else if (activeTab === 'stores') setStoreSessionOwner(user.id);
+  }, [activeTab, user?.id]);
 
   useEffect(() => {
     async function start() {
@@ -134,143 +142,28 @@ export default function App() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.screen}>
-          {activeTab === 'settings' ? (
-            <SettingsScreen
-              user={user}
-              onUserUpdated={setUser}
-              onLogout={handleLogout}
-            />
-          ) : activeTab === 'allergies' ? (
-            <AllergyProfileScreen userId={user.id} />
-          ) : activeTab === 'products' ? (
-            <ProductSearchScreen
-  userId={user.id}
-  onBack={() => setActiveTab('home')}
-/>
-          ) : (
-            <ScrollView
-              contentContainerStyle={styles.home}
-              keyboardShouldPersistTaps="handled"
-            >
-              <View style={styles.header}>
-                <Text style={styles.logo}>FoodBuddy 🌿</Text>
-                <Text style={styles.tagline}>
-                  Your allergy-friendly shopping companion
-                </Text>
-              </View>
-
-              <Text style={styles.heading}>
-                Hi, {user.username}! 👋
-              </Text>
-
-              <Text style={styles.subtitle}>
-                Let's find food that works for you.
-              </Text>
-
-              <TouchableOpacity
-                style={styles.searchBar}
-                onPress={() => setActiveTab('products')}
-                activeOpacity={0.8}
-              >
-                <Text style={styles.searchText}>
-                  🔍 Search products, brands, ingredients...
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={styles.featureCard}
-                onPress={() => setActiveTab('products')}
-                activeOpacity={0.85}
-              >
-                <Text style={styles.featureIcon}>🛒</Text>
-
-                <Text style={styles.featureTitle}>
-                  Ingredient Checker
-                </Text>
-
-                <Text style={styles.featureDescription}>
-                  Explore real grocery products, review ingredients,
-                  and find potential allergy concerns.
-                </Text>
-
-                <Text style={styles.featureLink}>
-                  Explore Products →
-                </Text>
-              </TouchableOpacity>
-
-              <View style={styles.quickRow}>
-                <TouchableOpacity
-                  style={styles.quickCard}
-                  onPress={() => setActiveTab('allergies')}
-                >
-                  <Text style={styles.quickIcon}>🛡️</Text>
-                  <Text style={styles.quickTitle}>My Allergies</Text>
-                  <Text style={styles.quickDescription}>
-                    Manage saved allergies
-                  </Text>
-                </TouchableOpacity>
-
-                <View style={styles.quickCard}>
-                  <Text style={styles.quickIcon}>📍</Text>
-                  <Text style={styles.quickTitle}>Nearby Stores</Text>
-                  <Text style={styles.quickDescription}>
-                    Coming soon
-                  </Text>
-                </View>
-              </View>
-
-              <Text style={styles.footerNote}>
-                Always check the product packaging before consuming
-                food with allergies.
-              </Text>
-            </ScrollView>
-          )}
+          {(activeTab === 'stores' || storeSessionOwner === user.id) && <View style={styles.storeLayer}
+            pointerEvents={activeTab === 'stores' ? 'auto' : 'none'} accessibilityElementsHidden={activeTab !== 'stores'}
+            importantForAccessibility={activeTab === 'stores' ? 'auto' : 'no-hide-descendants'}>
+            <NearbyStoresScreen userId={user.id} isActive={activeTab === 'stores'} onBack={() => setActiveTab('home')} />
+          </View>}
+          {activeTab !== 'stores' && <View style={styles.foregroundLayer}>
+            {activeTab === 'settings' ? <SettingsScreen user={user} onUserUpdated={setUser} onLogout={handleLogout} />
+              : activeTab === 'allergies' ? <AllergyProfileScreen userId={user.id} />
+              : activeTab === 'products' ? <ProductSearchScreen userId={user.id} onBack={() => setActiveTab('home')} />
+              : <HomeScreen username={user.username} onProducts={() => setActiveTab('products')}
+                  onStores={() => setActiveTab('stores')} onAllergies={() => setActiveTab('allergies')} />}
+          </View>}
         </View>
-
         <View style={styles.tabBar}>
-          <TouchableOpacity
-            style={styles.tab}
-            onPress={() => setActiveTab('home')}
-          >
-            <Text
-              style={[
-                styles.tabText,
-                activeTab === 'home' && styles.activeTabText,
-              ]}
-            >
-              🏠 Home
-            </Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            style={styles.tab}
-            onPress={() => setActiveTab('allergies')}
-          >
-            <Text
-              style={[
-                styles.tabText,
-                activeTab === 'allergies' &&
-                  styles.activeTabText,
-              ]}
-            >
-              🛡️ Allergies
-            </Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            style={styles.tab}
-            onPress={() => setActiveTab('settings')}
-          >
-            <Text
-              style={[
-                styles.tabText,
-                activeTab === 'settings' &&
-                  styles.activeTabText,
-              ]}
-            >
-              ⚙️ Settings
-            </Text>
-          </TouchableOpacity>
+          {([{ id: 'home', label: 'Home', icon: '⌂' }, { id: 'products', label: 'Shop', icon: '⌕' },
+            { id: 'stores', label: 'Stores', icon: '⌖' }, { id: 'allergies', label: 'Allergies', icon: '♡' },
+            { id: 'settings', label: 'Settings', icon: '⚙︎' }] as const).map(tab => <TouchableOpacity key={tab.id}
+              accessibilityRole="tab" accessibilityLabel={`Navigate to ${tab.label}`} accessibilityState={{ selected: activeTab === tab.id }}
+              style={[styles.tab, activeTab === tab.id && styles.activeTab]} onPress={() => setActiveTab(tab.id)}>
+              <Text accessible={false} maxFontSizeMultiplier={1.3} style={[styles.tabIcon, activeTab === tab.id && styles.activeTabText]}>{tab.icon}</Text>
+              <Text maxFontSizeMultiplier={1.3} style={[styles.tabText, activeTab === tab.id && styles.activeTabText]}>{tab.label}</Text>
+            </TouchableOpacity>)}
         </View>
       </SafeAreaView>
     );
@@ -375,6 +268,10 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  storeLayer: { position: 'absolute', top: 0, bottom: 0, left: 0, right: 0 },
+  foregroundLayer: { flex: 1, backgroundColor: CREAM },
+  activeTab: { backgroundColor: '#EAF1E9' },
+  tabIcon: { color: '#53645F', fontSize: 23 },
   container: {
     flex: 1,
     backgroundColor: CREAM,
@@ -495,16 +392,22 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     borderTopWidth: 1,
     borderTopColor: '#EAEAEA',
-    paddingVertical: 15,
+    paddingVertical: 7,
     paddingHorizontal: 8,
+    gap: 3,
   },
   tab: {
     flex: 1,
     alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 54,
+    borderRadius: 14,
+    gap: 3,
+    paddingVertical: 5,
   },
   tabText: {
-    fontSize: 13,
-    color: '#777',
+    fontSize: 11,
+    color: '#53645F',
     fontWeight: '500',
   },
   activeTabText: {

@@ -225,3 +225,51 @@ export async function updateProfilePicture(
 
   return updatedUser;
 }
+export async function changePassword(
+  userId: number,
+  currentPassword: string,
+  newPassword: string
+): Promise<void> {
+  if (!currentPassword) {
+    throw new Error('Please enter your current password.');
+  }
+
+  if (newPassword.length < 8) {
+    throw new Error('Your new password must be at least 8 characters.');
+  }
+
+  if (currentPassword === newPassword) {
+    throw new Error('Your new password must be different.');
+  }
+
+  const row = await db.getFirstAsync<{
+    password_hash: string;
+  }>(
+    'SELECT password_hash FROM users WHERE id = ?',
+    [userId]
+  );
+
+  if (!row) {
+    throw new Error('Account not found.');
+  }
+
+  const valid = await verifyPassword(
+    currentPassword,
+    row.password_hash
+  );
+
+  if (!valid) {
+    throw new Error('Your current password is incorrect.');
+  }
+
+  const newHash = await hashPassword(newPassword);
+
+  const result = await db.runAsync(
+    'UPDATE users SET password_hash = ? WHERE id = ? AND password_hash = ?',
+    [newHash, userId, row.password_hash]
+  );
+
+  if (result.changes !== 1) {
+    throw new Error('Password could not be updated. Please try again.');
+  }
+}

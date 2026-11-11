@@ -1,0 +1,374 @@
+{
+  "formatVersion": 1,
+  "catalogId": "foodbuddy-charleston-01",
+  "stores": [
+    {
+      "id": "target-1391",
+      "name": "Target Charleston South",
+      "chain": "Target",
+      "streetAddress": "2070 Sam Rittenberg Blvd",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29407-4605",
+      "latitude": 32.79943,
+      "longitude": -80.0306,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.target.com/sl/charleston/1391",
+          "kind": "official_directory",
+          "evidence": "Target Charleston South\n2070 Sam Rittenberg Blvd\nCharleston, SC 29407-4605\nlatitude: 32.79943\nlongitude: -80.0306"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "target-1529",
+      "name": "Target Mt Pleasant",
+      "chain": "Target",
+      "streetAddress": "1300 Long Grove Dr",
+      "city": "Mount Pleasant",
+      "state": "SC",
+      "zipCode": "29464-9462",
+      "latitude": 32.824343,
+      "longitude": -79.81782,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.target.com/sl/mt-pleasant/1529",
+          "kind": "official_directory",
+          "evidence": "Target Mt Pleasant\n1300 Long Grove Dr\nMount Pleasant, SC 29464-9462\nlatitude: 32.824343\nlongitude: -79.81782"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "target-3428",
+      "name": "Target Charleston King Street",
+      "chain": "Target",
+      "streetAddress": "211 King St, 001",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29401-3128",
+      "latitude": 32.78045,
+      "longitude": -79.933401,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.target.com/sl/charleston-king-street/3428",
+          "kind": "official_directory",
+          "evidence": "Target Charleston King Street\n211 King St, 001\nCharleston, SC 29401-3128\nlatitude: 32.78045\nlongitude: -79.933401"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "target-1829",
+      "name": "Target North Charleston",
+      "chain": "Target",
+      "streetAddress": "7250 Rivers Ave",
+      "city": "North Charleston",
+      "state": "SC",
+      "zipCode": "29406-4625",
+      "latitude": 32.935508,
+      "longitude": -80.036232,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.target.com/sl/north-charleston/1829",
+          "kind": "official_directory",
+          "evidence": "Target North Charleston\n7250 Rivers Ave\nNorth Charleston, SC 29406-4625\nlatitude: 32.935508\nlongitude: -80.036232"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "target-1493",
+      "name": "Target Summerville",
+      "chain": "Target",
+      "streetAddress": "450 Azalea Square Blvd",
+      "city": "Summerville",
+      "state": "SC",
+      "zipCode": "29483-7321",
+      "latitude": 33.040283,
+      "longitude": -80.157735,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.target.com/sl/summerville/1493",
+          "kind": "official_directory",
+          "evidence": "Target Summerville\n450 Azalea Square Blvd\nSummerville, SC 29483-7321\nlatitude: 33.040283\nlongitude: -80.157735"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "publix-1646",
+      "name": "Publix Point Hope Commons",
+      "chain": "Publix",
+      "streetAddress": "730 Hopewell Dr",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29492",
+      "latitude": 32.921624,
+      "longitude": -79.871284,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.publix.com/locations/1646-point-hope-commons",
+          "kind": "official_directory",
+          "evidence": "Publix Point Hope Commons\n730 Hopewell Dr\nCharleston, SC 29492\nlatitude: 32.921624\nlongitude: -79.871284"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "publix-2090",
+      "name": "Publix Daniel Island Town Center",
+      "chain": "Publix",
+      "streetAddress": "162 Seven Farms Dr Ste 100",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29492-8024",
+      "latitude": 32.863676,
+      "longitude": -79.903614,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.publix.com/locations/1646-point-hope-commons",
+          "kind": "official_directory",
+          "evidence": "Publix Daniel Island Town Center\n162 Seven Farms Dr Ste 100\nCharleston, SC 29492-8024\nlatitude: 32.863676\nlongitude: -79.903614"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "publix-1081",
+      "name": "Publix The Shoppes of Park West",
+      "chain": "Publix",
+      "streetAddress": "1125 Park West Blvd",
+      "city": "Mount Pleasant",
+      "state": "SC",
+      "zipCode": "29466-6974",
+      "latitude": 32.874114,
+      "longitude": -79.779338,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.publix.com/locations/1646-point-hope-commons",
+          "kind": "official_directory",
+          "evidence": "Publix The Shoppes of Park West\n1125 Park West Blvd\nMount Pleasant, SC 29466-6974\nlatitude: 32.874114\nlongitude: -79.779338"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "publix-449",
+      "name": "Publix Queensborough Shopping Center",
+      "chain": "Publix",
+      "streetAddress": "1000 Johnnie Dodds Blvd Ste 106",
+      "city": "Mount Pleasant",
+      "state": "SC",
+      "zipCode": "29464-3187",
+      "latitude": 32.813595,
+      "longitude": -79.867956,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.publix.com/locations/1646-point-hope-commons",
+          "kind": "official_directory",
+          "evidence": "Publix Queensborough Shopping Center\n1000 Johnnie Dodds Blvd Ste 106\nMount Pleasant, SC 29464-3187\nlatitude: 32.813595\nlongitude: -79.867956"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "publix-1055",
+      "name": "Publix at North Point",
+      "chain": "Publix",
+      "streetAddress": "1435 Ben Sawyer Blvd",
+      "city": "Mount Pleasant",
+      "state": "SC",
+      "zipCode": "29464-4574",
+      "latitude": 32.791633,
+      "longitude": -79.854317,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.publix.com/locations/449-queensborough-shopping-center",
+          "kind": "official_directory",
+          "evidence": "Publix Publix at North Point\n1435 Ben Sawyer Blvd\nMount Pleasant, SC 29464-4574\nlatitude: 32.791633\nlongitude: -79.854317"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "publix-1599",
+      "name": "Publix 10 Westedge",
+      "chain": "Publix",
+      "streetAddress": "10 Westedge St Ste 100",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29403",
+      "latitude": 32.786216,
+      "longitude": -79.956406,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.publix.com/locations/449-queensborough-shopping-center",
+          "kind": "official_directory",
+          "evidence": "Publix 10 Westedge\n10 Westedge St Ste 100\nCharleston, SC 29403\nlatitude: 32.786216\nlongitude: -79.956406"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "food-lion-1015-king-street",
+      "name": "Food Lion Downtown Charleston",
+      "chain": "Food Lion",
+      "streetAddress": "1015 King Street",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29401",
+      "latitude": 32.80389822629869,
+      "longitude": -79.95249046945901,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://stores.foodlion.com/sc/charleston/1015-king-street",
+          "kind": "official_directory",
+          "evidence": "Food Lion Downtown Charleston\n1015 King Street\nCharleston, SC 29401\nlatitude: 32.80389822629869\nlongitude: -79.95249046945901"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "food-lion-1291-folly-road",
+      "name": "Food Lion Folly Beach",
+      "chain": "Food Lion",
+      "streetAddress": "1291 Folly Road",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29412",
+      "latitude": 32.717304613214836,
+      "longitude": -79.9683827161789,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://stores.foodlion.com/sc/charleston/1291-folly-road",
+          "kind": "official_directory",
+          "evidence": "Food Lion Folly Beach\n1291 Folly Road\nCharleston, SC 29412\nlatitude: 32.717304613214836\nlongitude: -79.9683827161789"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "food-lion-2144-savannah-hwy",
+      "name": "Food Lion Savannah Highway",
+      "chain": "Food Lion",
+      "streetAddress": "2144 Savannah Hwy",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29414",
+      "latitude": 32.792803364942074,
+      "longitude": -80.03678709268576,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://stores.foodlion.com/sc/charleston/2144-savannah-hwy",
+          "kind": "official_directory",
+          "evidence": "Food Lion Savannah Highway\n2144 Savannah Hwy\nCharleston, SC 29414\nlatitude: 32.792803364942074\nlongitude: -80.03678709268576"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "food-lion-2245-f-ashley-crossing",
+      "name": "Food Lion West Ashley",
+      "chain": "Food Lion",
+      "streetAddress": "2245  F  Ashley Crossing",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29414",
+      "latitude": 32.813862563254425,
+      "longitude": -80.04095256328583,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://stores.foodlion.com/sc/charleston/2245-f-ashley-crossing",
+          "kind": "official_directory",
+          "evidence": "Food Lion West Ashley\n2245  F  Ashley Crossing\nCharleston, SC 29414\nlatitude: 32.813862563254425\nlongitude: -80.04095256328583"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source."
+    },
+    {
+      "id": "walmart-1748",
+      "name": "Walmart Charleston W Ashley Circle Supercenter",
+      "chain": "Walmart",
+      "streetAddress": "3951 W Ashley Cir",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29414",
+      "latitude": 32.82161,
+      "longitude": -80.08132,
+      "verificationStatus": "verified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://mapcarta.com/W550973119",
+          "kind": "openstreetmap",
+          "evidence": "Walmart Charleston W Ashley Circle Supercenter\n3951 W Ashley Cir\nCharleston, SC 29414\nlatitude: 32.82161\nlongitude: -80.08132"
+        },
+        {
+          "url": "https://www.walmart.com/store/1748-charleston-sc",
+          "kind": "official_directory",
+          "evidence": "Walmart Supercenter #1748; 3951 W Ashley Cir, Charleston, SC 29414"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Location metadata reviewed from cited source.",
+      "attribution": "Coordinates \u00a9 OpenStreetMap contributors, ODbL 1.0; via Mapcarta. https://www.openstreetmap.org/way/550973119 https://www.openstreetmap.org/copyright"
+    },
+    {
+      "id": "harris-teeter-09700277",
+      "name": "Harris Teeter East Bay Trading Station",
+      "chain": "Harris Teeter",
+      "streetAddress": "290 E Bay St",
+      "city": "Charleston",
+      "state": "SC",
+      "zipCode": "29401",
+      "latitude": 32.7844505310059,
+      "longitude": -79.9287567138672,
+      "verificationStatus": "unverified",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://www.whereorg.com/harris-teeter-32231050",
+          "kind": "business_directory",
+          "evidence": "Harris Teeter East Bay Trading Station\n290 E Bay St\nCharleston, SC 29401\nlatitude: 32.7844505310059\nlongitude: -79.9287567138672"
+        },
+        {
+          "url": "https://www.harristeeter.com/stores/grocery/sc/charleston/east-bay-trading-station/097/00277",
+          "kind": "official_directory",
+          "evidence": "East Bay Trading Station; 290 E Bay St Charleston, SC 29401"
+        }
+      ],
+      "notes": "Published directory point, not a surveyed entrance. Coordinates need independent review; address confirmed in official directory."
+    }
+  ]
+}
