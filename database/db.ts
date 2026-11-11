@@ -3,11 +3,34 @@ import * as SQLite from 'expo-sqlite';
 
 export const db = SQLite.openDatabaseSync('foodbuddy.db');
 
+// increment this whenever the allergy tables change shape.
+const DATABASE_VERSION = 1;
+
 export async function initializeDatabase(): Promise<void> {
   await db.execAsync(`
     PRAGMA journal_mode = WAL;
     PRAGMA foreign_keys = ON;
+  `);
 
+  // SQLite stores a schema version number in the database file (starts at 0).
+  const versionRow = await db.getFirstAsync<{ user_version: number }>(
+    'PRAGMA user_version'
+  );
+  const currentVersion = versionRow?.user_version ?? 0;
+
+  // Version 0 -> 1: the allergy tables gained match_type, note, and user_id.
+  // CREATE TABLE IF NOT EXISTS can't add columns to existing tables, so drop
+  // the allergy tables (children first) and let the block below rebuild them.
+  // User accounts are kept; saved allergies are wiped and the catalog reseeds.
+  if (currentVersion < 1) {
+    await db.execAsync(`
+      DROP TABLE IF EXISTS user_allergy_profiles;
+      DROP TABLE IF EXISTS allergen_derivatives;
+      DROP TABLE IF EXISTS allergens;
+    `);
+  }
+
+  await db.execAsync(`
     -- User accounts
     CREATE TABLE IF NOT EXISTS users (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -63,6 +86,8 @@ export async function initializeDatabase(): Promise<void> {
     CREATE INDEX IF NOT EXISTS idx_user_allergy_profiles_user
       ON user_allergy_profiles(user_id);
   `);
+
+  await db.execAsync(`PRAGMA user_version = ${DATABASE_VERSION}`);
 
   console.log('FoodBuddy database initialized!');
 }
