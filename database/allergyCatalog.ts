@@ -213,18 +213,41 @@ export async function seedAllergyCatalog(): Promise<void> {
   }
 }
 
+// Privacy rule used throughout this file: a user can only see built-in rows
+// (user_id IS NULL) and rows they created themselves (user_id = their id).
+
+export type MatchType = 'definite' | 'possible' | 'exclude';
+
+// avoid = flag it (default), limit = caution at most, ok = ignore this term.
+export type Tolerance = 'avoid' | 'limit' | 'ok';
+
+const TOLERANCES: readonly Tolerance[] = ['avoid', 'limit', 'ok'];
+
+export type Derivative = {
+  id: number;
+  term: string;
+  matchType: MatchType;
+  note: string | null;
+  isCustom: boolean;
+  // Exclude terms are never flagged, so their tolerance is always 'avoid'.
+  tolerance: Tolerance;
+};
+
 export async function searchAllergens(
-  search: string
+  search: string,
+  userId: number
 ): Promise<{ id: number; name: string }[]> {
   return db.getAllAsync<{ id: number; name: string }>(
     `SELECT id, name FROM allergens
      WHERE name LIKE ?
+       AND (user_id IS NULL OR user_id = ?)
      ORDER BY name LIMIT 50`,
-    [`%${search.trim()}%`]
+    [`%${search.trim()}%`, userId]
   );
 }
 
 export async function addCustomAllergen(
+  userId: number,
   name: string
 ): Promise<number> {
   const cleanName = name.trim();
@@ -233,20 +256,123 @@ export async function addCustomAllergen(
     throw new Error('Enter a food or ingredient name.');
   }
 
+  // If it's already built in, or this user already made it, reuse that row.
+  const existing = await db.getFirstAsync<{ id: number }>(
+    `SELECT id FROM allergens
+     WHERE name = ? COLLATE NOCASE
+       AND (user_id IS NULL OR user_id = ?)`,
+    [cleanName, userId]
+  );
+
+  if (existing) return existing.id;
+
+  const result = await db.runAsync(
+    `INSERT OR IGNORE INTO allergens (name, is_custom, user_id)
+     VALUES (?, 1, ?)`,
+    [cleanName, userId]
+  );
+
+  // Nothing inserted means another user on this device has a private allergen
+  // with this name (names are unique device-wide). Keep the message generic
+  // so it doesn't reveal that someone else's allergen exists.
+  if (result.changes === 0) {
+    throw new Error('Could not add this allergy. Try a different name.');
+  }
+
+  return result.lastInsertRowId;
+}
+
+export async function getDerivatives(
+  allergenId: number,
+  userId: number
+): Promise<Derivative[]> {
+  const rows = await db.getAllAsync<{
+    id: number;
+    term: string;
+    match_type: MatchType;
+    note: string | null;
+    is_custom: number;
+    tolerance: Tolerance;
+  }>(
+    `SELECT d.id,
+            d.ingredient_name AS term,
+            d.match_type,
+            d.note,
+            d.user_id IS NOT NULL AS is_custom,
+            COALESCE(p.tolerance, 'avoid') AS tolerance
+     FROM allergen_derivatives d
+     JOIN allergens a
+       ON a.id = d.allergen_id
+      AND (a.user_id IS NULL OR a.user_id = ?)
+     LEFT JOIN user_derivative_preferences p
+       ON p.derivative_id = d.id
+      AND p.user_id = ?
+     WHERE d.allergen_id = ?
+       AND (d.user_id IS NULL OR d.user_id = ?)
+     ORDER BY CASE d.match_type
+                WHEN 'definite' THEN 0
+                WHEN 'possible' THEN 1
+                ELSE 2
+              END,
+              d.ingredient_name`,
+    [userId, userId, allergenId, userId]
+  );
+
+  return rows.map(row => ({
+    id: row.id,
+    term: row.term,
+    matchType: row.match_type,
+    note: row.note,
+    isCustom: row.is_custom === 1,
+    tolerance: row.tolerance,
+  }));
+}
+
+export async function setDerivativeTolerance(
+  userId: number,
+  derivativeId: number,
+  tolerance: Tolerance
+): Promise<void> {
+  if (!TOLERANCES.includes(tolerance)) {
+    throw new Error('Unknown tolerance setting.');
+  }
+
+  // The term (and its allergen) must be built-in or this user's own.
+  const derivative = await db.getFirstAsync<{ match_type: MatchType }>(
+    `SELECT d.match_type
+     FROM allergen_derivatives d
+     JOIN allergens a ON a.id = d.allergen_id
+     WHERE d.id = ?
+       AND (d.user_id IS NULL OR d.user_id = ?)
+       AND (a.user_id IS NULL OR a.user_id = ?)`,
+    [derivativeId, userId, userId]
+  );
+
+  if (!derivative) {
+    throw new Error('Could not update this ingredient.');
+  }
+
+  if (derivative.match_type === 'exclude') {
+    throw new Error('This ingredient is never flagged, so it has no setting.');
+  }
+
+  // 'avoid' is the default, so it's stored as no row at all.
+  if (tolerance === 'avoid') {
+    await db.runAsync(
+      `DELETE FROM user_derivative_preferences
+       WHERE user_id = ? AND derivative_id = ?`,
+      [userId, derivativeId]
+    );
+    return;
+  }
+
   await db.runAsync(
-    `INSERT OR IGNORE INTO allergens (name, is_custom)
-     VALUES (?, 1)`,
-    [cleanName]
+    `INSERT INTO user_derivative_preferences (user_id, derivative_id, tolerance)
+     VALUES (?, ?, ?)
+     ON CONFLICT (user_id, derivative_id)
+     DO UPDATE SET tolerance = excluded.tolerance`,
+    [userId, derivativeId, tolerance]
   );
-
-  const row = await db.getFirstAsync<{ id: number }>(
-    'SELECT id FROM allergens WHERE name = ? COLLATE NOCASE',
-    [cleanName]
-  );
-
-  if (!row) throw new Error('Could not add allergy.');
-
-  return row.id;
 }
 
 export async function getUserAllergyProfile(
@@ -267,6 +393,17 @@ export async function addUserAllergy(
   userId: number,
   allergenId: number
 ): Promise<void> {
+  // Only built-in allergens or the user's own can be saved to their profile.
+  const allergen = await db.getFirstAsync<{ id: number }>(
+    `SELECT id FROM allergens
+     WHERE id = ? AND (user_id IS NULL OR user_id = ?)`,
+    [allergenId, userId]
+  );
+
+  if (!allergen) {
+    throw new Error('Could not save this allergy.');
+  }
+
   await db.runAsync(
     `INSERT OR IGNORE INTO user_allergy_profiles
      (user_id, allergen_id) VALUES (?, ?)`,
