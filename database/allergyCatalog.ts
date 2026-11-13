@@ -110,7 +110,6 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'High Fructose Corn Syrup',
     'Corn Oil',
     'Corn Fiber',
-    'Soluable Corn Fiber',
     'Polydextrose',
     'Corn Gluten',
     'Fructose',
