@@ -113,6 +113,7 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Polydextrose',
     'Corn Gluten',
     'Fructose',
+    'Natural Flavors',
   ],
   Mustard: [
     'Mustard Seed',
