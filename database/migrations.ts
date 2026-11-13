@@ -267,6 +267,20 @@ const migrations = [
     CREATE INDEX IF NOT EXISTS idx_allergen_derivatives_allergen_user
       ON allergen_derivatives(allergen_id, user_id);
   ` },
+  { version: 9, sql: `
+    -- Each user's tolerance for individual derivative terms.
+    -- No row means 'avoid' (the default), so new users are fully protected.
+    -- avoid = flag per match_type, limit = caution at most, ok = ignore this term.
+    -- Applies to derivative terms only, never to allergen names or declarations.
+    CREATE TABLE user_derivative_preferences (
+      user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      derivative_id INTEGER NOT NULL REFERENCES allergen_derivatives(id) ON DELETE CASCADE,
+      tolerance TEXT NOT NULL CHECK (tolerance IN ('avoid', 'limit', 'ok')),
+      PRIMARY KEY (user_id, derivative_id)
+    );
+    CREATE INDEX idx_user_derivative_preferences_derivative
+      ON user_derivative_preferences(derivative_id);
+  ` },
 ] as const;
 
 export const DATABASE_VERSION = migrations[migrations.length - 1].version;

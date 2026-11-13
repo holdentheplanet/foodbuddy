@@ -197,6 +197,30 @@ test('version 8 keeps legacy allergy rows as built-in definite terms and validat
   } finally { db.close(); }
 });
 
+test('version 9 stores per-user derivative tolerances that default to avoid and cascade on delete', async () => {
+  const db = new DatabaseSync(':memory:');
+  try {
+    seedLegacy(db); db.exec('PRAGMA user_version=8');
+    db.exec(`ALTER TABLE allergens ADD COLUMN user_id INTEGER;
+      ALTER TABLE allergen_derivatives ADD COLUMN match_type TEXT NOT NULL DEFAULT 'definite';
+      ALTER TABLE allergen_derivatives ADD COLUMN note TEXT;
+      ALTER TABLE allergen_derivatives ADD COLUMN user_id INTEGER;`);
+    await initialize(adapter(db));
+    assert.equal(version(db), DATABASE_VERSION);
+    // No row = avoid; nothing is stored until a user changes a tolerance.
+    assert.equal(db.prepare('SELECT count(*) AS n FROM user_derivative_preferences').get().n, 0);
+    db.exec("INSERT INTO user_derivative_preferences VALUES(42, 8, 'ok')");
+    assert.throws(() => db.exec("INSERT INTO user_derivative_preferences VALUES(42, 8, 'limit')"), /UNIQUE|PRIMARY KEY/);
+    assert.throws(() => db.exec("UPDATE user_derivative_preferences SET tolerance = 'sometimes'"), /CHECK constraint failed/);
+    assert.throws(() => db.exec("INSERT INTO user_derivative_preferences VALUES(42, 999, 'ok')"), /FOREIGN KEY/);
+    // Deleting the derivative removes its preferences; legacy rows stay intact.
+    db.exec('DELETE FROM allergen_derivatives WHERE id = 8');
+    assert.equal(db.prepare('SELECT count(*) AS n FROM user_derivative_preferences').get().n, 0);
+    assert.equal(db.prepare('SELECT count(*) AS n FROM users WHERE id = 42').get().n, 1);
+    assert.deepEqual(db.prepare('PRAGMA foreign_key_check').all(), []);
+  } finally { db.close(); }
+});
+
 test('migration failure rolls back DDL and version, preserves legacy data, and permits retry', async () => {
   const db = new DatabaseSync(':memory:');
   try {
