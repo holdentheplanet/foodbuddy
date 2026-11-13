@@ -25,6 +25,11 @@ Migrations use `PRAGMA user_version`:
 - **6**: adds explicit simulated stock statuses and inventory seed ownership while
   retaining the original inventory table, rows and foreign keys.
 - **7**: enforces consistency between known simulated and legacy stock statuses.
+- **8**: adds nullable `user_id` to `allergens` and `allergen_derivatives` (NULL =
+  built-in; set = private custom item), plus `match_type` (`definite`, `possible`,
+  `exclude`; default `definite`) and `note` on derivatives. Existing rows are kept
+  as built-in definite terms. The original UNIQUE rules on allergen names and
+  `(allergen_id, ingredient_name)` still apply across all users.
 
 Migrations insert no products, stores, inventory, allergens, ingredients, or user
 data. Separate catalog importers insert bundled products, stores and deterministic demo inventory during app startup.

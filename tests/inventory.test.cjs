@@ -151,7 +151,10 @@ test('v5 inventory upgrades additively, retaining old statuses, rows and foreign
   const db=new DatabaseSync(':memory:');
   const adapter={async execAsync(sql){db.exec(sql)},async getFirstAsync(sql){return db.prepare(sql).get()}};
   try {
-    db.exec(`CREATE TABLE stores(id TEXT PRIMARY KEY); CREATE TABLE products(id TEXT PRIMARY KEY);
+    // Minimal allergy tables: every real v5 database has them (from v1), and v8 extends them.
+    db.exec(`CREATE TABLE users(id INTEGER PRIMARY KEY); CREATE TABLE allergens(id INTEGER PRIMARY KEY);
+      CREATE TABLE allergen_derivatives(id INTEGER PRIMARY KEY, allergen_id INTEGER);
+      CREATE TABLE stores(id TEXT PRIMARY KEY); CREATE TABLE products(id TEXT PRIMARY KEY);
       CREATE TABLE store_inventory(
         store_id TEXT NOT NULL REFERENCES stores(id) ON DELETE CASCADE,
         product_id TEXT NOT NULL REFERENCES products(id) ON DELETE CASCADE,

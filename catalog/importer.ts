@@ -97,7 +97,7 @@ async function importValidated(database: CatalogDatabase, catalog: ProductCatalo
       for (const name of product.declaredAllergens ?? []) assertions.set(name, { type: 'contains', sourceId: product.allergenSourceId });
       for (const [name, assertion] of assertions) {
         if (!allergenIds.has(name)) {
-          const row = await database.getFirstAsync<{ id: number }>('SELECT id FROM allergens WHERE name = ? COLLATE NOCASE', [name]);
+          const row = await database.getFirstAsync<{ id: number }>('SELECT id FROM allergens WHERE name = ? COLLATE NOCASE AND user_id IS NULL', [name]);
           allergenIds.set(name, row?.id ?? null);
         }
         const evidence = product.sources.find(entry => entry.id === assertion.sourceId)!;

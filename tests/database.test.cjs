@@ -24,9 +24,20 @@ function adapter(db) {
   };
 }
 function version(db) { return db.prepare('PRAGMA user_version').get().user_version; }
+// Original legacy columns only: migration 8 adds columns to allergens and
+// allergen_derivatives, but must never change or lose the original values.
+const LEGACY_COLUMNS = {
+  users: 'id, username, email, password_hash, profile_picture, created_at',
+  user_allergies: 'id, user_id, allergen',
+  allergens: 'id, name, is_custom',
+  allergen_derivatives: 'id, allergen_id, ingredient_name',
+  user_allergy_profiles: 'user_id, allergen_id',
+};
+// Tables whose definitions migration 8 intentionally extends with ADD COLUMN.
+const EXTENDED_TABLES = new Set(['allergens', 'allergen_derivatives']);
 function snapshot(db) {
-  const tables = ['users', 'user_allergies', 'allergens', 'allergen_derivatives', 'user_allergy_profiles'];
-  return tables.map(table => db.prepare(`SELECT * FROM ${table} ORDER BY 1, 2`).all());
+  return Object.entries(LEGACY_COLUMNS).map(([table, columns]) =>
+    db.prepare(`SELECT ${columns} FROM ${table} ORDER BY 1, 2`).all());
 }
 function seedLegacy(db) {
   db.exec(legacySQL);
@@ -80,7 +91,14 @@ test('unversioned legacy data and original table definitions survive migration a
     for (let i = 0; i < 3; i++) await initialize(connection);
     assert.deepEqual(snapshot(db), before);
     for (const table of schema) {
-      assert.equal(db.prepare('SELECT sql FROM sqlite_master WHERE name=?').get(table.name).sql, table.sql);
+      const sql = db.prepare('SELECT sql FROM sqlite_master WHERE name=?').get(table.name).sql;
+      if (EXTENDED_TABLES.has(table.name)) {
+        // ADD COLUMN only appends; every original column definition must remain.
+        const originalColumns = table.sql.match(/^\s+\w+ (INTEGER|TEXT)[^\n]*/gm);
+        for (const column of originalColumns) assert.ok(sql.includes(column.trim()), column);
+      } else {
+        assert.equal(sql, table.sql);
+      }
     }
     assert.equal(db.prepare('SELECT count(*) AS n FROM products').get().n, 1);
     assert.equal(db.prepare('SELECT count(*) AS n FROM stores').get().n, 1);
@@ -156,6 +174,26 @@ test('verification, relationship, coordinate, demo-only, required-field and uniq
     for (const table of ['product_ingredients', 'product_allergens', 'store_inventory']) {
       assert.equal(db.prepare(`SELECT count(*) AS n FROM ${table}`).get().n, 0);
     }
+  } finally { db.close(); }
+});
+
+test('version 8 keeps legacy allergy rows as built-in definite terms and validates match_type', async () => {
+  const db = new DatabaseSync(':memory:');
+  try {
+    seedLegacy(db); db.exec('PRAGMA user_version=7');
+    // Version 7 databases already have the offline tables; only 8 should run.
+    await initialize(adapter(db));
+    assert.equal(version(db), DATABASE_VERSION);
+    assert.deepEqual({ ...db.prepare('SELECT user_id FROM allergens WHERE id = 13').get() }, { user_id: null });
+    assert.deepEqual({ ...db.prepare('SELECT match_type, note, user_id FROM allergen_derivatives WHERE id = 8').get() },
+      { match_type: 'definite', note: null, user_id: null });
+    db.exec("INSERT INTO allergen_derivatives(allergen_id, ingredient_name, match_type, note, user_id) VALUES(13, 'Fixture possible', 'possible', 'Synthetic note', 42)");
+    assert.throws(() => db.exec("INSERT INTO allergen_derivatives(allergen_id, ingredient_name, match_type) VALUES(13, 'Bad type', 'maybe')"), /CHECK constraint failed/);
+    // Deleting a user removes only that user's private derivative.
+    db.exec('DELETE FROM users WHERE id = 42');
+    assert.equal(db.prepare("SELECT count(*) AS n FROM allergen_derivatives WHERE ingredient_name = 'Fixture possible'").get().n, 0);
+    assert.equal(db.prepare('SELECT count(*) AS n FROM allergen_derivatives WHERE id = 8').get().n, 1);
+    assert.deepEqual(db.prepare('PRAGMA foreign_key_check').all(), []);
   } finally { db.close(); }
 });
 
