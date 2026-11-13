@@ -1,751 +1,288 @@
 import React, { useEffect, useRef, useState } from 'react';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
-  ActivityIndicator,
-  Alert,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
+  ActivityIndicator, Image, Keyboard, ScrollView, StyleSheet, Text, TextInput,
+  TouchableOpacity, useWindowDimensions, View,
 } from 'react-native';
+import StockBadge from '../components/StockBadge';
+import { colors as c } from '../ui/theme';
+import ProductDemoAvailability from '../components/ProductDemoAvailability';
+import { DEMO_DISCLAIMER, demoStatusLabel } from '../inventory/types';
+import type { LocalStore } from '../services/localStoreService';
+import { GROCERY_CATEGORIES } from '../catalog/categories';
+import type { LocalProductCategory, LocalProductDetails, LocalProductSummary } from '../services/localProductService';
+import { localProducts } from '../services/localProducts';
+import { checkLocalProductAllergies } from '../services/allergyChecker';
+import type { LocalAllergyResult } from '../services/localAllergyMatching';
+import { createLatestRequest } from '../services/latestRequest';
 
-import {
-  GroceryProduct,
-  searchProducts,
-  searchHarrisTeeter,
-  getHarrisTeeterProductDetails,
-} from '../services/productApi';
+const GREEN = c.green;
+const BLUE = c.blue;
+const CREAM = c.cream;
+const BORDER = c.border;
 
-import {
-  AllergyCheckResult,
-  checkProductAllergies,
-} from '../services/allergyChecker';
-
-const GREEN = '#183D32';
-const BLUE = '#172B4D';
-const CREAM = '#F7F5EF';
-const BORDER = '#E6E8E4';
-
-const CATEGORIES = [
-  { label: 'Dairy', icon: '🥛', search: 'milk' },
-  { label: 'Bakery', icon: '🥖', search: 'bread' },
-  { label: 'Breakfast', icon: '🥣', search: 'cereal' },
-  { label: 'Snacks', icon: '🥨', search: 'snacks' },
-  { label: 'Drinks', icon: '🥤', search: 'juice' },
-  { label: 'Frozen', icon: '🧊', search: 'frozen' },
-] as const;
-
-type GroceryStore = { id: string; name: string; address: string; locationId: string; };
-
-// Starter Charleston-area locations. Confirm the address before visiting.
-const STORES: GroceryStore[] = [
-  {
-    id: 'east-bay',
-    name: 'Harris Teeter — East Bay',
-    address: '290 E Bay St, Charleston, SC 29401',
-    locationId: '09700277',
-  },
-  {
-    id: 'harbor-view',
-    name: 'Harris Teeter — Harbor View',
-    address: '1005 Harbor View Rd, Charleston, SC 29412',
-    locationId: '09700456',
-  },
-  {
-    id: 'james-island',
-    name: 'Harris Teeter — James Island',
-    address: '1739 Maybank Hwy, Charleston, SC 29412',
-    locationId: '09700455',
-  },
-  {
-    id: 'west-ashley',
-    name: 'Harris Teeter — West Ashley',
-    address: '3865 W Ashley Cir, Charleston, SC 29414',
-    locationId: '09700406',
-  },
-];
-
-type Props = {
-  userId: number;
-  onBack: () => void;
-};
-
-export default function ProductSearchScreen({
-  userId,
-  onBack,
-}: Props) {
-  const [storeId, setStoreId] = useState<string | null>(null);
-  const [choosingStore, setChoosingStore] = useState(false);
-  const [storeSaving, setStoreSaving] = useState(false);
-
+type Props = { userId: number; onBack: () => void; store?: LocalStore };
+export default function ProductSearchScreen({ userId, onBack, store }: Props) {
+  const { width, fontScale } = useWindowDimensions();
+  const singleColumn = width < 370 || fontScale > 1.25;
+  const lastSearchOffset = useRef(0);
+  const restoreSearchPosition = useRef(false);
+  const [categories, setCategories] = useState<LocalProductCategory[]>([]);
   useEffect(() => {
-    let mounted = true;
-    AsyncStorage.getItem(`foodbuddy:store:${userId}`)
-      .then(id => { if (mounted && id && STORES.some(store => store.id === id)) setStoreId(id); })
-      .catch(error => console.warn('Could not load selected store', error));
-    return () => { mounted = false; };
-  }, [userId]);
-
-  async function chooseStore(id: string) {
-    setStoreSaving(true);
-    try {
-      await AsyncStorage.setItem(`foodbuddy:store:${userId}`, id);
-      setStoreId(id);
-      setChoosingStore(false);
-    } catch (error) {
-      Alert.alert('Unable to save store', 'Please try again.');
-    } finally {
-      setStoreSaving(false);
-    }
-  }
-
-  const currentStore = STORES.find(store => store.id === storeId);
-  async function openProduct(product: GroceryProduct) {
-  setSelected(product);
-  setCheckResult(null);
-  setCheckError(false);
-
-  if (!currentStore) return;
-
-  setChecking(true);
-
-  try {
-    const details = await getHarrisTeeterProductDetails(
-      product.code,
-      currentStore.locationId
-    );
-
-    const updatedProduct = {
-      ...product,
-      ingredients: details.ingredients || '',
-      allergens: details.allergens || [],
-      traces: details.traces || [],
-    };
-
-    setSelected(updatedProduct);
-
-    if (updatedProduct.ingredients || updatedProduct.allergens.length) {
-      const result = await checkProductAllergies(
-        userId,
-        updatedProduct
-      );
-      setCheckResult(result);
-    }
-  } catch (error) {
-    console.error('Unable to load Harris Teeter ingredients:', error);
-    setCheckError(true);
-  } finally {
-    setChecking(false);
-  }
-}
+    let current = true;
+    void localProducts.listCategories(store?.id).then(value => { if (current) setCategories(value); })
+      .catch(() => { if (current) setSearchError('Could not load local categories.'); });
+    return () => { current = false; };
+  }, [store?.id]);
   const [query, setQuery] = useState('');
+  const [submittedQuery, setSubmittedQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
-  const searchId = useRef(0);
-  const [products, setProducts] = useState<GroceryProduct[]>([]);
-  const [selected, setSelected] = useState<GroceryProduct | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [checking, setChecking] = useState(false);
+  const [products, setProducts] = useState<LocalProductSummary[]>([]);
+  const [hasMore, setHasMore] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
-  const [checkResult, setCheckResult] =
-    useState<AllergyCheckResult | null>(null);
-  const [checkError, setCheckError] = useState(false);
-  const [cardChecks, setCardChecks] = useState<Record<string, AllergyCheckResult | 'error'>>({});
+  const [loading, setLoading] = useState(false);
+  const [searchError, setSearchError] = useState<string | null>(null);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selected, setSelected] = useState<LocalProductDetails | null>(null);
+  const [checking, setChecking] = useState(false);
+  const [detailError, setDetailError] = useState<string | null>(null);
+  const [checkResult, setCheckResult] = useState<LocalAllergyResult | null>(null);
+  const searchRequests = useRef(createLatestRequest());
+  const detailRequests = useRef(createLatestRequest());
+  const scroll = useRef<ScrollView>(null);
 
+  useEffect(() => () => {
+    searchRequests.current.invalidate();
+    detailRequests.current.invalidate();
+  }, []);
 
-  async function handleSearch(searchTerm: string = query) {
-    const term = searchTerm.trim();
-    if (!term) return;
-
-    const request = ++searchId.current;
+  async function handleSearch(term = query, append = false, category: string | null = store ? activeCategory : null, browse = false) {
+    Keyboard.dismiss();
+    const request = searchRequests.current.start();
+    const search = term.trim();
+    if (!append) setActiveCategory(browse ? category : null);
+    setSearchError(null);
     setLoading(true);
-    setHasSearched(false);
-    setProducts([]);
-
+    if (!append) { setProducts([]); setHasMore(false); setHasSearched(false); setSubmittedQuery(search); }
     try {
-      const results = currentStore
-  ? await searchHarrisTeeter(term, currentStore.locationId)
-  : await searchProducts(term);
-      if (request !== searchId.current) return;
-      setProducts(results);
+      const options = { limit: 24, offset: append ? products.length : 0, storeId: store?.id };
+      const page = browse || (store && !search) ? await localProducts.browseProducts(category, options) : await localProducts.searchProducts(search, { ...options, categoryId: store ? category : null });
+      if (!searchRequests.current.isCurrent(request)) return;
+      setProducts(previous => append ? [...previous, ...page.products] : page.products);
+      setHasMore(page.hasMore);
       setHasSearched(true);
+      if (!append) scroll.current?.scrollTo({ y: 0, animated: false });
     } catch (error) {
-      if (request !== searchId.current) return;
-      console.error('Product search failed:', error);
-      Alert.alert(
-        'Product Search Unavailable',
-        error instanceof Error ? error.message : 'Please try again later.'
-      );
+      if (searchRequests.current.isCurrent(request)) {
+        setSearchError(error instanceof Error ? error.message : 'Could not read the local catalog.');
+      }
     } finally {
-      if (request === searchId.current) setLoading(false);
+      if (searchRequests.current.isCurrent(request)) setLoading(false);
     }
   }
 
-  function selectCategory(category: (typeof CATEGORIES)[number]) {
-    setActiveCategory(category.label);
-    setQuery(category.search);
-    void handleSearch(category.search);
-  }
-
-  function searchTypedQuery() {
-    setActiveCategory(null);
-    void handleSearch(query);
-  }
+  useEffect(() => { if (store) void handleSearch('', false, null, true); }, [store?.id]);
 
   useEffect(() => {
-    let active = true;
+    if (selectedId === null && restoreSearchPosition.current) {
+      const frame = requestAnimationFrame(() => {
+        scroll.current?.scrollTo({ y: lastSearchOffset.current, animated: false });
+        restoreSearchPosition.current = false;
+      });
+      return () => cancelAnimationFrame(frame);
+    }
+  }, [selectedId]);
 
-    async function checkSelectedProduct() {
-      setCheckResult(null);
-      setCheckError(false);
-
-      if (!selected) {
-        setChecking(false);
-        return;
-      }
-
-      setChecking(true);
-
+  // One effect owns details + its allergy check. No checks in click handlers or cards.
+  useEffect(() => {
+    const request = detailRequests.current.start();
+    setSelected(null); setCheckResult(null); setDetailError(null);
+    setChecking(selectedId !== null);
+    if (selectedId === null) return;
+    async function load() {
       try {
-        const result = await checkProductAllergies(
-          userId,
-          selected
-        );
-
-        if (active) {
-          setCheckResult(result);
-        }
+        const product = await localProducts.getProductById(selectedId!);
+        if (!detailRequests.current.isCurrent(request)) return;
+        if (!product) throw new Error('This product is no longer in the local catalog.');
+        setSelected(product);
+        const result = await checkLocalProductAllergies(userId, product);
+        if (detailRequests.current.isCurrent(request)) setCheckResult(result);
       } catch (error) {
-        console.error('Allergy check failed:', error);
-
-        if (active) {
-          setCheckError(true);
+        if (detailRequests.current.isCurrent(request)) {
+          setDetailError(error instanceof Error ? error.message : 'Could not complete the local allergy check.');
         }
       } finally {
-        if (active) {
-          setChecking(false);
-        }
+        if (detailRequests.current.isCurrent(request)) setChecking(false);
       }
     }
+    void load();
+    return () => detailRequests.current.invalidate();
+  }, [selectedId, userId]);
 
-    checkSelectedProduct();
-
-    return () => {
-      active = false;
-    };
-  }, [selected, userId]);
-
-  // Check products in small batches so category searches remain responsive.
-  // Load Harris Teeter ingredients before checking product card allergies.
-useEffect(() => {
-  let cancelled = false;
-
-  setCardChecks({});
-
-  if (products.length === 0) {
-    return () => {
-      cancelled = true;
-    };
+  function openProduct(product: LocalProductSummary) {
+    Keyboard.dismiss();
+    restoreSearchPosition.current = false;
+    detailRequests.current.invalidate();
+    setSelected(null); setCheckResult(null); setDetailError(null); setChecking(true);
+    setSelectedId(product.id);
+    scroll.current?.scrollTo({ y: 0, animated: false });
   }
-
-  const locationId = currentStore?.locationId;
-
-  let nextIndex = 0;
-
-  async function worker() {
-    while (!cancelled && nextIndex < products.length) {
-      const product = products[nextIndex++];
-
-      try {
-        let productToCheck = product;
-
-        if (locationId) {
-          const details = await getHarrisTeeterProductDetails(
-            product.code,
-            locationId
-          );
-
-          productToCheck = {
-            ...product,
-            ingredients: details.ingredients || '',
-            allergens: details.allergens || [],
-            traces: details.traces || [],
-          };
-        }
-
-        // Never report "no known matches" without usable ingredient data.
-        if (
-          !productToCheck.ingredients?.trim() &&
-          productToCheck.allergens.length === 0 &&
-          productToCheck.traces.length === 0
-        ) {
-          if (!cancelled) {
-            setCardChecks(previous => ({
-              ...previous,
-              [product.code]: 'error',
-            }));
-          }
-          continue;
-        }
-
-        const result = await checkProductAllergies(
-          userId,
-          productToCheck
-        );
-
-        if (!cancelled) {
-          setCardChecks(previous => ({
-            ...previous,
-            [product.code]: result,
-          }));
-        }
-      } catch (error) {
-        console.warn(
-          'Product card allergy check failed:',
-          product.code,
-          error
-        );
-
-        if (!cancelled) {
-          setCardChecks(previous => ({
-            ...previous,
-            [product.code]: 'error',
-          }));
-        }
-      }
-    }
+  function back() {
+    detailRequests.current.invalidate();
+    if (selectedId) { restoreSearchPosition.current = true; setSelectedId(null); setSelected(null); setCheckResult(null); setChecking(false); }
+    else { searchRequests.current.invalidate(); onBack(); }
   }
-
-  void Promise.all(
-    Array.from(
-      { length: Math.min(4, products.length) },
-      () => worker()
-    )
-  );
-
-  return () => {
-    cancelled = true;
-  };
-}, [products, userId, currentStore?.locationId]);
-
-  function renderCardAllergyStatus(product: GroceryProduct) {
-    const result = cardChecks[product.code];
-    let label = 'Checking allergies...';
-    let boxStyle = styles.cardStatusUnknown;
-    let textStyle = styles.cardStatusText;
-
-    if (result === 'error') {
-  label = '⚠️ Allergy info unavailable';
-}else if (result) {
-      if (result.savedAllergyCount === 0) {
-        label = '⚠️ Set up allergies';
-      } else if (result.status === 'conflict') {
-        label = '🚨 Allergy match';
-        boxStyle = styles.cardStatusDanger;
-      } else if (result.status === 'caution') {
-        label = '⚠️ Possible traces';
-        boxStyle = styles.cardStatusCaution;
-      } else if (result.status === 'no_matches') {
-        label = '🔎 No known matches';
-        boxStyle = styles.cardStatusReview;
-      } else {
-        label = '⚠️ Info incomplete';
-      }
-    }
-
-    return (
-      <View style={[styles.cardStatus, boxStyle]}>
-        <Text style={textStyle} numberOfLines={2}>{label}</Text>
-      </View>
-    );
+  function renderProductImage(product: LocalProductSummary, large = false) {
+    // Catalog images currently have no bundled files. Never fetch a remote image in this offline flow.
+    const image = product.imageReference && /^(file:|content:|data:)/.test(product.imageReference) ? product.imageReference : null;
+    return <View style={[styles.imageFrame, large && styles.largeImageFrame]}>
+      {image ? <Image source={{ uri: image }} style={styles.productImage} resizeMode="contain" /> :
+        <View style={styles.placeholder}><Text maxFontSizeMultiplier={1.2} style={styles.placeholderIcon}>🛒</Text>
+          <Text maxFontSizeMultiplier={1.2} style={styles.placeholderText}>No product photo</Text></View>}
+    </View>;
   }
-
   function renderAllergyStatus() {
-    if (checking) {
-      return (
-        <View style={styles.statusBox}>
-          <ActivityIndicator color={GREEN} />
-          <Text style={styles.statusDescription}>
-            Checking your saved allergies...
-          </Text>
-        </View>
-      );
-    }
-
-    if (checkError || !checkResult) {
-      return (
-        <View style={styles.statusBox}>
-          <Text style={styles.statusTitle}>
-            ⚠️ Unable to Verify
-          </Text>
-          <Text style={styles.statusDescription}>
-            FoodBuddy could not complete the allergy check.
-            Please check the product packaging.
-          </Text>
-        </View>
-      );
-    }
-
-    if (checkResult.savedAllergyCount === 0) {
-      return (
-        <View style={styles.statusBox}>
-          <Text style={styles.statusTitle}>
-            ⚠️ No Saved Allergies
-          </Text>
-          <Text style={styles.statusDescription}>
-            Add allergies to your profile for personalized
-            ingredient warnings.
-          </Text>
-        </View>
-      );
-    }
-
+    if (checking) return <View style={styles.statusBox}><ActivityIndicator color={GREEN} />
+      <Text style={styles.statusDescription}>Checking your saved allergies...</Text></View>;
+    if (detailError || !checkResult) return <View style={styles.statusBox}>
+      <Text style={styles.statusTitle}>Unable to complete allergy check</Text>
+      <Text style={styles.statusDescription}>{detailError ?? 'Allergy information unavailable.'} Check the physical packaging.</Text></View>;
     const result = checkResult;
-
-    const title =
-      result.status === 'conflict'
-        ? '🚨 Potential Allergy Conflict'
-        : result.status === 'caution'
-        ? '⚠️ Possible Cross-Contact'
-        : result.status === 'unknown'
-        ? '⚠️ Unable to Verify'
-        : '🔎 No Known Matches Found';
-
-    const description =
-      result.status === 'conflict'
-        ? 'An ingredient matched your saved allergy profile.'
-        : result.status === 'caution'
-        ? 'A saved allergen appeared in possible traces.'
-        : result.status === 'unknown'
-        ? 'Ingredient information is missing or incomplete.'
-        : 'No known matches were found in the available information. This does not guarantee safety.';
-
-    return (
-      <View
-        style={[
-          styles.statusBox,
-          result.status === 'conflict' && styles.dangerBox,
-        ]}
-      >
-        <Text style={styles.statusTitle}>{title}</Text>
-        <Text style={styles.statusDescription}>
-          {description}
-        </Text>
-
-        {result.matches.map((match, index) => (
-          <View
-            key={`${match.allergen}-${match.source}-${index}`}
-            style={styles.matchRow}
-          >
-            <Text style={styles.matchText}>
-              {match.allergen}: {match.matchedIngredient}
-            </Text>
-            <Text style={styles.matchSource}>
-              Found in {match.source}
-            </Text>
-          </View>
-        ))}
-      </View>
-    );
+    const declaredMatch = result.matches.some(match => match.kind === 'declared' && match.source === 'allergens');
+    const title = result.savedAllergyCount === 0 ? 'No saved allergies'
+      : result.status === 'conflict' ? declaredMatch ? 'Declared allergen match' : 'Ingredient match'
+      : result.status === 'caution' ? 'Precautionary / potential allergy concern'
+      : result.status === 'unknown' ? 'Information incomplete or unverified' : 'No known matches in available data';
+    const description = result.savedAllergyCount === 0 ? 'Add allergies to your profile for personalized ingredient checks.'
+      : result.status === 'conflict' ? 'Your saved allergy appears in the available ingredients or manufacturer declaration.'
+      : result.status === 'caution' ? 'Review possible cross-contact or related ingredient matches. Derivative mappings are incomplete and unverified.'
+      : result.status === 'unknown' ? 'The available information cannot support a complete allergy check.'
+      : 'This does not guarantee safety. Missing warnings do not establish absence of cross-contact.';
+    return <View style={[styles.statusBox, result.status === 'conflict' && styles.dangerBox]}>
+      <Text style={styles.statusTitle}>{title}</Text><Text style={styles.statusDescription}>{description}</Text>
+      {result.matches.map((match, index) => <View key={`${match.allergen}-${match.source}-${index}`} style={styles.matchRow}>
+        <Text style={styles.matchText}>{match.allergen}: {match.matchedIngredient}</Text>
+        <Text style={styles.matchSource}>{match.source === 'traces' ? 'Precautionary warning' : match.kind === 'possible_derivative' ? 'Possible related ingredient — unverified mapping' : `Found in ${match.source}`}</Text>
+      </View>)}
+      {result.informationIncomplete && <Text style={[styles.statusDescription, { marginTop: 12 }]}>
+        Information incomplete: {result.missingInformation.join(' ')}
+      </Text>}
+    </View>;
   }
 
-  function renderProductImage(
-    product: GroceryProduct,
-    large = false
-  ) {
-    return (
-      <View
-        style={[
-          styles.imageFrame,
-          large && styles.largeImageFrame,
-        ]}
-      >
-        {product.image ? (
-          <Image
-            source={{ uri: product.image }}
-            style={styles.productImage}
-            resizeMode="contain"
-          />
-        ) : (
-          <View style={styles.placeholder}>
-            <Text style={styles.placeholderIcon}>🛒</Text>
-            <Text style={styles.placeholderText}>
-              Image unavailable
-            </Text>
-          </View>
-        )}
+  return <ScrollView ref={scroll} style={styles.container} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled" keyboardDismissMode="on-drag"
+    scrollEventThrottle={16} onScroll={event => { if (!selectedId && !restoreSearchPosition.current) lastSearchOffset.current = event.nativeEvent.contentOffset.y; }}>
+    <TouchableOpacity style={styles.backButton} onPress={back} accessibilityRole="button" accessibilityLabel={selectedId ? 'Back to search results' : store ? 'Back to selected store map' : 'Back to home'}>
+      <Text style={styles.backText}>{selectedId ? '← Search Results' : store ? '← Nearby Stores' : '← Home'}</Text>
+    </TouchableOpacity>
+    {store && <View style={styles.infoBanner}>
+      <Text style={styles.infoTitle}>{store.name}</Text>
+      <Text style={styles.infoText}>{store.streetAddress}, {store.city}, {store.state} {store.zipCode}</Text>
+      <Text style={[styles.infoText, { fontWeight: 'bold', marginTop: 6 }]}>{DEMO_DISCLAIMER}</Text>
+    </View>}
+    {selectedId ? <>
+      {!selected && checking && <ActivityIndicator size="large" color={GREEN} style={styles.loader} />}
+      {!selected && !checking && <View style={styles.statusBox}><Text style={styles.statusTitle}>Product details unavailable</Text><Text style={styles.bodyText}>{detailError}</Text></View>}
+      {selected && <View style={styles.detailCard}>
+        {renderProductImage(selected, true)}
+        <Text style={styles.detailBrand}>{selected.brand}</Text>
+        <Text style={styles.detailTitle}>{selected.name}</Text>
+        <Text style={styles.bodyText}>{selected.variant}{selected.provenance.packageSize ? ` • ${selected.provenance.packageSize}` : ''}</Text>
+        {store && <StockBadge status={products.find(product => product.id === selected.id)?.simulatedAvailability ?? null} />}
+        <Text style={styles.sectionTitle}>Ingredient verification</Text>
+        <Text style={styles.bodyText}>{selected.ingredients.verificationStatus === 'verified' ? 'Ingredient text verified from recorded source' : selected.ingredients.verificationStatus === 'unverified' ? 'Ingredient information unverified' : 'Ingredient verification unknown'}{selected.ingredients.verifiedAt ? ` • Reviewed ${selected.ingredients.verifiedAt}` : ''}</Text>
+        {renderAllergyStatus()}
+        <Text style={styles.sectionTitle}>Ingredients</Text>
+        <Text selectable style={styles.bodyText}>{selected.ingredients.labelText ?? 'Ingredient label unavailable. Product information is incomplete; check the physical package.'}</Text>
+        <Text style={styles.sectionTitle}>Manufacturer-declared allergens</Text>
+        <Text selectable style={styles.bodyText}>{selected.allergens.declared.statement ?? 'Allergen declaration unknown. Missing information does not mean allergens are absent.'}</Text>
+        <Text style={styles.sectionTitle}>Precautionary warnings / May contain</Text>
+        <Text selectable style={styles.bodyText}>{selected.allergens.precautionary.statement ?? 'Precautionary warning unknown. Cross-contact information is incomplete.'}</Text>
+        <Text style={styles.sectionTitle}>Sources and review dates</Text>
+        {selected.provenance.sources.map(source => <View key={source.id} style={styles.matchRow}>
+          <Text selectable style={styles.bodyText}>{source.url}</Text>
+          <Text style={styles.matchSource}>Source checked {source.checkedAt}{source.reviewStatus !== 'label_reviewed' ? ' • Label not verified' : ''}</Text>
+        </View>)}
+        {!store && <ProductDemoAvailability key={selected.id} productId={selected.id} />}
+      </View>}
+    </> : <>
+      <Text style={[styles.title, store && { fontSize: 28 }]}>{store ? 'Store Inventory' : 'Shop Products'}</Text>
+      <Text style={styles.subtitle}>{store ? 'Search this store’s demo products by name or brand.' : 'Find products by name or brand. Browse everything, no store needed.'}</Text>
+      <View style={styles.searchBar}>
+        <Text style={styles.searchIcon}>⌕</Text>
+        <TextInput testID="product-search-input" accessibilityLabel="Search groceries or brands" style={styles.searchInput}
+          placeholder="Search groceries or brands" placeholderTextColor="#929A95" value={query}
+          onChangeText={value => { searchRequests.current.invalidate(); setQuery(value); if (!store) setActiveCategory(null); setProducts([]); setHasMore(false); setHasSearched(false); setSearchError(null); setLoading(false); }}
+          maxLength={300} returnKeyType="search" onSubmitEditing={() => void handleSearch()} autoCorrect={false} />
+        <TouchableOpacity accessibilityRole="button" accessibilityLabel="Search local products" style={styles.searchButton} onPress={() => void handleSearch()} disabled={loading}>
+          <Text style={styles.searchButtonText}>Search</Text>
+        </TouchableOpacity>
       </View>
-    );
-  }
-
-  return (
-    <ScrollView
-      style={styles.container}
-      contentContainerStyle={styles.content}
-      keyboardShouldPersistTaps="handled"
-    >
-      <TouchableOpacity
-        style={styles.backButton}
-        onPress={() => {
-          if (selected) {
-            setSelected(null);
-          } else {
-            onBack();
-          }
-        }}
-      >
-        <Text style={styles.backText}>
-          {selected ? '← Search Results' : '← Home'}
-        </Text>
+      {!hasSearched && <Text style={styles.categoryHeading}>Browse categories</Text>}
+      <TouchableOpacity accessibilityRole="button" accessibilityLabel="Browse all products" onPress={() => { setQuery(''); void handleSearch('', false, null, true); }}>
+        <Text style={styles.backText}>{store ? 'All inventory / Clear filters' : 'Browse all products'}</Text>
       </TouchableOpacity>
-
-      {selected ? (
-        <>
-          <View style={styles.detailCard}>
-            {renderProductImage(selected, true)}
-
-            <Text style={styles.detailBrand}>
-              {selected.brand}
-            </Text>
-
-            <Text style={styles.detailTitle}>
-              {selected.name}
-            </Text>
-
-            {renderAllergyStatus()}
-
-            <Text style={styles.sectionTitle}>
-              Ingredients
-            </Text>
-            <Text style={styles.bodyText}>
-              {selected.ingredients ||
-                'English ingredient information unavailable.'}
-            </Text>
-
-            <Text style={styles.sectionTitle}>
-              Listed Allergens
-            </Text>
-            <Text style={styles.bodyText}>
-              {selected.allergens.length > 0
-                ? selected.allergens.join(', ')
-                : 'No allergen information provided.'}
-            </Text>
-
-            <Text style={styles.sectionTitle}>
-              May Contain / Traces
-            </Text>
-            <Text style={styles.bodyText}>
-              {selected.traces.length > 0
-                ? selected.traces.join(', ')
-                : 'No trace information provided.'}
-            </Text>
-          </View>
-        </>
-      ) : (
-        <>
-          <Text style={styles.title}>
-            Shop Products
-          </Text>
-
-          <Text style={styles.subtitle}>
-            Find groceries and review ingredients
-            based on your saved allergies.
-          </Text>
-
-          <View style={styles.storePanel}>
-            <Text style={styles.storeHeading}>🏬 My Grocery Store</Text>
-            <Text style={styles.storeName}>{currentStore ? currentStore.name : 'Choose a Harris Teeter location'}</Text>
-            {currentStore && <Text style={styles.storeAddress}>{currentStore.address}</Text>}
-            <TouchableOpacity style={styles.storeButton} onPress={() => setChoosingStore(value => !value)}>
-              <Text style={styles.storeButtonText}>{choosingStore ? 'Close store list' : currentStore ? 'Change store' : 'Choose store'}</Text>
-            </TouchableOpacity>
-            {choosingStore && STORES.map(store => (
-              <TouchableOpacity
-                key={store.id}
-                disabled={storeSaving}
-                style={[styles.storeOption, store.id === storeId && styles.storeOptionSelected]}
-                onPress={() => void chooseStore(store.id)}
-              >
-                <Text style={styles.storeOptionTitle}>{store.name}{store.id === storeId ? '  ✓' : ''}</Text>
-                <Text style={styles.storeAddress}>{store.address}</Text>
-              </TouchableOpacity>
-            ))}
-            <Text style={styles.storeNote}>Store selection is saved on this device. Product results below come from USDA, not live Harris Teeter inventory or pricing. Confirm store details before visiting.</Text>
-          </View>
-
-          <View style={styles.searchBar}>
-            <Text style={styles.searchIcon}>⌕</Text>
-
-            <TextInput
-              style={styles.searchInput}
-              placeholder="Search groceries or brands"
-              placeholderTextColor="#929A95"
-              value={query}
-              onChangeText={text => { setQuery(text); setActiveCategory(null); }}
-              returnKeyType="search"
-              onSubmitEditing={searchTypedQuery}
-              autoCorrect={false}
-            />
-
-            <TouchableOpacity
-              style={styles.searchButton}
-              onPress={searchTypedQuery}
-              disabled={loading}
-            >
-              <Text style={styles.searchButtonText}>
-                Search
-              </Text>
-            </TouchableOpacity>
-          </View>
-
-          <Text style={styles.categoryHeading}>Browse categories</Text>
-          <View style={styles.categoryGrid}>
-            {CATEGORIES.map(category => (
-              <TouchableOpacity
-                key={category.label}
-                style={[
-                  styles.categoryCard,
-                  activeCategory === category.label && styles.activeCategoryCard,
-                ]}
-                onPress={() => selectCategory(category)}
-                accessibilityRole="button"
-                accessibilityLabel={`Browse ${category.label}`}
-              >
-                <Text style={styles.categoryIcon}>{category.icon}</Text>
-                <Text style={styles.categoryLabel}>{category.label}</Text>
-              </TouchableOpacity>
-            ))}
-          </View>
-
-          <View style={styles.infoBanner}>
-            <Text style={styles.infoTitle}>
-              Your personalized grocery guide
-            </Text>
-            <Text style={styles.infoText}>
-              Select a product to check ingredients
-              against your saved allergy profile.
-            </Text>
-          </View>
-
-          {loading && (
-            <ActivityIndicator
-              size="large"
-              color={GREEN}
-              style={styles.loader}
-            />
-          )}
-
-          {!loading && !hasSearched && (
-            <View style={styles.welcomeCard}>
-              <Text style={styles.welcomeIcon}>🛍️</Text>
-              <Text style={styles.welcomeTitle}>
-                What are you shopping for?
-              </Text>
-              <Text style={styles.welcomeText}>
-                Search for cereal, snacks, drinks,
-                or your favorite grocery brands.
-              </Text>
+      {store && <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginVertical: 12 }}>
+        {categories.map(category => <TouchableOpacity key={category.id} accessibilityRole="button"
+          accessibilityLabel={`Filter inventory ${category.name}`} accessibilityState={{ selected: activeCategory === category.id }}
+          style={[styles.categoryChip, activeCategory === category.id && styles.activeCategoryCard]}
+          onPress={() => void handleSearch(query, false, category.id, !query.trim())}>
+          <Text style={{ color: BLUE, fontWeight: 'bold' }}>{category.name} ({category.productCount})</Text>
+        </TouchableOpacity>)}
+      </ScrollView>}
+      {!store && !hasSearched && <View style={styles.categoryGrid}>{categories.map(category => <TouchableOpacity key={category.id}
+        style={[styles.categoryCard, singleColumn && styles.fullWidth, activeCategory === category.id && styles.activeCategoryCard]}
+        onPress={() => { setQuery(''); void handleSearch('', false, category.id, true); }}
+        accessibilityRole="button" accessibilityLabel={`Browse ${category.name}`}>
+        <Text style={styles.categoryIcon}>{GROCERY_CATEGORIES.find(item => item.id === category.id)?.icon}</Text>
+        <Text style={styles.categoryLabel}>{category.name}</Text>
+        <Text style={styles.matchSource}>{category.productCount === 0 ? 'No products yet' : `${category.productCount} products`}</Text>
+      </TouchableOpacity>)}</View>}
+      {!store && hasSearched && <TouchableOpacity accessibilityRole="button" accessibilityLabel="Return to categories" onPress={() => {
+        searchRequests.current.invalidate(); setActiveCategory(null); setQuery(''); setProducts([]); setHasSearched(false); setHasMore(false); setLoading(false); setSearchError(null);
+        scroll.current?.scrollTo({ y: 0, animated: true });
+      }}><Text style={styles.backText}>↑ Return to categories</Text></TouchableOpacity>}
+      {!store && <View style={styles.infoBanner}><Text style={styles.infoTitle}>Your personalized grocery guide</Text>
+        <Text style={styles.infoText}>Open a product to compare its available label with your saved allergy profile. Stock labels are demo data only.</Text></View>}
+      {loading && <View style={styles.loadingState} accessibilityLiveRegion="polite"><ActivityIndicator color={GREEN} /><Text style={styles.bodyText}>Finding your products…</Text></View>}
+      {searchError && <View style={styles.statusBox}><Text style={styles.statusTitle}>Products couldn’t load</Text><Text style={styles.bodyText}>Please try again. You can also return to browsing categories.</Text><TouchableOpacity style={styles.checkButton} accessibilityRole="button" accessibilityLabel="Retry product search" onPress={() => void handleSearch(submittedQuery, false, activeCategory, !submittedQuery)}><Text style={styles.checkButtonText}>Try again</Text></TouchableOpacity></View>}
+      {!loading && !hasSearched && !searchError && <View style={styles.welcomeCard}>
+        <Text style={styles.welcomeIcon}>🛍️</Text><Text style={styles.welcomeTitle}>What are you shopping for?</Text>
+        <Text style={styles.welcomeText}>Try Oreo, Goldfish, Cheerios, or a grocery brand.</Text></View>}
+      {hasSearched && <>
+        <View style={styles.resultsHeader}><Text style={styles.resultsTitle}>{activeCategory ? categories.find(item => item.id === activeCategory)?.name : submittedQuery ? 'Search Results' : store ? 'Demo Products' : 'All Products'}</Text><Text style={styles.resultsCount}>{products.length} products{hasMore ? ' shown' : ''}</Text></View>
+        {products.length === 0 ? <View style={styles.welcomeCard}><Text style={styles.welcomeTitle}>No products found</Text><Text style={styles.welcomeText}>{store ? 'No demo products match this search and category at this store. Clear filters or try another name or brand.' : activeCategory ? 'This category has no products yet. Browse another category or search all products.' : 'Try another product name or brand. The offline catalog is still growing.'}</Text></View>
+          : <View style={styles.grid}>{products.map(product => <TouchableOpacity key={product.id} testID={`product-${product.id}`}
+            accessibilityRole="button" accessibilityLabel={`View ${product.name}`} accessibilityValue={{ text: `${product.ingredientVerificationStatus === 'verified' ? 'Ingredient text verified' : 'Ingredient information unverified'}. ${product.completenessStatus !== 'complete' ? 'Product information incomplete.' : ''} ${store ? demoStatusLabel(product.simulatedAvailability) : ''}` }}
+            accessibilityHint="Opens the product label and your saved allergy check."
+            style={[styles.productCard, singleColumn && styles.fullWidth]} onPress={() => openProduct(product)} activeOpacity={0.8}>
+            {renderProductImage(product)}<View style={styles.cardContent}><Text style={styles.cardBrand} numberOfLines={1}>{product.brand}</Text>
+              <Text style={styles.cardName}>{product.name}</Text>
+              <View style={[styles.cardStatus, product.ingredientVerificationStatus === 'verified' ? styles.cardStatusReview : styles.cardStatusCaution]}><Text style={styles.cardStatusText}>{product.ingredientVerificationStatus === 'verified' ? 'Ingredient text verified' : product.ingredientVerificationStatus === 'unverified' ? '⚠️ Ingredient info unverified' : '⚠️ Ingredient verification unknown'}</Text></View>
+              {store && <StockBadge status={product.simulatedAvailability} />}
+              {product.completenessStatus !== 'complete' && <Text style={styles.incompleteLabel}>⚠️ Product information incomplete</Text>}
+              <View style={styles.checkButton}><Text style={styles.checkButtonText}>View label →</Text></View>
             </View>
-          )}
-
-          {!loading && hasSearched && (
-            <>
-              <View style={styles.resultsHeader}>
-                <Text style={styles.resultsTitle}>
-                  Search Results
-                </Text>
-                <Text style={styles.resultsCount}>
-                  {products.length} products
-                </Text>
-              </View>
-
-              {products.length === 0 ? (
-                <View style={styles.welcomeCard}>
-                  <Text style={styles.welcomeTitle}>
-                    No products found
-                  </Text>
-                  <Text style={styles.welcomeText}>
-                    Try another search term or brand.
-                  </Text>
-                </View>
-              ) : (
-                <View style={styles.grid}>
-                  {products.map(product => (
-                    <TouchableOpacity
-                      key={product.code}
-                      style={styles.productCard}
-                      onPress={() => openProduct(product)}
-                      activeOpacity={0.8}
-                    >
-                      {renderProductImage(product)}
-
-                      <View style={styles.cardContent}>
-                        <Text
-                          style={styles.cardBrand}
-                          numberOfLines={1}
-                        >
-                          {product.brand}
-                        </Text>
-
-                        <Text
-                          style={styles.cardName}
-                          numberOfLines={3}
-                        >
-                          {product.name}
-                        </Text>
-
-                        {renderCardAllergyStatus(product)}
-
-                        <View style={styles.checkButton}>
-                          <Text style={styles.checkButtonText}>
-                            Check Ingredients
-                          </Text>
-                        </View>
-                      </View>
-                    </TouchableOpacity>
-                  ))}
-                </View>
-              )}
-            </>
-          )}
-        </>
-      )}
-
-      <Text style={styles.disclaimer}>
-        Product information comes from USDA FoodData Central.
-        Allergy checks are preliminary and may miss allergens or cross-contact.
-        Always read current packaging and allergen warnings before consuming.
-      </Text>
-    </ScrollView>
-  );
+          </TouchableOpacity>)}</View>}
+        {hasMore && <TouchableOpacity style={styles.checkButton} disabled={loading} accessibilityRole="button" onPress={() => void handleSearch(submittedQuery, true, activeCategory, !submittedQuery)}><Text style={styles.checkButtonText}>Load more products</Text></TouchableOpacity>}
+      </>}
+    </>}
+    <Text style={styles.disclaimer}>Product label information is stored on this device. Allergy checks are preliminary and may miss allergens or cross-contact. Always check the physical product packaging and current allergen warnings before consuming.</Text>
+  </ScrollView>;
 }
-
 const styles = StyleSheet.create({
-  storePanel: { backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: BORDER, borderRadius: 16, padding: 16, marginBottom: 18 },
-  storeHeading: { color: GREEN, fontSize: 16, fontWeight: 'bold', marginBottom: 8 },
-  storeName: { color: BLUE, fontSize: 15, fontWeight: '600', marginBottom: 4 },
-  storeAddress: { color: '#69736F', fontSize: 12, lineHeight: 18 },
-  storeButton: { alignSelf: 'flex-start', backgroundColor: GREEN, paddingHorizontal: 16, paddingVertical: 10, borderRadius: 10, marginTop: 12 },
-  storeButtonText: { color: '#FFFFFF', fontWeight: 'bold', fontSize: 13 },
-  storeOption: { paddingVertical: 12, paddingHorizontal: 10, marginTop: 10, borderWidth: 1, borderColor: BORDER, borderRadius: 10 },
-  storeOptionSelected: { borderColor: GREEN, backgroundColor: '#E5EEE8' },
-  storeOptionTitle: { color: BLUE, fontSize: 14, fontWeight: 'bold', marginBottom: 3 },
-  storeNote: { color: '#737C77', fontSize: 11, lineHeight: 16, marginTop: 12 },
+  fullWidth: { width: '100%' },
+  incompleteLabel: { color: '#704018', fontSize: 12, lineHeight: 18, backgroundColor: '#FFF1D6', padding: 8, borderRadius: 8, marginBottom: 8 },
+  loadingState: { paddingVertical: 24, alignItems: 'center', gap: 10 },
+  categoryChip: { padding: 12, marginRight: 8, borderRadius: 12, backgroundColor: 'white', minHeight: 46, borderWidth: 1, borderColor: BORDER },
   container: {
     flex: 1,
     backgroundColor: CREAM,
   },
   content: {
-    paddingHorizontal: 18,
-    paddingTop: 14,
-    paddingBottom: 50,
+    paddingHorizontal: 18, paddingTop: 10, paddingBottom: 32, maxWidth: 760, width: '100%', alignSelf: 'center',
   },
   backButton: {
-    paddingVertical: 12,
-    alignSelf: 'flex-start',
-    marginBottom: 10,
+    minHeight: 44, paddingVertical: 12, alignSelf: 'flex-start', marginBottom: 8,
   },
   backText: {
     color: GREEN,
@@ -811,34 +348,20 @@ const styles = StyleSheet.create({
     marginBottom: 18,
   },
   categoryCard: {
-    width: '31.5%',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#FFFFFF',
-    borderWidth: 1,
-    borderColor: BORDER,
-    borderRadius: 14,
-    paddingVertical: 17,
-    marginBottom: 10,
+    width: '48.5%', alignItems: 'flex-start', justifyContent: 'center', backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: BORDER, borderRadius: 18, padding: 16, minHeight: 120, marginBottom: 12,
   },
   activeCategoryCard: {
     backgroundColor: '#E5EEE8',
     borderColor: GREEN,
   },
   categoryIcon: {
-    fontSize: 28,
-    marginBottom: 7,
+    fontSize: 27, marginBottom: 12,
   },
   categoryLabel: {
-    color: GREEN,
-    fontWeight: 'bold',
-    fontSize: 12,
+    color: BLUE, fontWeight: '700', fontSize: 14, lineHeight: 20,
   },
   infoBanner: {
-    backgroundColor: '#E5EEE8',
-    borderRadius: 14,
-    padding: 17,
-    marginBottom: 23,
+    backgroundColor: '#EAF1E9', borderRadius: 16, padding: 16, marginBottom: 20, borderWidth: 1, borderColor: '#D7E4D8',
   },
   infoTitle: {
     color: GREEN,
@@ -847,9 +370,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   infoText: {
-    color: '#53685B',
-    fontSize: 13,
-    lineHeight: 19,
+    color: '#354F40', fontSize: 13, lineHeight: 20,
   },
   loader: {
     marginTop: 35,
@@ -873,16 +394,10 @@ const styles = StyleSheet.create({
     marginBottom: 9,
   },
   welcomeText: {
-    color: '#777',
-    fontSize: 14,
-    textAlign: 'center',
-    lineHeight: 21,
+    color: '#53645F', fontSize: 14, textAlign: 'center', lineHeight: 22,
   },
   resultsHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 14,
+    flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: 8, marginBottom: 14,
   },
   resultsTitle: {
     fontSize: 20,
@@ -899,24 +414,13 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   productCard: {
-    width: '48.5%',
-    backgroundColor: '#FFFFFF',
-    borderRadius: 15,
-    borderWidth: 1,
-    borderColor: BORDER,
-    marginBottom: 14,
-    overflow: 'hidden',
+    width: '48.5%', backgroundColor: '#FFFFFF', borderRadius: 18, borderWidth: 1, borderColor: BORDER, marginBottom: 14, overflow: 'hidden',
   },
   imageFrame: {
-    width: '100%',
-    height: 150,
-    backgroundColor: '#FFFFFF',
-    padding: 12,
-    alignItems: 'center',
-    justifyContent: 'center',
+    width: '100%', height: 82, backgroundColor: '#F0F4EF', padding: 12, alignItems: 'center', justifyContent: 'center',
   },
   largeImageFrame: {
-    height: 260,
+    height: 115, borderRadius: 14,
   },
   productImage: {
     width: '100%',
@@ -932,9 +436,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   placeholderText: {
-    fontSize: 10,
-    color: '#999',
-    textAlign: 'center',
+    fontSize: 11, color: '#53645F', textAlign: 'center',
   },
   cardStatus: {
     paddingHorizontal: 8,
@@ -949,47 +451,25 @@ const styles = StyleSheet.create({
   cardStatusCaution: { backgroundColor: '#FFF0CE' },
   cardStatusReview: { backgroundColor: '#E7EDF5' },
   cardStatusText: {
-    color: BLUE,
-    fontSize: 11,
-    fontWeight: '700',
-    textAlign: 'center',
+    color: BLUE, fontSize: 11, lineHeight: 17, fontWeight: '600', textAlign: 'left',
   },
   cardContent: {
-    padding: 12,
-    flex: 1,
-    justifyContent: 'space-between',
+    padding: 12, flex: 1, justifyContent: 'flex-start',
   },
   cardBrand: {
-    color: '#68716D',
-    fontSize: 11,
-    fontWeight: '600',
-    marginBottom: 5,
+    color: '#53645F', fontSize: 12, fontWeight: '600', marginBottom: 5,
   },
   cardName: {
-    color: BLUE,
-    fontSize: 14,
-    fontWeight: 'bold',
-    lineHeight: 19,
-    minHeight: 57,
-    marginBottom: 13,
+    color: BLUE, fontSize: 16, fontWeight: '700', lineHeight: 22, marginBottom: 12,
   },
   checkButton: {
-    backgroundColor: GREEN,
-    borderRadius: 9,
-    paddingVertical: 11,
-    paddingHorizontal: 6,
-    alignItems: 'center',
+    backgroundColor: GREEN, borderRadius: 11, minHeight: 44, paddingVertical: 12, paddingHorizontal: 10, marginTop: 6, alignItems: 'center', justifyContent: 'center',
   },
   checkButtonText: {
-    color: '#FFFFFF',
-    fontSize: 11,
-    fontWeight: 'bold',
-    textAlign: 'center',
+    color: '#FFFFFF', fontSize: 13, fontWeight: '700', textAlign: 'center',
   },
   detailCard: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 18,
-    padding: 20,
+    backgroundColor: '#FFFFFF', borderRadius: 20, padding: 18, borderWidth: 1, borderColor: BORDER,
   },
   detailBrand: {
     color: '#777',
@@ -1004,13 +484,10 @@ const styles = StyleSheet.create({
     lineHeight: 30,
   },
   statusBox: {
-    backgroundColor: '#FFF1DB',
-    borderRadius: 13,
-    padding: 16,
-    marginTop: 22,
+    backgroundColor: '#FFF1D6', borderRadius: 14, borderWidth: 1, borderColor: '#E4C994', padding: 16, marginTop: 20, gap: 4,
   },
   dangerBox: {
-    backgroundColor: '#FFE3E3',
+    backgroundColor: '#FCE8E9', borderColor: '#D997A0', borderLeftWidth: 4,
   },
   statusTitle: {
     color: BLUE,
@@ -1019,9 +496,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   statusDescription: {
-    color: '#5F6260',
-    fontSize: 13,
-    lineHeight: 20,
+    color: '#3E4D46', fontSize: 14, lineHeight: 22,
   },
   matchRow: {
     borderTopWidth: 1,
@@ -1035,9 +510,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   matchSource: {
-    color: '#777',
-    fontSize: 12,
-    marginTop: 3,
+    color: '#53645F', fontSize: 12, lineHeight: 18, marginTop: 3,
   },
   sectionTitle: {
     color: GREEN,
@@ -1047,15 +520,9 @@ const styles = StyleSheet.create({
     marginBottom: 9,
   },
   bodyText: {
-    color: '#555',
-    fontSize: 14,
-    lineHeight: 22,
+    color: '#3D4E46', fontSize: 15, lineHeight: 24,
   },
   disclaimer: {
-    color: '#888',
-    fontSize: 11,
-    textAlign: 'center',
-    lineHeight: 17,
-    marginTop: 28,
+    color: '#53645F', backgroundColor: '#FFF1D6', padding: 16, borderRadius: 12, fontSize: 12, textAlign: 'left', lineHeight: 19, marginTop: 24,
   },
 });
