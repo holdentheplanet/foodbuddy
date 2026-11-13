@@ -78,6 +78,15 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Corn Flour',
     'Cornstarch',
     'Corn Syrup',
+    'Dextrose',
+    'Maltodextrin',
+    'High Fructose Corn Syrup',
+    'Corn Oil',
+    'Corn Fiber',
+    'Soluable Corn Fiber',
+    'Polydextrose',
+    'Corn Gluten',
+    'Fructose',
   ],
   Mustard: [
     'Mustard Seed',
@@ -120,6 +129,34 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Avocado Oil',
     'Avocado Powder',
   ],
+
+  // for celiac disease and gluten sensitivity-- different than wheat allergy, though there is some overlap
+  Gluten: [
+    'Wheat',
+    'Barley',
+    'Rye',
+    'Wheatberries',
+    'Durum',
+    'Emmer',
+    'Semolina',
+    'Spelt',
+    'Farina',
+    'Farro',
+    'Graham',
+    'Kamut',
+    'Einkorn Wheat',
+    'Triticale',
+    'Malted Barley Flour',
+    'Malted Milk',
+    'Malt Extract',
+    'Malt Syrup',
+    'Malt Flavoring',
+    'Malt Flavor',
+    'Malt vinegar',
+    'Brewer\'s Yeast',
+    'Brewers Yeast',
+    'Wheat Starch',
+  ]
 };
 
 export async function seedAllergyCatalog(): Promise<void> {
