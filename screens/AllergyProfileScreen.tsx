@@ -97,7 +97,7 @@ export default function AllergyProfileScreen({ userId }: Props) {
 
     async function loadSearchResults() {
       try {
-        const matches = await searchAllergens(search);
+        const matches = await searchAllergens(search, userId);
 
         if (active) {
           setResults(matches);
@@ -112,7 +112,7 @@ export default function AllergyProfileScreen({ userId }: Props) {
     return () => {
       active = false;
     };
-  }, [search]);
+  }, [search, userId]);
 
   async function addAllergy(allergen: Allergen) {
     if (busy) return;
@@ -154,7 +154,7 @@ export default function AllergyProfileScreen({ userId }: Props) {
     setBusy(true);
 
     try {
-      const id = await addCustomAllergen(name);
+      const id = await addCustomAllergen(userId, name);
       await addUserAllergy(userId, id);
       await loadProfile();
 

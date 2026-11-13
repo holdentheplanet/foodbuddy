@@ -249,6 +249,38 @@ const migrations = [
     BEGIN SELECT RAISE(ABORT,'Inconsistent demo status'); END;
 
   ` },
+  { version: 8, sql: `
+    -- Custom allergens and derivatives are private to the user who made them.
+    -- NULL user_id means built-in. Existing rows become built-in, definite terms.
+    ALTER TABLE allergens ADD COLUMN user_id INTEGER DEFAULT NULL
+      REFERENCES users(id) ON DELETE CASCADE;
+
+    -- definite = always this allergen, possible = sometimes made from it,
+    -- exclude = looks similar but is not (e.g. "cocoa butter" for milk).
+    ALTER TABLE allergen_derivatives ADD COLUMN match_type TEXT NOT NULL DEFAULT 'definite'
+      CHECK (match_type IN ('definite', 'possible', 'exclude'));
+    ALTER TABLE allergen_derivatives ADD COLUMN note TEXT;
+    ALTER TABLE allergen_derivatives ADD COLUMN user_id INTEGER DEFAULT NULL
+      REFERENCES users(id) ON DELETE CASCADE;
+
+    CREATE INDEX IF NOT EXISTS idx_allergens_user ON allergens(user_id);
+    CREATE INDEX IF NOT EXISTS idx_allergen_derivatives_allergen_user
+      ON allergen_derivatives(allergen_id, user_id);
+  ` },
+  { version: 9, sql: `
+    -- Each user's tolerance for individual derivative terms.
+    -- No row means 'avoid' (the default), so new users are fully protected.
+    -- avoid = flag per match_type, limit = caution at most, ok = ignore this term.
+    -- Applies to derivative terms only, never to allergen names or declarations.
+    CREATE TABLE user_derivative_preferences (
+      user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      derivative_id INTEGER NOT NULL REFERENCES allergen_derivatives(id) ON DELETE CASCADE,
+      tolerance TEXT NOT NULL CHECK (tolerance IN ('avoid', 'limit', 'ok')),
+      PRIMARY KEY (user_id, derivative_id)
+    );
+    CREATE INDEX idx_user_derivative_preferences_derivative
+      ON user_derivative_preferences(derivative_id);
+  ` },
 ] as const;
 
 export const DATABASE_VERSION = migrations[migrations.length - 1].version;
