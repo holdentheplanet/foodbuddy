@@ -375,6 +375,83 @@ export async function setDerivativeTolerance(
   );
 }
 
+// Users can add definite or possible terms. Exclude terms are built-in only.
+export type CustomMatchType = Exclude<MatchType, 'exclude'>;
+
+export async function addCustomDerivative(
+  userId: number,
+  allergenId: number,
+  term: string,
+  matchType: CustomMatchType
+): Promise<number> {
+  const cleanTerm = term.trim();
+
+  if (!cleanTerm) {
+    throw new Error('Enter an ingredient name.');
+  }
+
+  if (matchType !== 'definite' && matchType !== 'possible') {
+    throw new Error('Choose Definite or Possible.');
+  }
+
+  // The allergen must be built-in or the user's own.
+  const allergen = await db.getFirstAsync<{ id: number }>(
+    `SELECT id FROM allergens
+     WHERE id = ? AND (user_id IS NULL OR user_id = ?)`,
+    [allergenId, userId]
+  );
+
+  if (!allergen) {
+    throw new Error('Could not add this ingredient.');
+  }
+
+  // Already on the list this user can see (built-in or their own)?
+  const existing = await db.getFirstAsync<{ id: number }>(
+    `SELECT id FROM allergen_derivatives
+     WHERE allergen_id = ?
+       AND ingredient_name = ? COLLATE NOCASE
+       AND (user_id IS NULL OR user_id = ?)`,
+    [allergenId, cleanTerm, userId]
+  );
+
+  if (existing) {
+    throw new Error("That's already on the list.");
+  }
+
+  const result = await db.runAsync(
+    `INSERT OR IGNORE INTO allergen_derivatives
+     (allergen_id, ingredient_name, match_type, user_id)
+     VALUES (?, ?, ?, ?)`,
+    [allergenId, cleanTerm, matchType, userId]
+  );
+
+  // Nothing inserted means another user on this device added the same term
+  // privately (terms are unique per allergen device-wide). Stay generic.
+  if (result.changes === 0) {
+    throw new Error('Could not add this ingredient.');
+  }
+
+  return result.lastInsertRowId;
+}
+
+// Only the user's own terms can be removed; built-in terms have user_id NULL,
+// so they never match. To stop flagging a built-in term, set it to 'ok'.
+export async function removeCustomDerivative(
+  userId: number,
+  derivativeId: number
+): Promise<void> {
+  const result = await db.runAsync(
+    `DELETE FROM allergen_derivatives
+     WHERE id = ? AND user_id = ?`,
+    [derivativeId, userId]
+  );
+
+  // The user's tolerance row for this term is removed by ON DELETE CASCADE.
+  if (result.changes === 0) {
+    throw new Error('Only ingredients you added can be removed.');
+  }
+}
+
 export async function getUserAllergyProfile(
   userId: number
 ): Promise<{ id: number; name: string }[]> {
