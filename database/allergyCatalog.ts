@@ -3,6 +3,7 @@ import { db } from './db';
 
 const ALLERGY_CATALOG: Record<string, string[]> = {
   Milk: [
+    'Milk',
     'Casein',
     'Caseinate',
     'Whey',
@@ -15,6 +16,8 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Yogurt',
   ],
   Eggs: [
+    'Eggs',
+    'Egg',
     'Albumin',
     'Ovalbumin',
     'Ovomucoid',
@@ -23,12 +26,24 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Lysozyme',
   ],
   Peanuts: [
+    'Peanuts',
+    'Peanut',
+    'Peanut Butter',
+    'Peanut Oil',
+    'Peanut Paste',
+    'Hydrolyzed Peanut Protein',
     'Peanut Flour',
     'Peanut Protein',
     'Groundnuts',
     'Arachis Oil',
   ],
   Wheat: [
+    'Wheat',
+    'Wheat Flour',
+    'Wheat Bran',
+    'Wheat Germ',
+    'Wheat Starch',
+    'Wheat Protein',
     'Semolina',
     'Farina',
     'Bulgur',
@@ -37,6 +52,8 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Wheat Gluten',
   ],
   Soy: [
+    'Soy',
+    'Soy Milk',
     'Soy Protein',
     'Soy Protein Isolate',
     'Tofu',
@@ -45,12 +62,15 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Miso',
   ],
   Sesame: [
+    'Sesame',
+    'Sesame Seeds',
     'Tahini',
     'Sesame Flour',
     'Sesame Paste',
     'Sesame Oil',
   ],
   Fish: [
+    'Anchovies',
     'Anchovy',
     'Cod',
     'Salmon',
@@ -65,13 +85,20 @@ const ALLERGY_CATALOG: Record<string, string[]> = {
     'Crayfish',
   ],
   'Tree Nuts': [
+    'Almonds',
     'Almond',
     'Cashew',
+    'Cashews',
     'Walnut',
+    'Walnuts',
     'Pecan',
+    'Pecans',
     'Pistachio',
+    'Pistachios',
     'Hazelnut',
+    'Hazelnuts',
     'Macadamia',
+    'Macadamia Nuts',
   ],
   Corn: [
     'Cornmeal',
