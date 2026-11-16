@@ -11,14 +11,16 @@ import {
   View,
 } from 'react-native';
 
-import { db } from '../database/db';
 import {
   searchAllergens,
   addCustomAllergen,
   getUserAllergyProfile,
   addUserAllergy,
   removeUserAllergy,
+  getDerivatives,
+  type Derivative,
 } from '../database/allergyCatalog';
+import AllergyCard from '../components/AllergyCard';
 
 type Allergen = {
   id: number;
@@ -38,7 +40,7 @@ export default function AllergyProfileScreen({ userId }: Props) {
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<Allergen[]>([]);
   const [selected, setSelected] = useState<Allergen[]>([]);
-  const [derivatives, setDerivatives] = useState<Record<number, string[]>>({});
+  const [derivatives, setDerivatives] = useState<Record<number, Derivative[]>>({});
   const [loading, setLoading] = useState(true);
   const [busy, setBusy] = useState(false);
 
@@ -46,24 +48,24 @@ export default function AllergyProfileScreen({ userId }: Props) {
     const allergies = await getUserAllergyProfile(userId);
     setSelected(allergies);
 
-    const nextDerivatives: Record<number, string[]> = {};
+    // Built-in terms plus this user's own, each with the user's tolerance.
+    const nextDerivatives: Record<number, Derivative[]> = {};
 
     for (const allergy of allergies) {
-      const rows = await db.getAllAsync<{ ingredient_name: string }>(
-        `SELECT ingredient_name
-         FROM allergen_derivatives
-         WHERE allergen_id = ?
-         ORDER BY ingredient_name`,
-        [allergy.id]
-      );
-
-      nextDerivatives[allergy.id] = rows.map(
-        row => row.ingredient_name
-      );
+      nextDerivatives[allergy.id] = await getDerivatives(allergy.id, userId);
     }
 
     setDerivatives(nextDerivatives);
   }, [userId]);
+
+  // Refresh one card after a custom term is added or removed.
+  const reloadDerivatives = useCallback(
+    async (allergenId: number) => {
+      const rows = await getDerivatives(allergenId, userId);
+      setDerivatives(current => ({ ...current, [allergenId]: rows }));
+    },
+    [userId]
+  );
 
   useEffect(() => {
     let active = true;
@@ -317,7 +319,8 @@ export default function AllergyProfileScreen({ userId }: Props) {
 
           <Text style={styles.description}>
             These allergies are saved to your FoodBuddy account.
-            Related ingredients are shown when available.
+            Everything starts at Avoid. Change an ingredient to Small
+            amounts or OK for me if you tolerate it, or add your own.
           </Text>
 
           {selected.length === 0 ? (
@@ -341,48 +344,15 @@ export default function AllergyProfileScreen({ userId }: Props) {
             </View>
           ) : (
             selected.map(allergen => (
-              <View
+              <AllergyCard
                 key={allergen.id}
-                style={styles.allergyCard}
-              >
-                <View style={styles.cardHeader}>
-                  <View style={styles.allergyInfo}>
-                    <Text style={styles.allergyName}>
-                      {allergen.name}
-                    </Text>
-
-                    <Text style={styles.savedLabel}>
-                      ✓ Saved to My Allergies
-                    </Text>
-                  </View>
-
-                  <TouchableOpacity
-                    onPress={() => removeAllergy(allergen)}
-                    disabled={busy}
-                  >
-                    <Text style={styles.removeText}>
-                      Remove
-                    </Text>
-                  </TouchableOpacity>
-                </View>
-
-                <View style={styles.cardDivider} />
-
-                <Text style={styles.derivativeTitle}>
-                  Known Related Ingredients
-                </Text>
-
-                {(derivatives[allergen.id] || []).length > 0 ? (
-                  <Text style={styles.derivativeText}>
-                    {derivatives[allergen.id].join(', ')}
-                  </Text>
-                ) : (
-                  <Text style={styles.emptyText}>
-                    No related ingredients documented yet.
-                    This does not mean the food has no derivatives.
-                  </Text>
-                )}
-              </View>
+                userId={userId}
+                allergen={allergen}
+                derivatives={derivatives[allergen.id] ?? []}
+                busy={busy}
+                onRemoveAllergy={() => removeAllergy(allergen)}
+                onDerivativesChanged={() => reloadDerivatives(allergen.id)}
+              />
             ))
           )}
 
@@ -572,52 +542,6 @@ const styles = StyleSheet.create({
   startButtonText: {
     color: 'white',
     fontWeight: 'bold',
-  },
-  allergyCard: {
-    backgroundColor: 'white',
-    borderRadius: 14,
-    padding: 18,
-    marginBottom: 13,
-  },
-  cardHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 12,
-  },
-  allergyInfo: {
-    flex: 1,
-    paddingRight: 10,
-  },
-  allergyName: {
-    color: BLUE,
-    fontSize: 19,
-    fontWeight: 'bold',
-    marginBottom: 5,
-  },
-  savedLabel: {
-    color: GREEN,
-    fontSize: 12,
-    fontWeight: '600',
-  },
-  removeText: {
-    color: '#B13C3C',
-    fontWeight: '600',
-  },
-  cardDivider: {
-    height: 1,
-    backgroundColor: '#E8E8E8',
-    marginBottom: 14,
-  },
-  derivativeTitle: {
-    color: GREEN,
-    fontWeight: 'bold',
-    marginBottom: 7,
-  },
-  derivativeText: {
-    color: '#555',
-    fontSize: 14,
-    lineHeight: 22,
   },
   addMoreButton: {
     borderWidth: 2,

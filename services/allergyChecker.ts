@@ -1,9 +1,8 @@
 
-import { db } from '../database/db';
-import { getUserAllergyProfile } from '../database/allergyCatalog';
+import { getDerivatives, getUserAllergyProfile } from '../database/allergyCatalog';
 import type { GroceryProduct } from './productApi';
 import type { LocalProductDetails } from './localProductService';
-import { compareLocalProductAllergies } from './localAllergyMatching';
+import { compareLocalProductAllergies, type SavedDerivative } from './localAllergyMatching';
 
 export type AllergyMatch = {
   allergen: string;
@@ -20,7 +19,7 @@ export type AllergyCheckResult = {
 type SavedAllergy = {
   id: number;
   name: string;
-  derivatives: string[];
+  derivatives: SavedDerivative[];
 };
 
 function normalize(value: string): string {
@@ -58,19 +57,19 @@ async function loadSavedAllergies(
   const result: SavedAllergy[] = [];
 
   for (const allergy of profile) {
-    const rows = await db.getAllAsync<{
-      ingredient_name: string;
-    }>(
-      `SELECT ingredient_name
-       FROM allergen_derivatives
-       WHERE allergen_id = ?`,
-      [allergy.id]
-    );
+    // Built-in terms plus this user's own, with match type, note and the
+    // user's tolerance. Other users' private terms are never included.
+    const derivatives = await getDerivatives(allergy.id, userId);
 
     result.push({
       id: allergy.id,
       name: allergy.name,
-      derivatives: rows.map(row => row.ingredient_name),
+      derivatives: derivatives.map(({ term, matchType, note, tolerance }) => ({
+        term,
+        matchType,
+        note,
+        tolerance,
+      })),
     });
   }
 
@@ -108,9 +107,13 @@ export async function checkProductAllergies(
   ];
 
   for (const allergy of allergies) {
+    // Legacy online checker (unused): plain term list, skipping exclude and
+    // "OK for me" terms so it never flags something the user allowed.
     const terms = [
       allergy.name,
-      ...allergy.derivatives,
+      ...allergy.derivatives
+        .filter(d => d.matchType !== 'exclude' && d.tolerance !== 'ok')
+        .map(d => d.term),
     ];
 
     for (const source of sources) {
