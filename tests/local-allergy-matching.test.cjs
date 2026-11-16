@@ -113,6 +113,8 @@ test('"OK for me" terms are skipped while other terms still match', async () => 
     const result = compare([allergy('Corn', [term('maltodextrin', 'definite', 'ok')])], product);
     assert.equal(result.status, 'no_matches');
     assert.equal(result.matches.length, 0);
+    // Not flagged, but still reported so the user knows a setting applied.
+    assert.deepEqual(result.allowedBySettings, [{ allergen: 'Corn', term: 'maltodextrin' }]);
   });
   await withLabel('Sugar, Maltodextrin, Corn Syrup', product => {
     const result = compare([allergy('Corn', [term('maltodextrin', 'definite', 'ok'), term('corn syrup')])], product);
