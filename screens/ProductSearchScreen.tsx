@@ -6,6 +6,7 @@ import {
 import StockBadge from '../components/StockBadge';
 import { colors as c } from '../ui/theme';
 import ProductDemoAvailability from '../components/ProductDemoAvailability';
+import AllergyMatchList from '../components/AllergyMatchList';
 import { DEMO_DISCLAIMER, demoStatusLabel } from '../inventory/types';
 import type { LocalStore } from '../services/localStoreService';
 import { GROCERY_CATEGORIES } from '../catalog/categories';
@@ -159,10 +160,7 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
       : 'This does not guarantee safety. Missing warnings do not establish absence of cross-contact.';
     return <View style={[styles.statusBox, result.status === 'conflict' && styles.dangerBox]}>
       <Text style={styles.statusTitle}>{title}</Text><Text style={styles.statusDescription}>{description}</Text>
-      {result.matches.map((match, index) => <View key={`${match.allergen}-${match.source}-${index}`} style={styles.matchRow}>
-        <Text style={styles.matchText}>{match.allergen}: {match.matchedIngredient}</Text>
-        <Text style={styles.matchSource}>{match.source === 'traces' ? 'Precautionary warning' : match.kind === 'possible_derivative' ? 'Possible related ingredient — unverified mapping' : `Found in ${match.source}`}</Text>
-      </View>)}
+      <AllergyMatchList result={result} />{/* Grouped by severity, with notes; see components/AllergyMatchList.tsx */}
       {result.informationIncomplete && <Text style={[styles.statusDescription, { marginTop: 12 }]}>
         Information incomplete: {result.missingInformation.join(' ')}
       </Text>}

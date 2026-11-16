@@ -28,6 +28,8 @@ export type LocalAllergyResult = {
   savedAllergyCount: number;
   informationIncomplete: boolean;
   missingInformation: string[];
+  // Terms found on the label but not flagged because the user set them to "OK for me".
+  allowedBySettings: { allergen: string; term: string }[];
 };
 function normalize(value: string): string {
   return value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
@@ -72,6 +74,7 @@ export function compareLocalProductAllergies(allergies: SavedProductAllergy[], p
   if (product.allergens.declared.status === 'unknown') missingInformation.push('Manufacturer allergen declaration is unknown.');
   if (product.allergens.precautionary.status === 'unknown') missingInformation.push('Precautionary / cross-contact warning is unknown.');
   const matches: LocalAllergyMatch[] = [];
+  const allowedBySettings: LocalAllergyResult['allowedBySettings'] = [];
   const sources = [
     { name: 'ingredients' as const, values: product.ingredients.labelText ? [product.ingredients.labelText] : [] },
     { name: 'allergens' as const, values: product.allergens.declared.status === 'documented' ? product.allergens.declared.names ?? [] : [] },
@@ -103,7 +106,12 @@ export function compareLocalProductAllergies(allergies: SavedProductAllergy[], p
         const key = normalize(derivative.term);
         if (!key || matched.includes(key) || !values.some(value => contains(value, derivative.term))) continue;
         matched.push(key);
-        if (derivative.tolerance === 'ok') continue; // "OK for me": never reported.
+        if (derivative.tolerance === 'ok') { // "OK for me": not flagged, only listed.
+          if (!allowedBySettings.some(a => a.allergen === allergy.name && normalize(a.term) === key)) {
+            allowedBySettings.push({ allergen: allergy.name, term: derivative.term });
+          }
+          continue;
+        }
         const matchType = derivative.matchType === 'definite' ? 'definite' : 'possible';
         matches.push({ allergen: allergy.name, matchedIngredient: derivative.term, source: source.name,
           kind: matchType === 'definite' ? 'definite_derivative' : 'possible_derivative',
@@ -135,6 +143,6 @@ export function compareLocalProductAllergies(allergies: SavedProductAllergy[], p
   return {
     status: allergies.length === 0 ? 'unknown' : directConflict ? 'conflict' : matches.length > 0 ? 'caution' : usable ? 'no_matches' : 'unknown',
     matches, savedAllergyCount: allergies.length,
-    informationIncomplete: missingInformation.length > 0, missingInformation,
+    informationIncomplete: missingInformation.length > 0, missingInformation, allowedBySettings,
   };
 }
