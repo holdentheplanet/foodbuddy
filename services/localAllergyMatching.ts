@@ -62,7 +62,8 @@ function toSavedDerivative(derivative: string | SavedDerivative): SavedDerivativ
 function terms(name: string): string[] {
   const clean = normalize(name);
   // Lexical singular/plural forms, not ingredient or medical inference.
-  const singular: Record<string, string> = { peanuts: 'peanut', eggs: 'egg', 'tree nuts': 'tree nut' };
+  const singular: Record<string, string> = { peanuts: 'peanut', eggs: 'egg', 'tree nuts': 'tree nut',
+    oats: 'oat', 'pine nuts': 'pine nut', insects: 'insect' };
   return singular[clean] ? [clean, singular[clean]] : [clean];
 }
 

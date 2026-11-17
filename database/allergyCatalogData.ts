@@ -70,6 +70,7 @@ export const ALLERGY_CATALOG: Record<string, string[]> = {
     'Sesame Oil',
   ],
   Fish: [
+    'Fish',
     'Anchovies',
     'Anchovy',
     'Cod',
@@ -101,6 +102,7 @@ export const ALLERGY_CATALOG: Record<string, string[]> = {
     'Macadamia Nuts',
   ],
   Corn: [
+    'Corn',
     'Cornmeal',
     'Corn Flour',
     'Cornstarch',
@@ -116,24 +118,30 @@ export const ALLERGY_CATALOG: Record<string, string[]> = {
     'Natural Flavors',
   ],
   Mustard: [
+    'Mustard',
     'Mustard Seed',
     'Mustard Flour',
     'Mustard Powder',
   ],
   Celery: [
+    'Celery',
     'Celery Seed',
     'Celery Salt',
     'Celeriac',
   ],
   Lupin: [
+    'Lupin',
+    'Lupine',
     'Lupin Flour',
     'Lupine Protein',
   ],
   Buckwheat: [
+    'Buckwheat',
     'Buckwheat Flour',
     'Soba',
   ],
   Coconut: [
+    'Coconut',
     'Coconut Milk',
     'Coconut Flour',
     'Coconut Oil',
@@ -144,15 +152,18 @@ export const ALLERGY_CATALOG: Record<string, string[]> = {
     'Dehydrated Garlic',
   ],
   Onion: [
+    'Onion',
     'Onion Powder',
     'Dried Onion',
     'Onion Flakes',
   ],
   Strawberry: [
+    'Strawberry',
     'Strawberry Puree',
     'Strawberry Powder',
   ],
   Avocado: [
+    'Avocado',
     'Avocado Oil',
     'Avocado Powder',
   ],
@@ -183,5 +194,258 @@ export const ALLERGY_CATALOG: Record<string, string[]> = {
     'Brewer\'s Yeast',
     'Brewers Yeast',
     'Wheat Starch',
-  ]
+  ],
+
+  Mollusks: [
+    'Clam',
+    'Mussel',
+    'Oyster',
+    'Scallop',
+    'Squid',
+    'Octopus',
+    'Cuttlefish',
+    'Snail',
+    'Escargot',
+    'Abalone',
+    'Oyster Sauce',
+  ],
+
+  // Labels list the individual E-numbers, so each is its own term.
+  Sulfites: [
+    'Sulfites',
+    'Sulfite',
+    'Sulfur Dioxide',
+    'Sodium Sulfite',
+    'Sodium Bisulfite',
+    'Sodium Metabisulfite',
+    'Potassium Bisulfite',
+    'Potassium Metabisulfite',
+    'Calcium Sulfite',
+    'E220',
+    'E221',
+    'E222',
+    'E223',
+    'E224',
+    'E226',
+    'E227',
+    'E228',
+  ],
+
+  // Tick-induced red meat allergy.
+  'Alpha-gal': [
+    'Beef',
+    'Pork',
+    'Lamb',
+    'Bison',
+    'Gelatin',
+    'Lard',
+    'Tallow',
+    'Beef Broth',
+    'Pork Broth',
+    'Pork Rind',
+  ],
+
+  // The usual substitute in nut-free products.
+  Sunflower: [
+    'Sunflower',
+    'Sunflower Seed',
+    'Sunflower Seeds',
+    'Sunflower Kernels',
+    'Sunflower Seed Butter',
+    'Sunflower Butter',
+    'Sunflower Lecithin',
+    'Sunflower Oil',
+    'Sunflower Protein',
+  ],
+
+  // Pea, chickpea, lentil and fava. Peanuts and soy are their own allergens.
+  'Peas & Pulses': [
+    'Pea',
+    'Peas',
+    'Pea Protein',
+    'Pea Flour',
+    'Pea Fiber',
+    'Pea Starch',
+    'Chickpea',
+    'Chickpeas',
+    'Chickpea Flour',
+    'Garbanzo',
+    'Garbanzo Beans',
+    'Besan',
+    'Gram Flour',
+    'Lentil',
+    'Lentils',
+    'Lentil Flour',
+    'Fava',
+    'Fava Beans',
+  ],
+
+  // Some people with celiac disease react to oats, and they're often cross-contaminated.
+  Oats: [
+    'Oats',
+    'Oat',
+    'Oat Flour',
+    'Oat Bran',
+    'Oat Fiber',
+    'Oatmeal',
+    'Rolled Oats',
+    'Oat Milk',
+  ],
+
+  // Note: "Potato" also matches "sweet potato", which is not a nightshade.
+  Nightshades: [
+    'Tomato',
+    'Tomatoes',
+    'Tomato Paste',
+    'Tomato Puree',
+    'Tomato Powder',
+    'Tomatillo',
+    'Potato',
+    'Potatoes',
+    'Potato Starch',
+    'Potato Flour',
+    'Bell Pepper',
+    'Red Pepper',
+    'Chili Pepper',
+    'Jalapeno',
+    'Pimento',
+    'Paprika',
+    'Cayenne',
+    'Chili Powder',
+    'Eggplant',
+    'Goji',
+    'Goji Berry',
+  ],
+
+  'Poppy Seed': [
+    'Poppy Seed',
+    'Poppy Seeds',
+    'Poppyseed',
+  ],
+
+  // Botanically a seed, so kept separate from Tree Nuts.
+  'Pine Nuts': [
+    'Pine Nuts',
+    'Pine Nut',
+    'Pignoli',
+    'Pignolia',
+    'Pinon',
+  ],
+
+  Hemp: [
+    'Hemp',
+    'Hemp Seed',
+    'Hemp Seeds',
+    'Hemp Hearts',
+    'Hemp Protein',
+    'Hemp Seed Oil',
+  ],
+  Flax: [
+    'Flax',
+    'Flaxseed',
+    'Flax Seed',
+    'Ground Flaxseed',
+    'Flaxseed Oil',
+    'Linseed',
+  ],
+  Chia: [
+    'Chia',
+    'Chia Seed',
+    'Chia Seeds',
+  ],
+
+  // Kiwi, banana and stone fruit are common in latex-fruit and oral allergy syndrome.
+  Kiwi: [
+    'Kiwi',
+    'Kiwifruit',
+    'Kiwi Fruit',
+  ],
+  Banana: [
+    'Banana',
+    'Bananas',
+    'Banana Puree',
+    'Banana Flour',
+    'Banana Powder',
+  ],
+  'Stone Fruit': [
+    'Peach',
+    'Peaches',
+    'Nectarine',
+    'Apricot',
+    'Apricots',
+    'Plum',
+    'Plums',
+    'Prune',
+    'Prunes',
+    'Cherry',
+    'Cherries',
+  ],
+
+  // Red dye made from insects.
+  Carmine: [
+    'Carmine',
+    'Cochineal',
+    'Cochineal Extract',
+    'Carminic Acid',
+    'Natural Red 4',
+    'E120',
+  ],
+  Tartrazine: [
+    'Tartrazine',
+    'Yellow 5',
+    'Yellow No. 5',
+    'FD&C Yellow 5',
+    'FD&C Yellow No. 5',
+    'E102',
+  ],
+
+  // Brewer's Yeast is also under Gluten.
+  Yeast: [
+    'Yeast',
+    'Baker\'s Yeast',
+    'Bakers Yeast',
+    'Brewer\'s Yeast',
+    'Brewers Yeast',
+    'Nutritional Yeast',
+    'Yeast Extract',
+    'Autolyzed Yeast',
+    'Autolyzed Yeast Extract',
+    'Torula Yeast',
+  ],
+
+  Cocoa: [
+    'Cocoa',
+    'Cocoa Powder',
+    'Cocoa Butter',
+    'Cocoa Mass',
+    'Cocoa Liquor',
+    'Cacao',
+    'Cacao Nibs',
+    'Chocolate',
+    'Chocolate Liquor',
+  ],
+  Cinnamon: [
+    'Cinnamon',
+    'Ground Cinnamon',
+    'Cassia',
+    'Cinnamon Oil',
+  ],
+
+  // Can cross-react with shellfish.
+  Insects: [
+    'Insect',
+    'Insect Protein',
+    'Cricket',
+    'Cricket Flour',
+    'Cricket Powder',
+    'Cricket Protein',
+    'Mealworm',
+    'Mealworms',
+  ],
+
+  // Fungus-based meat substitute (Quorn).
+  Mycoprotein: [
+    'Mycoprotein',
+    'Quorn',
+  ],
 };
