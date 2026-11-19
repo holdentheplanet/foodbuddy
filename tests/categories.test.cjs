@@ -12,6 +12,15 @@ const { GROCERY_CATEGORIES, resolveCategoryId } = load(path.join(root, 'catalog/
 const { createLocalProductService } = load(path.join(root, 'services/localProductService.ts'));
 const starter = require('../catalog/data/us-starter.json');
 const expansion = require('../catalog/data/us-expansion-01.json');
+const reviewed = require('../catalog/data/us-reviewed-batch-01.json');
+const nextReviewed = require('../catalog/data/us-reviewed-batch-02.json');
+const thirdReviewed = require('../catalog/data/us-reviewed-batch-03.json');
+const fourthReviewed = require('../catalog/data/us-reviewed-batch-04.json');
+const fifthReviewed = require('../catalog/data/us-reviewed-batch-05.json');
+const sixthReviewed = require('../catalog/data/us-reviewed-batch-06.json');
+const finalReviewed = require('../catalog/data/us-reviewed-batch-07.json');
+const bundledProducts = [...starter.products, ...expansion.products, ...reviewed.products, ...nextReviewed.products, ...thirdReviewed.products, ...fourthReviewed.products, ...fifthReviewed.products, ...sixthReviewed.products, ...finalReviewed.products];
+const bundledCount = bundledProducts.length;
 async function isolated(run, seed = true) {
   const db = new DatabaseSync(':memory:');
   const adapter = {
@@ -38,8 +47,8 @@ test('expansion contains 30 unique real identities, three per category, with hon
 test('SQLite category order, assignments and counts match the bundled catalog', async () => isolated(async (service, db) => {
   const categories = await service.listCategories();
   assert.deepEqual(categories.map(c => c.name), GROCERY_CATEGORIES.map(c => c.name));
-  assert.equal(categories.reduce((sum, c) => sum + c.productCount, 0), 50);
-  for (const record of [...starter.products, ...expansion.products]) {
+  assert.equal(categories.reduce((sum, c) => sum + c.productCount, 0), bundledCount);
+  for (const record of bundledProducts) {
     const details = await service.getProductById(record.id);
     assert.equal(details.categoryId, resolveCategoryId(record.category));
     assert.equal(details.provenance.category, details.categoryName);
@@ -51,7 +60,7 @@ test('category browsing returns only assigned products; global searches ignore p
   const snacks = await service.browseProducts('snacks-candy', { limit: 100 });
   assert(snacks.products.some(p => /OREO/.test(p.name)));
   assert(snacks.products.every(p => p.categoryId === 'snacks-candy'));
-  assert.equal((await service.browseProducts('produce')).products.length, 3);
+  assert.equal((await service.browseProducts('produce')).products.length, bundledProducts.filter(p => resolveCategoryId(p.category) === 'produce').length);
   assert.equal((await service.searchProducts('oReO')).products.length, 1);
   assert.equal((await service.searchProducts('oReO', { categoryId: 'produce' })).products.length, 0);
   assert.equal((await service.searchProductsByBrand('bArIlLa')).products.length, 3);
@@ -64,12 +73,12 @@ test('category browsing returns only assigned products; global searches ignore p
 test('all-product and category pagination are stable, repeatable and read-only', async () => isolated(async (service, db) => {
   const before = db.prepare('SELECT total_changes() n').get().n;
   const seen = [];
-  for (let offset = 0; offset < 50; offset += 7) {
+  for (let offset = 0; offset < bundledCount; offset += 7) {
     const page = await service.browseProducts(null, { limit: 7, offset });
     seen.push(...page.products.map(p => p.id));
-    assert.equal(page.hasMore, offset + 7 < 50);
+    assert.equal(page.hasMore, offset + 7 < bundledCount);
   }
-  assert.equal(new Set(seen).size, 50);
+  assert.equal(new Set(seen).size, bundledCount);
   assert.deepEqual(await service.browseProducts('breakfast'), await service.browseProducts('breakfast'));
   assert.equal(db.prepare('SELECT total_changes() n').get().n, before);
   await assert.rejects(service.browseProducts(''), /category/);
@@ -83,9 +92,9 @@ test('empty categories expose zero counts and an empty page rather than keyword 
 test('repeated bundled imports preserve provenance and never duplicate ingredients or declarations', async () => isolated(async (service, db, adapter) => {
   const before = db.prepare('SELECT total_changes() n').get().n;
   const result = await importBundled(adapter);
-  assert.equal(result.unchanged, 50); assert.equal(result.inserted, 0);
+  assert.equal(result.unchanged, bundledCount); assert.equal(result.inserted, 0);
   assert.equal(db.prepare('SELECT total_changes() n').get().n, before);
-  assert.equal(db.prepare('SELECT count(*) n FROM product_catalog_revisions').get().n, 50);
+  assert.equal(db.prepare('SELECT count(*) n FROM product_catalog_revisions').get().n, bundledCount);
   assert.equal((await service.getProductById('us-penne-original')).allergens.precautionary.names[0], 'eggs');
 }));
 
@@ -143,7 +152,7 @@ test('full expansion imports preserve existing accounts, custom allergies and de
   const before = snapshot();
   await importBundled(adapter); await importBundled(adapter);
   assert.deepEqual(snapshot(), before);
-  assert.equal(db.prepare('SELECT count(*) n FROM products').get().n, 50);
+  assert.equal(db.prepare('SELECT count(*) n FROM products').get().n, bundledCount);
 }, false));
 
 test('new verified ingredient lists with unknown declarations never become a safe/no-match finding', async () => isolated(async service => {

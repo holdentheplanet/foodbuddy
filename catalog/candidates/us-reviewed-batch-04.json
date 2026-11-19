@@ -1,0 +1,1283 @@
+{
+  "formatVersion": 1,
+  "catalogId": "us-reviewed-batch-04",
+  "candidates": [
+    {
+      "product": {
+        "id": "batch04-dave-plain-awesome-bagels",
+        "name": "PLAIN AWESOME BAGELS",
+        "brand": "Dave’s Killer Bread",
+        "variant": "PLAIN AWESOME BAGELS",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic flours (organic wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, organic cane sugar, organic rolled oats, yeast, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, organic vinegar, organic yellow cornmeal, sea salt, organic cultured wheat flour, organic fermented rye flour, enzymes, organic sesame flour.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/plain-awesome-bagels",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "PLAIN AWESOME BAGELS\nPLAIN AWESOME BAGELS\nDAVE’S KILLER BREAD\nOrganic flours (organic wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, organic cane sugar, organic rolled oats, yeast, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, organic vinegar, organic yellow cornmeal, sea salt, organic cultured wheat flour, organic fermented rye flour, enzymes, organic sesame flour.\nCONTAINS: Wheat, sesame.",
+            "notes": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "PLAIN AWESOME BAGELS\nPLAIN AWESOME BAGELS",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer.",
+        "sourceCaptureSha256": "98581110c79aa870dae1528bb1d35c8c7e0bae3888ba92efff0e90957ff366ed"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dave-epic-everything-bagels",
+        "name": "EPIC EVERYTHING BAGELS",
+        "brand": "Dave’s Killer Bread",
+        "variant": "EPIC EVERYTHING BAGELS",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic wheat (organic whole wheat flour, organic wheat flour), water, organic epic everything® seed and topping mix (organic chia seeds, organic whole flax seeds, organic poppy seeds, organic tri-color quinoa, organic sunflower seeds, coarse sea salt, organic dried minced garlic, organic dried chopped onion), organic wheat gluten, organic cane sugar, organic rolled oats, contains 2% or less of each of the following: organic expeller pressed canola oil, organic vinegar, yeast, organic yellow cornmeal, organic cultured wheat flour, sea salt, organic fermented rye flour, enzymes, organic sesame flour, natural flavor, organic natural flavor, organic garlic oil.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/epic-everything-bagels",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "EPIC EVERYTHING BAGELS\nEPIC EVERYTHING BAGELS\nDAVE’S KILLER BREAD\nOrganic wheat (organic whole wheat flour, organic wheat flour), water, organic epic everything® seed and topping mix (organic chia seeds, organic whole flax seeds, organic poppy seeds, organic tri-color quinoa, organic sunflower seeds, coarse sea salt, organic dried minced garlic, organic dried chopped onion), organic wheat gluten, organic cane sugar, organic rolled oats, contains 2% or less of each of the following: organic expeller pressed canola oil, organic vinegar, yeast, organic yellow cornmeal, organic cultured wheat flour, sea salt, organic fermented rye flour, enzymes, organic sesame flour, natural flavor, organic natural flavor, organic garlic oil.\nCONTAINS: Wheat, sesame.",
+            "notes": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "EPIC EVERYTHING BAGELS\nEPIC EVERYTHING BAGELS",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer.",
+        "sourceCaptureSha256": "6d0af47a54623169178a5dd0d157d1ceccd94a4e62e0fc8e94b49aa9bbce50e4"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dave-cinnamon-raisin-remix-bagels",
+        "name": "CINNAMON RAISIN REMIX BAGELS",
+        "brand": "Dave’s Killer Bread",
+        "variant": "CINNAMON RAISIN REMIX BAGELS",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic wheat (organic wheat flour, organic whole wheat flour), water, organic raisins, organic wheat gluten, organic rolled oats, organic cinnamon bits (organic sugar, organic wheat flour, organic cinnamon, organic sunflower oil), organic cinnamon swirl blend (organic cane sugar, organic wheat flour, organic cinnamon), organic cane sugar, contains 2% or less of each of the following: organic expeller pressed canola oil, yeast, organic molasses, organic yellow cornmeal, sea salt, organic fermented rye flour, organic vinegar, organic cultured wheat flour, organic sesame flour, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/cinnamon-raisin-remix-bagels",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "CINNAMON RAISIN REMIX BAGELS\nCINNAMON RAISIN REMIX BAGELS\nDAVE’S KILLER BREAD\nOrganic wheat (organic wheat flour, organic whole wheat flour), water, organic raisins, organic wheat gluten, organic rolled oats, organic cinnamon bits (organic sugar, organic wheat flour, organic cinnamon, organic sunflower oil), organic cinnamon swirl blend (organic cane sugar, organic wheat flour, organic cinnamon), organic cane sugar, contains 2% or less of each of the following: organic expeller pressed canola oil, yeast, organic molasses, organic yellow cornmeal, sea salt, organic fermented rye flour, organic vinegar, organic cultured wheat flour, organic sesame flour, enzymes.\nCONTAINS: Wheat, sesame.",
+            "notes": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "CINNAMON RAISIN REMIX BAGELS\nCINNAMON RAISIN REMIX BAGELS",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer.",
+        "sourceCaptureSha256": "2ae56faa88cd073e7fb1cb9a6162d6f4e232763bad0aade61d2599a5f61f812d"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dave-killer-classic-muffins",
+        "name": "KILLER CLASSIC ENGLISH MUFFINS",
+        "brand": "Dave’s Killer Bread",
+        "variant": "KILLER CLASSIC ENGLISH MUFFINS",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, yeast, contains 2% or less of each of the following: organic cultured wheat flour, organic whole grain cornmeal, organic cane sugar, sea salt, organic vinegar, organic malted barley extract, organic wheat gluten, organic expeller pressed canola oil, organic lemon juice concentrate, organic acerola cherry powder, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/killer-classic-muffins",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "KILLER CLASSIC ENGLISH MUFFINS\nKILLER CLASSIC ENGLISH MUFFINS\nDAVE’S KILLER BREAD\nOrganic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, yeast, contains 2% or less of each of the following: organic cultured wheat flour, organic whole grain cornmeal, organic cane sugar, sea salt, organic vinegar, organic malted barley extract, organic wheat gluten, organic expeller pressed canola oil, organic lemon juice concentrate, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat.",
+            "notes": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "KILLER CLASSIC ENGLISH MUFFINS\nKILLER CLASSIC ENGLISH MUFFINS",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer.",
+        "sourceCaptureSha256": "e40a430597a158173ca6d13065318bf7e43fe6c5e37ed21c757140131744d35b"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dave-rockin-grains-muffins",
+        "name": "ROCKIN' GRAINS ENGLISH MUFFINS",
+        "brand": "Dave’s Killer Bread",
+        "variant": "ROCKIN' GRAINS ENGLISH MUFFINS",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Water, organic wheat (organic whole wheat flour, organic wheat flour), organic rockin' grains® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic millet, organic quinoa), yeast, organic malted barley extract, contains 2% or less of each of the following: organic wheat gluten, organic cultured wheat flour, organic whole grain cornmeal, organic vinegar, sea salt, organic cane sugar, organic expeller pressed canola oil, organic lemon juice concentrate, organic acerola cherry powder, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/rockin-grains-muffins",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "ROCKIN' GRAINS ENGLISH MUFFINS\nROCKIN' GRAINS ENGLISH MUFFINS\nDAVE’S KILLER BREAD\nWater, organic wheat (organic whole wheat flour, organic wheat flour), organic rockin' grains® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic millet, organic quinoa), yeast, organic malted barley extract, contains 2% or less of each of the following: organic wheat gluten, organic cultured wheat flour, organic whole grain cornmeal, organic vinegar, sea salt, organic cane sugar, organic expeller pressed canola oil, organic lemon juice concentrate, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat.",
+            "notes": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "ROCKIN' GRAINS ENGLISH MUFFINS\nROCKIN' GRAINS ENGLISH MUFFINS",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US manufacturer heading, flavor and full ingredient/declaration panel reviewed. Whitespace normalized only. No separate precautionary statement or package net weight documented on the reviewed page; both remain unknown. No warning copied from another formulation or retailer.",
+        "sourceCaptureSha256": "46f6a13a3119c0dbed57b582251b2592a9c1d58fbb36d57d3a082425f83608fb"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-american-blend",
+        "name": "American Blend",
+        "brand": "Dole",
+        "variant": "American Blend",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "ICEBERG LETTUCE, GREEN LEAF LETTUCE, RED CABBAGE, CARROTS, RADISHES.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/american-blend",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "American Blend\nAmerican Blend\nDole\nICEBERG LETTUCE, GREEN LEAF LETTUCE, RED CABBAGE, CARROTS, RADISHES.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "American Blend\nAmerican Blend",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown.",
+        "sourceCaptureSha256": "e574d01432b1cd8aedbebdb9895098423b41b8f0713e77d004e7d90e977cc338"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-arugula",
+        "name": "Arugula",
+        "brand": "Dole",
+        "variant": "Arugula",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "ARUGULA",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/arugula",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Arugula\nArugula\nDole\nARUGULA",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Arugula\nArugula",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown.",
+        "sourceCaptureSha256": "45c45adabb761b07ce7f20cff04ddc1af43f206674eb933e9573da2d0cc8c13f"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-butter-bliss",
+        "name": "Butter Bliss",
+        "brand": "Dole",
+        "variant": "Butter Bliss",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "BUTTER LETTUCE, RED LEAF LETTUCE.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/butter-bliss",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Butter Bliss\nButter Bliss\nDole\nBUTTER LETTUCE, RED LEAF LETTUCE.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Butter Bliss\nButter Bliss",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown.",
+        "sourceCaptureSha256": "89cec67e09f7493a27c4ffdb09fbf8e5a665244c91cfdf4980f8048f768df60b"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-italian-blend",
+        "name": "Italian Blend",
+        "brand": "Dole",
+        "variant": "Italian Blend",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "VEGETABLES: ROMAINE LETTUCE, RADICCHIO.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/italian-blend",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Italian Blend\nItalian Blend\nDole\nVEGETABLES: ROMAINE LETTUCE, RADICCHIO.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Italian Blend\nItalian Blend",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown.",
+        "sourceCaptureSha256": "4bddca8780bf037815ea6481534f23e2a42c4f8637cf9142ac690306fe37dda4"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-spring-mix",
+        "name": "Spring Mix",
+        "brand": "Dole",
+        "variant": "Spring Mix",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "VEGETABLES: BABY LETTUCES(RED OAK, GREEN OAK, TANGO, LOLLA ROSSA, RED LEAF, GREEN LEAF), BABY GREENS(MIZUNA, ARUGULA, TATSOI, MACHE, RED CHARD, GREEN CHARD, BABY SPINACH, KALE, ENDIVE), RADICCHIO. INGREDIENTS MAY VARY.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/spring-mix",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Spring Mix\nSpring Mix\nDole\nVEGETABLES: BABY LETTUCES(RED OAK, GREEN OAK, TANGO, LOLLA ROSSA, RED LEAF, GREEN LEAF), BABY GREENS(MIZUNA, ARUGULA, TATSOI, MACHE, RED CHARD, GREEN CHARD, BABY SPINACH, KALE, ENDIVE), RADICCHIO. INGREDIENTS MAY VARY.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Spring Mix\nSpring Mix",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown.",
+        "sourceCaptureSha256": "1f2501b4eff98b93a79ee31ba4934da209e4744f167127aea031d96e581bdd3b"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-5050-blend",
+        "name": "50/50 Blend",
+        "brand": "Dole",
+        "variant": "50/50 Blend",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "BABY SPINACH , BABY LETTUCES (RED OAK, GREEN OAK, TANGO, LOLLA ROSSA, RED LEAF, GREEN LEAF), BABY GREENS (MIZUNA, ARUGULA, TATSOI, MACHE, RED CHARD, GREEN CHARD, KALE, ENDIVE), RADICCHIO. INGREDIENTS MAY VARY.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/5050-blend",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "50/50 Blend\n50/50 Blend\nDole\nBABY SPINACH , BABY LETTUCES (RED OAK, GREEN OAK, TANGO, LOLLA ROSSA, RED LEAF, GREEN LEAF), BABY GREENS (MIZUNA, ARUGULA, TATSOI, MACHE, RED CHARD, GREEN CHARD, KALE, ENDIVE), RADICCHIO. INGREDIENTS MAY VARY.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "50/50 Blend\n50/50 Blend",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. No separate contains declaration documented; remains unknown.",
+        "sourceCaptureSha256": "a200b231b1e4d7fd5dd6bcf16b98291b14fce0ec749f8d5cc20b702afc44c9c4"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-chopped-caesar-kit",
+        "name": "Chopped Caesar Kit",
+        "brand": "Dole",
+        "variant": "Chopped Caesar Kit",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "VEGETABLES: ROMAINE LETTUCE. DRESSING: SOYBEAN OIL, WATER, PARMESAN CHEESE (PASTEURIZED PART SKIM MILK, CHEESE CULTURES, SALT, ENZYMES), CORN VINEGAR, SALT, DISTILLED VINEGAR, SUGAR , CONTAINS LESS THAN 2% OF EGG YOLKS, ANCHOVY, CITRIC ACID, SPICES (MUSTARD) , XANTHAN GUM, DEHYDRATED GARLIC, LEMON JUICE CONCENTRATE, NATURAL FLAVORS (CONTAINS MILK), DEHYDRATED ONION. PARMESAN CHEESE: PARMESAN CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), POWDERED CELLULOSE (TO PREVENT CAKING), NATAMYCIN (A NATURAL MOLD INHIBITOR). CRUMBLED GARLIC CROUTONS: ENRICHED WHEAT FLOUR (ENRICHED WITH NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), CANOLA OIL, SUGAR, SALT, YEAST, DEHYDRATED GARLIC, MALTODEXTRIN, ROASTED DEHYDRATED GARLIC, NATURAL FLAVOR .",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: EGG, WHEAT, MILK, FISH (ANCHOVIES), MUSTARD.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "egg",
+          "fish",
+          "mustard"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/chopped-caesar-kit",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chopped Caesar Kit\nChopped Caesar Kit\nDole\nVEGETABLES: ROMAINE LETTUCE. DRESSING: SOYBEAN OIL, WATER, PARMESAN CHEESE (PASTEURIZED PART SKIM MILK, CHEESE CULTURES, SALT, ENZYMES), CORN VINEGAR, SALT, DISTILLED VINEGAR, SUGAR , CONTAINS LESS THAN 2% OF EGG YOLKS, ANCHOVY, CITRIC ACID, SPICES (MUSTARD) , XANTHAN GUM, DEHYDRATED GARLIC, LEMON JUICE CONCENTRATE, NATURAL FLAVORS (CONTAINS MILK), DEHYDRATED ONION. PARMESAN CHEESE: PARMESAN CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), POWDERED CELLULOSE (TO PREVENT CAKING), NATAMYCIN (A NATURAL MOLD INHIBITOR). CRUMBLED GARLIC CROUTONS: ENRICHED WHEAT FLOUR (ENRICHED WITH NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), CANOLA OIL, SUGAR, SALT, YEAST, DEHYDRATED GARLIC, MALTODEXTRIN, ROASTED DEHYDRATED GARLIC, NATURAL FLAVOR .\nCONTAINS: EGG, WHEAT, MILK, FISH (ANCHOVIES), MUSTARD.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chopped Caesar Kit\nChopped Caesar Kit",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim.",
+        "sourceCaptureSha256": "9147c109a272bfb806343def246ccbc640e6547f9cebf6d2c21b2372f1cf484b"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-chopped-bbq-ranch-kit",
+        "name": "Chopped BBQ Ranch Kit",
+        "brand": "Dole",
+        "variant": "Chopped BBQ Ranch Kit",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "VEGETABLES: GREEN CABBAGE, ROMAINE, CARROTS, RED CABBAGE, DRESSING: SOYBEAN OIL, CULTURED LOWFAT BUTTERMILK, WATER, SUGAR, DISTILLED VINEGAR, TOMATO PASTE, EGG YOLKS, SALT, CONTAINS LESS THAN 2% OF PINEAPPLE JUICE CONCENTRATE, MOLASSES, MUSTARD FLOUR, DEHYDRATED GREEN ONION, DEHYDRATED GARLIC, SPICES, NATURAL FLAVORS (INCLUDES CELERY), XANTHAN GUM, OLEORESIN PAPRIKA (COLOR). CHEESE: CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES, ANNATO), POWDERED CELLULOSE (TO PREVENT CAKING) . CRISPY ONIONS: ONION, ENRICHED FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUNFLOWER, SAFFLOWER AND/OR CANOLA OIL, SALT.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: MILK, EGG, WHEAT, MUSTARD.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "egg",
+          "mustard"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/chopped-bbq-ranch-kit",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chopped BBQ Ranch Kit\nChopped BBQ Ranch Kit\nDole\nVEGETABLES: GREEN CABBAGE, ROMAINE, CARROTS, RED CABBAGE, DRESSING: SOYBEAN OIL, CULTURED LOWFAT BUTTERMILK, WATER, SUGAR, DISTILLED VINEGAR, TOMATO PASTE, EGG YOLKS, SALT, CONTAINS LESS THAN 2% OF PINEAPPLE JUICE CONCENTRATE, MOLASSES, MUSTARD FLOUR, DEHYDRATED GREEN ONION, DEHYDRATED GARLIC, SPICES, NATURAL FLAVORS (INCLUDES CELERY), XANTHAN GUM, OLEORESIN PAPRIKA (COLOR). CHEESE: CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES, ANNATO), POWDERED CELLULOSE (TO PREVENT CAKING) . CRISPY ONIONS: ONION, ENRICHED FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUNFLOWER, SAFFLOWER AND/OR CANOLA OIL, SALT.\nCONTAINS: MILK, EGG, WHEAT, MUSTARD.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chopped BBQ Ranch Kit\nChopped BBQ Ranch Kit",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim.",
+        "sourceCaptureSha256": "3b7c45201fd3dace5ff57c663c44b49ea0af1adbc5c92adfd5cf4450a83276cd"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-chopped-avocado-ranch-salad-kit",
+        "name": "Chopped Avocado Ranch Salad Kit",
+        "brand": "Dole",
+        "variant": "Chopped Avocado Ranch Salad Kit",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "VEGETABLES: GREEN CABBAGE, GREEN LEAF LETTUCE, KALE, RED CABBAGE, CARROTS, GREEN ONION. DRESSING: SOYBEAN OIL, WATER, AVOCADO PULP, WHITE WINE VINEGAR, EGG YOLKS, CONTAINS LESS THAN 2% OF SALT, DISTILLED VINEGAR, HONEY, DEHYDRATED GARLIC, SPICES, LIME JUICE CONCENTRATE, DEHYDRATED ONION, XANTHAN GUM, LACTIC ACID, NATURAL FLAVOR (INCLUDES MILK). CHEESE:CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), POWDERED CELLULOSE (TO PREVENT CAKING). SUPER SWEET CORN.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: EGG, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "egg"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/chopped-avocado-ranch-salad-kit",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chopped Avocado Ranch Salad Kit\nChopped Avocado Ranch Salad Kit\nDole\nVEGETABLES: GREEN CABBAGE, GREEN LEAF LETTUCE, KALE, RED CABBAGE, CARROTS, GREEN ONION. DRESSING: SOYBEAN OIL, WATER, AVOCADO PULP, WHITE WINE VINEGAR, EGG YOLKS, CONTAINS LESS THAN 2% OF SALT, DISTILLED VINEGAR, HONEY, DEHYDRATED GARLIC, SPICES, LIME JUICE CONCENTRATE, DEHYDRATED ONION, XANTHAN GUM, LACTIC ACID, NATURAL FLAVOR (INCLUDES MILK). CHEESE:CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), POWDERED CELLULOSE (TO PREVENT CAKING). SUPER SWEET CORN.\nCONTAINS: EGG, MILK.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chopped Avocado Ranch Salad Kit\nChopped Avocado Ranch Salad Kit",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim.",
+        "sourceCaptureSha256": "c94cb10083cf6657f0865f4e83256002c513933e45973b808fd0d1096d7e8b31"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-dole-chopped-bacon-caesar-salad-kit",
+        "name": "Chopped Bacon Caesar Salad Kit",
+        "brand": "Dole",
+        "variant": "Chopped Bacon Caesar Salad Kit",
+        "packageSize": null,
+        "category": "produce",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "VEGETABLES: ROMAINE LETTUCE.DRESSING: SOYBEAN OIL, WATER, PARMESAN CHEESE (PASTEURIZED PART SKIM MILK, CHEESE CULTURES, SALT, ENZYMES), CORN VINEGAR, SALT, DISTILLED VINEGAR, SUGAR, CONTAINS LESS THAN 2% OF EGG YOLKS, ANCHOVY, CITRIC ACID, SPICES(MUSTARD), XANTHAN GUM, DEHYDRATED GARLIC, LEMON JUICE CONCENTRATE,NATURAL FLAVORS (MILK), DEHYDRATED ONION. CROUTONS: ENRICHED WHEAT FLOUR (ENRICHED WITH NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), EXPELLER PRESSED SUNFLOWER OIL, SUGAR, SALT, MALTODEXTRIN, YEAST, SUNFLOWER OIL, DEXTROSE, TORULA YEAST, YEAST EXTRACT, ONION POWDER, GARLIC POWDER, NATURAL SMOKE FLAVOR, RENDERED BACON FAT, SPICE, GUM ARABIC, NATURAL FLAVOR. BACON: PORK, WATER, SALT, SUGAR, SMOKE FLAVORING, CELERY POWDER, SEA SALT. SEASONING: SPICES, SALT, DEHYDRATED GARLIC, DEHYDRATED ONION, DEHYDRATED RED BELL PEPPER, YEAST EXTRACT,SPICE EXTRACTIVE, OIL OF GARLIC.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: EGG, WHEAT, MILK, FISH (ANCHOVIES), MUSTARD.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "egg",
+          "fish",
+          "mustard"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://dolefreshvegetables.com/produce/chopped-bacon-caesar-salad-kit",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chopped Bacon Caesar Salad Kit\nChopped Bacon Caesar Salad Kit\nDole\nVEGETABLES: ROMAINE LETTUCE.DRESSING: SOYBEAN OIL, WATER, PARMESAN CHEESE (PASTEURIZED PART SKIM MILK, CHEESE CULTURES, SALT, ENZYMES), CORN VINEGAR, SALT, DISTILLED VINEGAR, SUGAR, CONTAINS LESS THAN 2% OF EGG YOLKS, ANCHOVY, CITRIC ACID, SPICES(MUSTARD), XANTHAN GUM, DEHYDRATED GARLIC, LEMON JUICE CONCENTRATE,NATURAL FLAVORS (MILK), DEHYDRATED ONION. CROUTONS: ENRICHED WHEAT FLOUR (ENRICHED WITH NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), EXPELLER PRESSED SUNFLOWER OIL, SUGAR, SALT, MALTODEXTRIN, YEAST, SUNFLOWER OIL, DEXTROSE, TORULA YEAST, YEAST EXTRACT, ONION POWDER, GARLIC POWDER, NATURAL SMOKE FLAVOR, RENDERED BACON FAT, SPICE, GUM ARABIC, NATURAL FLAVOR. BACON: PORK, WATER, SALT, SUGAR, SMOKE FLAVORING, CELERY POWDER, SEA SALT. SEASONING: SPICES, SALT, DEHYDRATED GARLIC, DEHYDRATED ONION, DEHYDRATED RED BELL PEPPER, YEAST EXTRACT,SPICE EXTRACTIVE, OIL OF GARLIC.\nCONTAINS: EGG, WHEAT, MILK, FISH (ANCHOVIES), MUSTARD.",
+            "notes": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chopped Bacon Caesar Salad Kit\nChopped Bacon Caesar Salad Kit",
+        "brandEvidence": "Dole",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official Dole product identity and all ingredient component paragraphs reviewed. Whitespace normalized only; original punctuation and manufacturer wording retained, including INGREDIENTS MAY VARY where printed. Optional recipe/topping suggestions are excluded. No package size inferred from servings. No separate precautionary statement documented; remains unknown. The explicit contains declaration is preserved verbatim.",
+        "sourceCaptureSha256": "47e41512827d589307a7f43c1e9c1524e7d60da5a8a584c5e4df17950c1633ee"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-jimmy-maple",
+        "name": "Maple Premium Pork Sausage",
+        "brand": "Jimmy Dean",
+        "variant": "Maple Premium Pork Sausage",
+        "packageSize": "16 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900301001",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, sugar, contains 2% or less: pork broth, salt, maple flavor (water, propylene glycol, corn syrup, natural flavor, caramel color, maple syrup), vinegar, monosodium glutamate, natural flavor, benzaldehyde.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900301001",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Maple Premium Pork Sausage\nMaple Premium Pork Sausage\n16 oz\nJimmy Dean\nPork, water, sugar, contains 2% or less: pork broth, salt, maple flavor (water, propylene glycol, corn syrup, natural flavor, caramel color, maple syrup), vinegar, monosodium glutamate, natural flavor, benzaldehyde.\n00077900301001\n\"gtin\":\"00077900301001\"",
+            "notes": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Maple Premium Pork Sausage\nMaple Premium Pork Sausage\n16 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "92203b865e2af46dbc5ab7e5f3751375045fed81851e09bd346ceaeb81f48c88"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-jimmy-turkey",
+        "name": "Premium Turkey Sausage Roll",
+        "brand": "Jimmy Dean",
+        "variant": "Premium Turkey Sausage Roll",
+        "packageSize": "16 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900003349",
+        "imageReference": null,
+        "ingredientLabelText": "Ingredients: turkey, water, contains 2% or less of: corn syrup, natural flavors, salt, sugar, vinegar.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900003349",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Premium Turkey Sausage Roll\nPremium Turkey Sausage Roll\n16 oz\nJimmy Dean\nIngredients: turkey, water, contains 2% or less of: corn syrup, natural flavors, salt, sugar, vinegar.\n00077900003349\n\"gtin\":\"00077900003349\"",
+            "notes": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Premium Turkey Sausage Roll\nPremium Turkey Sausage Roll\n16 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "bea8f65d9a9280250324d834b431d80c32ff03e913ca8b6f90f3b1b21a842189"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-jimmy-hot",
+        "name": "Hot Premium Pork Sausage",
+        "brand": "Jimmy Dean",
+        "variant": "Hot Premium Pork Sausage",
+        "packageSize": "16 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900115639",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less of: pork broth, corn syrup, salt, spices, vinegar, sugar, monosodium glutamate, natural flavor.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900115639",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Hot Premium Pork Sausage\nHot Premium Pork Sausage\n16 oz\nJimmy Dean\nPork, water, contains 2% or less of: pork broth, corn syrup, salt, spices, vinegar, sugar, monosodium glutamate, natural flavor.\n00077900115639\n\"gtin\":\"00077900115639\"",
+            "notes": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Hot Premium Pork Sausage\nHot Premium Pork Sausage\n16 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "0b2a1d98e7c74ba7113251cf41149acbd287f2cecc4c5b4fbfc00200029b8aa5"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-jimmy-country-mild",
+        "name": "Country Mild Premium Pork Sausage",
+        "brand": "Jimmy Dean",
+        "variant": "Country Mild Premium Pork Sausage",
+        "packageSize": "16 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900114618",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less: corn syrup, pork broth, salt, spices, vinegar, monosodium glutamate, natural flavor.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900114618",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Country Mild Premium Pork Sausage\nCountry Mild Premium Pork Sausage\n16 oz\nJimmy Dean\nPork, water, contains 2% or less: corn syrup, pork broth, salt, spices, vinegar, monosodium glutamate, natural flavor.\n00077900114618\n\"gtin\":\"00077900114618\"",
+            "notes": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Country Mild Premium Pork Sausage\nCountry Mild Premium Pork Sausage\n16 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "cc20c2e42cfd193345a80b82e7380ff5760f91fa8eb582f34f2d3a58f8a8df86"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-jimmy-italian",
+        "name": "Italian Premium Pork Sausage",
+        "brand": "Jimmy Dean",
+        "variant": "Italian Premium Pork Sausage",
+        "packageSize": "16 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900210501",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less: corn syrup, salt, natural flavor, vinegar, sugar, sea salt, paprika, pork broth.;",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900210501",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Italian Premium Pork Sausage\nItalian Premium Pork Sausage\n16 oz\nJimmy Dean\nPork, water, contains 2% or less: corn syrup, salt, natural flavor, vinegar, sugar, sea salt, paprika, pork broth.;\n00077900210501\n\"gtin\":\"00077900210501\"",
+            "notes": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Italian Premium Pork Sausage\nItalian Premium Pork Sausage\n16 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact fresh-sausage variety, 16 oz roll description, full ingredient panel and matching product JSON-LD gtin reviewed. This is the fresh roll, not a fully cooked link/patty or foodservice formulation. Original wording/punctuation retained; whitespace normalized only. No separate allergen declaration or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "e5d2516801d96cfe6a4917c14eb5db9ac052908ab0691597e1920b4a75f8dccf"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-stouffers-chicken-a-la-king",
+        "name": "Chicken à la King",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": null,
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "COOKED ENRICHED LONG GRAIN RICE (WATER, RICE, IRON, NIACIN, THIAMIN MONONITRATE, FOLIC ACID), SKIM MILK, COOKED WHITE MEAT CHICKEN, WATER, MUSHROOMS, SOYBEAN OIL, CELERY, RED BELL PEPPERS, 2% OR LESS OF CREAM, PEAS, ONIONS, MODIFIED FOOD STARCH, BLEACHED WHEAT FLOUR, GREEN BELL PEPPERS, SALT, CHICKEN FAT, CHICKEN BROTH, MODIFIED TAPIOCA STARCH, AUTOLYZED YEAST EXTRACT, CARRAGEENAN, CHICKEN FLAVOR (DRIED CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR), WHEY PROTEIN CONCENTRATE, SODIUM PHOSPHATE, CORN SYRUP SOLIDS, NATURAL FLAVORS, POTASSIUM SALT, CHICKEN POWDER, MUSHROOM JUICE CONCENTRATE, TURMERIC, SODIUM LACTATE, SUGAR, LACTIC ACID.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/chicken-a-la-king/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chicken à la King\nFor One\nSTOUFFER'S\nCOOKED ENRICHED LONG GRAIN RICE (WATER, RICE, IRON, NIACIN, THIAMIN MONONITRATE, FOLIC ACID), SKIM MILK, COOKED WHITE MEAT CHICKEN, WATER, MUSHROOMS, SOYBEAN OIL, CELERY, RED BELL PEPPERS, 2% OR LESS OF CREAM, PEAS, ONIONS, MODIFIED FOOD STARCH, BLEACHED WHEAT FLOUR, GREEN BELL PEPPERS, SALT, CHICKEN FAT, CHICKEN BROTH, MODIFIED TAPIOCA STARCH, AUTOLYZED YEAST EXTRACT, CARRAGEENAN, CHICKEN FLAVOR (DRIED CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR), WHEY PROTEIN CONCENTRATE, SODIUM PHOSPHATE, CORN SYRUP SOLIDS, NATURAL FLAVORS, POTASSIUM SALT, CHICKEN POWDER, MUSHROOM JUICE CONCENTRATE, TURMERIC, SODIUM LACTATE, SUGAR, LACTIC ACID.\nCONTAINS: WHEAT, MILK.",
+            "notes": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chicken à la King\nFor One",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "9a19bb3adc9c4403e79efcca14bdc9d2274f4dbb532ed8634853f694cde486ca"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-stouffers-baked-chicken",
+        "name": "Baked Chicken",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "251 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "COOKED CHICKEN BREAST FILLETS (CHICKEN BREAST FILLETS, WATER, BROWN SUGAR, MODIFIED RICE STARCH, CANOLA OIL, CHICKEN FLAVOR [DRIED CHICKEN BROTH, CHICKEN POWDER, FLAVOR, SALT], SODIUM PHOSPHATES, CARRAGEENAN, SALT, WHITE PEPPER, PAPRIKA), POTATOES, WATER, CREAM, 2% OR LESS OF CHICKEN BROTH, SKIM MILK, ONIONS, CHICKEN FAT, MODIFIED FOOD STARCH, SALT, BLEACHED WHEAT FLOUR, MALTODEXTRIN, SOYBEAN OIL, DRIED CREAM (CREAM, NONFAT MILK, CULTURES), ENZYME MODIFIED BUTTERMILK SOLIDS, MONO- AND DIGLYCERIDES, CARAMEL COLOR, SPICES, AUTOLYZED YEAST EXTRACT, NATURAL FLAVORS, WHEY POWDER, POTASSIUM SALT, ENZYME MODIFIED WHEY POWDER, DRIED GARLIC, CHICKEN AND CHICKEN BROTH (WATER, CHICKEN BROTH), DRIED ONIONS, SOY SAUCE POWDER (SOY SAUCE [WHEAT, SOYBEANS, SALT], MALTODEXTRIN, SALT), CITRIC ACID, XANTHAN GUM, CULTURED WHEY, TURMERIC, GUM ARABIC, CHICKEN STOCK, DEXTROSE, CORN SYRUP SOLIDS, LACTIC ACID, SODIUM CITRATE, TOCOPHEROL, VINEGAR, ACETIC ACID.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK, SOY.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/baked-chicken/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Baked Chicken\nFor One\n251 g\nSTOUFFER'S\nCOOKED CHICKEN BREAST FILLETS (CHICKEN BREAST FILLETS, WATER, BROWN SUGAR, MODIFIED RICE STARCH, CANOLA OIL, CHICKEN FLAVOR [DRIED CHICKEN BROTH, CHICKEN POWDER, FLAVOR, SALT], SODIUM PHOSPHATES, CARRAGEENAN, SALT, WHITE PEPPER, PAPRIKA), POTATOES, WATER, CREAM, 2% OR LESS OF CHICKEN BROTH, SKIM MILK, ONIONS, CHICKEN FAT, MODIFIED FOOD STARCH, SALT, BLEACHED WHEAT FLOUR, MALTODEXTRIN, SOYBEAN OIL, DRIED CREAM (CREAM, NONFAT MILK, CULTURES), ENZYME MODIFIED BUTTERMILK SOLIDS, MONO- AND DIGLYCERIDES, CARAMEL COLOR, SPICES, AUTOLYZED YEAST EXTRACT, NATURAL FLAVORS, WHEY POWDER, POTASSIUM SALT, ENZYME MODIFIED WHEY POWDER, DRIED GARLIC, CHICKEN AND CHICKEN BROTH (WATER, CHICKEN BROTH), DRIED ONIONS, SOY SAUCE POWDER (SOY SAUCE [WHEAT, SOYBEANS, SALT], MALTODEXTRIN, SALT), CITRIC ACID, XANTHAN GUM, CULTURED WHEY, TURMERIC, GUM ARABIC, CHICKEN STOCK, DEXTROSE, CORN SYRUP SOLIDS, LACTIC ACID, SODIUM CITRATE, TOCOPHEROL, VINEGAR, ACETIC ACID.\nCONTAINS: WHEAT, MILK, SOY.",
+            "notes": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Baked Chicken\nFor One\n251 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "308758ef350d666464718500eb29e5beca66556d675549125b7307d8a3aa0bba"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-stouffers-fried-chicken",
+        "name": "Fried Chicken",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "251 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "COOKED BREADED CHICKEN BREAST PATTIES WITH RIB MEAT (CHICKEN BREAST MEAT WITH RIB MEAT, WATER, ENRICHED WHEAT FLOUR [WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID], MODIFIED FOOD STARCH, YELLOW CORN FLOUR, WHEAT FLOUR, CONTAINS 1% OR LESS OF SALT, ISOLATED SOY PROTEIN, RICE STARCH, DEXTROSE, CHICKEN FLAVOR [DRIED CHICKEN BROTH, CHICKEN POWDER, FLAVOR], SODIUM PHOSPHATES, SPICES, PAPRIKA EXTRACTS, YEAST, XANTHAN GUM. BREADING SET IN VEGETABLE OIL), POTATOES, WATER, CREAM, 2% OR LESS OF SKIM MILK, CHICKEN BROTH, ONIONS, CHICKEN FAT, MODIFIED FOOD STARCH, SALT, MALTODEXTRIN, BLEACHED WHEAT FLOUR, DRIED CREAM, SOYBEAN OIL, CORNSTARCH, ENZYME MODIFIED BUTTERMILK SOLIDS, MONO- AND DIGLYCERIDES, SPICES, CARAMEL COLOR, AUTOLYZED YEAST EXTRACT, WHEY, NATURAL FLAVORS, POTASSIUM SALT, REDUCED LACTOSE WHEY, DRIED GARLIC, CHICKEN AND CHICKEN BROTH (WATER, CHICKEN BROTH), CITRIC ACID, DRIED ONIONS, SOY SAUCE POWDER (SOY SAUCE [WHEAT, SOY BEANS, SALT], MALTODEXTRIN, SALT), XANTHAN GUM, CULTURED WHEY, TURMERIC, GUM ARABIC, CHICKEN STOCK, DEXTROSE, CORN SYRUP SOLIDS, LACTIC ACID, SODIUM CITRATE, TOCOPHEROL, VINGER, ACETIC ACID.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK, SOY.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/fried-chicken/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Fried Chicken\nFor One\n251 g\nSTOUFFER'S\nCOOKED BREADED CHICKEN BREAST PATTIES WITH RIB MEAT (CHICKEN BREAST MEAT WITH RIB MEAT, WATER, ENRICHED WHEAT FLOUR [WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID], MODIFIED FOOD STARCH, YELLOW CORN FLOUR, WHEAT FLOUR, CONTAINS 1% OR LESS OF SALT, ISOLATED SOY PROTEIN, RICE STARCH, DEXTROSE, CHICKEN FLAVOR [DRIED CHICKEN BROTH, CHICKEN POWDER, FLAVOR], SODIUM PHOSPHATES, SPICES, PAPRIKA EXTRACTS, YEAST, XANTHAN GUM. BREADING SET IN VEGETABLE OIL), POTATOES, WATER, CREAM, 2% OR LESS OF SKIM MILK, CHICKEN BROTH, ONIONS, CHICKEN FAT, MODIFIED FOOD STARCH, SALT, MALTODEXTRIN, BLEACHED WHEAT FLOUR, DRIED CREAM, SOYBEAN OIL, CORNSTARCH, ENZYME MODIFIED BUTTERMILK SOLIDS, MONO- AND DIGLYCERIDES, SPICES, CARAMEL COLOR, AUTOLYZED YEAST EXTRACT, WHEY, NATURAL FLAVORS, POTASSIUM SALT, REDUCED LACTOSE WHEY, DRIED GARLIC, CHICKEN AND CHICKEN BROTH (WATER, CHICKEN BROTH), CITRIC ACID, DRIED ONIONS, SOY SAUCE POWDER (SOY SAUCE [WHEAT, SOY BEANS, SALT], MALTODEXTRIN, SALT), XANTHAN GUM, CULTURED WHEY, TURMERIC, GUM ARABIC, CHICKEN STOCK, DEXTROSE, CORN SYRUP SOLIDS, LACTIC ACID, SODIUM CITRATE, TOCOPHEROL, VINGER, ACETIC ACID.\nCONTAINS: WHEAT, MILK, SOY.",
+            "notes": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Fried Chicken\nFor One\n251 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "964b4aaa630281e6142963223fe31905586961b99dadc2a6452b7fbf85b8e7af"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-stouffers-escalloped-chicken-and-noodles-12-oz",
+        "name": "Escalloped Chicken & Noodles Casserole",
+        "brand": "STOUFFER'S",
+        "variant": "NET WT 12 OZ",
+        "packageSize": "12 OZ",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "SKIM MILK, WATER, COOKED NOODLES (WATER, SEMOLINA WHEAT FLOUR, EGGS), COOKED WHITE MEAT CHICKEN, SOYBEAN OIL, BREADCRUMBS (WHEAT FLOUR, SUGAR, YEAST, SOYBEAN OIL, SALT), CELERY, MUSHROOMS, 2% OR LESS OF CARROTS, BLEACHED WHEAT FLOUR, MODIFIED FOOD STARCH, PEAS, SALT, CHICKEN FAT, MODIFIED TAPIOCA STARCH, POTASSIUM CHLORIDE, SUGAR, CARRAGEENAN, CHICKEN FLAVOR (DRIED CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR), WHEY PROTEIN CONCENTRATE, CORN SYRUP SOLIDS, SODIUM PHOSPHATE, AUTOLYZED YEAST EXTRACT, SPICES, CHICKEN BROTH, NATURAL FLAVORS, LACTIC ACID, CALCIUM LACTATE, TURMERIC.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: EGG, WHEAT, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "egg"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/escalloped-chicken-and-noodles-12-oz/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Escalloped Chicken & Noodles Casserole\nNET WT 12 OZ\n12 OZ\nSTOUFFER'S\nSKIM MILK, WATER, COOKED NOODLES (WATER, SEMOLINA WHEAT FLOUR, EGGS), COOKED WHITE MEAT CHICKEN, SOYBEAN OIL, BREADCRUMBS (WHEAT FLOUR, SUGAR, YEAST, SOYBEAN OIL, SALT), CELERY, MUSHROOMS, 2% OR LESS OF CARROTS, BLEACHED WHEAT FLOUR, MODIFIED FOOD STARCH, PEAS, SALT, CHICKEN FAT, MODIFIED TAPIOCA STARCH, POTASSIUM CHLORIDE, SUGAR, CARRAGEENAN, CHICKEN FLAVOR (DRIED CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR), WHEY PROTEIN CONCENTRATE, CORN SYRUP SOLIDS, SODIUM PHOSPHATE, AUTOLYZED YEAST EXTRACT, SPICES, CHICKEN BROTH, NATURAL FLAVORS, LACTIC ACID, CALCIUM LACTATE, TURMERIC.\nCONTAINS: EGG, WHEAT, MILK.",
+            "notes": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Escalloped Chicken & Noodles Casserole\nNET WT 12 OZ\n12 OZ",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "1d9495ec9c3ddd17d31ffec7fcbb1ac1ff9f1ef3db8cc5483bc6b15f81c0fde1"
+      }
+    },
+    {
+      "product": {
+        "id": "batch04-stouffers-swedish-meatballs",
+        "name": "Swedish Meatballs",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "326 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "WATER, COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), COOKED GROUND BEEF AND PORK BLEND, SOUR CREAM (CULTURED CREAM, NONFAT MILK), 2% OR LESS OF SOYBEAN OIL, ROLLED OATS, MODIFIED FOOD STARCH, TEXTURED SOY FLOUR, RENDERED BEEF FAT, SALT, TOMATO PUREE (WATER, TOMATO PASTE), DRIED ONIONS, REDUCED LACTOSE WHEY, COOKED BEEF, BLEACHED WHEAT FLOUR, SOY SAUCE (SOYBEANS, WHEAT, SALT), DATEM AND MONO-DIGLYCERIDES, WORCESTERSHIRE SAUCE (VINEGAR, MOLASSES, WATER, TAMARIND, NATURAL FLAVOR, SUGAR, SALT, CARAMEL COLOR, ONION, GARLIC), BEEF STOCK, CARAMEL COLOR, MALTODEXTRIN, SPICES, SUGAR, GUAR GUM, AUTOLYZED YEAST EXTRACT, DRIED GARLIC, NATURAL FLAVORS, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), BEEF STOCK CONCENTRATE, GUM ARABIC, DEXTROSE, SODIUM PHOSPHATES, NATURAL FLAVORS (INCLUDES MODIFIED BUTTER FATS & OILS), LACTIC ACID.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK, SOY.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/swedish-meatballs/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Swedish Meatballs\nFor One\n326 g\nSTOUFFER'S\nWATER, COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), COOKED GROUND BEEF AND PORK BLEND, SOUR CREAM (CULTURED CREAM, NONFAT MILK), 2% OR LESS OF SOYBEAN OIL, ROLLED OATS, MODIFIED FOOD STARCH, TEXTURED SOY FLOUR, RENDERED BEEF FAT, SALT, TOMATO PUREE (WATER, TOMATO PASTE), DRIED ONIONS, REDUCED LACTOSE WHEY, COOKED BEEF, BLEACHED WHEAT FLOUR, SOY SAUCE (SOYBEANS, WHEAT, SALT), DATEM AND MONO-DIGLYCERIDES, WORCESTERSHIRE SAUCE (VINEGAR, MOLASSES, WATER, TAMARIND, NATURAL FLAVOR, SUGAR, SALT, CARAMEL COLOR, ONION, GARLIC), BEEF STOCK, CARAMEL COLOR, MALTODEXTRIN, SPICES, SUGAR, GUAR GUM, AUTOLYZED YEAST EXTRACT, DRIED GARLIC, NATURAL FLAVORS, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), BEEF STOCK CONCENTRATE, GUM ARABIC, DEXTROSE, SODIUM PHOSPHATES, NATURAL FLAVORS (INCLUDES MODIFIED BUTTER FATS & OILS), LACTIC ACID.\nCONTAINS: WHEAT, MILK, SOY.",
+            "notes": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. No image rights established; use the existing placeholder. Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Swedish Meatballs\nFor One\n326 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer product heading, serving variant, complete ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP source access is blocked; capture hash refers to the rendered page excerpt. Multi-line ingredient paragraphs joined with whitespace only; manufacturer spelling retained. Net weight recorded only when explicitly printed or a whole package is the serving. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "321cc630b86036f0e1e50eb966defe4d83cc475d53385617fc7649ea9559cfc1"
+      }
+    }
+  ]
+}

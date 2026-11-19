@@ -1,0 +1,17 @@
+{
+  "productId": "batch03-hershey-hersheys-milk-chocolate-chips-11-5-oz-bag",
+  "name": "HERSHEY'S HERSHEY'S Milk Chocolate Chips",
+  "subject": "A small mound of milk chocolate baking chips, small conical drops with circular flat bases and curled pointed tips, realistic medium-brown chocolate. No chocolate bar, nuts, cookie or bag.",
+  "sourceUrls": [
+    "https://www.hersheyland.com/products/hersheys-milk-chocolate-chips-11-5-oz-bag.html",
+    "https://s7d1.scene7.com/is/image/hersheyprodcloud/0_34000_14600_0_701_14600_018_Item_Back?fmt=webp-alpha&hei=1800&qlt=75"
+  ],
+  "ingredientSha256": "263934349cfe06e24d8e6f7c5c1ba0993b1372cf62fe15692cb69b995b091d47",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. A small mound of milk chocolate baking chips, small conical drops with circular flat bases and curled pointed tips, realistic medium-brown chocolate. No chocolate bar, nuts, cookie or bag.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-a6debd85-ca36-4467-9cd3-9923744f2886.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

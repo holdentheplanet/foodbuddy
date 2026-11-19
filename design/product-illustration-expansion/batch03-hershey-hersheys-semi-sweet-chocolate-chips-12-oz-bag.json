@@ -1,0 +1,17 @@
+{
+  "productId": "batch03-hershey-hersheys-semi-sweet-chocolate-chips-12-oz-bag",
+  "name": "HERSHEY'S HERSHEY'S Semi-Sweet Chocolate Chips",
+  "subject": "A small pile of semi-sweet chocolate baking chips, dark-brown conical drops with round flat bases and pointed tips, distinct arrangement. No milk chocolate, nuts, cookie or bag.",
+  "sourceUrls": [
+    "https://www.hersheyland.com/products/hersheys-semi-sweet-chocolate-chips-12-oz-bag.html",
+    "https://s7d1.scene7.com/is/image/hersheyprodcloud/0_34000_14830_1_701_14830_032_Item_Back_A?fmt=webp-alpha&hei=1800&qlt=75"
+  ],
+  "ingredientSha256": "e8d8e6cbc1b8a90acf114ea75142fa96fc5202dc8bc4c723e581e4fb0e5e357e",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. A small pile of semi-sweet chocolate baking chips, dark-brown conical drops with round flat bases and pointed tips, distinct arrangement. No milk chocolate, nuts, cookie or bag.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-3d35eeb5-96bb-409d-a8c9-15f2882b1ce1.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

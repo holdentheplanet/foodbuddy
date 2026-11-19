@@ -1,0 +1,5 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');const path=require('node:path');const load=require('./helpers/load-typescript.cjs');
+const {assessProductPage}=load(path.resolve('services/productAssessments.ts'));
+const product={id:'a'},result={status:'unknown'};
+test('a cancelled account/page request never publishes its late result',async()=>{let current=true,resolve;const pending=new Promise(r=>resolve=r),published=[];const task=assessProductPage(1,[product],{getProduct:async()=>product,check:async()=>pending,isCurrent:()=>current,publish:r=>published.push(r)});await Promise.resolve();current=false;resolve(result);await task;assert.deepEqual(published,[]);});
+test('uses the supplied account and preserves unavailable product assessments',async()=>{const seen=[],published=[];await assessProductPage(42,[product,{id:'missing'},{id:'broken'}],{getProduct:async id=>id==='missing'?null:{id},check:async(user,p)=>{seen.push(user);if(p.id==='broken')throw Error('read failure');return result;},isCurrent:()=>true,publish:r=>published.push(r)});assert.deepEqual(seen,[42,42]);assert.deepEqual(published.at(-1),{a:result});});

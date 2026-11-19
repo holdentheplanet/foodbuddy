@@ -1,0 +1,64 @@
+{
+  "targetPerMetro": 25,
+  "datasets": [
+    {
+      "metro": "New York City",
+      "completeWithin25Miles": 526,
+      "missingRequiredTagsInExtract": 967,
+      "datasetUrl": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+      "datasetTimestamp": "2026-11-17T21:24:30Z",
+      "snapshotSha256": "db5263c133ddd5f00435292c8822baec500fc24a8a311c5ea2e9a985b5b2c1d3"
+    },
+    {
+      "metro": "Atlanta",
+      "completeWithin25Miles": 235,
+      "missingRequiredTagsInExtract": 343,
+      "datasetUrl": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+      "datasetTimestamp": "2026-11-17T21:24:30Z",
+      "snapshotSha256": "1477ce7a313b591d59547f3dd76d41bda3c721afe7b24b10e639ce658ebbc3d0"
+    },
+    {
+      "metro": "Chicago",
+      "completeWithin25Miles": 477,
+      "missingRequiredTagsInExtract": 32,
+      "datasetUrl": "https://download.bbbike.org/osm/bbbike/Chicago/Chicago.osm.pbf",
+      "datasetTimestamp": "2026-11-14T00:00:00Z",
+      "snapshotSha256": "569d34f3f845a79d11d0f9d66e0b83716ddbc335e54e7ed119586653cf688c14"
+    },
+    {
+      "metro": "Dallas–Fort Worth",
+      "completeWithin25Miles": 161,
+      "missingRequiredTagsInExtract": 80,
+      "datasetUrl": "https://download.bbbike.org/osm/bbbike/Dallas/Dallas.osm.pbf",
+      "datasetTimestamp": "2026-11-14T00:00:00Z",
+      "snapshotSha256": "dd14a1f4d1252b322dc59da571495dec58be5981230210461fe66d8d4636c3c2"
+    },
+    {
+      "metro": "Denver",
+      "completeWithin25Miles": 178,
+      "missingRequiredTagsInExtract": 55,
+      "datasetUrl": "https://download.bbbike.org/osm/bbbike/Denver/Denver.osm.pbf",
+      "datasetTimestamp": "2026-11-14T00:00:00Z",
+      "snapshotSha256": "4d8f1d684bd9d0881c6ae30b02b314d7cbaf50b2c50dadd7734cb201354fe5b6"
+    },
+    {
+      "metro": "Los Angeles",
+      "completeWithin25Miles": 416,
+      "missingRequiredTagsInExtract": 253,
+      "datasetUrl": "https://download.bbbike.org/osm/bbbike/LosAngeles/LosAngeles.osm.pbf",
+      "datasetTimestamp": "2026-11-14T00:00:00Z",
+      "snapshotSha256": "5bb49609485290dd271578874f7bac5bcb2de71e8d8a297ea0f0aa1814cd004e"
+    }
+  ],
+  "approved": {
+    "New York City": 25,
+    "Atlanta": 25,
+    "Chicago": 25,
+    "Dallas–Fort Worth": 25,
+    "Denver": 25,
+    "Los Angeles": 25
+  },
+  "conflicts": [],
+  "invalid": [],
+  "notSelectedBeyondTarget": 1843
+}

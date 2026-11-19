@@ -1,0 +1,14 @@
+{
+  "publisher": "U.S. Census Bureau",
+  "release": "2025 Gazetteer; 2020 Census ZCTA geography",
+  "sourceUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_zcta_national.zip",
+  "referenceUrl": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2025.html",
+  "fields": [
+    "GEOID",
+    "INTPTLAT",
+    "INTPTLONG"
+  ],
+  "archiveSha256": "51516a4283bab5cd2376eec75609ddc4b363a18297e8adeeaac7b03cf7c84dbe",
+  "pointCount": 33791,
+  "coordinateMeaning": "Approximate ZIP-area representative internal point, not a device or street address"
+}

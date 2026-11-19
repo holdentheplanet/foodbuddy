@@ -1,0 +1,18 @@
+{
+  "productId": "batch05-dave-oats-and-blues",
+  "name": "Dave\u2019s Killer Bread OATS & BLUES",
+  "subject": "Four slices of whole-grain sandwich bread with tan crumb and crust topped with rolled oats and subtle blue cornmeal, with sunflower seeds and tiny quinoa grains supported by its manufacturer panel. There are NO blueberries, no blue fruit, no raisins, no icing, no fillings and no garnish. Oats & Blues refers to BLUE CORNMEAL, not berries.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/oats-and-blues"
+  ],
+  "ingredientSha256": "b1ed9990fd2a598936e59426b30877dc329d6445e5217188a4863339e9620c6e",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration, matching the reference's natural studio lighting, realistic food texture, soft off-white background and framing (STYLE ONLY). Food fills most of frame. No packaging, branding, logos, cartoons or invented ingredients. Add small discreet 'Illustrative image' at bottom left. Four slices of whole-grain sandwich bread with tan crumb and crust topped with rolled oats and subtle blue cornmeal, with sunflower seeds and tiny quinoa grains supported by its manufacturer panel. There are NO blueberries, no blue fruit, no raisins, no icing, no fillings and no garnish. Oats & Blues refers to BLUE CORNMEAL, not berries.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-8615550b-ec64-4b40-833d-3f6f9f4b657c.png",
+  "method": "OpenAI built-in imagegen",
+  "correction": "Original generation rejected on direct manufacturer comparison",
+  "sourceReviewedAt": "2026-11-19",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

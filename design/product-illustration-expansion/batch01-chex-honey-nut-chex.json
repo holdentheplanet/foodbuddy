@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-chex-honey-nut-chex",
+  "name": "Chex Honey Nut Chex",
+  "subject": "Dry honey nut square-lattice cereal pillows, golden-tan textured squares in a low white bowl. No whole nuts, honey drizzle, milk or fruit.",
+  "sourceUrls": [
+    "https://www.chex.com/products/honey-nut-chex"
+  ],
+  "ingredientSha256": "28ade3e2ee726d43113f4064b30ed0723efa3d4d9e2da42f7edbda5a31daebd2",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Dry honey nut square-lattice cereal pillows, golden-tan textured squares in a low white bowl. No whole nuts, honey drizzle, milk or fruit.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-451a1338-b259-486e-a242-288cc42d4eac.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

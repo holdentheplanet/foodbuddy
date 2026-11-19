@@ -1,0 +1,16 @@
+{
+  "productId": "batch03-nature-apple-crisp-crunchy-granola-bars",
+  "name": "Nature Valley Apple Crisp Crunchy Granola Bars",
+  "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Apple Crisp Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Dried Apples, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Cinnamon, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+  "sourceUrls": [
+    "https://www.naturevalley.com/products/apple-crisp-crunchy-granola-bars"
+  ],
+  "ingredientSha256": "709e3a5ea5cf1966843755a4e349d1e33196560e18b2a6b451a9c40d483efc81",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Two thin rectangular crunchy oat granola bars corresponding specifically to Apple Crisp Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Dried Apples, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Cinnamon, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-6bc0edb4-7574-4056-84e6-b1929ee6dac7.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

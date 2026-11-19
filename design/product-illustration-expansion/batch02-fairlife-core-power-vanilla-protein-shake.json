@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-fairlife-core-power-vanilla-protein-shake",
+  "name": "fairlife Core Power Vanilla 26g Protein Shake",
+  "subject": "A plain clear glass containing only the Core Power Vanilla 26g Protein Shake beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+  "sourceUrls": [
+    "https://fairlife.com/core-power/vanilla-protein-shake/"
+  ],
+  "ingredientSha256": "f80776ee42157ad74756205cea5032535656160028de1a39c9a7b4acd5c67b75",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. A plain clear glass containing only the Core Power Vanilla 26g Protein Shake beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-ce24ed2d-bd95-4ede-84ce-4e1d0153828d.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

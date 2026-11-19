@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-jif-natural-natural-creamy-peanut-butter",
+  "name": "Jif Natural Creamy Peanut Butter Spread",
+  "subject": "Natural creamy peanut butter spread, smooth tan spooned paste in a plain oval white dish. No invented oil separation or nut chunks, no garnish or packaging.",
+  "sourceUrls": [
+    "https://www.jif.com/products/natural/natural-creamy-peanut-butter"
+  ],
+  "ingredientSha256": "4ce7e3b0b216b73287057e66da4bbc15f99254b106fb4aafe9788faf416cfb7b",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Natural creamy peanut butter spread, smooth tan spooned paste in a plain oval white dish. No invented oil separation or nut chunks, no garnish or packaging.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-96f52a3a-af46-4006-9edc-2214299869b0.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

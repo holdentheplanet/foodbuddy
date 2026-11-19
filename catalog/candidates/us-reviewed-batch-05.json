@@ -1,0 +1,1285 @@
+{
+  "formatVersion": 1,
+  "catalogId": "us-reviewed-batch-05",
+  "candidates": [
+    {
+      "product": {
+        "id": "batch05-chobani-blueberry",
+        "name": "Blueberry",
+        "brand": "Chobani",
+        "variant": "Chobani® Greek Yogurt",
+        "packageSize": "5.3 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured nonfat milk, blueberries, cane sugar, water, fruit pectin, natural flavors, guar gum, locust bean gum, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-greek-blueberry-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Blueberry\nChobani® Greek Yogurt\n5.3 oz\nChobani\nCultured nonfat milk, blueberries, cane sugar, water, fruit pectin, natural flavors, guar gum, locust bean gum, lemon juice concentrate.\nCultured nonfat milk, blueberries, cane sugar, water, fruit pectin, natural flavors, guar gum, locust bean gum, lemon juice concentrate.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Blueberry\nChobani® Greek Yogurt\n5.3 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "f5b6a774abf093082f9c91338595e0a9c3967b69353d8ca6120ea1610e320ad0"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-black-cherry",
+        "name": "Black Cherry",
+        "brand": "Chobani",
+        "variant": "Chobani® Greek Yogurt",
+        "packageSize": "5.3 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured nonfat milk, black cherries, cane sugar, water, fruit pectin, cherry juice concentrate, natural flavors, locust bean gum, guar gum, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-greek-black-cherry-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Black Cherry\nChobani® Greek Yogurt\n5.3 oz\nChobani\nCultured nonfat milk, black cherries, cane sugar, water, fruit pectin, cherry juice concentrate, natural flavors, locust bean gum, guar gum, lemon juice concentrate.\nCultured nonfat milk, black cherries, cane sugar, water, fruit pectin, cherry juice concentrate, natural flavors, locust bean gum, guar gum, lemon juice concentrate.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Black Cherry\nChobani® Greek Yogurt\n5.3 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "c43ebd0944a59c84fcc88eaab0654841ae60a9db2d4e792ac5af2a67821c724e"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-strawberry",
+        "name": "Strawberry",
+        "brand": "Chobani",
+        "variant": "Chobani® Greek Yogurt",
+        "packageSize": "5.3 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured nonfat milk, strawberries, cane sugar, water, fruit pectin, natural flavors, guar gum, locust bean gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-greek-strawberry-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Strawberry\nChobani® Greek Yogurt\n5.3 oz\nChobani\nCultured nonfat milk, strawberries, cane sugar, water, fruit pectin, natural flavors, guar gum, locust bean gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate.\nCultured nonfat milk, strawberries, cane sugar, water, fruit pectin, natural flavors, guar gum, locust bean gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Strawberry\nChobani® Greek Yogurt\n5.3 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "087d70dd93ebecae2250ef37dbc5a7e350321bccc1118b6f96d77553a7812b0d"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-vanilla",
+        "name": "Vanilla",
+        "brand": "Chobani",
+        "variant": "Chobani® Greek Yogurt",
+        "packageSize": "5.3 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured nonfat milk, cane sugar, water, natural flavors, fruit pectin, guar gum, locust bean gum, vanilla extract, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-greek-vanilla-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Vanilla\nChobani® Greek Yogurt\n5.3 oz\nChobani\nCultured nonfat milk, cane sugar, water, natural flavors, fruit pectin, guar gum, locust bean gum, vanilla extract, lemon juice concentrate.\nCultured nonfat milk, cane sugar, water, natural flavors, fruit pectin, guar gum, locust bean gum, vanilla extract, lemon juice concentrate.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Vanilla\nChobani® Greek Yogurt\n5.3 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "69e2d6490d8da5391ddf370b5c86e726cffb93cd00a73f71d60a2f61702b851f"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-key-lime",
+        "name": "Key Lime",
+        "brand": "Chobani",
+        "variant": "Chobani® Greek Yogurt",
+        "packageSize": "5.3 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured reduced fat milk, cane sugar, water, key lime puree, fruit pectin, natural flavors, spirulina (for color), key lime juice concentrate, guar gum, turmeric (for color), locust bean gum, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-greek-key-lime-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Key Lime\nChobani® Greek Yogurt\n5.3 oz\nChobani\nCultured reduced fat milk, cane sugar, water, key lime puree, fruit pectin, natural flavors, spirulina (for color), key lime juice concentrate, guar gum, turmeric (for color), locust bean gum, lemon juice concentrate.\nCultured reduced fat milk, cane sugar, water, key lime puree, fruit pectin, natural flavors, spirulina (for color), key lime juice concentrate, guar gum, turmeric (for color), locust bean gum, lemon juice concentrate.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Key Lime\nChobani® Greek Yogurt\n5.3 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "f4826486b269affb9a1af95163c8fe23487698cfd6011952df0242ee43ed5866"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-flip-almond-coco-loco",
+        "name": "Almond Coco Loco™",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, almonds, chocolate, coconut, tapioca flour, honey, fruit pectin, guar gum, natural flavors, sea salt, cocoa, cocoa butter, lemon juice concentrate, vanilla extract.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk and almonds.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "almond"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts, soy, and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "soy",
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-almond-coco-loco-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Almond Coco Loco™\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, almonds, chocolate, coconut, tapioca flour, honey, fruit pectin, guar gum, natural flavors, sea salt, cocoa, cocoa butter, lemon juice concentrate, vanilla extract.\nContains milk and almonds.\nManufactured on a line that also handles peanuts, soy, and tree nuts.\nCultured lowfat milk, cane sugar, water, almonds, chocolate, coconut, tapioca flour, honey, fruit pectin, guar gum, natural flavors, sea salt, cocoa, cocoa butter, lemon juice concentrate, vanilla extract. Contains milk and almonds. Manufactured on a line that also handles peanuts, soy, and tree nuts.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Almond Coco Loco™\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "61a1929b02067dfeb89dd2636e2ad743fcccdd0b2619420c2f9cf2adc453b26d"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-flip-chocolate-haze-craze",
+        "name": "Chocolate Haze Craze®",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, hazelnuts, chocolate, cocoa butter, milk, cocoa, natural flavors, fruit pectin, lemon juice concentrate, guar gum, salt, soy lecithin, tapioca flour.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, hazelnuts, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "soy",
+          "hazelnut"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-chocolate-haze-craze-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chocolate Haze Craze®\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, hazelnuts, chocolate, cocoa butter, milk, cocoa, natural flavors, fruit pectin, lemon juice concentrate, guar gum, salt, soy lecithin, tapioca flour.\nContains milk, hazelnuts, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, hazelnuts, chocolate, cocoa butter, milk, cocoa, natural flavors, fruit pectin, lemon juice concentrate, guar gum, salt, soy lecithin, tapioca flour. Contains milk, hazelnuts, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chocolate Haze Craze®\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "c7596c69db1cc6f89b62c9dd0b2b012be5db675b2999429cf1bb3795591fc0ed"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-flip-coconut-caramel-cookie",
+        "name": "Coconut Caramel Cookie",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, coconut, brown sugar, sweetened condensed milk (milk, sugar), soybean oil, chocolate, cocoa butter, wheat syrup, tapioca flour, milk, unsalted butter, salt, caramelized syrup, guar gum, fruit pectin, natural flavors, honey, baking soda, cinnamon, white vinegar, soy lecithin, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-coconut-caramel-cookie-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Coconut Caramel Cookie\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, coconut, brown sugar, sweetened condensed milk (milk, sugar), soybean oil, chocolate, cocoa butter, wheat syrup, tapioca flour, milk, unsalted butter, salt, caramelized syrup, guar gum, fruit pectin, natural flavors, honey, baking soda, cinnamon, white vinegar, soy lecithin, lemon juice concentrate.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, coconut, brown sugar, sweetened condensed milk (milk, sugar), soybean oil, chocolate, cocoa butter, wheat syrup, tapioca flour, milk, unsalted butter, salt, caramelized syrup, guar gum, fruit pectin, natural flavors, honey, baking soda, cinnamon, white vinegar, soy lecithin, lemon juice concentrate. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Coconut Caramel Cookie\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "370edfb39b780298e06afdf3b2935c909aea73cd9d6136c157d1dc55e2e8ea94"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-flip-peanut-butter-cup",
+        "name": "Peanut Butter Cup",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, peanuts, cocoa butter, chocolate, milk, palm kernel oil, natural flavors, rolled oats, rice flour, fruit pectin, cocoa powder, salt, soy lecithin, guar gum, skim milk, peanut butter (peanuts, salt), lactose, lemon juice concentrate, vanilla extract, annatto (for color).",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, peanuts, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "soy",
+          "peanuts"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles wheat and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "wheat",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-peanut-butter-cup-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Peanut Butter Cup\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, peanuts, cocoa butter, chocolate, milk, palm kernel oil, natural flavors, rolled oats, rice flour, fruit pectin, cocoa powder, salt, soy lecithin, guar gum, skim milk, peanut butter (peanuts, salt), lactose, lemon juice concentrate, vanilla extract, annatto (for color).\nContains milk, peanuts, and soy.\nManufactured on a line that also handles wheat and tree nuts.\nCultured lowfat milk, cane sugar, water, peanuts, cocoa butter, chocolate, milk, palm kernel oil, natural flavors, rolled oats, rice flour, fruit pectin, cocoa powder, salt, soy lecithin, guar gum, skim milk, peanut butter (peanuts, salt), lactose, lemon juice concentrate, vanilla extract, annatto (for color). Contains milk, peanuts, and soy. Manufactured on a line that also handles wheat and tree nuts.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Peanut Butter Cup\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "cf2e66e14f36e30daa33c0c10fb63517036f32bc4f515aeddb37e275ed309259"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-chobani-flip-smore-smores",
+        "name": "S'more S'mores™",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, chocolate, brown sugar, cocoa butter, tapioca flour, palm oil, milk, natural flavors, wheat germ, guar gum, fruit pectin, wheat bran, salt, soy lecithin, honey, lemon juice concentrate, vanilla extract, baking soda.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-smore-smores-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "S'more S'mores™\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, chocolate, brown sugar, cocoa butter, tapioca flour, palm oil, milk, natural flavors, wheat germ, guar gum, fruit pectin, wheat bran, salt, soy lecithin, honey, lemon juice concentrate, vanilla extract, baking soda.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, chocolate, brown sugar, cocoa butter, tapioca flour, palm oil, milk, natural flavors, wheat germ, guar gum, fruit pectin, wheat bran, salt, soy lecithin, honey, lemon juice concentrate, vanilla extract, baking soda. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "S'more S'mores™\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact official US flavor heading, product line, single-cup serving size and complete ingredient panel reviewed. Explicit contains and shared-line sentences are transcribed separately, verbatim. Shared-line tree nuts remain the generic manufacturer wording; no individual nut types inferred. Where no separate statement is documented, it remains unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "54f6c3ff39eca68d3b0b8ca2d1fb914e7323976d001338322dc77fb3b0afa0f6"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-cheerios-cheerios-oat-crunch",
+        "name": "Cheerios Oat Crunch Cinnamon",
+        "brand": "Cheerios",
+        "variant": "Cheerios Oat Crunch Cinnamon",
+        "packageSize": "18.2 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000163614",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Whole Grain Corn, Canola and/or Sunflower Oil, Corn Syrup, Brown Sugar Syrup, Rice Flour, Salt, Corn Starch, Cinnamon, Color (caramel color, annatto extract), Baking Soda. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Tricalcium Phosphate, Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), A B Vitamin (calcium pantothenate), Vitamin B1 (thiamin mononitrate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B12, Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": "May contain wheat ingredients.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "wheat"
+        ],
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/cheerios-oat-crunch",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cheerios Oat Crunch Cinnamon\nCheerios Oat Crunch Cinnamon\n18.2 oz\nCheerios\nWhole Grain Oats, Sugar, Whole Grain Corn, Canola and/or Sunflower Oil, Corn Syrup, Brown Sugar Syrup, Rice Flour, Salt, Corn Starch, Cinnamon, Color (caramel color, annatto extract), Baking Soda. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Tricalcium Phosphate, Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), A B Vitamin (calcium pantothenate), Vitamin B1 (thiamin mononitrate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B12, Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin D3.\nMay contain wheat ingredients.\n016000163614\nMay contain wheat ingredients.\n{\"@id\": \"https://www.cheerios.com/products/cheerios-oat-crunch\", \"name\": \"Cheerios Oat Crunch Cinnamon\", \"gtin\": \"016000163614\"}",
+            "notes": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cheerios Oat Crunch Cinnamon\nCheerios Oat Crunch Cinnamon\n18.2 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "0dfaa541ebd91943b77aee105e741e5a98e169b22519727697bd12737edb6a35"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-cheerios-cheerios-oat-crunch-chocolate",
+        "name": "Cheerios Oat Crunch Chocolate",
+        "brand": "Cheerios",
+        "variant": "Cheerios Oat Crunch Chocolate",
+        "packageSize": "18.2 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000226050",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Whole Grain Corn, Corn Syrup, Canola and/or Sunflower Oil, Rice Flour, Color (caramel color, annatto extract), Cocoa Processed with Alkali, Corn Starch, Salt, Unsweetened Chocolate, Natural Flavor, Baking Soda, Rosemary Extract. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Tricalcium Phosphate, Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), A B Vitamin (calcium pantothenate), Vitamin B1 (thiamin mononitrate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B12, Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": "May contain wheat ingredients.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "wheat"
+        ],
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/cheerios-oat-crunch-chocolate",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cheerios Oat Crunch Chocolate\nCheerios Oat Crunch Chocolate\n18.2 oz\nCheerios\nWhole Grain Oats, Sugar, Whole Grain Corn, Corn Syrup, Canola and/or Sunflower Oil, Rice Flour, Color (caramel color, annatto extract), Cocoa Processed with Alkali, Corn Starch, Salt, Unsweetened Chocolate, Natural Flavor, Baking Soda, Rosemary Extract. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Tricalcium Phosphate, Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), A B Vitamin (calcium pantothenate), Vitamin B1 (thiamin mononitrate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B12, Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin D3.\nMay contain wheat ingredients.\n016000226050\nMay contain wheat ingredients.\n{\"@id\": \"https://www.cheerios.com/products/cheerios-oat-crunch-chocolate\", \"name\": \"Cheerios Oat Crunch Chocolate\", \"gtin\": \"016000226050\"}",
+            "notes": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cheerios Oat Crunch Chocolate\nCheerios Oat Crunch Chocolate\n18.2 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "a665d4b62884b9cd1446fdaa8d84443a873ab4ffa5415cbc3a0af7afa13b60f9"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-cheerios-cheerios-oat-crunch-almond",
+        "name": "Cheerios Oat Crunch Almond",
+        "brand": "Cheerios",
+        "variant": "Cheerios Oat Crunch Almond",
+        "packageSize": "18.2 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000168497",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Whole Grain Corn, Modified Corn Starch, Almonds, Canola and/or Sunflower Oil, Brown Sugar Syrup, Whole Grain Rice, Corn Starch, Salt, Tripotassium Phosphate, Baking Soda, Color (caramel color, annatto extract), Natural Flavor, Rosemary Extract. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), A B Vitamin (calcium pantothenate), Vitamin B1 (thiamin mononitrate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B12, Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains almond ingredients.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "almond"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/cheerios-oat-crunch-almond",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cheerios Oat Crunch Almond\nCheerios Oat Crunch Almond\n18.2 oz\nCheerios\nWhole Grain Oats, Sugar, Whole Grain Corn, Modified Corn Starch, Almonds, Canola and/or Sunflower Oil, Brown Sugar Syrup, Whole Grain Rice, Corn Starch, Salt, Tripotassium Phosphate, Baking Soda, Color (caramel color, annatto extract), Natural Flavor, Rosemary Extract. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), A B Vitamin (calcium pantothenate), Vitamin B1 (thiamin mononitrate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B12, Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin D3.\nContains almond ingredients.\n016000168497\nContains almond ingredients.\n{\"@id\": \"https://www.cheerios.com/products/cheerios-oat-crunch-almond\", \"name\": \"Cheerios Oat Crunch Almond\", \"gtin\": \"016000168497\"}",
+            "notes": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cheerios Oat Crunch Almond\nCheerios Oat Crunch Almond\n18.2 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "c063a4bb7242407c2f695b8fe2b723902039b5ff781d4b9c31a8c1ff10dee9ea"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-cheerios-apple-cinnamon-cheerios",
+        "name": "Apple Cinnamon Cheerios",
+        "brand": "Cheerios",
+        "variant": "Apple Cinnamon Cheerios",
+        "packageSize": "19 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000169159",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Corn Starch, Apple Puree Concentrate, Corn Syrup, Canola and/or Sunflower Oil, Refiner's Syrup, Salt, Cinnamon, Trisodium Phosphate. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/apple-cinnamon-cheerios",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Apple Cinnamon Cheerios\nApple Cinnamon Cheerios\n19 oz\nCheerios\nWhole Grain Oats, Sugar, Corn Starch, Apple Puree Concentrate, Corn Syrup, Canola and/or Sunflower Oil, Refiner's Syrup, Salt, Cinnamon, Trisodium Phosphate. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\n016000169159\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/apple-cinnamon-cheerios\", \"name\": \"Apple Cinnamon Cheerios\", \"gtin\": \"016000169159\"}",
+            "notes": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Apple Cinnamon Cheerios\nApple Cinnamon Cheerios\n19 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "52267030345a1e084e4f9da9f14a3a9c992d3a22c3d2f6280787cdc01e0a36b0"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-cheerios-multi-grain-cheerios",
+        "name": "Multi Grain Cheerios",
+        "brand": "Cheerios",
+        "variant": "Multi Grain Cheerios",
+        "packageSize": "9 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000275157",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Whole Grain Corn, Sugar, Whole Grain Rice, Corn Starch, Brown Sugar Syrup, Salt, Tripotassium Phosphate, Color (caramel color, annatto extract). Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin C (sodium ascorbate), A B Vitamin (calcium pantothenate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B1 (thiamin mononitrate), A B Vitamin (folic acid), Vitamin B12, Vitamin A (palmitate), Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/multi-grain-cheerios",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Multi Grain Cheerios\nMulti Grain Cheerios\n9 oz\nCheerios\nWhole Grain Oats, Whole Grain Corn, Sugar, Whole Grain Rice, Corn Starch, Brown Sugar Syrup, Salt, Tripotassium Phosphate, Color (caramel color, annatto extract). Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin C (sodium ascorbate), A B Vitamin (calcium pantothenate), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin B1 (thiamin mononitrate), A B Vitamin (folic acid), Vitamin B12, Vitamin A (palmitate), Vitamin D3.\n016000275157\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/multi-grain-cheerios\", \"name\": \"Multi Grain Cheerios\", \"gtin\": \"016000275157\"}",
+            "notes": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Multi Grain Cheerios\nMulti Grain Cheerios\n9 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Exact US product heading, printed package size, full ingredient plus vitamins/minerals paragraphs and matching primary product JSON-LD GTIN reviewed. May-contain wheat is precautionary only. The generic site wording \"Does not contain declaration obligatory allergens\" is preserved in source evidence but is not treated as proof of allergy safety or a documented product contains declaration. Missing declaration types remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "2417e9e3bb5550a7f4a94ebb826ce586efff2a8c45db1307dff4d0237c936a1c"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-frenchs-classic-yellow-mustard-8-oz",
+        "name": "French's® Classic Yellow Mustard, 8 oz",
+        "brand": "French's",
+        "variant": "French's® Classic Yellow Mustard, 8 oz",
+        "packageSize": "8 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500007007",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: Distilled Vinegar, Water, #1 Grade Mustard Seed, Salt, Turmeric, Paprika, Spice, Natural Flavor, Garlic Powder.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/frenchs-classic-yellow-mustard-8-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "French's® Classic Yellow Mustard, 8 oz\nFrench's® Classic Yellow Mustard, 8 oz\n8 oz\nFrench's\nINGREDIENTS: Distilled Vinegar, Water, #1 Grade Mustard Seed, Salt, Turmeric, Paprika, Spice, Natural Flavor, Garlic Powder.\n00041500007007\nINGREDIENTS: Distilled Vinegar, Water, #1 Grade Mustard Seed, Salt, Turmeric, Paprika, Spice, Natural Flavor, Garlic Powder.\n{\"name\": \"French's\\u00ae Classic Yellow Mustard, 8 oz\", \"url\": \"https://www.mccormick.com/products/frenchs-classic-yellow-mustard-8-oz\", \"gtin14\": \"00041500007007\"}",
+            "notes": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "French's® Classic Yellow Mustard, 8 oz\nFrench's® Classic Yellow Mustard, 8 oz\n8 oz",
+        "brandEvidence": "French's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "67f439b425485db8edb25fa63d11ba2946412541569aaa01e3f9b88769e8ca92"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-frenchs-creamy-honey-chipotle-mustard-spread-12-oz",
+        "name": "French's® Creamy Honey Chipotle Mustard Spread, 12 oz",
+        "brand": "French's",
+        "variant": "French's® Creamy Honey Chipotle Mustard Spread, 12 oz",
+        "packageSize": "12 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500011950",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: Distilled Vinegar, Water, 1 Grade Mustard Seed, Canola Oil, Sugar, Honey, Brown Sugar, Salt, Chipotle Pepper, Onion Powder, Natural Flavor (Including Smoke), Garlic Powder, Smoked Paprika & Turmeric.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/frenchs-creamy-honey-chipotle-mustard-spread-12-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "French's® Creamy Honey Chipotle Mustard Spread, 12 oz\nFrench's® Creamy Honey Chipotle Mustard Spread, 12 oz\n12 oz\nFrench's\nINGREDIENTS: Distilled Vinegar, Water, 1 Grade Mustard Seed, Canola Oil, Sugar, Honey, Brown Sugar, Salt, Chipotle Pepper, Onion Powder, Natural Flavor (Including Smoke), Garlic Powder, Smoked Paprika & Turmeric.\n00041500011950\nINGREDIENTS: Distilled Vinegar, Water, 1 Grade Mustard Seed, Canola Oil, Sugar, Honey, Brown Sugar, Salt, Chipotle Pepper, Onion Powder, Natural Flavor (Including Smoke), Garlic Powder, Smoked Paprika & Turmeric.\n{\"name\": \"French's\\u00ae Creamy Honey Chipotle Mustard Spread, 12 oz\", \"url\": \"https://www.mccormick.com/products/frenchs-creamy-honey-chipotle-mustard-spread-12-oz\", \"gtin14\": \"00041500011950\"}",
+            "notes": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "French's® Creamy Honey Chipotle Mustard Spread, 12 oz\nFrench's® Creamy Honey Chipotle Mustard Spread, 12 oz\n12 oz",
+        "brandEvidence": "French's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "c27d4478a59361fd37a87b8f6433953c5e5d57fd6dc6a6244645d78f0b8dcfcb"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-frenchs-creamy-yellow-mustard-spread-12-oz",
+        "name": "French's® Creamy Yellow Mustard Spread, 12 oz",
+        "brand": "French's",
+        "variant": "French's® Creamy Yellow Mustard Spread, 12 oz",
+        "packageSize": "12 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500011936",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: DISTILLED VINEGAR, WATER, CANOLA OIL, #1 GRADE MUSTARD SEED, SALT, TURMERIC, PAPRIKA, SPICE, GARLIC POWDER & NATURAL FLAVOR.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/frenchs-creamy-yellow-mustard-spread-12-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "French's® Creamy Yellow Mustard Spread, 12 oz\nFrench's® Creamy Yellow Mustard Spread, 12 oz\n12 oz\nFrench's\nINGREDIENTS: DISTILLED VINEGAR, WATER, CANOLA OIL, #1 GRADE MUSTARD SEED, SALT, TURMERIC, PAPRIKA, SPICE, GARLIC POWDER & NATURAL FLAVOR.\n00041500011936\nINGREDIENTS: DISTILLED VINEGAR, WATER, CANOLA OIL, #1 GRADE MUSTARD SEED, SALT, TURMERIC, PAPRIKA, SPICE, GARLIC POWDER & NATURAL FLAVOR.\n{\"name\": \"French's\\u00ae Creamy Yellow Mustard Spread, 12 oz\", \"url\": \"https://www.mccormick.com/products/frenchs-creamy-yellow-mustard-spread-12-oz\", \"gtin14\": \"00041500011936\"}",
+            "notes": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "French's® Creamy Yellow Mustard Spread, 12 oz\nFrench's® Creamy Yellow Mustard Spread, 12 oz\n12 oz",
+        "brandEvidence": "French's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "ef9ed8000ed251fd659be02f78f0aa215dea113f194f724bf42d21dcfd06e6a5"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-frenchs-maple-mustard-12-0-oz",
+        "name": "French's® Maple Mustard, 12.0 oz",
+        "brand": "French's",
+        "variant": "French's® Maple Mustard, 12.0 oz",
+        "packageSize": "12.0 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500013978",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: DISTILLED VINEGAR, SUGAR, WATER, #1 GRADE MUSTARD SEED, MAPLE SYRUP, SALT, SPICES, ONION POWDER TURMERIC & NATURAL FLAVOR.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/frenchs-maple-mustard-12-0-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "French's® Maple Mustard, 12.0 oz\nFrench's® Maple Mustard, 12.0 oz\n12.0 oz\nFrench's\nINGREDIENTS: DISTILLED VINEGAR, SUGAR, WATER, #1 GRADE MUSTARD SEED, MAPLE SYRUP, SALT, SPICES, ONION POWDER TURMERIC & NATURAL FLAVOR.\n00041500013978\nINGREDIENTS: DISTILLED VINEGAR, SUGAR, WATER, #1 GRADE MUSTARD SEED, MAPLE SYRUP, SALT, SPICES, ONION POWDER TURMERIC & NATURAL FLAVOR.\n{\"name\": \"French's\\u00ae Maple Mustard, 12.0 oz\", \"url\": \"https://www.mccormick.com/products/frenchs-maple-mustard-12-0-oz\", \"gtin14\": \"00041500013978\"}",
+            "notes": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "French's® Maple Mustard, 12.0 oz\nFrench's® Maple Mustard, 12.0 oz\n12.0 oz",
+        "brandEvidence": "French's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "00dfde774923a0a14a1582552364639b6ae7cd1967c6d5f719bb0ea10aa6c2a5"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-frenchs-worcestershire-sauce-10-fl-oz",
+        "name": "French's® Worcestershire Sauce, 10 fl oz",
+        "brand": "French's",
+        "variant": "French's® Worcestershire Sauce, 10 fl oz",
+        "packageSize": "10 fl oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500013107",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: Distilled Vinegar, Water, Molasses, Sugar, Salt, Spices, Citric Acid, Anchovy (Fish), Celery Seed, Natural Flavor (Contains Soy) Xanthan Gum (Thickener), Garlic Powder & Tamarind Extract.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains: Soy, Anchovy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "soy",
+          "anchovy"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/frenchs-r-worcestershire-sauce-10-fl-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "French's® Worcestershire Sauce, 10 fl oz\nFrench's® Worcestershire Sauce, 10 fl oz\n10 fl oz\nFrench's\nINGREDIENTS: Distilled Vinegar, Water, Molasses, Sugar, Salt, Spices, Citric Acid, Anchovy (Fish), Celery Seed, Natural Flavor (Contains Soy) Xanthan Gum (Thickener), Garlic Powder & Tamarind Extract.\nContains: Soy, Anchovy.\n00041500013107\nINGREDIENTS: Distilled Vinegar, Water, Molasses, Sugar, Salt, Spices, Citric Acid, Anchovy (Fish), Celery Seed, Natural Flavor (Contains Soy) Xanthan Gum (Thickener), Garlic Powder & Tamarind Extract. Contains: Soy, Anchovy.\n{\"name\": \"French's\\u00ae Worcestershire Sauce, 10 fl oz\", \"url\": \"https://www.mccormick.com/products/frenchs-r-worcestershire-sauce-10-fl-oz\", \"gtin14\": \"00041500013107\"}",
+            "notes": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "French's® Worcestershire Sauce, 10 fl oz\nFrench's® Worcestershire Sauce, 10 fl oz\n10 fl oz",
+        "brandEvidence": "French's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer exact retail variant, size, full ingredient panel and matching product JSON-LD GTIN reviewed. Manufacturer spelling/punctuation retained, including missing separators where printed. Worcestershire contains declaration names soy and anchovy exactly; fish is present in ingredient text but is not inferred into the separate declaration. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "ca15c4bf763d6819b7dc0a88446800ace3c596c26b2bd136d037e6294a4300d9"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-fairlife-plan-vanilla",
+        "name": "fairlife Nutrition Plan® Vanilla",
+        "brand": "fairlife",
+        "variant": "fairlife Nutrition Plan® Vanilla",
+        "packageSize": "11.5oz - 12 Pack",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Filtered Lowfat Grade A Milk, Contains Less Than 1% of: Natural Flavors, Cellulose Gel, Cellulose Gum, Carrageenan, Lactase Enzyme, Acesulfame Potassium, Sucralose, Monk Fruit Juice Concentrate, Salt, Stevia Leaf Extract, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/nutrition-plan/vanilla/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife Nutrition Plan® Vanilla\nfairlife Nutrition Plan® Vanilla\n11.5oz - 12 Pack\nfairlife\nFiltered Lowfat Grade A Milk, Contains Less Than 1% of: Natural Flavors, Cellulose Gel, Cellulose Gum, Carrageenan, Lactase Enzyme, Acesulfame Potassium, Sucralose, Monk Fruit Juice Concentrate, Salt, Stevia Leaf Extract, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US Nutrition Plan 30g protein shake variant reviewed, distinct from Core Power. Exact ingredient panel and Contains Milk declaration transcribed from the first selected 12-pack panel. No Canadian formula or package-size-only duplicate used. No barcode or separate precaution corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US Nutrition Plan 30g protein shake variant reviewed, distinct from Core Power. Exact ingredient panel and Contains Milk declaration transcribed from the first selected 12-pack panel. No Canadian formula or package-size-only duplicate used. No barcode or separate precaution corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "fairlife Nutrition Plan® Vanilla\nfairlife Nutrition Plan® Vanilla\n11.5oz - 12 Pack",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US Nutrition Plan 30g protein shake variant reviewed, distinct from Core Power. Exact ingredient panel and Contains Milk declaration transcribed from the first selected 12-pack panel. No Canadian formula or package-size-only duplicate used. No barcode or separate precaution corroborated; remains unknown.",
+        "sourceCaptureSha256": "2fca422b7e5ef424dc2f3720ca016447ba04471e174e28690949160ab5a25df0"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-fairlife-plan-chocolate",
+        "name": "fairlife Nutrition Plan® Chocolate",
+        "brand": "fairlife",
+        "variant": "fairlife Nutrition Plan® Chocolate",
+        "packageSize": "11.5oz - 12 Pack",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Filtered Lowfat Grade A Milk, Contains Less Than 1% Of: Alkalized Cocoa, Natural Flavors, Cellulose Gel, Cellulose Gum, Salt, Carrageenan, Lactase Enzyme, Monk Fruit Juice Concentrate, Acesulfame Potassium, Sucralose, Stevia Leaf Extract, Vitamin A (Palmitate), Vitamin D3",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/nutrition-plan/chocolate/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife Nutrition Plan® Chocolate\nfairlife Nutrition Plan® Chocolate\n11.5oz - 12 Pack\nfairlife\nFiltered Lowfat Grade A Milk, Contains Less Than 1% Of: Alkalized Cocoa, Natural Flavors, Cellulose Gel, Cellulose Gum, Salt, Carrageenan, Lactase Enzyme, Monk Fruit Juice Concentrate, Acesulfame Potassium, Sucralose, Stevia Leaf Extract, Vitamin A (Palmitate), Vitamin D3\nContains Milk.",
+            "notes": "Official US Nutrition Plan 30g protein shake variant reviewed, distinct from Core Power. Exact ingredient panel and Contains Milk declaration transcribed from the first selected 12-pack panel. No Canadian formula or package-size-only duplicate used. No barcode or separate precaution corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US Nutrition Plan 30g protein shake variant reviewed, distinct from Core Power. Exact ingredient panel and Contains Milk declaration transcribed from the first selected 12-pack panel. No Canadian formula or package-size-only duplicate used. No barcode or separate precaution corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "fairlife Nutrition Plan® Chocolate\nfairlife Nutrition Plan® Chocolate\n11.5oz - 12 Pack",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US Nutrition Plan 30g protein shake variant reviewed, distinct from Core Power. Exact ingredient panel and Contains Milk declaration transcribed from the first selected 12-pack panel. No Canadian formula or package-size-only duplicate used. No barcode or separate precaution corroborated; remains unknown.",
+        "sourceCaptureSha256": "8266e16357dbe09e6d6cac81819209e59a063aef30abbbbd85e4e3fd50301933"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-dave-100-whole-wheat",
+        "name": "100% Whole Wheat",
+        "brand": "Dave’s Killer Bread",
+        "variant": "100% Whole Wheat",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic whole wheat (organic whole wheat flour, organic cracked whole wheat), water, organic cane sugar, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, yeast, organic molasses, sea salt, organic vinegar, organic cultured wheat flour, organic acerola cherry powder, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/100-whole-wheat",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "100% Whole Wheat\n100% Whole Wheat\nDAVE’S KILLER BREAD\nOrganic whole wheat (organic whole wheat flour, organic cracked whole wheat), water, organic cane sugar, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, yeast, organic molasses, sea salt, organic vinegar, organic cultured wheat flour, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat.",
+            "notes": "Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "100% Whole Wheat\n100% Whole Wheat",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown.",
+        "sourceCaptureSha256": "2a57e9b19db8c52e678987dd76734b698144f167b23e806fd9cefc213c31c3c3"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-dave-supreme-sourdough",
+        "name": "Supreme Sourdough™",
+        "brand": "Dave’s Killer Bread",
+        "variant": "Supreme Sourdough™",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic flours (organic wheat flour, organic whole wheat flour), water, organic good seed® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), organic cracked wheat, contains less than 2% of each of the following: organic wheat gluten, sea salt, organic cane sugar, organic malted barley flour, organic dried vinegar, organic acerola cherry powder, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/supreme-sourdough",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Supreme Sourdough™\nSupreme Sourdough™\nDAVE’S KILLER BREAD\nOrganic flours (organic wheat flour, organic whole wheat flour), water, organic good seed® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), organic cracked wheat, contains less than 2% of each of the following: organic wheat gluten, sea salt, organic cane sugar, organic malted barley flour, organic dried vinegar, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat.",
+            "notes": "Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Supreme Sourdough™\nSupreme Sourdough™",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown.",
+        "sourceCaptureSha256": "0412011ba9f12e690970e87f6fcf0108b44b2b2d0c6abd30c103a35c07d2e500"
+      }
+    },
+    {
+      "product": {
+        "id": "batch05-dave-oats-and-blues",
+        "name": "OATS & BLUES",
+        "brand": "Dave’s Killer Bread",
+        "variant": "OATS & BLUES",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Water, organic whole wheat (organic whole wheat flour, organic cracked whole wheat), organic rolled oats, organic Oats & Blues⁠™ seed mix (organic sunflower seeds, organic oats, organic blue cornmeal, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), organic cane sugar, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, organic molasses, organic ground whole flax seeds, organic oat fiber, yeast, organic cultured wheat flour, sea salt, organic vinegar, organic acerola cherry powder, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/oats-and-blues",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "OATS & BLUES\nOATS & BLUES\nDAVE’S KILLER BREAD\nWater, organic whole wheat (organic whole wheat flour, organic cracked whole wheat), organic rolled oats, organic Oats & Blues⁠™ seed mix (organic sunflower seeds, organic oats, organic blue cornmeal, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), organic cane sugar, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, organic molasses, organic ground whole flax seeds, organic oat fiber, yeast, organic cultured wheat flour, sea salt, organic vinegar, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat.",
+            "notes": "Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "OATS & BLUES\nOATS & BLUES",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US full-size bread variety heading, full ingredient panel and explicit contains declaration reviewed. This is a new formulation/flavor, not an additional package size of an existing product. Manufacturer spelling and symbols retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated on reviewed page; remains unknown.",
+        "sourceCaptureSha256": "7858cae48e99c2ec3862746b426f30201c67826001fa94c729c0a63891e7fc00"
+      }
+    }
+  ]
+}

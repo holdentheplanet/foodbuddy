@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-jimmydean-00077900003660",
+  "name": "Jimmy Dean Applewood Chicken Sausage Links",
+  "subject": "A small serving of browned fully cooked chicken breakfast sausage links on a plain dish. No eggs, bread, syrup, herbs or garnish.",
+  "sourceUrls": [
+    "https://www.jimmydean.com/products/fully-cooked-sausage/00077900003660"
+  ],
+  "ingredientSha256": "a45cc1c41b94fca600f3097543bc6d89bd28c19184e7f6dba24445fa1ee020f3",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: A small serving of browned fully cooked chicken breakfast sausage links on a plain dish. No eggs, bread, syrup, herbs or garnish.\nProduct identity: Jimmy Dean Applewood Chicken Sausage Links\nEvidence URLs (for provenance, not text to print): https://www.jimmydean.com/products/fully-cooked-sausage/00077900003660",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-6f3961f8-61d9-44cb-8274-0303c326938d.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

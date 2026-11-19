@@ -1,275 +1,98 @@
-import { pbkdf2Async } from '@noble/hashes/pbkdf2.js';
-import { sha256 } from '@noble/hashes/sha2.js';
-import * as Crypto from 'expo-crypto';
-import * as SecureStore from 'expo-secure-store';
+import { AppState } from 'react-native';
+import type { Session } from '@supabase/supabase-js';
 import { db } from './db';
+import { getSupabase } from '../auth/supabase';
+import { createAuthOperations } from '../auth/operations';
+import { assertLocalOwner, resolveLocalAccount, type Account } from '../auth/localIdentity';
+import { createSessionScope } from '../auth/sessionScope';
+import { canUseAccountSession } from '../auth/sessionEligibility';
 
-export type User = {
-  id: number;
-  username: string;
-  email: string;
-  profile_picture: string | null;
-};
-
-type UserRow = User & {
-  password_hash: string;
-};
-
-const SESSION_KEY = 'foodbuddy_user_id';
-
-// Prototype setting. Do not use for production accounts.
-const ITERATIONS = 10000;
-
-function toHex(bytes: Uint8Array): string {
-  return Array.from(bytes)
-    .map(b => b.toString(16).padStart(2, '0'))
-    .join('');
+export type User = Account;
+export const accountScope = createSessionScope();
+let activeId: string | null = null;
+let eventRevision = 0;
+const listeners = new Set<(user: User | null) => void>();
+function clearAccount() { activeId = null; eventRevision++; accountScope.replace(null); for (const notify of listeners) notify(null); }
+async function accountForSession(session: Session | null) {
+  if (!session || !canUseAccountSession(session)) return null;
+  return resolveLocalAccount(db, session.user);
 }
-
-function fromHex(hex: string): Uint8Array {
-  if (!/^(?:[0-9a-f]{2})+$/i.test(hex)) {
-    throw new Error('Invalid stored password hash.');
-  }
-
-  return new Uint8Array(
-    hex.match(/.{2}/g)!.map(value => parseInt(value, 16))
-  );
+async function requireOwner(localId: number) {
+  const { data, error } = await getSupabase().auth.getSession();
+  if (error || !data.session || data.session.user.id !== activeId || !data.session.expires_at || data.session.expires_at * 1000 <= Date.now()) throw new Error('Sign in again to access this account.');
+  const capture = accountScope.capture();
+  await assertLocalOwner(db, data.session.user.id, localId);
+  if (!capture.isCurrent()) throw new Error('Account changed. Please try again.');
+  return capture;
 }
-
-async function hashPassword(password: string): Promise<string> {
-  const salt = await Crypto.getRandomBytesAsync(16);
-
-  const hash = await pbkdf2Async(sha256, password, salt, {
-    c: ITERATIONS,
-    dkLen: 32,
-  });
-
-  return `pbkdf2-sha256$${ITERATIONS}$${toHex(salt)}$${toHex(hash)}`;
+export function watchCurrentUser(onChanged: (user: User | null) => void, onError: () => void) {
+  const client = getSupabase();
+  let alive = true;
+  let expiry: ReturnType<typeof setTimeout> | undefined;
+  listeners.add(onChanged);
+  function receive(session: Session | null) {
+    if (!alive) return;
+    if (expiry) clearTimeout(expiry);
+    const nextId = session?.user.id ?? null;
+    if (nextId !== activeId) { clearAccount(); activeId = nextId; accountScope.replace(nextId); }
+    const revision = ++eventRevision;
+    // Do not await auth APIs inside onAuthStateChange (the SDK holds its auth lock).
+    void Promise.resolve().then(() => accountForSession(session)).then(user => {
+      if (!alive || revision !== eventRevision) return;
+      if (!user) { clearAccount(); return; }
+      onChanged(user);
+      expiry = setTimeout(() => { clearAccount(); }, Math.max(0, session!.expires_at! * 1000 - Date.now()));
+    }).catch(() => { if (alive && revision === eventRevision) { clearAccount(); onError(); } });
+  }
+  const { data: { subscription } } = client.auth.onAuthStateChange((_event, session) => receive(session));
+  const initialRevision = eventRevision;
+  void client.auth.getSession().then(({ data, error }) => {
+    if (!alive || initialRevision !== eventRevision) return;
+    if (error) { clearAccount(); onError(); } else receive(data.session);
+  }).catch(() => { if (alive) { clearAccount(); onError(); } });
+  const refresh = (state: string) => { if (state === 'active') client.auth.startAutoRefresh(); else client.auth.stopAutoRefresh(); };
+  refresh(AppState.currentState);
+  const app = AppState.addEventListener('change', refresh);
+  return () => { alive = false; if (expiry) clearTimeout(expiry); listeners.delete(onChanged); subscription.unsubscribe(); app.remove(); client.auth.stopAutoRefresh(); };
 }
-
-async function verifyPassword(
-  password: string,
-  stored: string
-): Promise<boolean> {
-  const parts = stored.split('$');
-
-  if (parts.length !== 4 || parts[0] !== 'pbkdf2-sha256') {
-    return false;
-  }
-
-  const iterations = Number(parts[1]);
-
-  if (!Number.isSafeInteger(iterations) ||
-      iterations < 1 ||
-      iterations > 1000000) {
-    return false;
-  }
-
-  const salt = fromHex(parts[2]);
-  const expected = fromHex(parts[3]);
-
-  const actual = await pbkdf2Async(sha256, password, salt, {
-    c: iterations,
-    dkLen: expected.length,
-  });
-
-  if (actual.length !== expected.length) return false;
-
-  let difference = 0;
-
-  for (let i = 0; i < actual.length; i++) {
-    difference |= actual[i] ^ expected[i];
-  }
-
-  return difference === 0;
+export async function registerUser(username: string, email: string, password: string): Promise<User | null> {
+  const { session } = await createAuthOperations(getSupabase()).register(username, email, password);
+  return accountForSession(session);
 }
-
-function publicUser(row: UserRow): User {
-  return {
-    id: row.id,
-    username: row.username,
-    email: row.email,
-    profile_picture: row.profile_picture,
-  };
+export async function loginUser(email: string, password: string): Promise<User | null> {
+  return accountForSession(await createAuthOperations(getSupabase()).login(email, password));
 }
-
-export async function registerUser(
-  username: string,
-  email: string,
-  password: string
-): Promise<User> {
-  const name = username.trim();
-  const normalizedEmail = email.trim().toLowerCase();
-
-  if (!name) throw new Error('Please enter a username.');
-
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
-    throw new Error('Please enter a valid email.');
-  }
-
-  if (password.length < 8) {
-    throw new Error('Password must be at least 8 characters.');
-  }
-
-  const existing = await db.getFirstAsync<{ id: number }>(
-    'SELECT id FROM users WHERE email = ?',
-    [normalizedEmail]
-  );
-
-  if (existing) {
-    throw new Error('An account with that email already exists.');
-  }
-
-  const passwordHash = await hashPassword(password);
-
-  let result;
-
-  try {
-    result = await db.runAsync(
-      `INSERT INTO users (username, email, password_hash)
-       VALUES (?, ?, ?)`,
-      [name, normalizedEmail, passwordHash]
-    );
-  } catch (error) {
-    throw new Error('Could not create account. Check whether the email is already registered.');
-  }
-
-  const user: User = {
-    id: result.lastInsertRowId,
-    username: name,
-    email: normalizedEmail,
-    profile_picture: null,
-  };
-
-  await SecureStore.setItemAsync(SESSION_KEY, String(user.id));
-
+export async function getCurrentUser(): Promise<User | null> {
+  const { data, error } = await getSupabase().auth.getSession();
+  if (error) throw new Error('Session could not be restored. Connect to the internet and sign in again.');
+  return accountForSession(data.session);
+}
+export async function logoutUser(): Promise<void> {
+  clearAccount();
+  await createAuthOperations(getSupabase()).logout();
+}
+export async function updateProfilePicture(localId: number, pictureUri: string): Promise<User> {
+  const capture = await requireOwner(localId);
+  await db.runAsync('UPDATE users SET profile_picture=? WHERE id=? AND EXISTS(SELECT 1 FROM cloud_account_links WHERE local_user_id=? AND supabase_id=?)',
+    [pictureUri, localId, localId, capture.userId]);
+  if (!capture.isCurrent()) throw new Error('Account changed.');
+  const user = await getCurrentUser();
+  if (!user || !capture.isCurrent()) throw new Error('Account changed.');
   return user;
 }
-
-export async function loginUser(
-  email: string,
-  password: string
-): Promise<User> {
-  const normalizedEmail = email.trim().toLowerCase();
-
-  const row = await db.getFirstAsync<UserRow>(
-    `SELECT id, username, email, password_hash, profile_picture
-     FROM users WHERE email = ?`,
-    [normalizedEmail]
-  );
-
-  if (!row) {
-    throw new Error('Incorrect email or password.');
-  }
-
-console.log('User found in SQLite');
-console.log('Starting password verification');
-
-const valid = await verifyPassword(password, row.password_hash);
-
-console.log('Password verification finished:', valid);
-
-if (!valid) {
-  throw new Error('Incorrect email or password.');
-}
-
-  await SecureStore.setItemAsync(SESSION_KEY, String(row.id));
-
-  return publicUser(row);
-}
-
-export async function getCurrentUser(): Promise<User | null> {
-  const savedId = await SecureStore.getItemAsync(SESSION_KEY);
-
-  if (!savedId) return null;
-
-  const id = Number(savedId);
-
-  if (!Number.isSafeInteger(id)) return null;
-
-  const row = await db.getFirstAsync<UserRow>(
-    `SELECT id, username, email, password_hash, profile_picture
-     FROM users WHERE id = ?`,
-    [id]
-  );
-
-  if (!row) {
-    await SecureStore.deleteItemAsync(SESSION_KEY);
-    return null;
-  }
-
-  return publicUser(row);
-}
-
-export async function logoutUser(): Promise<void> {
-  await SecureStore.deleteItemAsync(SESSION_KEY);
-}
-export async function updateProfilePicture(
-  userId: number,
-  pictureUri: string
-): Promise<User> {
-  await db.runAsync(
-    'UPDATE users SET profile_picture = ? WHERE id = ?',
-    [pictureUri, userId]
-  );
-
-  const updatedUser = await db.getFirstAsync<User>(
-    `SELECT id, username, email, profile_picture
-     FROM users WHERE id = ?`,
-    [userId]
-  );
-
-  if (!updatedUser) {
-    throw new Error('User not found.');
-  }
-
-  return updatedUser;
-}
-export async function changePassword(
-  userId: number,
-  currentPassword: string,
-  newPassword: string
-): Promise<void> {
-  if (!currentPassword) {
-    throw new Error('Please enter your current password.');
-  }
-
-  if (newPassword.length < 8) {
-    throw new Error('Your new password must be at least 8 characters.');
-  }
-
-  if (currentPassword === newPassword) {
-    throw new Error('Your new password must be different.');
-  }
-
-  const row = await db.getFirstAsync<{
-    password_hash: string;
-  }>(
-    'SELECT password_hash FROM users WHERE id = ?',
-    [userId]
-  );
-
-  if (!row) {
-    throw new Error('Account not found.');
-  }
-
-  const valid = await verifyPassword(
-    currentPassword,
-    row.password_hash
-  );
-
-  if (!valid) {
-    throw new Error('Your current password is incorrect.');
-  }
-
-  const newHash = await hashPassword(newPassword);
-
-  const result = await db.runAsync(
-    'UPDATE users SET password_hash = ? WHERE id = ? AND password_hash = ?',
-    [newHash, userId, row.password_hash]
-  );
-
-  if (result.changes !== 1) {
-    throw new Error('Password could not be updated. Please try again.');
-  }
+export async function changePassword(localId: number, currentPassword: string, newPassword: string) {
+  const capture = await requireOwner(localId);
+  const { data, error } = await getSupabase().auth.getSession();
+  if (error || !data.session?.user.email) throw new Error('Sign in again.');
+  if (newPassword === currentPassword) throw new Error('Choose a different password.');
+  // Isolated ephemeral auth client avoids switching the persisted device session during verification.
+  const { createClient } = await import('@supabase/supabase-js');
+  const { validateSupabaseConfig } = await import('../auth/config');
+  const config = validateSupabaseConfig(process.env.EXPO_PUBLIC_SUPABASE_URL, process.env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY);
+  const verifier = createClient(config.url, config.key, { auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false } });
+  try {
+    const checked = await verifier.auth.signInWithPassword({ email: data.session.user.email, password: currentPassword });
+    if (checked.error || checked.data.user?.id !== capture.userId || !capture.isCurrent()) throw new Error('Current password incorrect or account changed.');
+    await createAuthOperations(verifier).updatePassword(newPassword);
+  } finally { await verifier.auth.signOut({ scope: 'local' }); }
 }

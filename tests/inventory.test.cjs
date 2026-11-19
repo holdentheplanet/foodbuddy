@@ -13,6 +13,8 @@ const { createLocalInventoryService } = load(path.resolve('services/localInvento
 const { demoStatusLabel, DEMO_DISCLAIMER } = load(path.resolve('inventory/types.ts'));
 const seed = require('../inventory/data/demo-v1.json');
 const records = buildInventorySeed(seed);
+const bundledCount = ['us-starter', 'us-expansion-01', 'us-reviewed-batch-01', 'us-reviewed-batch-02', 'us-reviewed-batch-03', 'us-reviewed-batch-04', 'us-reviewed-batch-05', 'us-reviewed-batch-06', 'us-reviewed-batch-07']
+  .reduce((n, name) => n + require('../catalog/data/' + name + '.json').products.length, 0);
 async function isolated(run) {
   const db = new DatabaseSync(':memory:');
   const adapter = {
@@ -71,7 +73,15 @@ test('store search is partial, case-insensitive, by name or brand, and never lea
     const actual=await products.searchProducts(query,{storeId,limit:100});
     assert.deepEqual(actual.products.map(p=>p.id),expected.map(p=>p.id));
   }
-  assert.equal((await products.browseProducts(null,{limit:100})).products.length,50);
+  const globalFirst=await products.browseProducts(null,{limit:100});
+  const globalProducts=[...globalFirst.products];
+  for(let offset=100;offset<bundledCount;offset+=100){
+    const page=await products.browseProducts(null,{limit:100,offset});
+    assert.equal(page.hasMore,offset+page.products.length<bundledCount);
+    globalProducts.push(...page.products);
+  }
+  assert.equal(globalFirst.hasMore,bundledCount>100);
+  assert.equal(new Set(globalProducts.map(p=>p.id)).size,bundledCount);
   assert.equal((await products.browseProducts(null,{storeId:'missing'})).products.length,0);
   await assert.rejects(products.browseProducts(null,{storeId:''}), /Store ID/);
 }));
@@ -81,7 +91,7 @@ test('inventory category counts and filters combine with search without changing
   const storeId='target-1391';
   const categories=await products.listCategories(storeId);
   assert.equal(categories.reduce((n,c)=>n+c.productCount,0),41);
-  assert.equal((await products.listCategories()).reduce((n,c)=>n+c.productCount,0),50);
+  assert.equal((await products.listCategories()).reduce((n,c)=>n+c.productCount,0),bundledCount);
   for(const c of categories) {
     const page=await products.browseProducts(c.id,{storeId,limit:100});
     assert.equal(page.products.length,c.productCount);

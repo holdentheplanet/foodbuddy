@@ -1,0 +1,16 @@
+{
+  "productId": "batch04-jimmy-italian",
+  "name": "Jimmy Dean Italian Premium Pork Sausage",
+  "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Italian Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+  "sourceUrls": [
+    "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900210501"
+  ],
+  "ingredientSha256": "2780daa75d5330fa85d7db5d4d8324bf04acbb9db18222e7240736d3dee5583d",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Italian Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.\nProduct identity: Jimmy Dean Italian Premium Pork Sausage\nEvidence URLs (for provenance, not text to print): https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900210501",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-1e11887c-4764-4f17-a54e-67430ac2b6f9.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

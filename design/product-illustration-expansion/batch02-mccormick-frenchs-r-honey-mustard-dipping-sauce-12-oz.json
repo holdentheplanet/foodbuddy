@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-mccormick-frenchs-r-honey-mustard-dipping-sauce-12-oz",
+  "name": "French's French's\u00ae Honey Mustard Dipping Sauce, 12 oz",
+  "subject": "Honey mustard dipping sauce alone in a plain white shallow dish, pale golden creamy glossy swirl. No honey drizzle, mustard seeds, food accompaniments or packaging.",
+  "sourceUrls": [
+    "https://www.mccormick.com/products/frenchs-r-honey-mustard-dipping-sauce-12-oz"
+  ],
+  "ingredientSha256": "eba1d26dc0e5ce9d145cb6139d517d46e8361ce7301ea79b5d13ed6bb428d8f4",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Honey mustard dipping sauce alone in a plain white shallow dish, pale golden creamy glossy swirl. No honey drizzle, mustard seeds, food accompaniments or packaging.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-d8bdfa3c-79c5-44f1-8a54-fd2c2b6fc014.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

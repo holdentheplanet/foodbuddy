@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-mccormick-franks-redhot-original-cayenne-pepper-hot-sauce-12-fl-oz",
+  "name": "Frank's RedHot Frank's RedHot Original Cayenne Pepper Hot Sauce, 12.0 fl oz",
+  "subject": "Original cayenne pepper hot sauce alone in a small shallow white dipping bowl, smooth fluid bright reddish-orange sauce. No peppers, seeds, wings, herbs or bottle.",
+  "sourceUrls": [
+    "https://www.mccormick.com/products/franks-redhot-original-cayenne-pepper-hot-sauce-12-fl-oz"
+  ],
+  "ingredientSha256": "567d78bdcd3785931750ef0b59049751595c939b516755a7aa504708ee9cef82",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Original cayenne pepper hot sauce alone in a small shallow white dipping bowl, smooth fluid bright reddish-orange sauce. No peppers, seeds, wings, herbs or bottle.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-122592ed-718a-4220-9f33-909b6614fb12.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

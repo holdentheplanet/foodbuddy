@@ -1,0 +1,16 @@
+{
+  "productId": "us-campbells-original",
+  "name": "Campbell\u2019s Campbell\u2019s Condensed Tomato Soup",
+  "subject": "Smooth red-orange condensed tomato soup in a plain white soup bowl. No cream swirl, crackers, basil or sandwich, no recipe additions.",
+  "sourceUrls": [
+    "https://www.campbells.com/products/condensed/tomato-soup/"
+  ],
+  "ingredientSha256": "34aa7db97e563dda1d81fba581bc8f121a79c29be72d733d073300bbe5f12aa4",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Smooth red-orange condensed tomato soup in a plain white soup bowl. No cream swirl, crackers, basil or sandwich, no recipe additions.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-78f0dbab-5dd2-44bf-b38b-520b6e96081a.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

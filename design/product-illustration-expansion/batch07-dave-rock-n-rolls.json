@@ -1,0 +1,16 @@
+{
+  "productId": "batch07-dave-rock-n-rolls",
+  "name": "Dave\u2019s Killer Bread Rock \u2018N\u2019 Rolls",
+  "subject": "Four small whole-grain dinner/slider rolls with naturally golden-brown domed tops and whole-grain seed flecks from the 21 Whole Grains and Seeds blend; one pulled open to show tan crumb. These are small slider/dinner rolls, not long hoagie rolls or large burgers. No fillings or garnish.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/rock-n-rolls"
+  ],
+  "ingredientSha256": "5b21c79d71e2c94e2655deef5ad94c771c3e61101194cddc32ea64ac87937434",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Four small whole-grain dinner/slider rolls with naturally golden-brown domed tops and whole-grain seed flecks from the 21 Whole Grains and Seeds blend; one pulled open to show tan crumb. These are small slider/dinner rolls, not long hoagie rolls or large burgers. No fillings or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-048621f0-bda6-4bf4-89d8-e6a78efaf682.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

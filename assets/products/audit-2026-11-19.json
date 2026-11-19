@@ -1,0 +1,92 @@
+[
+  {
+    "productId": "batch01-hershey-kit-kat-milk-chocolate-candy-bar-1-5-oz",
+    "reviewedAt": "2026-11-19",
+    "decision": "retain",
+    "reason": "Readable front packaging is consistent with the recorded brand, product variant and size; existing barcode/source provenance retained. No new manufacturer endorsement or ingredient verification is implied.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0034000002467",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "batch07-cheerios-chocolate-cheerios",
+    "reviewedAt": "2026-11-19",
+    "decision": "retain",
+    "reason": "Readable front packaging is consistent with the recorded brand, product variant and size; existing barcode/source provenance retained. No new manufacturer endorsement or ingredient verification is implied.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0016000163478",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "batch07-cheerios-frosted-cheerios",
+    "reviewedAt": "2026-11-19",
+    "decision": "retain",
+    "reason": "Readable front packaging is consistent with the recorded brand, product variant and size; existing barcode/source provenance retained. No new manufacturer endorsement or ingredient verification is implied.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0016000169142",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "batch07-cheerios-very-berry-cheerios",
+    "reviewedAt": "2026-11-19",
+    "decision": "retain",
+    "reason": "Readable front packaging is consistent with the recorded brand, product variant and size; existing barcode/source provenance retained. No new manufacturer endorsement or ingredient verification is implied.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0016000169319",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "batch05-frenchs-worcestershire-sauce-10-fl-oz",
+    "reviewedAt": "2026-11-19",
+    "decision": "retain",
+    "reason": "Readable front packaging is consistent with the recorded brand, product variant and size; existing barcode/source provenance retained. No new manufacturer endorsement or ingredient verification is implied.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0041500013107",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "batch05-frenchs-classic-yellow-mustard-8-oz",
+    "reviewedAt": "2026-11-19",
+    "decision": "hold",
+    "reason": "Hand-held package with distracting shop background. Identity appears consistent, but replace with a cleaner exact-size photograph.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0041500007007",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "batch05-frenchs-creamy-honey-chipotle-mustard-spread-12-oz",
+    "reviewedAt": "2026-11-19",
+    "decision": "hold",
+    "reason": "Angled hand-held/countertop photograph. Identity appears consistent, but replace with a cleaner front-facing photograph.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0041500011950",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "quaker-old-fashioned-18oz",
+    "reviewedAt": "2026-11-19",
+    "decision": "hold",
+    "reason": "Shelf photograph includes surrounding products and price tags; package size is not sufficiently readable in this file for a fresh exact-size confirmation.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0030000010204",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "barilla-spaghetti",
+    "reviewedAt": "2026-11-19",
+    "decision": "retain",
+    "reason": "Readable front packaging is consistent with the recorded brand, product variant and size; existing barcode/source provenance retained. No new manufacturer endorsement or ingredient verification is implied.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0076808280081",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "productId": "batch07-stubbs-original-barbecue-sauce-18-oz",
+    "reviewedAt": "2026-11-19",
+    "decision": "hold",
+    "reason": "Used, partly empty bottle with residue and a hand/background; unsuitable as a clean identification photograph.",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0734756000020",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+]

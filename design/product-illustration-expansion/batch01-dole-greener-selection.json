@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-dole-greener-selection",
+  "name": "Dole Greener Selection",
+  "subject": "A realistic loose serving of Greener Selection raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+  "sourceUrls": [
+    "https://dolefreshvegetables.com/produce/greener-selection"
+  ],
+  "ingredientSha256": "780feffc27a6724549dc33c202e6bd19cacf23ca7038ab6f6ba1beda6afa5dc5",
+  "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+  "status": "visual_review_passed",
+  "prompt": "Use case: photorealistic-natural. Create a NEW square product-specific food illustration. The reference image is STYLE ONLY: match its soft off-white background, premium realistic studio food textures, upper-left diffused natural lighting, gentle contact shadows and square framing. Do NOT copy its bread subject. Food fills about 80% of frame, consistent three-quarter elevated camera. No cartoon, no painterly outlines, no emojis, no fake packaging, brands, logos or invented food elements. Include small exact disclosure text 'Illustrative image' in the bottom-left margin. This is a generated representation, never an official manufacturer photograph. A realistic loose serving of Greener Selection raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-769a32c7-0c62-441d-bcde-c385f33b1b7d.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

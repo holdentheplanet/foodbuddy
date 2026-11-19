@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-chex-chocolate-chex",
+  "name": "Chex Chocolate Chex",
+  "subject": "Dry chocolate flavored square-lattice cereal pillows, a mix of cocoa-brown and pale golden squares in a plain white bowl. No milk, chocolate pieces or fruit.",
+  "sourceUrls": [
+    "https://www.chex.com/products/chocolate-chex"
+  ],
+  "ingredientSha256": "4ba0966a5e882839c7342db90e98719ed59351221483bdcc6364b245ff9c73b3",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Dry chocolate flavored square-lattice cereal pillows, a mix of cocoa-brown and pale golden squares in a plain white bowl. No milk, chocolate pieces or fruit.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-f1a13089-3970-4954-a070-7517f4bbb3d7.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

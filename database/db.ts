@@ -1,3 +1,4 @@
+import { initializeIdentitySchema } from '../auth/localIdentity';
 import { initializeDemoInventory } from '../inventory';
 import { importLocalStores } from '../stores';
 import * as SQLite from 'expo-sqlite';
@@ -9,6 +10,7 @@ export const db = SQLite.openDatabaseSync('foodbuddy.db');
 
 export async function initializeDatabase(): Promise<void> {
   await initializeDatabaseConnection(db);
+  await initializeIdentitySchema(db);
   await importStarterProductCatalog(db);
   await importLocalStores(db);
   await initializeDemoInventory(db);

@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-jif-creamy-reduced-fat-creamy-peanut-butter-spread",
+  "name": "Jif Reduced Fat Creamy Peanut Butter Spread",
+  "subject": "Reduced-fat creamy peanut butter spread, smooth tan paste in a low white dish, gentle overlapping spoon grooves, visibly no nut chunks. No garnish, bread or jar.",
+  "sourceUrls": [
+    "https://www.jif.com/products/creamy/reduced-fat-creamy-peanut-butter"
+  ],
+  "ingredientSha256": "d63c0dd741aa6ff83145566e16aa7500b42fdd3e6596c87df6e83136d3a138a5",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Reduced-fat creamy peanut butter spread, smooth tan paste in a low white dish, gentle overlapping spoon grooves, visibly no nut chunks. No garnish, bread or jar.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-97b9d2a5-0cf7-4e41-8b6c-2d8efc07d190.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

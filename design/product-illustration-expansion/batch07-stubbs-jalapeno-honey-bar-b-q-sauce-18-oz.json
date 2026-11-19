@@ -1,0 +1,16 @@
+{
+  "productId": "batch07-stubbs-jalapeno-honey-bar-b-q-sauce-18-oz",
+  "name": "Stubb's Stubb's\u00ae Jalape\u00f1o & Honey Bar-B-Q Sauce, 18 oz",
+  "subject": "Jalapeno and honey barbecue sauce alone in a shallow off-white ramekin, warm reddish-brown glossy sauce. Do not invent visible jalapeno slices, honeycomb or garnish; no meat or packaging.",
+  "sourceUrls": [
+    "https://www.mccormick.com/products/stubbs-r-jalapeno-honey-bar-b-q-sauce-18-oz"
+  ],
+  "ingredientSha256": "596cdc3751b629e01f377e6e6df163fcd5de6b95841967c4190b04bd2059c311",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Jalapeno and honey barbecue sauce alone in a shallow off-white ramekin, warm reddish-brown glossy sauce. Do not invent visible jalapeno slices, honeycomb or garnish; no meat or packaging.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-5204d76c-cdf8-479a-aeae-f9ba4608010a.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

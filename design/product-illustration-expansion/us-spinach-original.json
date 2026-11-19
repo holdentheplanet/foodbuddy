@@ -1,0 +1,16 @@
+{
+  "productId": "us-spinach-original",
+  "name": "Dole Dole Baby Spinach",
+  "subject": "A realistic loose serving of Dole Baby Spinach raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: BABY SPINACH. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+  "sourceUrls": [
+    "https://dolefreshvegetables.com/produce/baby-spinach"
+  ],
+  "ingredientSha256": "13c2f3cf26fe796beeb5adf883b633ba096a0511bfb3bd6980a03d8af9639838",
+  "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+  "status": "visual_review_passed",
+  "prompt": "Use case: photorealistic-natural. Create a NEW square product-specific food illustration. The reference image is STYLE ONLY: match its soft off-white background, premium realistic studio food textures, upper-left diffused natural lighting, gentle contact shadows and square framing. Do NOT copy its bread subject. Food fills about 80% of frame, consistent three-quarter elevated camera. No cartoon, no painterly outlines, no emojis, no fake packaging, brands, logos or invented food elements. Include small exact disclosure text 'Illustrative image' in the bottom-left margin. This is a generated representation, never an official manufacturer photograph. A realistic loose serving of Dole Baby Spinach raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: BABY SPINACH. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-4bd19aaf-1ffc-47e5-b648-3120ffe01bfb.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

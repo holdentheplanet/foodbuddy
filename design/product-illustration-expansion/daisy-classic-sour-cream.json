@@ -1,0 +1,17 @@
+{
+  "productId": "daisy-classic-sour-cream",
+  "name": "Daisy Classic Daisy Sour Cream",
+  "subject": "Classic plain sour cream in a low white bowl, dense smooth white texture with a soft folded peak, different composition from the light sour cream image. No garnish or other food.",
+  "sourceUrls": [
+    "https://www.daisybrand.com/wp-content/smush-webp/2023/07/073420000110-Daisy-16-ounce-sour-cream-nutrition-back-side-2400x2400-1.png.webp",
+    "https://www.daisybrand.com/sour-cream/"
+  ],
+  "ingredientSha256": "7a59d9897ae121f4efa04dc874833b39ab736c100184f28932eb86bfded1edd1",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Classic plain sour cream in a low white bowl, dense smooth white texture with a soft folded peak, different composition from the light sour cream image. No garnish or other food.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-e0d91014-a5a3-4b66-b845-8054f85c8733.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

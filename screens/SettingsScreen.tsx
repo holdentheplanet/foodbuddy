@@ -1,3 +1,5 @@
+import Disclosure from '../components/Disclosure';
+import AccountTools from '../components/AccountTools';
 
 import React, { useState } from 'react';
 import {
@@ -134,6 +136,7 @@ async function handleChangePassword() {
       {/* PROFILE CARD */}
       <View style={styles.profileCard}>
         <TouchableOpacity
+          accessibilityRole="button" accessibilityLabel="Change profile picture" accessibilityState={{ disabled: saving, busy: saving }}
           onPress={changeProfilePicture}
           disabled={saving}
           style={styles.avatarButton}
@@ -153,8 +156,10 @@ async function handleChangePassword() {
         </TouchableOpacity>
 
         <TouchableOpacity
+          accessibilityRole="button" accessibilityLabel="Change profile picture" accessibilityState={{ disabled: saving, busy: saving }}
           onPress={changeProfilePicture}
           disabled={saving}
+          style={styles.photoAction}
         >
           <Text style={styles.changePhoto}>
             {saving ? 'Saving...' : 'Change Profile Picture'}
@@ -167,15 +172,24 @@ async function handleChangePassword() {
         <Text style={styles.email}>{user.email}</Text>
       </View>
 
+      <Disclosure title="About FoodBuddy & Food Safety">
+        <Text style={styles.safetyText}>FoodBuddy compares available product labels with your saved allergies. These checks are preliminary and may miss allergens or cross-contact. No result guarantees a product is safe or allergy-free.</Text>
+        <Text style={styles.safetyText}>Manufacturers can change ingredients. Always check the physical packaging and current allergen warnings before consuming. Verified ingredient text does not mean allergen declarations or precautionary statements are complete. Unknown information never confirms an allergen is absent.</Text>
+        <Text style={styles.safetyText}>Product search works offline. Photo credits and verification sources are available in each product’s details. Store inventory is demonstration data, simulated rather than live availability.</Text>
+      </Disclosure>
+
+      <Disclosure title="Cloud sync & legacy account tools"><AccountTools key={user.supabaseId} user={user} /></Disclosure>
+
       {/* ACCOUNT & SECURITY */}
       <View style={styles.securityCard}>
         <Text style={styles.securityTitle}>Account & Security</Text>
 
         <TouchableOpacity
           style={styles.settingRow}
+          accessibilityRole="button" accessibilityLabel="Change password" accessibilityState={{ expanded: showPasswordForm }}
           onPress={() => setShowPasswordForm(!showPasswordForm)}
         >
-          <Text style={styles.settingText}>🔒 Change Password</Text>
+          <Text style={styles.settingText}>Change Password</Text>
           <Text style={styles.settingArrow}>
             {showPasswordForm ? '⌃' : '›'}
           </Text>
@@ -185,6 +199,8 @@ async function handleChangePassword() {
           <View style={styles.passwordForm}>
             <TextInput
               style={styles.passwordInput}
+              accessibilityLabel="Current password"
+              placeholderTextColor="#53645F"
               placeholder="Current Password"
               secureTextEntry
               autoCapitalize="none"
@@ -194,6 +210,8 @@ async function handleChangePassword() {
 
             <TextInput
               style={styles.passwordInput}
+              accessibilityLabel="New password"
+              placeholderTextColor="#53645F"
               placeholder="New Password"
               secureTextEntry
               autoCapitalize="none"
@@ -203,6 +221,8 @@ async function handleChangePassword() {
 
             <TextInput
               style={styles.passwordInput}
+              accessibilityLabel="Confirm new password"
+              placeholderTextColor="#53645F"
               placeholder="Confirm New Password"
               secureTextEntry
               autoCapitalize="none"
@@ -212,6 +232,7 @@ async function handleChangePassword() {
 
             <TouchableOpacity
               style={styles.savePasswordButton}
+              accessibilityRole="button" accessibilityLabel="Update password" accessibilityState={{ disabled: passwordSaving, busy: passwordSaving }}
               onPress={handleChangePassword}
               disabled={passwordSaving}
             >
@@ -226,6 +247,7 @@ async function handleChangePassword() {
       {/* LOG OUT */}
       <TouchableOpacity
         style={styles.logoutButton}
+        accessibilityRole="button" accessibilityLabel="Log out"
         onPress={onLogout}
       >
         <Text style={styles.logoutText}>Log Out</Text>
@@ -235,11 +257,12 @@ async function handleChangePassword() {
 }
 
 const styles = StyleSheet.create({
+  safetyText: { color: '#53645F', fontSize: 14, lineHeight: 22 },
   container: {
     flex: 1,
     backgroundColor: '#F7F5EF',
     padding: 24,
-    paddingTop: 35,
+    paddingTop: 12,
   },
 
   title: {
@@ -250,12 +273,12 @@ const styles = StyleSheet.create({
   },
 
   profileCard: {
-    backgroundColor: 'white',
-    padding: 25,
-    borderRadius: 18,
+    backgroundColor: 'transparent',
+    paddingVertical: 24,
     alignItems: 'center',
   },
 
+  photoAction: { minHeight: 44, justifyContent: 'center' },
   avatarButton: {
     marginBottom: 12,
   },
@@ -300,9 +323,8 @@ const styles = StyleSheet.create({
   },
 
   securityCard: {
-    backgroundColor: 'white',
-    borderRadius: 18,
-    padding: 20,
+    backgroundColor: 'transparent',
+    paddingVertical: 20,
     marginTop: 20,
   },
 

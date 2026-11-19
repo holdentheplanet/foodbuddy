@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-hershey-york-dark-chocolate-peppermint-patties-1-4-oz",
+  "name": "YORK YORK Dark Chocolate Peppermint Patties, 1.4 oz",
+  "subject": "Two round flat dark-chocolate covered peppermint patties, one cut in half showing smooth white peppermint filling and a thin dark chocolate shell. No coconut fibers, mint leaf garnish, nuts or branding.",
+  "sourceUrls": [
+    "https://www.hersheyland.com/products/york-dark-chocolate-peppermint-patties-1-4-oz.html"
+  ],
+  "ingredientSha256": "5fedeeaf877212c1d3369eac24cc772aea93fb681c709830d979e0117a102822",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Two round flat dark-chocolate covered peppermint patties, one cut in half showing smooth white peppermint filling and a thin dark chocolate shell. No coconut fibers, mint leaf garnish, nuts or branding.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-59d93178-30bf-4420-9f7b-62e8be6367ea.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

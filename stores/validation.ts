@@ -2,7 +2,7 @@ import { validCoordinates } from '../services/storeDistance';
 import type { StoreCatalog } from './types';
 
 const hosts = new Set(['www.target.com', 'www.publix.com', 'stores.foodlion.com', 'www.walmart.com',
-  'www.harristeeter.com', 'mapcarta.com', 'www.whereorg.com']);
+  'www.harristeeter.com', 'mapcarta.com', 'www.whereorg.com', 'www.openstreetmap.org', 'openstreetmap.org']);
 function check(value: unknown, message: string): asserts value {
   if (!value) throw new Error(`Invalid store catalog: ${message}`);
 }
@@ -33,6 +33,16 @@ export function validateStoreCatalog(input: unknown, today = new Date().toISOStr
     }
     if (store.latitude !== null) check(store.sources.some(source => source.evidence.includes(String(store.latitude))
       && source.evidence.includes(String(store.longitude)) && source.evidence.includes(store.streetAddress)), 'coordinates lack source evidence');
+    if (store.dataset) {
+      const d = store.dataset;
+      check(['node', 'way', 'relation'].includes(d.osmType) && /^[1-9]\d*$/.test(d.osmId), 'invalid OSM identity');
+      check(store.id === `osm-${d.osmType}-${d.osmId}` && store.verificationStatus === 'unverified', 'dataset stores must retain source identity and unverified status');
+      check(nonblank(d.metro) && nonblank(d.datasetUrl) && Number.isFinite(Date.parse(d.datasetTimestamp)) && d.datasetTimestamp.slice(0, 10) <= store.checkedAt, 'invalid dataset provenance');
+      check(/^[a-f0-9]{64}$/.test(d.snapshotSha256) && ['osm_node', 'osm_bbox_center'].includes(d.coordinateMethod), 'invalid snapshot or coordinate method');
+      check(d.originalTags?.shop === 'supermarket' && d.originalTags.name === store.name, 'original grocery identity required');
+      check(store.streetAddress === `${d.originalTags['addr:housenumber']} ${d.originalTags['addr:street']}` && store.city === d.originalTags['addr:city'] && store.state === d.originalTags['addr:state'] && store.zipCode === d.originalTags['addr:postcode'], 'address must match original OSM tags');
+      check(store.sources.some(source => source.kind === 'openstreetmap' && source.url === `https://www.openstreetmap.org/${d.osmType}/${d.osmId}`), 'exact OSM source required');
+    }
     if (store.verificationStatus === 'verified') {
       check(validCoordinates(store) && store.sources.some(source => source.kind === 'official_directory'), 'verified location needs coordinates and official identity');
       check(store.sources.some(source => source.kind !== 'business_directory' && source.evidence.includes(String(store.latitude))

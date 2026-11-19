@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-jimmydean-00077900192098",
+  "name": "Jimmy Dean Fully Cooked Original Pork Sausage Patties",
+  "subject": "Three round browned fully cooked pork breakfast sausage patties on a plain dish. No eggs, bread, syrup or garnish.",
+  "sourceUrls": [
+    "https://www.jimmydean.com/products/fully-cooked-sausage/00077900192098"
+  ],
+  "ingredientSha256": "aee2a35ce9dcbadbda57e4035bf5d95eab53dcdc37d6c2a414212bdfaffc565a",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: Three round browned fully cooked pork breakfast sausage patties on a plain dish. No eggs, bread, syrup or garnish.\nProduct identity: Jimmy Dean Fully Cooked Original Pork Sausage Patties\nEvidence URLs (for provenance, not text to print): https://www.jimmydean.com/products/fully-cooked-sausage/00077900192098",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-d32d8ce3-20c8-4de6-922c-cb144f411e9a.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-daves-white-bread-done-right",
+  "name": "Dave's Killer Bread White Bread Done Right",
+  "subject": "Three slices of soft artisan-style white sandwich bread, pale creamy golden fine crumb and thin golden crust, classic sliced sandwich-loaf shape. No visible seed or nut coating, no fruit, butter, filling or toast marks.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/white-bread-done-right"
+  ],
+  "ingredientSha256": "853d5d36b7ba384ecd92d0670a25ed3c5763f228ea6f1938b617319ebfb42498",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Three slices of soft artisan-style white sandwich bread, pale creamy golden fine crumb and thin golden crust, classic sliced sandwich-loaf shape. No visible seed or nut coating, no fruit, butter, filling or toast marks.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-9a882278-040f-4a27-8213-733bc2ddcfda.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

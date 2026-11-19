@@ -1,9 +1,10 @@
 import type { SQLiteDatabase } from 'expo-sqlite';
 import { canonicalRecord } from '../catalog/validation';
 import type { StoreRecord } from './types';
+import { findStoreConflict } from './identity';
 import { validateStoreCatalog } from './validation';
 
-type Database = Pick<SQLiteDatabase, 'execAsync' | 'runAsync' | 'getFirstAsync'>;
+type Database = Pick<SQLiteDatabase, 'execAsync' | 'runAsync' | 'getFirstAsync' | 'getAllAsync'>;
 const queues = new WeakMap<Database, Promise<unknown>>();
 export function importStoreCatalog(database: Database, input: unknown, today?: string) {
   const catalog = validateStoreCatalog(input, today);
@@ -12,9 +13,14 @@ export function importStoreCatalog(database: Database, input: unknown, today?: s
     const version = await database.getFirstAsync<{ user_version: number }>('PRAGMA user_version');
     const fk = await database.getFirstAsync<{ foreign_keys: number }>('PRAGMA foreign_keys');
     if (!version || version.user_version < 5 || fk?.foreign_keys !== 1) throw new Error('Initialize migrations before store import.');
-    const result = { inserted: 0, updated: 0, unchanged: 0, skipped: [] as string[] };
+    const result = { inserted: 0, updated: 0, unchanged: 0, skipped: [] as string[], conflicts: [] as { incomingId: string; existingId: string; reason: string }[] };
     await database.execAsync('BEGIN IMMEDIATE');
     try {
+      const rows = await database.getAllAsync<{ id: string; name: string; chain: string | null; street_address: string; city: string; state: string; latitude: number | null; longitude: number | null; record_json: string | null }>(
+        'SELECT s.*, c.record_json FROM stores s LEFT JOIN store_catalog_entries c ON c.store_id=s.id');
+      const identities = rows.map(row => ({ id: row.id, name: row.name, chain: row.chain ?? 'Independent', streetAddress: row.street_address,
+        city: row.city, state: row.state, latitude: row.latitude, longitude: row.longitude,
+        sources: row.record_json ? (JSON.parse(row.record_json) as StoreRecord).sources : [] }));
       for (const store of catalog.stores) {
         const existing = await database.getFirstAsync<{ catalog_id: string | null; record_json: string | null; location_verification_status: string }>(
           `SELECT c.catalog_id, c.record_json, s.location_verification_status FROM stores s
@@ -28,6 +34,8 @@ export function importStoreCatalog(database: Database, input: unknown, today?: s
             || old.checkedAt > store.checkedAt || (old.latitude !== null && store.latitude === null)
             || old.sources.some(source => !store.sources.some(next => next.url === source.url))) { result.skipped.push(store.id); continue; }
         }
+        const conflict = findStoreConflict(store, identities);
+        if (conflict) { result.skipped.push(store.id); result.conflicts.push({ incomingId: store.id, ...conflict }); continue; }
         // Never REPLACE an existing store, which could cascade into inventory later.
         await database.runAsync(`INSERT INTO stores(id,name,chain,street_address,city,state,zip_code,latitude,longitude,
           location_verification_status,location_source_reference) VALUES(?,?,?,?,?,?,?,?,?,?,?)
@@ -39,6 +47,8 @@ export function importStoreCatalog(database: Database, input: unknown, today?: s
         await database.runAsync(`INSERT INTO store_catalog_entries(store_id,catalog_id,record_json) VALUES(?,?,?)
           ON CONFLICT(store_id) DO UPDATE SET record_json=excluded.record_json,imported_at=CURRENT_TIMESTAMP`, [store.id,catalog.catalogId,json]);
         await database.runAsync('INSERT OR IGNORE INTO store_catalog_revisions(store_id,catalog_id,record_json) VALUES(?,?,?)', [store.id,catalog.catalogId,json]);
+        const priorIdentity = identities.findIndex(item => item.id === store.id);
+        if (priorIdentity >= 0) identities[priorIdentity] = store; else identities.push(store);
         if (existing) result.updated++; else result.inserted++;
       }
       await database.execAsync('COMMIT'); return result;

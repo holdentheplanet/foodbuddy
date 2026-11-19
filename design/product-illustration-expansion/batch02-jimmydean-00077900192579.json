@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-jimmydean-00077900192579",
+  "name": "Jimmy Dean Fully Cooked Turkey Sausage Links",
+  "subject": "A small serving of browned fully cooked turkey breakfast sausage links on a plain dish. No eggs, bread, syrup, herbs or garnish.",
+  "sourceUrls": [
+    "https://www.jimmydean.com/products/fully-cooked-sausage/00077900192579"
+  ],
+  "ingredientSha256": "5672127b4ef6987b5f71a84f71fdada74efb6d9e27049b08a5dc0ebf9eaf691b",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: A small serving of browned fully cooked turkey breakfast sausage links on a plain dish. No eggs, bread, syrup, herbs or garnish.\nProduct identity: Jimmy Dean Fully Cooked Turkey Sausage Links\nEvidence URLs (for provenance, not text to print): https://www.jimmydean.com/products/fully-cooked-sausage/00077900192579",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-291a4900-386e-4862-8bf0-0bfa32428470.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}
