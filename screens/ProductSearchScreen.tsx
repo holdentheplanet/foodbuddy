@@ -1,15 +1,21 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { ingredientHighlights } from '../ui/ingredientHighlights';
+import Disclosure from '../components/Disclosure';
+import React, { useEffect, useEffectEvent, useRef, useState } from 'react';
 import {
-  ActivityIndicator, Image, Keyboard, ScrollView, StyleSheet, Text, TextInput,
+  ActivityIndicator, Keyboard, ScrollView, StyleSheet, Text, TextInput,
   TouchableOpacity, useWindowDimensions, View,
 } from 'react-native';
 import StockBadge from '../components/StockBadge';
+import ProductPhoto from '../components/ProductPhoto';
+import { productEvidence } from '../ui/productEvidence';
 import { colors as c } from '../ui/theme';
 import ProductDemoAvailability from '../components/ProductDemoAvailability';
 import AllergyMatchList from '../components/AllergyMatchList';
-import { DEMO_DISCLAIMER, demoStatusLabel } from '../inventory/types';
+import ProductCard from '../components/ProductCard';
+import ProductAllergyStatus from '../components/ProductAllergyStatus';
+import { useProductAssessments } from '../hooks/useProductAssessments';
+import { DEMO_DISCLAIMER } from '../inventory/types';
 import type { LocalStore } from '../services/localStoreService';
-import { GROCERY_CATEGORIES } from '../catalog/categories';
 import type { LocalProductCategory, LocalProductDetails, LocalProductSummary } from '../services/localProductService';
 import { localProducts } from '../services/localProducts';
 import { checkLocalProductAllergies } from '../services/allergyChecker';
@@ -21,28 +27,23 @@ const BLUE = c.blue;
 const CREAM = c.cream;
 const BORDER = c.border;
 
-type Props = { userId: number; onBack: () => void; store?: LocalStore };
-export default function ProductSearchScreen({ userId, onBack, store }: Props) {
+type Props = { userId: number; onBack: () => void; store?: LocalStore; isActive?: boolean; initialProductId?: string; initialCategoryId?: string };
+export default function ProductSearchScreen({ userId, onBack, store, isActive = true, initialProductId, initialCategoryId }: Props) {
   const { width, fontScale } = useWindowDimensions();
   const singleColumn = width < 370 || fontScale > 1.25;
   const lastSearchOffset = useRef(0);
   const restoreSearchPosition = useRef(false);
   const [categories, setCategories] = useState<LocalProductCategory[]>([]);
-  useEffect(() => {
-    let current = true;
-    void localProducts.listCategories(store?.id).then(value => { if (current) setCategories(value); })
-      .catch(() => { if (current) setSearchError('Could not load local categories.'); });
-    return () => { current = false; };
-  }, [store?.id]);
   const [query, setQuery] = useState('');
   const [submittedQuery, setSubmittedQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [products, setProducts] = useState<LocalProductSummary[]>([]);
+  const assessments = useProductAssessments(userId, products, isActive);
   const [hasMore, setHasMore] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
   const [loading, setLoading] = useState(false);
   const [searchError, setSearchError] = useState<string | null>(null);
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedId, setSelectedId] = useState<string | null>(initialProductId ?? null);
   const [selected, setSelected] = useState<LocalProductDetails | null>(null);
   const [checking, setChecking] = useState(false);
   const [detailError, setDetailError] = useState<string | null>(null);
@@ -51,9 +52,16 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
   const detailRequests = useRef(createLatestRequest());
   const scroll = useRef<ScrollView>(null);
 
-  useEffect(() => () => {
-    searchRequests.current.invalidate();
-    detailRequests.current.invalidate();
+  useEffect(() => {
+    let current = true;
+    void localProducts.listCategories(store?.id).then(value => { if (current) setCategories(value); })
+      .catch(() => { if (current) setSearchError('Could not load local categories.'); });
+    return () => { current = false; };
+  }, [store?.id]);
+
+  useEffect(() => {
+    const searches = searchRequests.current, details = detailRequests.current;
+    return () => { searches.invalidate(); details.invalidate(); };
   }, []);
 
   async function handleSearch(term = query, append = false, category: string | null = store ? activeCategory : null, browse = false) {
@@ -66,7 +74,7 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
     if (!append) { setProducts([]); setHasMore(false); setHasSearched(false); setSubmittedQuery(search); }
     try {
       const options = { limit: 24, offset: append ? products.length : 0, storeId: store?.id };
-      const page = browse || (store && !search) ? await localProducts.browseProducts(category, options) : await localProducts.searchProducts(search, { ...options, categoryId: store ? category : null });
+      const page = browse || !search ? await localProducts.browseProducts(category, options) : await localProducts.searchProducts(search, { ...options, categoryId: store ? category : null });
       if (!searchRequests.current.isCurrent(request)) return;
       setProducts(previous => append ? [...previous, ...page.products] : page.products);
       setHasMore(page.hasMore);
@@ -81,7 +89,12 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
     }
   }
 
-  useEffect(() => { if (store) void handleSearch('', false, null, true); }, [store?.id]);
+  const storeId = store?.id;
+  const loadStoreOnOpen = useEffectEvent(() => {
+    if (store) void handleSearch('', false, null, true);
+    else void handleSearch('', false, initialCategoryId ?? null, true);
+  });
+  useEffect(() => { loadStoreOnOpen(); }, [storeId, initialCategoryId]);
 
   useEffect(() => {
     if (selectedId === null && restoreSearchPosition.current) {
@@ -95,10 +108,11 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
 
   // One effect owns details + its allergy check. No checks in click handlers or cards.
   useEffect(() => {
-    const request = detailRequests.current.start();
+    const requests = detailRequests.current;
+    const request = requests.start();
     setSelected(null); setCheckResult(null); setDetailError(null);
     setChecking(selectedId !== null);
-    if (selectedId === null) return;
+    if (selectedId === null || !isActive) return;
     async function load() {
       try {
         const product = await localProducts.getProductById(selectedId!);
@@ -116,8 +130,8 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
       }
     }
     void load();
-    return () => detailRequests.current.invalidate();
-  }, [selectedId, userId]);
+    return () => requests.invalidate();
+  }, [selectedId, userId, isActive]);
 
   function openProduct(product: LocalProductSummary) {
     Keyboard.dismiss();
@@ -129,17 +143,12 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
   }
   function back() {
     detailRequests.current.invalidate();
+    if (selectedId && selectedId === initialProductId && !hasSearched) { onBack(); return; }
     if (selectedId) { restoreSearchPosition.current = true; setSelectedId(null); setSelected(null); setCheckResult(null); setChecking(false); }
     else { searchRequests.current.invalidate(); onBack(); }
   }
   function renderProductImage(product: LocalProductSummary, large = false) {
-    // Catalog images currently have no bundled files. Never fetch a remote image in this offline flow.
-    const image = product.imageReference && /^(file:|content:|data:)/.test(product.imageReference) ? product.imageReference : null;
-    return <View style={[styles.imageFrame, large && styles.largeImageFrame]}>
-      {image ? <Image source={{ uri: image }} style={styles.productImage} resizeMode="contain" /> :
-        <View style={styles.placeholder}><Text maxFontSizeMultiplier={1.2} style={styles.placeholderIcon}>🛒</Text>
-          <Text maxFontSizeMultiplier={1.2} style={styles.placeholderText}>No product photo</Text></View>}
-    </View>;
+    return <ProductPhoto key={`${product.id}-${large}`} productId={product.id} name={product.name} categoryId={product.categoryId} large={large} compact={large} />;
   }
   function renderAllergyStatus() {
     if (checking) return <View style={styles.statusBox}><ActivityIndicator color={GREEN} />
@@ -147,30 +156,19 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
     if (detailError || !checkResult) return <View style={styles.statusBox}>
       <Text style={styles.statusTitle}>Unable to complete allergy check</Text>
       <Text style={styles.statusDescription}>{detailError ?? 'Allergy information unavailable.'} Check the physical packaging.</Text></View>;
-    const result = checkResult;
-    const declaredMatch = result.matches.some(match => match.kind === 'declared' && match.source === 'allergens');
-    const title = result.savedAllergyCount === 0 ? 'No saved allergies'
-      : result.status === 'conflict' ? declaredMatch ? 'Declared allergen match' : 'Ingredient match'
-      : result.status === 'caution' ? 'Precautionary / potential allergy concern'
-      : result.status === 'unknown' ? 'Information incomplete or unverified' : 'No known matches in available data';
-    const description = result.savedAllergyCount === 0 ? 'Add allergies to your profile for personalized ingredient checks.'
-      : result.status === 'conflict' ? 'Your saved allergy appears in the available ingredients or manufacturer declaration.'
-      : result.status === 'caution' ? 'Review possible cross-contact or related ingredient matches. Derivative mappings are incomplete and unverified.'
-      : result.status === 'unknown' ? 'The available information cannot support a complete allergy check.'
-      : 'This does not guarantee safety. Missing warnings do not establish absence of cross-contact.';
-    return <View style={[styles.statusBox, result.status === 'conflict' && styles.dangerBox]}>
-      <Text style={styles.statusTitle}>{title}</Text><Text style={styles.statusDescription}>{description}</Text>
-      <AllergyMatchList result={result} />{/* Grouped by severity, with notes; see components/AllergyMatchList.tsx */}
-      {result.informationIncomplete && <Text style={[styles.statusDescription, { marginTop: 12 }]}>
-        Information incomplete: {result.missingInformation.join(' ')}
-      </Text>}
+    return <View style={styles.statusBox}>
+      <ProductAllergyStatus result={checkResult} evidenceComplete={!!selectedEvidence?.allergensDocumented} detail />
+      <AllergyMatchList result={checkResult} />
+      <Text style={styles.packagingReminder}>Check current packaging before consuming.</Text>
     </View>;
   }
 
+  const selectedEvidence = selected ? productEvidence(selected) : null;
+
   return <ScrollView ref={scroll} style={styles.container} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled" keyboardDismissMode="on-drag"
     scrollEventThrottle={16} onScroll={event => { if (!selectedId && !restoreSearchPosition.current) lastSearchOffset.current = event.nativeEvent.contentOffset.y; }}>
-    <TouchableOpacity style={styles.backButton} onPress={back} accessibilityRole="button" accessibilityLabel={selectedId ? 'Back to search results' : store ? 'Back to selected store map' : 'Back to home'}>
-      <Text style={styles.backText}>{selectedId ? '← Search Results' : store ? '← Nearby Stores' : '← Home'}</Text>
+    <TouchableOpacity style={styles.backButton} onPress={back} accessibilityRole="button" accessibilityLabel={selectedId === initialProductId && !hasSearched ? 'Back to home' : selectedId ? 'Back to search results' : store ? 'Back to selected store map' : 'Back to home'}>
+      <Text style={styles.backText}>{selectedId === initialProductId && !hasSearched ? '← Home' : selectedId ? '← Search Results' : store ? '← Nearby Stores' : '← Home'}</Text>
     </TouchableOpacity>
     {store && <View style={styles.infoBanner}>
       <Text style={styles.infoTitle}>{store.name}</Text>
@@ -181,95 +179,93 @@ export default function ProductSearchScreen({ userId, onBack, store }: Props) {
       {!selected && checking && <ActivityIndicator size="large" color={GREEN} style={styles.loader} />}
       {!selected && !checking && <View style={styles.statusBox}><Text style={styles.statusTitle}>Product details unavailable</Text><Text style={styles.bodyText}>{detailError}</Text></View>}
       {selected && <View style={styles.detailCard}>
-        {renderProductImage(selected, true)}
+        <View style={[styles.productHeader, singleColumn && { flexDirection: 'column' }]}><View style={singleColumn ? { width: '100%' } : styles.detailPhoto}>{renderProductImage(selected, true)}</View>
+        <View style={styles.detailIdentity}>
+        <Text style={styles.categoryTag}>{selected.categoryName ?? 'Grocery product'}</Text>
         <Text style={styles.detailBrand}>{selected.brand}</Text>
         <Text style={styles.detailTitle}>{selected.name}</Text>
-        <Text style={styles.bodyText}>{selected.variant}{selected.provenance.packageSize ? ` • ${selected.provenance.packageSize}` : ''}</Text>
+        <Text style={styles.bodyText}>{[selected.variant !== selected.name ? selected.variant : null, selected.provenance.packageSize].filter(Boolean).join(' • ')}</Text>
         {store && <StockBadge status={products.find(product => product.id === selected.id)?.simulatedAvailability ?? null} />}
-        <Text style={styles.sectionTitle}>Ingredient verification</Text>
-        <Text style={styles.bodyText}>{selected.ingredients.verificationStatus === 'verified' ? 'Ingredient text verified from recorded source' : selected.ingredients.verificationStatus === 'unverified' ? 'Ingredient information unverified' : 'Ingredient verification unknown'}{selected.ingredients.verifiedAt ? ` • Reviewed ${selected.ingredients.verifiedAt}` : ''}</Text>
+        </View>
+        </View>
         {renderAllergyStatus()}
-        <Text style={styles.sectionTitle}>Ingredients</Text>
-        <Text selectable style={styles.bodyText}>{selected.ingredients.labelText ?? 'Ingredient label unavailable. Product information is incomplete; check the physical package.'}</Text>
-        <Text style={styles.sectionTitle}>Manufacturer-declared allergens</Text>
-        <Text selectable style={styles.bodyText}>{selected.allergens.declared.statement ?? 'Allergen declaration unknown. Missing information does not mean allergens are absent.'}</Text>
-        <Text style={styles.sectionTitle}>Precautionary warnings / May contain</Text>
-        <Text selectable style={styles.bodyText}>{selected.allergens.precautionary.statement ?? 'Precautionary warning unknown. Cross-contact information is incomplete.'}</Text>
-        <Text style={styles.sectionTitle}>Sources and review dates</Text>
+        <View style={styles.visibleLabelSection}>
+          <Text accessibilityRole="header" style={styles.visibleLabelTitle}>Ingredients</Text>
+          <Text selectable testID="full-product-ingredients" style={styles.bodyText}>{selected.ingredients.labelText ? ingredientHighlights(selected.ingredients.labelText, checkResult?.matches ?? []).map((part, index) => <Text key={index} style={part.highlighted ? { fontWeight: '700', textDecorationLine: 'underline' } : undefined}>{part.text}</Text>) : 'Ingredient label unavailable.'}</Text>
+        </View>
+        <View style={styles.visibleLabelSection}>
+          <Text accessibilityRole="header" style={styles.visibleLabelTitle}>Manufacturer-declared allergens</Text>
+          <Text selectable testID="product-declared-allergens" style={styles.bodyText}>{selected.allergens.declared.statement ?? 'Unknown — no verified declaration recorded.'}</Text>
+        </View>
+        <View style={styles.visibleLabelSection}>
+          <Text accessibilityRole="header" style={styles.visibleLabelTitle}>Precautionary statements</Text>
+          <Text selectable testID="product-precautionary-statements" style={styles.bodyText}>{selected.allergens.precautionary.statement ?? 'Unknown — no verified precautionary statement recorded.'}</Text>
+        </View>
+        <Disclosure key={`${selected.id}-sources`} title="Sources and review dates">
+        <Text style={styles.evidenceText}>{selectedEvidence?.ingredientLabel} · {selectedEvidence?.allergenLabel}</Text>
+        <Text style={styles.evidenceText}>{selected.ingredients.verifiedAt ? `Ingredient label reviewed: ${selected.ingredients.verifiedAt}` : 'Ingredient review date unknown'}</Text>
         {selected.provenance.sources.map(source => <View key={source.id} style={styles.matchRow}>
           <Text selectable style={styles.bodyText}>{source.url}</Text>
           <Text style={styles.matchSource}>Source checked {source.checkedAt}{source.reviewStatus !== 'label_reviewed' ? ' • Label not verified' : ''}</Text>
         </View>)}
+        </Disclosure>
         {!store && <ProductDemoAvailability key={selected.id} productId={selected.id} />}
       </View>}
     </> : <>
       <Text style={[styles.title, store && { fontSize: 28 }]}>{store ? 'Store Inventory' : 'Shop Products'}</Text>
-      <Text style={styles.subtitle}>{store ? 'Search this store’s demo products by name or brand.' : 'Find products by name or brand. Browse everything, no store needed.'}</Text>
+      {categories.length > 0 && <Text style={styles.catalogMeta}>{categories.reduce((sum, category) => sum + category.productCount, 0)} products · {categories.length} categories · {store ? 'Demo inventory' : 'On your device'}</Text>}
       <View style={styles.searchBar}>
         <Text style={styles.searchIcon}>⌕</Text>
         <TextInput testID="product-search-input" accessibilityLabel="Search groceries or brands" style={styles.searchInput}
-          placeholder="Search groceries or brands" placeholderTextColor="#929A95" value={query}
+          placeholder="Search groceries or brands" placeholderTextColor={c.muted} value={query}
           onChangeText={value => { searchRequests.current.invalidate(); setQuery(value); if (!store) setActiveCategory(null); setProducts([]); setHasMore(false); setHasSearched(false); setSearchError(null); setLoading(false); }}
           maxLength={300} returnKeyType="search" onSubmitEditing={() => void handleSearch()} autoCorrect={false} />
         <TouchableOpacity accessibilityRole="button" accessibilityLabel="Search local products" style={styles.searchButton} onPress={() => void handleSearch()} disabled={loading}>
           <Text style={styles.searchButtonText}>Search</Text>
         </TouchableOpacity>
       </View>
-      {!hasSearched && <Text style={styles.categoryHeading}>Browse categories</Text>}
-      <TouchableOpacity accessibilityRole="button" accessibilityLabel="Browse all products" onPress={() => { setQuery(''); void handleSearch('', false, null, true); }}>
-        <Text style={styles.backText}>{store ? 'All inventory / Clear filters' : 'Browse all products'}</Text>
-      </TouchableOpacity>
-      {store && <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginVertical: 12 }}>
-        {categories.map(category => <TouchableOpacity key={category.id} accessibilityRole="button"
-          accessibilityLabel={`Filter inventory ${category.name}`} accessibilityState={{ selected: activeCategory === category.id }}
-          style={[styles.categoryChip, activeCategory === category.id && styles.activeCategoryCard]}
-          onPress={() => void handleSearch(query, false, category.id, !query.trim())}>
-          <Text style={{ color: BLUE, fontWeight: 'bold' }}>{category.name} ({category.productCount})</Text>
-        </TouchableOpacity>)}
-      </ScrollView>}
-      {!store && !hasSearched && <View style={styles.categoryGrid}>{categories.map(category => <TouchableOpacity key={category.id}
-        style={[styles.categoryCard, singleColumn && styles.fullWidth, activeCategory === category.id && styles.activeCategoryCard]}
-        onPress={() => { setQuery(''); void handleSearch('', false, category.id, true); }}
-        accessibilityRole="button" accessibilityLabel={`Browse ${category.name}`}>
-        <Text style={styles.categoryIcon}>{GROCERY_CATEGORIES.find(item => item.id === category.id)?.icon}</Text>
-        <Text style={styles.categoryLabel}>{category.name}</Text>
-        <Text style={styles.matchSource}>{category.productCount === 0 ? 'No products yet' : `${category.productCount} products`}</Text>
-      </TouchableOpacity>)}</View>}
-      {!store && hasSearched && <TouchableOpacity accessibilityRole="button" accessibilityLabel="Return to categories" onPress={() => {
-        searchRequests.current.invalidate(); setActiveCategory(null); setQuery(''); setProducts([]); setHasSearched(false); setHasMore(false); setLoading(false); setSearchError(null);
-        scroll.current?.scrollTo({ y: 0, animated: true });
-      }}><Text style={styles.backText}>↑ Return to categories</Text></TouchableOpacity>}
-      {!store && <View style={styles.infoBanner}><Text style={styles.infoTitle}>Your personalized grocery guide</Text>
-        <Text style={styles.infoText}>Open a product to compare its available label with your saved allergy profile. Stock labels are demo data only.</Text></View>}
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginVertical: 12 }}>
+        <TouchableOpacity accessibilityRole="button" accessibilityLabel="All categories" style={styles.categoryChip} onPress={() => { setQuery(''); void handleSearch('', false, null, true); }}><Text>All</Text></TouchableOpacity>
+        {categories.map(category => <TouchableOpacity key={category.id} accessibilityRole="button" accessibilityLabel={`Browse ${category.name}`} accessibilityState={{ selected: activeCategory === category.id }} style={[styles.categoryChip, activeCategory === category.id && styles.activeCategoryCard]} onPress={() => { setQuery(''); void handleSearch('', false, category.id, true); }}><Text style={{ color: BLUE }}>{category.name}</Text></TouchableOpacity>)}
+      </ScrollView>
       {loading && <View style={styles.loadingState} accessibilityLiveRegion="polite"><ActivityIndicator color={GREEN} /><Text style={styles.bodyText}>Finding your products…</Text></View>}
       {searchError && <View style={styles.statusBox}><Text style={styles.statusTitle}>Products couldn’t load</Text><Text style={styles.bodyText}>Please try again. You can also return to browsing categories.</Text><TouchableOpacity style={styles.checkButton} accessibilityRole="button" accessibilityLabel="Retry product search" onPress={() => void handleSearch(submittedQuery, false, activeCategory, !submittedQuery)}><Text style={styles.checkButtonText}>Try again</Text></TouchableOpacity></View>}
-      {!loading && !hasSearched && !searchError && <View style={styles.welcomeCard}>
-        <Text style={styles.welcomeIcon}>🛍️</Text><Text style={styles.welcomeTitle}>What are you shopping for?</Text>
-        <Text style={styles.welcomeText}>Try Oreo, Goldfish, Cheerios, or a grocery brand.</Text></View>}
       {hasSearched && <>
-        <View style={styles.resultsHeader}><Text style={styles.resultsTitle}>{activeCategory ? categories.find(item => item.id === activeCategory)?.name : submittedQuery ? 'Search Results' : store ? 'Demo Products' : 'All Products'}</Text><Text style={styles.resultsCount}>{products.length} products{hasMore ? ' shown' : ''}</Text></View>
+        <View style={styles.resultsHeader}><Text style={styles.resultsTitle}>{activeCategory ? categories.find(item => item.id === activeCategory)?.name : submittedQuery ? 'Search Results' : store ? 'Demo Products' : 'All Products'}</Text><Text style={styles.resultsCount}>{products.length} {products.length === 1 ? 'product' : 'products'}{hasMore ? ' shown' : ''}</Text></View>
         {products.length === 0 ? <View style={styles.welcomeCard}><Text style={styles.welcomeTitle}>No products found</Text><Text style={styles.welcomeText}>{store ? 'No demo products match this search and category at this store. Clear filters or try another name or brand.' : activeCategory ? 'This category has no products yet. Browse another category or search all products.' : 'Try another product name or brand. The offline catalog is still growing.'}</Text></View>
-          : <View style={styles.grid}>{products.map(product => <TouchableOpacity key={product.id} testID={`product-${product.id}`}
-            accessibilityRole="button" accessibilityLabel={`View ${product.name}`} accessibilityValue={{ text: `${product.ingredientVerificationStatus === 'verified' ? 'Ingredient text verified' : 'Ingredient information unverified'}. ${product.completenessStatus !== 'complete' ? 'Product information incomplete.' : ''} ${store ? demoStatusLabel(product.simulatedAvailability) : ''}` }}
-            accessibilityHint="Opens the product label and your saved allergy check."
-            style={[styles.productCard, singleColumn && styles.fullWidth]} onPress={() => openProduct(product)} activeOpacity={0.8}>
-            {renderProductImage(product)}<View style={styles.cardContent}><Text style={styles.cardBrand} numberOfLines={1}>{product.brand}</Text>
-              <Text style={styles.cardName}>{product.name}</Text>
-              <View style={[styles.cardStatus, product.ingredientVerificationStatus === 'verified' ? styles.cardStatusReview : styles.cardStatusCaution]}><Text style={styles.cardStatusText}>{product.ingredientVerificationStatus === 'verified' ? 'Ingredient text verified' : product.ingredientVerificationStatus === 'unverified' ? '⚠️ Ingredient info unverified' : '⚠️ Ingredient verification unknown'}</Text></View>
-              {store && <StockBadge status={product.simulatedAvailability} />}
-              {product.completenessStatus !== 'complete' && <Text style={styles.incompleteLabel}>⚠️ Product information incomplete</Text>}
-              <View style={styles.checkButton}><Text style={styles.checkButtonText}>View label →</Text></View>
-            </View>
-          </TouchableOpacity>)}</View>}
+          : <View style={styles.grid}>{products.map(product => <View key={product.id} style={[{ width: '48%' }, singleColumn && styles.fullWidth]}>
+            <ProductCard product={product} result={assessments[product.id]} inventory={!!store} onPress={() => openProduct(product)} />
+          </View>)}</View>}
+
         {hasMore && <TouchableOpacity style={styles.checkButton} disabled={loading} accessibilityRole="button" onPress={() => void handleSearch(submittedQuery, true, activeCategory, !submittedQuery)}><Text style={styles.checkButtonText}>Load more products</Text></TouchableOpacity>}
       </>}
     </>}
-    <Text style={styles.disclaimer}>Product label information is stored on this device. Allergy checks are preliminary and may miss allergens or cross-contact. Always check the physical product packaging and current allergen warnings before consuming.</Text>
   </ScrollView>;
 }
 const styles = StyleSheet.create({
+  packagingReminder: { color: c.muted, fontSize: 13, lineHeight: 20, marginTop: 4 },
+  visibleLabelSection: { paddingVertical: 18, borderBottomWidth: 1, borderColor: BORDER, gap: 8 },
+  visibleLabelTitle: { color: BLUE, fontSize: 17, lineHeight: 24, fontWeight: '600' },
   fullWidth: { width: '100%' },
-  incompleteLabel: { color: '#704018', fontSize: 12, lineHeight: 18, backgroundColor: '#FFF1D6', padding: 8, borderRadius: 8, marginBottom: 8 },
+  catalogMeta: { color: GREEN, fontSize: 12, fontWeight: '600', lineHeight: 18, marginBottom: 10 },
+  categoryIconTile: { width: 48, height: 48, backgroundColor: '#EAF1E9', borderRadius: 14, alignItems: 'center', justifyContent: 'center', marginBottom: 12 },
+  categoryCount: { color: '#53645F', fontSize: 12, lineHeight: 18, marginTop: 5 },
+  cardCategory: { color: GREEN, fontSize: 10, fontWeight: '700', lineHeight: 15, marginBottom: 9, textTransform: 'uppercase', letterSpacing: 0.5 },
+  cardVariant: { color: c.muted, fontSize: 12, lineHeight: 18, marginBottom: 12 },
+  recordedLabel: { color: c.muted },
+  productHeader: { flexDirection: 'row', alignItems: 'flex-start', gap: 16 }, detailPhoto: { width: '42%' },
+  detailIdentity: { flex: 1, minWidth: 0 },
+  categoryTag: { color: c.muted, fontSize: 12, fontWeight: '600', paddingVertical: 6 },
+  evidenceGrid: { marginTop: 20, gap: 10 },
+  evidencePanel: { backgroundColor: 'transparent', borderBottomWidth: 1, borderColor: BORDER, paddingVertical: 14, gap: 5 },
+  evidenceWarning: { backgroundColor: c.softAmber, borderColor: '#E4C994' },
+  evidenceEyebrow: { color: c.muted, fontSize: 10, fontWeight: '700', letterSpacing: 1, lineHeight: 16 },
+  evidenceTitle: { color: BLUE, fontSize: 15, lineHeight: 22, fontWeight: '700' },
+  evidenceText: { color: '#3D4E46', fontSize: 13, lineHeight: 20 },
+  labelPanel: { marginTop: 18, backgroundColor: '#F7F8F4', borderRadius: 14, padding: 15, borderWidth: 1, borderColor: BORDER },
+  panelTitle: { color: GREEN, fontSize: 17, lineHeight: 24, fontWeight: '700', marginBottom: 9 },
+  photoCreditHint: { color: c.muted, fontSize: 11, lineHeight: 17, marginTop: 18 },
+  incompleteLabel: { color: '#704018', fontSize: 12, lineHeight: 18, paddingVertical: 4, marginBottom: 8 },
   loadingState: { paddingVertical: 24, alignItems: 'center', gap: 10 },
   categoryChip: { padding: 12, marginRight: 8, borderRadius: 12, backgroundColor: 'white', minHeight: 46, borderWidth: 1, borderColor: BORDER },
   container: {
@@ -346,20 +342,20 @@ const styles = StyleSheet.create({
     marginBottom: 18,
   },
   categoryCard: {
-    width: '48.5%', alignItems: 'flex-start', justifyContent: 'center', backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: BORDER, borderRadius: 18, padding: 16, minHeight: 120, marginBottom: 12,
+    width: '48.5%', alignItems: 'flex-start', justifyContent: 'center', backgroundColor: 'transparent', borderBottomWidth: 1, borderColor: BORDER, borderRadius: 0, padding: 12, minHeight: 112, marginBottom: 12,
   },
   activeCategoryCard: {
     backgroundColor: '#E5EEE8',
     borderColor: GREEN,
   },
   categoryIcon: {
-    fontSize: 27, marginBottom: 12,
+    fontSize: 26,
   },
   categoryLabel: {
     color: BLUE, fontWeight: '700', fontSize: 14, lineHeight: 20,
   },
   infoBanner: {
-    backgroundColor: '#EAF1E9', borderRadius: 16, padding: 16, marginBottom: 20, borderWidth: 1, borderColor: '#D7E4D8',
+    paddingVertical: 16, marginBottom: 20, borderBottomWidth: 1, borderColor: BORDER,
   },
   infoTitle: {
     color: GREEN,
@@ -412,29 +408,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   productCard: {
-    width: '48.5%', backgroundColor: '#FFFFFF', borderRadius: 18, borderWidth: 1, borderColor: BORDER, marginBottom: 14, overflow: 'hidden',
-  },
-  imageFrame: {
-    width: '100%', height: 82, backgroundColor: '#F0F4EF', padding: 12, alignItems: 'center', justifyContent: 'center',
-  },
-  largeImageFrame: {
-    height: 115, borderRadius: 14,
-  },
-  productImage: {
-    width: '100%',
-    height: '100%',
-  },
-  placeholder: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  placeholderIcon: {
-    fontSize: 30,
-    marginBottom: 6,
-  },
-  placeholderText: {
-    fontSize: 11, color: '#53645F', textAlign: 'center',
+    width: '48.5%', backgroundColor: '#FFFFFF', borderRadius: 16, marginBottom: 18, overflow: 'hidden',
   },
   cardStatus: {
     paddingHorizontal: 8,
@@ -446,8 +420,8 @@ const styles = StyleSheet.create({
   },
   cardStatusUnknown: { backgroundColor: '#F1F1EF' },
   cardStatusDanger: { backgroundColor: '#FFE2E2' },
-  cardStatusCaution: { backgroundColor: '#FFF0CE' },
-  cardStatusReview: { backgroundColor: '#E7EDF5' },
+  cardStatusCaution: { backgroundColor: 'transparent' },
+  cardStatusReview: { backgroundColor: 'transparent' },
   cardStatusText: {
     color: BLUE, fontSize: 11, lineHeight: 17, fontWeight: '600', textAlign: 'left',
   },
@@ -455,10 +429,10 @@ const styles = StyleSheet.create({
     padding: 12, flex: 1, justifyContent: 'flex-start',
   },
   cardBrand: {
-    color: '#53645F', fontSize: 12, fontWeight: '600', marginBottom: 5,
+    color: '#53645F', fontSize: 12, fontWeight: '700', marginBottom: 6,
   },
   cardName: {
-    color: BLUE, fontSize: 16, fontWeight: '700', lineHeight: 22, marginBottom: 12,
+    color: BLUE, fontSize: 16, fontWeight: '700', lineHeight: 23, marginBottom: 10,
   },
   checkButton: {
     backgroundColor: GREEN, borderRadius: 11, minHeight: 44, paddingVertical: 12, paddingHorizontal: 10, marginTop: 6, alignItems: 'center', justifyContent: 'center',
@@ -467,25 +441,26 @@ const styles = StyleSheet.create({
     color: '#FFFFFF', fontSize: 13, fontWeight: '700', textAlign: 'center',
   },
   detailCard: {
-    backgroundColor: '#FFFFFF', borderRadius: 20, padding: 18, borderWidth: 1, borderColor: BORDER,
+    backgroundColor: 'transparent', paddingVertical: 12,
   },
   detailBrand: {
-    color: '#777',
-    fontSize: 14,
-    marginTop: 15,
+    color: GREEN,
+    fontWeight: '700',
+    fontSize: 13,
+    marginTop: 14,
     marginBottom: 6,
   },
   detailTitle: {
     color: BLUE,
-    fontSize: 24,
-    fontWeight: 'bold',
-    lineHeight: 30,
+    fontSize: 21,
+    fontWeight: '700',
+    lineHeight: 27,
   },
   statusBox: {
-    backgroundColor: '#FFF1D6', borderRadius: 14, borderWidth: 1, borderColor: '#E4C994', padding: 16, marginTop: 20, gap: 4,
+    borderTopWidth: 1, borderBottomWidth: 1, borderColor: BORDER, paddingVertical: 18, marginTop: 18, gap: 8,
   },
   dangerBox: {
-    backgroundColor: '#FCE8E9', borderColor: '#D997A0', borderLeftWidth: 4,
+    borderTopColor: c.red, borderTopWidth: 2,
   },
   statusTitle: {
     color: BLUE,

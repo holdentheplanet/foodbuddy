@@ -1,0 +1,16 @@
+{
+  "productId": "reeses-milk-chocolate-cups-1-5oz",
+  "name": "REESE'S REESE'S Milk Chocolate Peanut Butter Cups",
+  "subject": "Two small round fluted-edge chocolate peanut butter cups, one whole and one cut in half showing a dense light tan peanut butter filling inside milk-chocolate-colored coating. No stamped logos, wrappers, nuts or garnish.",
+  "sourceUrls": [
+    "https://www.hersheyland.com/products/reeses-milk-chocolate-peanut-butter-cups-1-5-oz.html"
+  ],
+  "ingredientSha256": "a8ba3be00ea3063d6c82a07b86dd1d155fb08079ee9b6769b68aa14c52b99760",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Two small round fluted-edge chocolate peanut butter cups, one whole and one cut in half showing a dense light tan peanut butter filling inside milk-chocolate-colored coating. No stamped logos, wrappers, nuts or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-135ada0d-6ae3-453f-adfe-3d540415d705.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

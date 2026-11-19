@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-fairlife-ultra-filtered-milk-whole-milk",
+  "name": "fairlife fairlife Whole Ultra-Filtered Milk",
+  "subject": "A plain clear glass containing only the fairlife Whole Ultra-Filtered Milk beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+  "sourceUrls": [
+    "https://fairlife.com/ultra-filtered-milk/whole-milk/"
+  ],
+  "ingredientSha256": "38df12602dd4e33b79aafd7705969c79fd0ab3c6441697e0235335b962c3a04b",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. A plain clear glass containing only the fairlife Whole Ultra-Filtered Milk beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-5aa2f49f-717b-4e27-8789-ce9581bada98.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

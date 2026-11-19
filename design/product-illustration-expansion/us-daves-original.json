@@ -1,0 +1,16 @@
+{
+  "productId": "us-daves-original",
+  "name": "Dave\u2019s Killer Bread Dave\u2019s Killer Bread 21 Whole Grains and Seeds",
+  "subject": "Sliced 21 Whole Grains and Seeds whole-wheat sandwich bread, tan hearty crumb with fine grain and seed inclusions from its label, brown crust and rounded sandwich-loaf top corners. No raisins, fruit pieces or fillings. A distinct slice arrangement, not the same image as Good Seed or Powerseed.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/21-whole-grains-and-seeds"
+  ],
+  "ingredientSha256": "099319286a88e352e105fb56eb9c5fd1896a2724e9337b9c7f858c65b35d9799",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Sliced 21 Whole Grains and Seeds whole-wheat sandwich bread, tan hearty crumb with fine grain and seed inclusions from its label, brown crust and rounded sandwich-loaf top corners. No raisins, fruit pieces or fillings. A distinct slice arrangement, not the same image as Good Seed or Powerseed.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-85e11b16-2ddc-42d6-8d5d-9b0e232cd585.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

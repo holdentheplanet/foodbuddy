@@ -1,0 +1,1271 @@
+{
+  "formatVersion": 1,
+  "catalogId": "us-reviewed-batch-02",
+  "candidates": [
+    {
+      "product": {
+        "id": "batch02-stouffers-macaroni-cheese-for-one",
+        "name": "Frozen Macaroni & Cheese",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "340 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "COOKED MACARONI (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), SKIM MILK, WATER, CHEDDAR CHEESE (CULTURED MILK, SALT, ENZYMES, ANNATTO COLOR), CHEDDAR CLUB CHEESE (CHEDDAR CHEESE [CULTURED MILK, SALT, ENZYMES], WATER, SALT, ANNATTO COLOR), BLEACHED WHEAT FLOUR, SOYBEAN OIL, 2% OR LESS OF SALT, BUTTER (CREAM, SALT), POTASSIUM CHLORIDE, BUTTER FLAVOR (MALTODEXTRIN, NATURAL FLAVOR, ANNATTO & TURMERIC COLOR), XANTHAN GUM, YEAST EXTRACT, LACTIC ACID, CALCIUM LACTATE.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/macaroni-cheese-for-one/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "STOUFFER'S\nFrozen Macaroni & Cheese\nFor One\n340 g\nCOOKED MACARONI (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), SKIM MILK, WATER, CHEDDAR CHEESE (CULTURED MILK, SALT, ENZYMES, ANNATTO COLOR), CHEDDAR CLUB CHEESE (CHEDDAR CHEESE [CULTURED MILK, SALT, ENZYMES], WATER, SALT, ANNATTO COLOR), BLEACHED WHEAT FLOUR, SOYBEAN OIL, 2% OR LESS OF SALT, BUTTER (CREAM, SALT), POTASSIUM CHLORIDE, BUTTER FLAVOR (MALTODEXTRIN, NATURAL FLAVOR, ANNATTO & TURMERIC COLOR), XANTHAN GUM, YEAST EXTRACT, LACTIC ACID, CALCIUM LACTATE.\nCONTAINS: WHEAT, MILK.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Frozen Macaroni & Cheese\nFor One\n340 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package.",
+        "sourceCaptureSha256": "b0c6040f12acbce05472fd09f6f801f4c7a5f870660f751b0b967f5812c7d23f"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-stouffers-cheeseburger-macaroni-cheese",
+        "name": "Cheeseburger Mac & Cheese",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "269 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "SKIM MILK, COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), WATER, COOKED BEEF, CHEDDAR CHEESE (MILK, CHEESE CULTURES, SALT, ENZYMES, ANNATTO COLOR), KETCHUP (TOMATO CONCENTRATE [WATER, TOMATO PASTE], SUGAR, VINEGAR, SEA SALT, DRIED ONION, NATURAL FLAVORS, DRIED GARLIC), WHITE CHEDDAR CHEESE (CULTURED MILK, SALT, ENZYMES), BLEACHED WHEAT FLOUR, 2% OR LESS OF SOYBEAN OIL, SALT, MUSTARD (DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, TURMERIC, SPICES, GARLIC POWDER), BUTTER (CREAM, SALT), POTASSIUM SALT, MALTODEXTRIN, XANTHAN GUM, ANNATTO & TURMERIC COLOR, AUTOLYZED YEAST EXTRACT, NATURAL FLAVORS, LACTIC ACID.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/cheeseburger-macaroni-cheese/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "STOUFFER'S\nCheeseburger Mac & Cheese\nFor One\n269 g\nSKIM MILK, COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), WATER, COOKED BEEF, CHEDDAR CHEESE (MILK, CHEESE CULTURES, SALT, ENZYMES, ANNATTO COLOR), KETCHUP (TOMATO CONCENTRATE [WATER, TOMATO PASTE], SUGAR, VINEGAR, SEA SALT, DRIED ONION, NATURAL FLAVORS, DRIED GARLIC), WHITE CHEDDAR CHEESE (CULTURED MILK, SALT, ENZYMES), BLEACHED WHEAT FLOUR, 2% OR LESS OF SOYBEAN OIL, SALT, MUSTARD (DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, TURMERIC, SPICES, GARLIC POWDER), BUTTER (CREAM, SALT), POTASSIUM SALT, MALTODEXTRIN, XANTHAN GUM, ANNATTO & TURMERIC COLOR, AUTOLYZED YEAST EXTRACT, NATURAL FLAVORS, LACTIC ACID.\nCONTAINS: WHEAT, MILK.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cheeseburger Mac & Cheese\nFor One\n269 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package.",
+        "sourceCaptureSha256": "a9d3d7ec24398180a655bed43d9f575a075c625a8f60a1b3d97628bebead5c2c"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-stouffers-five-cheese-mac-cheese-for-one",
+        "name": "Ultimate Five Cheese Mac & Cheese",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "226 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), SKIM MILK, AMERICAN CHEESE SPREAD (CHEDDAR AND COLBY CHEESE [PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES], WATER, WHEY, SODIUM PHOSPHATE, WHEY PROTEIN CONCENTRATE, SKIM MILK, MILKFAT, SALT, CARRAGEENAN, CELLULOSE GUM), WATER, WHITE CHEDDAR CHEESE (CULTURED MILK, SALT, ENZYMES), CHEDDAR CHEESE (MILK, CHEESE CULTURES, SALT, ENZYMES, ANNATTO COLOR), BUTTER (CREAM, SALT), PARMESAN AND ASIAGO CHEESE BLEND WITH FLAVOR (PARMESAN AND ASIAGO CHEESES [CULTURED MILK, SALT, ENZYMES], ENZYME MODIFIED PARMESAN CHEESE [CULTURED MILK, WATER, SALT, ENZYMES], WHEY, SALT), 2% OR LESS OF ROMANO CHEESE WITH FLAVOR (ROMANO CHEESE [CULTURED COW'S MILK, SALT, ENZYMES], ENZYME MODIFIED ROMANO CHEESE [ROMANO CHEESE {CULTURED COW'S MILK, WATER, SALT, ENZYMES}, SALT]), SOYBEAN OIL, MODIFIED FOOD STARCH, MONO- AND DIGLYCERIDES, SALT, DATEM AND MONO-DIGLYCERIDES, SPICES, XANTHAN GUM, LACTIC ACID, CALCIUM LACTATE, ANNATTO COLOR.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/five-cheese-mac-cheese-for-one/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "STOUFFER'S\nUltimate Five Cheese Mac & Cheese\nFor One\n226 g\nCOOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), SKIM MILK, AMERICAN CHEESE SPREAD (CHEDDAR AND COLBY CHEESE [PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES], WATER, WHEY, SODIUM PHOSPHATE, WHEY PROTEIN CONCENTRATE, SKIM MILK, MILKFAT, SALT, CARRAGEENAN, CELLULOSE GUM), WATER, WHITE CHEDDAR CHEESE (CULTURED MILK, SALT, ENZYMES), CHEDDAR CHEESE (MILK, CHEESE CULTURES, SALT, ENZYMES, ANNATTO COLOR), BUTTER (CREAM, SALT), PARMESAN AND ASIAGO CHEESE BLEND WITH FLAVOR (PARMESAN AND ASIAGO CHEESES [CULTURED MILK, SALT, ENZYMES], ENZYME MODIFIED PARMESAN CHEESE [CULTURED MILK, WATER, SALT, ENZYMES], WHEY, SALT), 2% OR LESS OF ROMANO CHEESE WITH FLAVOR (ROMANO CHEESE [CULTURED COW'S MILK, SALT, ENZYMES], ENZYME MODIFIED ROMANO CHEESE [ROMANO CHEESE {CULTURED COW'S MILK, WATER, SALT, ENZYMES}, SALT]), SOYBEAN OIL, MODIFIED FOOD STARCH, MONO- AND DIGLYCERIDES, SALT, DATEM AND MONO-DIGLYCERIDES, SPICES, XANTHAN GUM, LACTIC ACID, CALCIUM LACTATE, ANNATTO COLOR.\nCONTAINS: WHEAT, MILK.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Ultimate Five Cheese Mac & Cheese\nFor One\n226 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package.",
+        "sourceCaptureSha256": "07b4c8e79c1a40c3c995647587736666be13b5b8870e0b5621ee400560de8f35"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-stouffers-lasagna-with-meat-sauce-for-one",
+        "name": "Lasagna with Meat & Sauce",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "297 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "TOMATO PUREE (WATER, TOMATO PASTE), COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR), WATER, COOKED BEEF, LOW-MOISTURE PART-SKIM MOZZARELLA CHEESE (CULTURED PART-SKIM MILK, SALT, ENZYMES), PART SKIM MOZZARELLA CHEESE AND MODIFIED FOOD STARCH (PART-SKIM MOZZARELLA CHEESE [CULTURED MILK, SALT, ENZYMES], MODIFIED FOOD STARCH, SKIM MILK), 2% OR LESS OF MODIFIED FOOD STARCH, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), WHEAT FLOUR, DRIED ONIONS, SALT, SUGAR, PARMESAN CHEESE (CULTURED MILK, SALT, ENZYMES), SPICES, GARLIC POWDER.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK, SOY.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "milk",
+          "soy"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/lasagna-with-meat-sauce-for-one/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "STOUFFER'S\nLasagna with Meat & Sauce\nFor One\n297 g\nTOMATO PUREE (WATER, TOMATO PASTE), COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR), WATER, COOKED BEEF, LOW-MOISTURE PART-SKIM MOZZARELLA CHEESE (CULTURED PART-SKIM MILK, SALT, ENZYMES), PART SKIM MOZZARELLA CHEESE AND MODIFIED FOOD STARCH (PART-SKIM MOZZARELLA CHEESE [CULTURED MILK, SALT, ENZYMES], MODIFIED FOOD STARCH, SKIM MILK), 2% OR LESS OF MODIFIED FOOD STARCH, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), WHEAT FLOUR, DRIED ONIONS, SALT, SUGAR, PARMESAN CHEESE (CULTURED MILK, SALT, ENZYMES), SPICES, GARLIC POWDER.\nCONTAINS: WHEAT, MILK, SOY.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Lasagna with Meat & Sauce\nFor One\n297 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package.",
+        "sourceCaptureSha256": "f09fa59d099ee96dbb64b9fa7c5f1628756bd5b31652ecdcd2d1bfe8cf5524f3"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-stouffers-spinach-souffle",
+        "name": "Spinach Soufflé",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": null,
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "SPINACH, SKIM MILK, EGGS, WATER, SOYBEAN OIL, MODIFIED FOOD STARCH, 2% OR LESS OF BLEACHED WHEAT FLOUR, SUGAR, SALT, SPICE.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: EGG, WHEAT, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "egg",
+          "wheat",
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/spinach-souffle/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "STOUFFER'S\nSpinach Soufflé\nFor One\nSPINACH, SKIM MILK, EGGS, WATER, SOYBEAN OIL, MODIFIED FOOD STARCH, 2% OR LESS OF BLEACHED WHEAT FLOUR, SUGAR, SALT, SPICE.\nCONTAINS: EGG, WHEAT, MILK.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Spinach Soufflé\nFor One",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Source capture is the browser-rendered manufacturer page; the direct HTTP fetch was blocked. Package grams are recorded only when the page explicitly identifies one package.",
+        "sourceCaptureSha256": "49d3a04f1971eac6e8a01c217c9c7e99ec4cee359ff346328fe54576a391ad2b"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-core-power-chocolate-protein-shake-42g",
+        "name": "Core Power Chocolate 42g Protein Shake",
+        "brand": "fairlife",
+        "variant": "Core Power Chocolate 42g Protein Shake",
+        "packageSize": "14 oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Filtered Lowfat Grade A Milk, Contains Less Than 1% of: Alkalized Cocoa, Natural Flavors, Salt, Acesulfame Potassium, Carrageenan, Monk Fruit Juice Concentrate, Cellulose Gel, Cellulose Gum, Stevia Leaf Extract, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/core-power/chocolate-protein-shake-42g/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nCore Power Chocolate 42g Protein Shake\n14 oz\nFiltered Lowfat Grade A Milk, Contains Less Than 1% of: Alkalized Cocoa, Natural Flavors, Salt, Acesulfame Potassium, Carrageenan, Monk Fruit Juice Concentrate, Cellulose Gel, Cellulose Gum, Stevia Leaf Extract, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Core Power Chocolate 42g Protein Shake\n14 oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "69badb20fd8b74cb200a0ec7778e9b5abf12df52406ff35dc1ac4000cec2252f"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-core-power-chocolate-protein-shake",
+        "name": "Core Power Chocolate 26g Protein Shake",
+        "brand": "fairlife",
+        "variant": "Core Power Chocolate 26g Protein Shake",
+        "packageSize": "14 oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Filtered Lowfat Grade A Milk, Contains Less Than 1% of: Alkalized Cocoa, Natural Flavors, Monk Fruit Juice Concentrate, Stevia Leaf Extract, Carrageenan, Cellulose Gel, Cellulose Gum, Acesulfame Potassium, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/core-power/chocolate-protein-shake/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nCore Power Chocolate 26g Protein Shake\n14 oz\nFiltered Lowfat Grade A Milk, Contains Less Than 1% of: Alkalized Cocoa, Natural Flavors, Monk Fruit Juice Concentrate, Stevia Leaf Extract, Carrageenan, Cellulose Gel, Cellulose Gum, Acesulfame Potassium, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Core Power Chocolate 26g Protein Shake\n14 oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "68ba9a8fd142164ed3fd7693304597bb6839f91356115f48e85531fde3ab0f46"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-core-power-strawberry-banana-protein-shake",
+        "name": "Core Power Strawberry Banana 26g Protein Shake",
+        "brand": "fairlife",
+        "variant": "Core Power Strawberry Banana 26g Protein Shake",
+        "packageSize": "14 oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Filtered Lowfat Grade A Milk, Strawberry Puree, Banana Puree, Contains Less Than 1% of: Natural Flavors, Monk Fruit Juice Concentrate, Stevia Leaf Extract, Carrageenan, Cellulose Gel, Cellulose Gum, Acesulfame Potassium, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/core-power/strawberry-banana-protein-shake/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nCore Power Strawberry Banana 26g Protein Shake\n14 oz\nFiltered Lowfat Grade A Milk, Strawberry Puree, Banana Puree, Contains Less Than 1% of: Natural Flavors, Monk Fruit Juice Concentrate, Stevia Leaf Extract, Carrageenan, Cellulose Gel, Cellulose Gum, Acesulfame Potassium, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Core Power Strawberry Banana 26g Protein Shake\n14 oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "7404a6ca74ba46c98b97274b74750cbba502c10c4800564e1a8ce56e9201b63d"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-core-power-vanilla-protein-shake-42g",
+        "name": "Core Power Vanilla 42g Protein Shake",
+        "brand": "fairlife",
+        "variant": "Core Power Vanilla 42g Protein Shake",
+        "packageSize": "14 oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Filtered Lowfat Grade A Milk, Contains Less Than 1% of: Natural Flavors, Lactase Enzyme, Acesulfame Potassium, Carrageenan, Monk Fruit Juice Concentrate, Salt, Cellulose Gel, Cellulose Gum, Stevia Leaf Extract, Sucralose, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/core-power/vanilla-protein-shake-42g/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nCore Power Vanilla 42g Protein Shake\n14 oz\nFiltered Lowfat Grade A Milk, Contains Less Than 1% of: Natural Flavors, Lactase Enzyme, Acesulfame Potassium, Carrageenan, Monk Fruit Juice Concentrate, Salt, Cellulose Gel, Cellulose Gum, Stevia Leaf Extract, Sucralose, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Core Power Vanilla 42g Protein Shake\n14 oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "20f8927bfef28409927ab77c866fe541e149384540ea989c5c9ed6aa751862f3"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-core-power-vanilla-protein-shake",
+        "name": "Core Power Vanilla 26g Protein Shake",
+        "brand": "fairlife",
+        "variant": "Core Power Vanilla 26g Protein Shake",
+        "packageSize": "14 oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Filtered Lowfat Grade A Milk, Contains Less Than 1% of: Natural Flavors, Monk Fruit Juice Concentrate, Stevia Leaf Extract, Carrageenan, Cellulose Gel, Cellulose Gum, Acesulfame Potassium, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/core-power/vanilla-protein-shake/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nCore Power Vanilla 26g Protein Shake\n14 oz\nFiltered Lowfat Grade A Milk, Contains Less Than 1% of: Natural Flavors, Monk Fruit Juice Concentrate, Stevia Leaf Extract, Carrageenan, Cellulose Gel, Cellulose Gum, Acesulfame Potassium, Sucralose, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Core Power Vanilla 26g Protein Shake\n14 oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "7fd2a059dd28f6de93c9f01ef6677be888af2cd08220463b73dc8bc443e61f42"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-ultra-filtered-milk-14oz-strawberry-14oz",
+        "name": "fairlife Strawberry 2% Ultra-Filtered Milk 14oz",
+        "brand": "fairlife",
+        "variant": "fairlife Strawberry 2% Ultra-Filtered Milk 14oz",
+        "packageSize": "14oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "REDUCED FAT ULTRA-FILTERED MILK, CANE SUGAR, NATURAL FLAVOR, CELLULOSE GEL, CELLULOSE GUM, LACTASE ENZYME, ACESULFAME POTASSIUM, SUCRALOSE, SEA SALT, TOMATO LYCOPENE EXTRACT (COLOR), CARRAGEENAN, VITAMIN D3, VITAMIN A PALMITATE",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/ultra-filtered-milk-14oz/strawberry-14oz/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nfairlife Strawberry 2% Ultra-Filtered Milk 14oz\n14oz\nREDUCED FAT ULTRA-FILTERED MILK, CANE SUGAR, NATURAL FLAVOR, CELLULOSE GEL, CELLULOSE GUM, LACTASE ENZYME, ACESULFAME POTASSIUM, SUCRALOSE, SEA SALT, TOMATO LYCOPENE EXTRACT (COLOR), CARRAGEENAN, VITAMIN D3, VITAMIN A PALMITATE\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "fairlife Strawberry 2% Ultra-Filtered Milk 14oz\n14oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "48138dd097551ebc1ed7ad36723259e36266f59f81fb80e5ac731998fbe8acf4"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-ultra-filtered-milk-chocolate-milk",
+        "name": "fairlife Chocolate 2% Ultra-Filtered Milk",
+        "brand": "fairlife",
+        "variant": "fairlife Chocolate 2% Ultra-Filtered Milk",
+        "packageSize": "52oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Reduced Fat Ultra-filtered Milk, Sugar, Alkalized Cocoa, Lactase Enzyme, Dipotassium Phosphate, Salt, Acesulfame Potassium, Carrageenan, Natural And Artificial Flavors, Sucralose, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/ultra-filtered-milk/chocolate-milk/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nfairlife Chocolate 2% Ultra-Filtered Milk\n52oz\nReduced Fat Ultra-filtered Milk, Sugar, Alkalized Cocoa, Lactase Enzyme, Dipotassium Phosphate, Salt, Acesulfame Potassium, Carrageenan, Natural And Artificial Flavors, Sucralose, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "fairlife Chocolate 2% Ultra-Filtered Milk\n52oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "8b876ac25918063ac424f191b0919b7344635b6fce98e0f1a2d9e06d90e165ce"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-ultra-filtered-milk-fat-free-skim-milk",
+        "name": "fairlife Fat-Free Ultra-Filtered Milk",
+        "brand": "fairlife",
+        "variant": "fairlife Fat-Free Ultra-Filtered Milk",
+        "packageSize": "52oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Nonfat Ultra-Filtered Milk, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/ultra-filtered-milk/fat-free-skim-milk/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nfairlife Fat-Free Ultra-Filtered Milk\n52oz\nNonfat Ultra-Filtered Milk, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "fairlife Fat-Free Ultra-Filtered Milk\n52oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "c9ada87154d9cce9f813bf35002b1d6254045763c67f5b21003e09e8e0fb529e"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-ultra-filtered-milk-reduced-fat-2-percent-milk",
+        "name": "fairlife 2% Reduced Fat Ultra-Filtered Milk",
+        "brand": "fairlife",
+        "variant": "fairlife 2% Reduced Fat Ultra-Filtered Milk",
+        "packageSize": "52oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Reduced Fat Ultra-Filtered Milk, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/ultra-filtered-milk/reduced-fat-2-percent-milk/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nfairlife 2% Reduced Fat Ultra-Filtered Milk\n52oz\nReduced Fat Ultra-Filtered Milk, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "fairlife 2% Reduced Fat Ultra-Filtered Milk\n52oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "0d52cca1210bf6fe2711a549c49122a3338e91ad9244c8b7176cd16ac894e894"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-fairlife-ultra-filtered-milk-whole-milk",
+        "name": "fairlife Whole Ultra-Filtered Milk",
+        "brand": "fairlife",
+        "variant": "fairlife Whole Ultra-Filtered Milk",
+        "packageSize": "52oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Ultra-Filtered Milk, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains Milk.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://fairlife.com/ultra-filtered-milk/whole-milk/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "fairlife\nfairlife Whole Ultra-Filtered Milk\n52oz\nUltra-Filtered Milk, Lactase Enzyme, Vitamin A Palmitate, Vitamin D3.\nContains Milk.",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "fairlife Whole Ultra-Filtered Milk\n52oz",
+        "brandEvidence": "fairlife",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. The Product JSON-LD sku field is not treated as proof of a barcode; barcode remains unknown.",
+        "sourceCaptureSha256": "6088678adc33ce1d4da7338638f1cc87780319defcf38f027408566cbba202ad"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-jimmydean-00077900003660",
+        "name": "Applewood Chicken Sausage Links",
+        "brand": "Jimmy Dean",
+        "variant": "Applewood Chicken Sausage Links",
+        "packageSize": null,
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900003660",
+        "imageReference": null,
+        "ingredientLabelText": "Chicken, water, brown sugar, contains 2% or less of: dextrose, natural flavors†, natural smoke flavor, salt, sugar, vinegar†.†to preserve quality.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fully-cooked-sausage/00077900003660",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Jimmy Dean\nApplewood Chicken Sausage Links\nChicken, water, brown sugar, contains 2% or less of: dextrose, natural flavors†, natural smoke flavor, salt, sugar, vinegar†.†to preserve quality.\n\"gtin\":\"00077900003660\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Applewood Chicken Sausage Links",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented.",
+        "sourceCaptureSha256": "7cbc18a360de388ecf88f30d578fafe7849e9427347102b1e416d070863ca871"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-jimmydean-00077900115738",
+        "name": "Regular Premium Pork Sausage",
+        "brand": "Jimmy Dean",
+        "variant": "Regular Premium Pork Sausage",
+        "packageSize": "16 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900115738",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less:; corn syrup, salt, natural flavor, vinegar, sugar, pork broth, monosodium glutamate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900115738",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Jimmy Dean\nRegular Premium Pork Sausage\n16 oz\nPork, water, contains 2% or less:; corn syrup, salt, natural flavor, vinegar, sugar, pork broth, monosodium glutamate.\n\"gtin\":\"00077900115738\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Regular Premium Pork Sausage\n16 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented.",
+        "sourceCaptureSha256": "0d51ada923f7aa99b4cf18c1b9b2e7a6b3ea5737f9aacb1de4984ef3dba5cfaa"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-jimmydean-00077900116735",
+        "name": "Sage Premium Pork Sausage",
+        "brand": "Jimmy Dean",
+        "variant": "Sage Premium Pork Sausage",
+        "packageSize": "16 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900116735",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less: corn syrup, pork broth, salt, spices, vinegar, sugar, monosodium glutamate, natural flavor.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900116735",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Jimmy Dean\nSage Premium Pork Sausage\n16 oz\nPork, water, contains 2% or less: corn syrup, pork broth, salt, spices, vinegar, sugar, monosodium glutamate, natural flavor.\n\"gtin\":\"00077900116735\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Sage Premium Pork Sausage\n16 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented.",
+        "sourceCaptureSha256": "1db8f58afde459a08a58234a0ced9d2cbfc855ef6c61752d98adc62f8efadbf5"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-jimmydean-00077900192098",
+        "name": "Fully Cooked Original Pork Sausage Patties",
+        "brand": "Jimmy Dean",
+        "variant": "Fully Cooked Original Pork Sausage Patties",
+        "packageSize": null,
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900192098",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less: potassium lactate, salt, spices, sugar, sodium phosphates, dextrose, monosodium glutamate, sodium diacetate, caramel color.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fully-cooked-sausage/00077900192098",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Jimmy Dean\nFully Cooked Original Pork Sausage Patties\nPork, water, contains 2% or less: potassium lactate, salt, spices, sugar, sodium phosphates, dextrose, monosodium glutamate, sodium diacetate, caramel color.\n\"gtin\":\"00077900192098\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Fully Cooked Original Pork Sausage Patties",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented.",
+        "sourceCaptureSha256": "54f3ff4d222b6107732fa61ed3f6a6bc38e30d163655d015a23bdae14cd7c3bb"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-jimmydean-00077900192579",
+        "name": "Fully Cooked Turkey Sausage Links",
+        "brand": "Jimmy Dean",
+        "variant": "Fully Cooked Turkey Sausage Links",
+        "packageSize": null,
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900192579",
+        "imageReference": null,
+        "ingredientLabelText": "Turkey, water, contains 2% or less: potassium lactate, salt, spices, dextrose, sodium phosphates, sodium propionate, sodium diacetate, sugar, citric acid, caramel color.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fully-cooked-sausage/00077900192579",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Jimmy Dean\nFully Cooked Turkey Sausage Links\nTurkey, water, contains 2% or less: potassium lactate, salt, spices, dextrose, sodium phosphates, sodium propionate, sodium diacetate, sugar, citric acid, caramel color.\n\"gtin\":\"00077900192579\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Fully Cooked Turkey Sausage Links",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. GTIN explicitly published in the matching Product JSON-LD entity, not inferred from the URL. Manufacturer ingredient punctuation retained verbatim. No separate allergen declaration is documented.",
+        "sourceCaptureSha256": "f705f8d5cf0b0c0eac4c56a6f53504ef246a6c9b72d17da3b4a1ab458895c81e"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-mccormick-franks-redhot-buffalo-wings-hot-sauce-12-fl-oz",
+        "name": "Frank's RedHot® Buffalo Wings Hot Sauce, 12 fl oz (2-Pack)",
+        "brand": "Frank's RedHot",
+        "variant": "Frank's RedHot® Buffalo Wings Hot Sauce, 12 fl oz (2-Pack)",
+        "packageSize": "12 fl oz (2-Pack)",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500745107",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: DISTILLED VINEGAR, AGED CAYENNE RED PEPPERS, SALT, WATER, CANOLA OIL, PAPRIKA, XANTHAN GUM (THICKENER), GARLIC POWDER & NATURAL FLAVOR.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/franks-redhot-buffalo-wings-hot-sauce-12-fl-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Frank's RedHot\nFrank's RedHot® Buffalo Wings Hot Sauce, 12 fl oz (2-Pack)\n12 fl oz (2-Pack)\nINGREDIENTS: DISTILLED VINEGAR, AGED CAYENNE RED PEPPERS, SALT, WATER, CANOLA OIL, PAPRIKA, XANTHAN GUM (THICKENER), GARLIC POWDER & NATURAL FLAVOR.\n\"gtin14\": \"00041500745107\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Size/pack wording transcribed from the exact product heading."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Size/pack wording transcribed from the exact product heading."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Frank's RedHot® Buffalo Wings Hot Sauce, 12 fl oz (2-Pack)\n12 fl oz (2-Pack)",
+        "brandEvidence": "Frank's RedHot",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Size/pack wording transcribed from the exact product heading.",
+        "sourceCaptureSha256": "a7667c3b968da4dc661c2deb53005c25697f75f1c0f26f7eb87e4e60d9b1a408"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-mccormick-franks-redhot-original-cayenne-pepper-hot-sauce-12-fl-oz",
+        "name": "Frank's RedHot Original Cayenne Pepper Hot Sauce, 12.0 fl oz",
+        "brand": "Frank's RedHot",
+        "variant": "Frank's RedHot Original Cayenne Pepper Hot Sauce, 12.0 fl oz",
+        "packageSize": "12.0 fl oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500013213",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: AGED CAYENNE RED PEPPERS, DISTILLED VINEGAR, WATER, SALT & GARLIC POWDER.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/franks-redhot-original-cayenne-pepper-hot-sauce-12-fl-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Frank's RedHot\nFrank's RedHot Original Cayenne Pepper Hot Sauce, 12.0 fl oz\n12.0 fl oz\nINGREDIENTS: AGED CAYENNE RED PEPPERS, DISTILLED VINEGAR, WATER, SALT & GARLIC POWDER.\n\"gtin14\": \"00041500013213\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Size/pack wording transcribed from the exact product heading."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Size/pack wording transcribed from the exact product heading."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Frank's RedHot Original Cayenne Pepper Hot Sauce, 12.0 fl oz\n12.0 fl oz",
+        "brandEvidence": "Frank's RedHot",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Size/pack wording transcribed from the exact product heading.",
+        "sourceCaptureSha256": "862adee702548a3473bb93843c00b644cf0b92309c61d42b2a96005123cc18e1"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-mccormick-frenchs-hot-honey-mustard-12-0-oz",
+        "name": "French's® Hot Honey Mustard, 12.0 oz",
+        "brand": "French's",
+        "variant": "French's® Hot Honey Mustard, 12.0 oz",
+        "packageSize": "12.0 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500013985",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: DISTILLED VINEGAR, SUGAR, WATER, #1 GRADE MUSTARD SEED, HONEY, SALT, RED PEPPER, SPICES & TURMERIC.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/frenchs-hot-honey-mustard-12-0-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "French's\nFrench's® Hot Honey Mustard, 12.0 oz\n12.0 oz\nINGREDIENTS: DISTILLED VINEGAR, SUGAR, WATER, #1 GRADE MUSTARD SEED, HONEY, SALT, RED PEPPER, SPICES & TURMERIC.\n\"gtin14\": \"00041500013985\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Size/pack wording transcribed from the exact product heading."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Size/pack wording transcribed from the exact product heading."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "French's® Hot Honey Mustard, 12.0 oz\n12.0 oz",
+        "brandEvidence": "French's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Size/pack wording transcribed from the exact product heading.",
+        "sourceCaptureSha256": "f8b276e40e1e7af5d3b556957a7d4b11d13fde4b5a38c61329b4fdce377ebdf8"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-mccormick-frenchs-r-honey-mustard-dipping-sauce-12-oz",
+        "name": "French's® Honey Mustard Dipping Sauce, 12 oz",
+        "brand": "French's",
+        "variant": "French's® Honey Mustard Dipping Sauce, 12 oz",
+        "packageSize": "12 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041500989211",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: Distilled Vinegar, Water, Sugar, Honey, Modified Corn Starch, Spices (Including Mustard Seed, Turmeric, Paprika), Salt, Sodium Benzoate (to Protect Quality), Onion, Natural Flavor & Garlic.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/frenchs-r-honey-mustard-dipping-sauce-12-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "French's\nFrench's® Honey Mustard Dipping Sauce, 12 oz\n12 oz\nINGREDIENTS: Distilled Vinegar, Water, Sugar, Honey, Modified Corn Starch, Spices (Including Mustard Seed, Turmeric, Paprika), Salt, Sodium Benzoate (to Protect Quality), Onion, Natural Flavor & Garlic.\n\"gtin14\": \"00041500989211\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Size/pack wording transcribed from the exact product heading."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Size/pack wording transcribed from the exact product heading."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "French's® Honey Mustard Dipping Sauce, 12 oz\n12 oz",
+        "brandEvidence": "French's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Size/pack wording transcribed from the exact product heading.",
+        "sourceCaptureSha256": "8f449eda04695e810b3e5f27e2f808d7764074b0a37689c0724afb2134e7cc64"
+      }
+    },
+    {
+      "product": {
+        "id": "batch02-mccormick-mccormick-r-tartar-sauce-8-fl-oz",
+        "name": "McCormick® Tartar Sauce, 8 fl oz",
+        "brand": "McCormick",
+        "variant": "McCormick® Tartar Sauce, 8 fl oz",
+        "packageSize": "8 fl oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00041234111766",
+        "imageReference": null,
+        "ingredientLabelText": "INGREDIENTS: WATER, SOYBEAN OIL, SWEET PICKLES, EGG YOLKS, DISTILLED VINEGAR, SUGAR, MODIFIED CORN STARCH, LEMON JUICE CONCENTRATE, MUSTARD, SALT, ONION POWDER, XANTHAN GUM (THICKENER), AND CALCIUM DISODIUM EDTA (TO PROTECT QUALITY).",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains: Soy, Eggs.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "soy",
+          "eggs"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/mccormick-r-tartar-sauce-8-fl-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "McCormick\nMcCormick® Tartar Sauce, 8 fl oz\n8 fl oz\nINGREDIENTS: WATER, SOYBEAN OIL, SWEET PICKLES, EGG YOLKS, DISTILLED VINEGAR, SUGAR, MODIFIED CORN STARCH, LEMON JUICE CONCENTRATE, MUSTARD, SALT, ONION POWDER, XANTHAN GUM (THICKENER), AND CALCIUM DISODIUM EDTA (TO PROTECT QUALITY).\nContains: Soy, Eggs.\n\"gtin14\": \"00041234111766\"",
+            "notes": "Official US manufacturer product identity and complete ingredient panel reviewed. Whitespace normalized only; spelling and punctuation retained. No precautionary statement was documented; this is unknown, not evidence of absence. Size/pack wording transcribed from the exact product heading."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Check physical packaging before consuming. Unknown declarations do not establish allergy safety. Image rights not established; use the existing placeholder. Size/pack wording transcribed from the exact product heading."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "McCormick® Tartar Sauce, 8 fl oz\n8 fl oz",
+        "brandEvidence": "McCormick",
+        "ingredientTextCorroborated": true,
+        "rationale": "Corroborated the exact US product/variant and ingredient panel against its manufacturer page. Recorded explicit allergen declarations only; missing declarations/precautionary statements remain unknown. Size/pack wording transcribed from the exact product heading.",
+        "sourceCaptureSha256": "dfc5dbf7f9bd433de60895c8ef1aa7e15aaa4cdca59f8908a29443fa94d7b007"
+      }
+    }
+  ]
+}

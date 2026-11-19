@@ -1,0 +1,1000 @@
+{
+  "formatVersion": 1,
+  "catalogId": "us-reviewed-batch-01",
+  "products": [
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Wheat, Soy.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Campbell's",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat",
+        "soy"
+      ],
+      "id": "batch01-campbells-beef-consomme",
+      "imageReference": null,
+      "ingredientLabelText": "Beef Stock (Water, Dried Beef Stock), Contains Less Than 2% Of: Gelatin, Yeast Extract, Salt, Sugar, Natural Flavoring, Monosodium Glutamate, Tamari Soy Sauce (Water, Soybeans, Salt), Caramel Color, Citric Acid, Carrots, Beef Stock, Soy Sauce (Water, Soybeans, Salt, Wheat), Onions, Celery, Beef Tallow, Dried Beef, Dried Carrots.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Beef Consomme Soup",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "10.5 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Campbell's\nCondensed Soup\nBeef Consomme Soup\n10.5 oz\nIngredients\nBeef Stock (Water, Dried Beef Stock), Contains Less Than 2% Of: Gelatin, Yeast Extract, Salt, Sugar, Natural Flavoring, Monosodium Glutamate, Tamari Soy Sauce (Water, Soybeans, Salt), Caramel Color, Citric Acid, Carrots, Beef Stock, Soy Sauce (Water, Soybeans, Salt, Wheat), Onions, Celery, Beef Tallow, Dried Beef, Dried Carrots.\nContains: Wheat, Soy.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.campbells.com/products/condensed/beef-consomme/"
+        }
+      ],
+      "variant": "Condensed Soup",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Egg, Wheat, Soy.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Campbell's",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "egg",
+        "wheat",
+        "soy"
+      ],
+      "id": "batch01-campbells-chicken-noodle-soup",
+      "imageReference": null,
+      "ingredientLabelText": "Chicken Stock, Enriched Egg Noodles (Wheat Flour, Eggs, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid), Chicken Meat, Contains Less Than 2% Of: Salt, Chicken Fat, Water, Monosodium Glutamate, Cornstarch, Flavoring, Modified Cornstarch, Dried Chicken Broth, Sugar, Beta Carotene For Color, Onion Powder, Yeast Extract, Sodium Phosphate, Soy Protein Isolate, Dried Chicken, Garlic Extract.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Chicken Noodle Soup",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "10.75 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Campbell's\nCondensed Soup\nChicken Noodle Soup\n10.75 oz\nIngredients\nChicken Stock, Enriched Egg Noodles (Wheat Flour, Eggs, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid), Chicken Meat, Contains Less Than 2% Of: Salt, Chicken Fat, Water, Monosodium Glutamate, Cornstarch, Flavoring, Modified Cornstarch, Dried Chicken Broth, Sugar, Beta Carotene For Color, Onion Powder, Yeast Extract, Sodium Phosphate, Soy Protein Isolate, Dried Chicken, Garlic Extract.\nContains: Egg, Wheat, Soy.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.campbells.com/products/condensed/chicken-noodle-soup/"
+        }
+      ],
+      "variant": "Condensed Soup",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Wheat, Milk, Soy",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Campbell's",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat",
+        "milk",
+        "soy"
+      ],
+      "id": "batch01-campbells-cream-of-celery-soup",
+      "imageReference": null,
+      "ingredientLabelText": "Water, Celery, Vegetable Oil (Corn, Canola, And/Or Soybean), Modified Cornstarch, Wheat Flour, Contains Less Than 2% Of: Cream, Salt, Whey, Soy Protein Concentrate, Monosodium Glutamate, Yeast Extract, Beta Carotene For Color, Natural Flavoring, Onion Extract.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Cream of Celery Soup",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "10.5 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Campbell's\nCondensed Soup\nCream of Celery Soup\n10.5 oz\nIngredients\nWater, Celery, Vegetable Oil (Corn, Canola, And/Or Soybean), Modified Cornstarch, Wheat Flour, Contains Less Than 2% Of: Cream, Salt, Whey, Soy Protein Concentrate, Monosodium Glutamate, Yeast Extract, Beta Carotene For Color, Natural Flavoring, Onion Extract.\nContains: Wheat, Milk, Soy",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.campbells.com/products/condensed/cream-of-celery-soup/"
+        }
+      ],
+      "variant": "Condensed Soup",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Wheat, Milk, Soy.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Campbell's",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat",
+        "milk",
+        "soy"
+      ],
+      "id": "batch01-campbells-cream-of-chicken-soup",
+      "imageReference": null,
+      "ingredientLabelText": "Chicken Stock, Modified Cornstarch, Vegetable Oil, Wheat Flour, Cream, Chicken Meat, Chicken Fat, Salt, Whey, Dried Chicken, Monosodium Glutamate, Soy Protein Concentrate, Water, Natural Flavoring, Yeast Extract, Beta Carotene For Color, Soy Protein Isolate, Sodium Phosphate, Celery Extract, Onion Extract, Butter, Garlic Juice Concentrate.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Cream of Chicken Soup",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "10.5 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Campbell's\nCondensed Soup\nCream of Chicken Soup\n10.5 oz\nIngredients\nChicken Stock, Modified Cornstarch, Vegetable Oil, Wheat Flour, Cream, Chicken Meat, Chicken Fat, Salt, Whey, Dried Chicken, Monosodium Glutamate, Soy Protein Concentrate, Water, Natural Flavoring, Yeast Extract, Beta Carotene For Color, Soy Protein Isolate, Sodium Phosphate, Celery Extract, Onion Extract, Butter, Garlic Juice Concentrate.\nContains: Wheat, Milk, Soy.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.campbells.com/products/condensed/cream-of-chicken-soup/"
+        }
+      ],
+      "variant": "Condensed Soup",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Wheat, Milk, Soy",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Campbell's",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat",
+        "milk",
+        "soy"
+      ],
+      "id": "batch01-campbells-cream-of-mushroom-soup",
+      "imageReference": null,
+      "ingredientLabelText": "Water, Mushrooms, Vegetable Oil (Corn, Canola, And/Or Soybean), Modified Cornstarch, Wheat Flour, Salt, Cream, Whey, Soy Protein Concentrate, Monosodium Glutamate, Yeast Extract, Dried Garlic, Natural Flavoring.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Cream of Mushroom Soup",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "10.5 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Campbell's\nCondensed Soup\nCream of Mushroom Soup\n10.5 oz\nIngredients\nWater, Mushrooms, Vegetable Oil (Corn, Canola, And/Or Soybean), Modified Cornstarch, Wheat Flour, Salt, Cream, Whey, Soy Protein Concentrate, Monosodium Glutamate, Yeast Extract, Dried Garlic, Natural Flavoring.\nContains: Wheat, Milk, Soy",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.campbells.com/products/condensed/cream-of-mushroom-soup"
+        }
+      ],
+      "variant": "Condensed Soup",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Wheat, Milk, Soy.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Campbell's",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat",
+        "milk",
+        "soy"
+      ],
+      "id": "batch01-campbells-french-onion-soup",
+      "imageReference": null,
+      "ingredientLabelText": "Beef Stock (Water, Dried Beef Stock), Onions, Water, Dried Onions, Potato Starch, Contains Less Than 2% Of: Salt, Yeast Extract, Beef Stock, Sugar, Vegetable Oil, Monosodium Glutamate, Natural Flavoring, Caramel Color, Beef Tallow, Cheddar And Semisoft Cheese (Milk, Cultures, Salt, Enzymes), Sour Cream, Dextrose, Soy Sauce (Water, Soybeans, Salt, Wheat), Milk, Milkfat, Dried Beef.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "French Onion Soup",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "10.5 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Campbell's\nCondensed Soup\nFrench Onion Soup\n10.5 oz\nIngredients\nBeef Stock (Water, Dried Beef Stock), Onions, Water, Dried Onions, Potato Starch, Contains Less Than 2% Of: Salt, Yeast Extract, Beef Stock, Sugar, Vegetable Oil, Monosodium Glutamate, Natural Flavoring, Caramel Color, Beef Tallow, Cheddar And Semisoft Cheese (Milk, Cultures, Salt, Enzymes), Sour Cream, Dextrose, Soy Sauce (Water, Soybeans, Salt, Wheat), Milk, Milkfat, Dried Beef.\nContains: Wheat, Milk, Soy.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.campbells.com/products/condensed/french-onion-soup/"
+        }
+      ],
+      "variant": "Condensed Soup",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": null,
+      "allergenStatement": null,
+      "allergenStatus": "unknown",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Chex",
+      "category": "breakfast",
+      "completenessStatus": "partial",
+      "declaredAllergens": null,
+      "id": "batch01-chex-blueberry-chex",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Rice, Rice, Sugar, Canola and/or Sunflower Oil, Blueberry Powder, Salt, Molasses, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nCalcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B2 (riboflavin), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Blueberry Chex",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Chex\nBlueberry Chex\nIngredients\nWhole Grain Rice, Rice, Sugar, Canola and/or Sunflower Oil, Blueberry Powder, Salt, Molasses, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nCalcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B2 (riboflavin), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.chex.com/products/blueberry-chex"
+        }
+      ],
+      "variant": "Blueberry Chex",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": null,
+      "allergenStatement": null,
+      "allergenStatus": "unknown",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Chex",
+      "category": "breakfast",
+      "completenessStatus": "partial",
+      "declaredAllergens": null,
+      "id": "batch01-chex-chocolate-chex",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Rice, Rice, Sugar, Canola Oil, Cocoa Processed With Alkali, Salt, Molasses, Natural Flavor, Rosemary Extract. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nTricalcium Phosphate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Chocolate Chex",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Chex\nChocolate Chex\nIngredients\nWhole Grain Rice, Rice, Sugar, Canola Oil, Cocoa Processed With Alkali, Salt, Molasses, Natural Flavor, Rosemary Extract. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nTricalcium Phosphate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.chex.com/products/chocolate-chex"
+        }
+      ],
+      "variant": "Chocolate Chex",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "CONTAINS ALMOND INGREDIENTS.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Chex",
+      "category": "breakfast",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "almond"
+      ],
+      "id": "batch01-chex-honey-nut-chex",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Corn, Corn Meal, Sugar, Corn Starch, Honey, Salt, Molasses, Canola and/or Sunflower Oil, Baking Soda, Natural Flavor, Natural Almond Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nCalcium Carbonate, Zinc and Iron (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Honey Nut Chex",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Chex\nHoney Nut Chex\nIngredients\nWhole Grain Corn, Corn Meal, Sugar, Corn Starch, Honey, Salt, Molasses, Canola and/or Sunflower Oil, Baking Soda, Natural Flavor, Natural Almond Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nCalcium Carbonate, Zinc and Iron (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\nCONTAINS ALMOND INGREDIENTS.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.chex.com/products/honey-nut-chex"
+        }
+      ],
+      "variant": "Honey Nut Chex",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "CONTAINS PEANUT INGREDIENTS.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Chex",
+      "category": "breakfast",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts"
+      ],
+      "id": "batch01-chex-peanut-butter-chex",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Corn, Corn Meal, Sugar, Peanut butter (peanuts, sugar, monoglycerides, salt), Corn Starch, Canola and/or Sunflower Oil, Salt, Baking Soda, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nCalcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (Niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin monoitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Peanut Butter Chex",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Chex\nPeanut Butter Chex\nIngredients\nWhole Grain Corn, Corn Meal, Sugar, Peanut butter (peanuts, sugar, monoglycerides, salt), Corn Starch, Canola and/or Sunflower Oil, Salt, Baking Soda, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nVitamins & minerals\nCalcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (Niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin monoitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\nCONTAINS PEANUT INGREDIENTS.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.chex.com/products/peanut-butter-chex"
+        }
+      ],
+      "variant": "Peanut Butter Chex",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "CONTAINS: Wheat.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Dave's Killer Bread",
+      "category": "bread-bakery",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat"
+      ],
+      "id": "batch01-daves-good-seed",
+      "imageReference": null,
+      "ingredientLabelText": "Organic whole wheat (organic whole wheat flour, organic cracked whole wheat), water, organic wheat flour, organic Good Seed® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic steel cut oats, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), organic cane sugar, organic wheat gluten, yeast, contains 2% or less of each of the following: organic molasses, organic oat fiber, sea salt, organic vinegar, organic cultured wheat flour, organic acerola cherry powder, enzymes.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Good SEED",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dave's Killer Bread\nGood SEED\nINGREDIENTS:\nOrganic whole wheat (organic whole wheat flour, organic cracked whole wheat), water, organic wheat flour, organic Good Seed® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic steel cut oats, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), organic cane sugar, organic wheat gluten, yeast, contains 2% or less of each of the following: organic molasses, organic oat fiber, sea salt, organic vinegar, organic cultured wheat flour, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.daveskillerbread.com/good-seed"
+        }
+      ],
+      "variant": "Good SEED",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "CONTAINS: Wheat.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Dave's Killer Bread",
+      "category": "bread-bakery",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat"
+      ],
+      "id": "batch01-daves-powerseed",
+      "imageReference": null,
+      "ingredientLabelText": "Organic whole wheat (organic whole wheat flour, organic cracked whole wheat), water, organic powerseed® grain and seed mix (organic whole flax seeds, organic whole ground flax seeds, organic rolled oats, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa], organic pumpkin seeds), organic wheat gluten, organic fruit juices (organic apple, organic pear, organic peach), organic oat fiber, yeast, contains 2% or less of each of the following: organic vinegar, organic cultured wheat flour, sea salt, organic acerola cherry powder, enzymes.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "PowerSEED",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dave's Killer Bread\nPowerSEED\nINGREDIENTS:\nOrganic whole wheat (organic whole wheat flour, organic cracked whole wheat), water, organic powerseed® grain and seed mix (organic whole flax seeds, organic whole ground flax seeds, organic rolled oats, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa], organic pumpkin seeds), organic wheat gluten, organic fruit juices (organic apple, organic pear, organic peach), organic oat fiber, yeast, contains 2% or less of each of the following: organic vinegar, organic cultured wheat flour, sea salt, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.daveskillerbread.com/powerseed"
+        }
+      ],
+      "variant": "PowerSEED",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "CONTAINS: Wheat",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Dave's Killer Bread",
+      "category": "bread-bakery",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "wheat"
+      ],
+      "id": "batch01-daves-white-bread-done-right",
+      "imageReference": null,
+      "ingredientLabelText": "Organic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour, organic potato flour) water, organic cane sugar, organic cracked whole wheat, organic expeller pressed canola oil, contains 2% or less of each of the following: organic wheat gluten, sea salt, yeast, organic cultured wheat flour, organic vinegar, organic acerola cherry powder, enzymes.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "White Bread Done Right",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dave's Killer Bread\nWhite Bread Done Right\nINGREDIENTS:\nOrganic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour, organic potato flour) water, organic cane sugar, organic cracked whole wheat, organic expeller pressed canola oil, contains 2% or less of each of the following: organic wheat gluten, sea salt, yeast, organic cultured wheat flour, organic vinegar, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.daveskillerbread.com/white-bread-done-right"
+        }
+      ],
+      "variant": "White Bread Done Right",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": null,
+      "allergenStatement": null,
+      "allergenStatus": "unknown",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Dole",
+      "category": "produce",
+      "completenessStatus": "partial",
+      "declaredAllergens": null,
+      "id": "batch01-dole-classic-coleslaw",
+      "imageReference": null,
+      "ingredientLabelText": "VEGETABLES: GREEN CABBAGE, CARROTS.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Classic Coleslaw",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dole\nClassic Coleslaw\nIngredients\nVEGETABLES: GREEN CABBAGE, CARROTS.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://dolefreshvegetables.com/produce/classic-coleslaw"
+        }
+      ],
+      "variant": "Classic Coleslaw",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": null,
+      "allergenStatement": null,
+      "allergenStatus": "unknown",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Dole",
+      "category": "produce",
+      "completenessStatus": "partial",
+      "declaredAllergens": null,
+      "id": "batch01-dole-garden-salad",
+      "imageReference": null,
+      "ingredientLabelText": "VEGETABLES: ICEBERG LETTUCE, CARROTS, RED CABBAGE.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Garden Salad",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dole\nGarden Salad\nIngredients\nVEGETABLES: ICEBERG LETTUCE, CARROTS, RED CABBAGE.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://dolefreshvegetables.com/produce/garden-salad"
+        }
+      ],
+      "variant": "Garden Salad",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": null,
+      "allergenStatement": null,
+      "allergenStatus": "unknown",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Dole",
+      "category": "produce",
+      "completenessStatus": "partial",
+      "declaredAllergens": null,
+      "id": "batch01-dole-greener-selection",
+      "imageReference": null,
+      "ingredientLabelText": "VEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Greener Selection",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dole\nGreener Selection\nIngredients\nVEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://dolefreshvegetables.com/produce/greener-selection"
+        }
+      ],
+      "variant": "Greener Selection",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": null,
+      "allergenStatement": null,
+      "allergenStatus": "unknown",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Dole",
+      "category": "produce",
+      "completenessStatus": "partial",
+      "declaredAllergens": null,
+      "id": "batch01-dole-very-veggie",
+      "imageReference": null,
+      "ingredientLabelText": "VEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE, PEA PODS, RADISHES.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Very Veggie",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": null,
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dole\nVery Veggie\nIngredients\nVEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE, PEA PODS, RADISHES.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://dolefreshvegetables.com/produce/very-veggie"
+        }
+      ],
+      "variant": "Very Veggie",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Coconut, Milk, Soy, Almonds",
+      "allergenStatus": "documented",
+      "barcode": "00034000003204",
+      "barcodeSourceId": "primary",
+      "brand": "ALMOND JOY",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "coconut",
+        "milk",
+        "soy",
+        "almond"
+      ],
+      "id": "batch01-hershey-almond-joy-coconut-and-almond-chocolate-candy-bar-1-61-oz",
+      "imageReference": null,
+      "ingredientLabelText": "Corn Syrup, Sugar, Coconut, Almonds, Vegetable Oil (Palm Oil, Shea Oil, Sunflower Oil, Palm Kernel Oil, &/Or Safflower Oil), Lactose (Milk), Contains 2% or Less of: Reduced Protein Whey (Milk), Chocolate, Skim Milk, Cocoa, Hydrogenated Palm Kernel Oil, Cocoa Processed With Alkali, Corn Syrup Solids, Whey (Milk), Salt, Lecithin (Soy), Vanillin (Artificial Flavor), Sodium Metabisulfite (To Maintain Freshness)",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "ALMOND JOY Coconut and Almond Chocolate Candy Bar, 1.61 oz",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "1.61 oz",
+      "precautionaryAllergens": [
+        "peanuts"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Manufactured in a facility that also processes Peanuts",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "ALMOND JOY\nALMOND JOY Coconut and Almond Chocolate Candy Bar, 1.61 oz\n1.61 oz\nIngredients\nCorn Syrup, Sugar, Coconut, Almonds, Vegetable Oil (Palm Oil, Shea Oil, Sunflower Oil, Palm Kernel Oil, &/Or Safflower Oil), Lactose (Milk), Contains 2% or Less of: Reduced Protein Whey (Milk), Chocolate, Skim Milk, Cocoa, Hydrogenated Palm Kernel Oil, Cocoa Processed With Alkali, Corn Syrup Solids, Whey (Milk), Salt, Lecithin (Soy), Vanillin (Artificial Flavor), Sodium Metabisulfite (To Maintain Freshness)\nContains: Coconut, Milk, Soy, Almonds\nManufactured in a facility that also processes Peanuts\n\"sku\":\"00034000003204-0053\",\"brand\":{\"name\":\"ALMOND JOY\",\"@type\":\"Brand\"},\"gtin14\":\"00034000003204\"",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/almond-joy-coconut-and-almond-chocolate-candy-bar-1-61-oz.html"
+        }
+      ],
+      "variant": "ALMOND JOY Coconut and Almond Chocolate Candy Bar, 1.61 oz",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Milk, Soy, Wheat",
+      "allergenStatus": "documented",
+      "barcode": "00034000000463",
+      "barcodeSourceId": "primary",
+      "brand": "KIT KAT®",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "id": "batch01-hershey-kit-kat-dark-chocolate-candy-bar-1-5-oz",
+      "imageReference": null,
+      "ingredientLabelText": "Sugar, Chocolate, Wheat Flour, Vegetable Oil (Palm Oil, Palm Kernel Oil), Cocoa Butter, Cocoa Processed With Alkali, Milk Fat, Contains 2% Or Less Of: Lecithin (Soy), PGPR, Salt, Yeast, Natural & Artificial Flavor, Baking Soda",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "KIT KAT® Dark Chocolate Candy Bar, 1.5 oz",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "1.5 oz",
+      "precautionaryAllergens": [
+        "peanuts"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Manufactured in a facility that also processes Peanuts",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "KIT KAT®\nKIT KAT® Dark Chocolate Candy Bar, 1.5 oz\n1.5 oz\nIngredients\nSugar, Chocolate, Wheat Flour, Vegetable Oil (Palm Oil, Palm Kernel Oil), Cocoa Butter, Cocoa Processed With Alkali, Milk Fat, Contains 2% Or Less Of: Lecithin (Soy), PGPR, Salt, Yeast, Natural & Artificial Flavor, Baking Soda\nContains: Milk, Soy, Wheat\nManufactured in a facility that also processes Peanuts\n\"sku\":\"00034000000463-0051\",\"brand\":{\"name\":\"KIT KAT®\",\"@type\":\"Brand\"},\"gtin14\":\"00034000000463\"",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/kit-kat-dark-chocolate-candy-bar-1-5-oz.html"
+        }
+      ],
+      "variant": "KIT KAT® Dark Chocolate Candy Bar, 1.5 oz",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Milk, Soy, Wheat",
+      "allergenStatus": "documented",
+      "barcode": "00034000002467",
+      "barcodeSourceId": "primary",
+      "brand": "KIT KAT®",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "id": "batch01-hershey-kit-kat-milk-chocolate-candy-bar-1-5-oz",
+      "imageReference": null,
+      "ingredientLabelText": "Sugar, Wheat Flour, Cocoa Butter, Chocolate, Lactose (Milk), Vegetable Oil (Palm Oil, Palm Kernel Oil), Skim Milk, Milk Fat, Contains 2% Or Less Of: Lecithin (Soy), PGPR, Vanillin (ARTIFICIAL FLAVOR), Salt, Yeast, Baking Soda",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "KIT KAT® Milk Chocolate Candy Bar, 1.5 oz",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "1.5 oz",
+      "precautionaryAllergens": [
+        "peanuts"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Manufactured in a facility that also processes Peanuts",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "KIT KAT®\nKIT KAT® Milk Chocolate Candy Bar, 1.5 oz\n1.5 oz\nIngredients\nSugar, Wheat Flour, Cocoa Butter, Chocolate, Lactose (Milk), Vegetable Oil (Palm Oil, Palm Kernel Oil), Skim Milk, Milk Fat, Contains 2% Or Less Of: Lecithin (Soy), PGPR, Vanillin (ARTIFICIAL FLAVOR), Salt, Yeast, Baking Soda\nContains: Milk, Soy, Wheat\nManufactured in a facility that also processes Peanuts\n\"sku\":\"00034000002467-0051\",\"brand\":{\"name\":\"KIT KAT®\",\"@type\":\"Brand\"},\"gtin14\":\"00034000002467\"",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/kit-kat-milk-chocolate-candy-bar-1-5-oz.html"
+        }
+      ],
+      "variant": "KIT KAT® Milk Chocolate Candy Bar, 1.5 oz",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Milk, Coconut, Soy",
+      "allergenStatus": "documented",
+      "barcode": "00034000000319",
+      "barcodeSourceId": "primary",
+      "brand": "MOUNDS",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "milk",
+        "coconut",
+        "soy"
+      ],
+      "id": "batch01-hershey-mounds-dark-chocolate-and-coconut-candy-bar-1-75-oz",
+      "imageReference": null,
+      "ingredientLabelText": "Corn Syrup, Coconut, Sugar, Chocolate, Cocoa, Vegetable Oil (Palm Oil, Shea Oil, Sunflower Oil, Palm Kernel Oil, &/or Safflower Oil), Contains 2% or less of: Salt, Lecithin (Soy), Milk Fat, PGPR, Sodium Metabisulfite (To Maintain Freshness), Natural Flavor",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "MOUNDS Dark Chocolate and Coconut Candy Bar, 1.75 oz",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "1.75 oz",
+      "precautionaryAllergens": [
+        "almond",
+        "peanuts"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Manufactured on the same equipment that also processes Almonds\nManufactured in a facility that also processes Peanuts",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "MOUNDS\nMOUNDS Dark Chocolate and Coconut Candy Bar, 1.75 oz\n1.75 oz\nIngredients\nCorn Syrup, Coconut, Sugar, Chocolate, Cocoa, Vegetable Oil (Palm Oil, Shea Oil, Sunflower Oil, Palm Kernel Oil, &/or Safflower Oil), Contains 2% or less of: Salt, Lecithin (Soy), Milk Fat, PGPR, Sodium Metabisulfite (To Maintain Freshness), Natural Flavor\nContains: Milk, Coconut, Soy\nManufactured on the same equipment that also processes Almonds\nManufactured in a facility that also processes Peanuts\n\"sku\":\"00034000000319-0052\",\"brand\":{\"name\":\"MOUNDS\",\"@type\":\"Brand\"},\"gtin14\":\"00034000000319\"",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/mounds-dark-chocolate-and-coconut-candy-bar-1-75-oz.html"
+        }
+      ],
+      "variant": "MOUNDS Dark Chocolate and Coconut Candy Bar, 1.75 oz",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Egg, Milk, Soy",
+      "allergenStatus": "documented",
+      "barcode": "00034000003303",
+      "barcodeSourceId": "primary",
+      "brand": "YORK",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "egg",
+        "milk",
+        "soy"
+      ],
+      "id": "batch01-hershey-york-dark-chocolate-peppermint-patties-1-4-oz",
+      "imageReference": null,
+      "ingredientLabelText": "Sugar, Corn Syrup, Chocolate, Cocoa, Invert Syrup, Milk Fat, Egg Whites, Cocoa Butter, Lecithin (Soy), Oil of Peppermint, PGPR, Natural Flavors",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "YORK Dark Chocolate Peppermint Patties, 1.4 oz",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "1.4 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "YORK\nYORK Dark Chocolate Peppermint Patties, 1.4 oz\n1.4 oz\nIngredients\nSugar, Corn Syrup, Chocolate, Cocoa, Invert Syrup, Milk Fat, Egg Whites, Cocoa Butter, Lecithin (Soy), Oil of Peppermint, PGPR, Natural Flavors\nContains: Egg, Milk, Soy\n\"sku\":\"00034000003303-0050\",\"brand\":{\"name\":\"YORK\",\"@type\":\"Brand\"},\"gtin14\":\"00034000003303\"",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/york-dark-chocolate-peppermint-patties-1-4-oz.html"
+        }
+      ],
+      "variant": "YORK Dark Chocolate Peppermint Patties, 1.4 oz",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains Peanut Ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Jif",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts"
+      ],
+      "id": "batch01-jif-creamy-reduced-fat-creamy-peanut-butter-spread",
+      "imageReference": null,
+      "ingredientLabelText": "Peanuts, Corn Syrup Solids, Sugar, Pea Protein, Contains 2% Or Less Of: Salt, Fully Hydrogenated Vegetable Oils (rapeseed And Soybean), Mono And Diglycerides, Molasses, Magnesium Oxide, Niacinamide, Ferric Orthophosphate, Zinc Oxide, Copper Sulfate, Pyridoxine Hydrochloride, Folic Acid.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Reduced Fat Creamy Peanut Butter Spread",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "16 oz Plastic Jar",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Jif\nReduced Fat Creamy Peanut Butter Spread\n16 oz Plastic Jar\nIngredients\nPeanuts, Corn Syrup Solids, Sugar, Pea Protein, Contains 2% Or Less Of: Salt, Fully Hydrogenated Vegetable Oils (rapeseed And Soybean), Mono And Diglycerides, Molasses, Magnesium Oxide, Niacinamide, Ferric Orthophosphate, Zinc Oxide, Copper Sulfate, Pyridoxine Hydrochloride, Folic Acid.\nContains Peanut Ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.jif.com/products/creamy/reduced-fat-creamy-peanut-butter"
+        }
+      ],
+      "variant": "Reduced Fat Creamy Peanut Butter Spread",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains Peanut Ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Jif",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts"
+      ],
+      "id": "batch01-jif-crunchy-extra-crunchy-peanut-butter",
+      "imageReference": null,
+      "ingredientLabelText": "Roasted Peanuts, Sugar, Contains 2% Or Less Of: Fully Hydrogenated Vegetable Oils (Rapeseed And Soybean), Salt, Molasses.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Extra Crunchy Peanut Butter",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "16 oz Plastic Jar",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Jif\nExtra Crunchy Peanut Butter\n16 oz Plastic Jar\nIngredients\nRoasted Peanuts, Sugar, Contains 2% Or Less Of: Fully Hydrogenated Vegetable Oils (Rapeseed And Soybean), Salt, Molasses.\nContains Peanut Ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.jif.com/products/crunchy/extra-crunchy-peanut-butter"
+        }
+      ],
+      "variant": "Extra Crunchy Peanut Butter",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains Peanut Ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Jif",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts"
+      ],
+      "id": "batch01-jif-natural-natural-creamy-peanut-butter",
+      "imageReference": null,
+      "ingredientLabelText": "Peanuts, Sugar, Palm Oil, Contains 2% Or Less Of: Salt, Molasses.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Natural Creamy Peanut Butter Spread",
+      "notes": "Manufacturers can change ingredients. Always check the physical packaging before consumption. Missing declarations, warnings, sizes and barcodes remain unknown. No safety or allergen-absence claim. Images use the existing placeholder; redistribution rights were not established.",
+      "packageSize": "16 oz Plastic Jar",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Jif\nNatural Creamy Peanut Butter Spread\n16 oz Plastic Jar\nIngredients\nPeanuts, Sugar, Palm Oil, Contains 2% Or Less Of: Salt, Molasses.\nContains Peanut Ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Official US product page reviewed against its product identity and ingredient panel. Whitespace normalized; spelling and punctuation retained. Separate vitamin/mineral sections included where present. Barcode, when populated, is the matching Product JSON-LD GTIN-14, not a size-selector code.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.jif.com/products/natural/natural-creamy-peanut-butter"
+        }
+      ],
+      "variant": "Natural Creamy Peanut Butter Spread",
+      "verifiedAt": "2026-11-18"
+    }
+  ]
+}

@@ -14,7 +14,7 @@ const sourceHosts = new Set([
   'www.kraftheinz.com', 'smartlabel.kraftheinz.com',
   'www.pepsicoproductfacts.com', 'www.quakeroats.com', 'smartlabel.pepsico.info',
   'www.barilla.com', 'www.connect.syncpdi.com', 'www.mccormick.com',
-  'www.daisybrand.com', 'www.chobani.com', 'chobani.com', 'www.hersheyland.com',
+  'fairlife.com', 'www.daisybrand.com', 'www.chobani.com', 'chobani.com', 'www.hersheyland.com',
 ]);
 function requireValue(condition: unknown, message: string): asserts condition {
   if (!condition) throw new Error(`Invalid product catalog: ${message}`);
@@ -51,6 +51,8 @@ function source(product: CatalogProduct, id: string | null, evidence: string): C
     && found.evidence?.includes(evidence), `${product.id}: field lacks reviewed, exact source evidence`);
   return found;
 }
+// Recognize explicit label wording only; this does not infer allergen relationships.
+const precautionaryBoundary = /\bmay contain\b|\b(?:facility|equipment) that also processes\b|\bline that also handles\b/i;
 function declaration(product: CatalogProduct, precaution: boolean): void {
   const status = precaution ? product.precautionaryStatus : product.allergenStatus;
   const statement = precaution ? product.precautionaryStatement : product.allergenStatement;
@@ -72,15 +74,15 @@ function declaration(product: CatalogProduct, precaution: boolean): void {
     // Lexical transcription only, never derivative inference (e.g. no whey -> milk).
     const term = name === 'peanuts' ? 'peanut' : name;
     const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const clause = precaution ? statement.split(/\bmay contain\b/i).slice(1).join(' ')
-      : statement.split(/\bmay contain\b/i)[0];
+    const clause = precaution ? statement.split(precautionaryBoundary).slice(1).join(' ')
+      : statement.split(precautionaryBoundary)[0];
     requireValue(new RegExp(`\\b${escaped}s?\\b`, 'i').test(clause),
       `${product.id}: allergen ${name} is not explicitly named in the declaration clause`);
   }
   // Catch omissions for the explicit names supported by this starter catalog.
   // This is a transcription check, not an inference from the ingredient list.
-  const clause = precaution ? statement.split(/\bmay contain\b/i).slice(1).join(' ')
-    : statement.split(/\bmay contain\b/i)[0];
+  const clause = precaution ? statement.split(precautionaryBoundary).slice(1).join(' ')
+    : statement.split(precautionaryBoundary)[0];
   for (const name of ['milk', 'wheat', 'soy', 'peanuts', 'almond', 'pecan', 'gluten', 'eggs', 'fish', 'sesame']) {
     const term = name === 'peanuts' ? 'peanut' : name;
     if (new RegExp(`\\b${term}s?\\b`, 'i').test(clause)) {
@@ -119,7 +121,9 @@ export function validateProductCatalog(input: unknown, today = new Date().toISOS
       requireValue(nonblank(entry.url), `${value.id}: source URL required`);
       let url: URL;
       try { url = new URL(entry.url); } catch { throw new Error(`Invalid source URL for ${value.id}`); }
-      requireValue(url.protocol === 'https:' && !url.username && !url.password && sourceHosts.has(url.hostname),
+      requireValue(url.protocol === 'https:' && !url.username && !url.password && (sourceHosts.has(url.hostname)
+          || (entry.kind === 'manufacturer_label_photo' && url.hostname === 's7d1.scene7.com'
+            && url.pathname.startsWith('/is/image/hersheyprodcloud/'))),
         `${value.id}: source must be on a reviewed manufacturer host`);
       requireValue(['manufacturer_page', 'manufacturer_label_photo', 'manufacturer_linked_spec'].includes(String(entry.kind))
         && ['label_reviewed', 'identity_only', 'unavailable'].includes(String(entry.reviewStatus))

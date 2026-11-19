@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-chex-peanut-butter-chex",
+  "name": "Chex Peanut Butter Chex",
+  "subject": "Dry peanut butter flavored square-lattice cereal pillows, warm tan coated squares in a low white bowl. No whole peanuts, peanut butter dollops, milk or garnish.",
+  "sourceUrls": [
+    "https://www.chex.com/products/peanut-butter-chex"
+  ],
+  "ingredientSha256": "34f3933744edc3a9b40df086e0f92125699b9a3da53de06bc7ebedc877a30106",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Dry peanut butter flavored square-lattice cereal pillows, warm tan coated squares in a low white bowl. No whole peanuts, peanut butter dollops, milk or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-d563d088-4403-4808-9f23-1406b64b57e6.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

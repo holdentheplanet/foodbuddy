@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-campbells-cream-of-mushroom-soup",
+  "name": "Campbell's Cream of Mushroom Soup",
+  "subject": "Thick pale beige cream of mushroom soup with small mushroom bits in a plain white bowl. No whole mushrooms added as decoration, no herbs or crackers.",
+  "sourceUrls": [
+    "https://www.campbells.com/products/condensed/cream-of-mushroom-soup"
+  ],
+  "ingredientSha256": "044254de936eafd5f2decacf0239cc83c6b8c40a84115a117d75ff665f9d4dbe",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Thick pale beige cream of mushroom soup with small mushroom bits in a plain white bowl. No whole mushrooms added as decoration, no herbs or crackers.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-804f03a0-feca-432b-8cfc-8e95edb86622.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

@@ -1,0 +1,99 @@
+{
+  "reviewDate": "2026-11-18",
+  "recordsReviewed": 11,
+  "recordsChanged": 0,
+  "scope": "Read-only evidence review of existing incomplete records; no absence/safety inference, no changes to old records or their verification statuses.",
+  "products": [
+    {
+      "productId": "barilla-spaghetti",
+      "sourceUrl": "https://www.connect.syncpdi.com/sync_pdi/servlet/ItemDynSpec?GTIN=00076808280081&ID=barillaretail&InstanceID=9c6e678cdec83538c880e1b567dd3ac9",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "56de2834edb73ddfc755d9d6f95d6ecdb37e16e4489c45683f21ef871b0d9932",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "cheerios-honey-nut-10-8oz",
+      "sourceUrl": "https://www.cheerios.com/products/honey-nut-cheerios",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "b1336281ac6ea6f150051ccdb819c1fa825f4fc094b9ea763093782610a4e105",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "cheerios-original-8-9oz",
+      "sourceUrl": "https://www.cheerios.com/products/original-cheerios",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "95cdde2f5dc2dace77d71a948f72ea18ca655d9648d70d5833fb0dac642156c8",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "goldfish-cheddar-26-3oz",
+      "sourceUrl": "https://www.campbellsfoodservice.com/product/cheddar-crackers-2/",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "b958e2e484a60e740b086219eefa404dfb4477d1154866d82800baaf0563ce1d",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "jif-creamy",
+      "sourceUrl": "https://www.jif.com/products/creamy/creamy-peanut-butter",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "7df8ece64d61736bc59d1b446016320dc86e5f3ceac85fbd1e456be8642325da",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "oreo-original-family",
+      "sourceUrl": "https://www.oreo.com/products/oreo-cookie",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "fa50bea66c777b32177a6887717b34c239ba3f6a02d0b1ccd5af82ec9477bc0c",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "ritz-original-13-7oz",
+      "sourceUrl": "https://www.snackworks.com/products/ritz-original-crackers-snacks-for-kids-and-adults-lunch-snacks-137-oz/",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "4617b7f51a6c269bf0c0e11849d927c6f64b563515fa794bcbdea68dacd35eb0",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "skippy-creamy",
+      "sourceUrl": "https://www.peanutbutter.com/product/creamy-peanut-butter/",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "4620e75a2b0704b9b0ab96c2ef0434a414ef7204519a6a4078685e70dced0c62",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "us-triscuit-original",
+      "sourceUrl": "https://www.snackworks.com/products/triscuit-original-whole-grain-wheat-crackers-vegan-crackers-healthy-snacks-lunch-snacks-party-size-17-oz/",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "17507c5d2f3277bbc6aea1c990c511773d02e66178d7082d3134797fbc4faaee",
+      "directHttpStatus": 200,
+      "outcome": "No reliable new separate allergen or precautionary statement captured; existing fields preserved. Missing warnings remain unknown, not evidence of safety."
+    },
+    {
+      "productId": "hersheys-milk-chocolate-1-55oz",
+      "sourceUrl": "https://www.hersheyland.com/products/hersheys-milk-chocolate-candy-bar-1-55-oz.html",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "3f6c40516a53f3c4869e053555a394a561aacb5448333e0c3dea4fb47084e7dc",
+      "outcome": "Exact existing product page still documents contains declaration; no reliable precautionary addition captured. Existing fields preserved."
+    },
+    {
+      "productId": "reeses-milk-chocolate-cups-1-5oz",
+      "sourceUrl": "https://www.hersheyland.com/products/reeses-milk-chocolate-peanut-butter-cups-1-5-oz.html",
+      "reviewDate": "2026-11-18",
+      "captureSha256": "4317312396d47e25176dce77fabebc58e0b9dd67bb19365cc6b8752465b5d8b1",
+      "outcome": "Exact existing product page still documents contains declaration; no reliable precautionary addition captured. Existing fields preserved."
+    }
+  ],
+  "heldResearch": [
+    "Other candy pages had ambiguous or poorly formatted ingredient text, so they were not included.",
+    "A matching ingredient photo was not available for the back-fold of the almond bar; its clear manufacturer ingredient page was used.",
+    "Milk chocolate baking chips use exact photographed label text with LECITHIN (SOY), rather than the less detailed page transcription."
+  ]
+}

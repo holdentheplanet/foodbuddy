@@ -1,0 +1,1754 @@
+[
+  {
+    "productId": "batch01-campbells-beef-consomme",
+    "name": "Beef Consomme Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-campbells-chicken-noodle-soup",
+    "name": "Chicken Noodle Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-campbells-cream-of-celery-soup",
+    "name": "Cream of Celery Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-campbells-cream-of-chicken-soup",
+    "name": "Cream of Chicken Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-campbells-cream-of-mushroom-soup",
+    "name": "Cream of Mushroom Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-campbells-french-onion-soup",
+    "name": "French Onion Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-chex-blueberry-chex",
+    "name": "Blueberry Chex",
+    "brand": "Chex",
+    "category": "breakfast",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-chex-chocolate-chex",
+    "name": "Chocolate Chex",
+    "brand": "Chex",
+    "category": "breakfast",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-chex-honey-nut-chex",
+    "name": "Honey Nut Chex",
+    "brand": "Chex",
+    "category": "breakfast",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-chex-peanut-butter-chex",
+    "name": "Peanut Butter Chex",
+    "brand": "Chex",
+    "category": "breakfast",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-daves-good-seed",
+    "name": "Good SEED",
+    "brand": "Dave's Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-daves-powerseed",
+    "name": "PowerSEED",
+    "brand": "Dave's Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-daves-white-bread-done-right",
+    "name": "White Bread Done Right",
+    "brand": "Dave's Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-dole-classic-coleslaw",
+    "name": "Classic Coleslaw",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-dole-garden-salad",
+    "name": "Garden Salad",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-dole-greener-selection",
+    "name": "Greener Selection",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-dole-very-veggie",
+    "name": "Very Veggie",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-hershey-almond-joy-coconut-and-almond-chocolate-candy-bar-1-61-oz",
+    "name": "ALMOND JOY Coconut and Almond Chocolate Candy Bar, 1.61 oz",
+    "brand": "ALMOND JOY",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-hershey-kit-kat-dark-chocolate-candy-bar-1-5-oz",
+    "name": "KIT KAT\u00ae Dark Chocolate Candy Bar, 1.5 oz",
+    "brand": "KIT KAT\u00ae",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-hershey-kit-kat-milk-chocolate-candy-bar-1-5-oz",
+    "name": "KIT KAT\u00ae Milk Chocolate Candy Bar, 1.5 oz",
+    "brand": "KIT KAT\u00ae",
+    "category": "snacks-candy",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch01-hershey-mounds-dark-chocolate-and-coconut-candy-bar-1-75-oz",
+    "name": "MOUNDS Dark Chocolate and Coconut Candy Bar, 1.75 oz",
+    "brand": "MOUNDS",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-hershey-york-dark-chocolate-peppermint-patties-1-4-oz",
+    "name": "YORK Dark Chocolate Peppermint Patties, 1.4 oz",
+    "brand": "YORK",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-jif-creamy-reduced-fat-creamy-peanut-butter-spread",
+    "name": "Reduced Fat Creamy Peanut Butter Spread",
+    "brand": "Jif",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-jif-crunchy-extra-crunchy-peanut-butter",
+    "name": "Extra Crunchy Peanut Butter",
+    "brand": "Jif",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch01-jif-natural-natural-creamy-peanut-butter",
+    "name": "Natural Creamy Peanut Butter Spread",
+    "brand": "Jif",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-triscuit-original",
+    "name": "TRISCUIT Original Whole Grain Wheat Crackers, Party Size",
+    "brand": "TRISCUIT",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "us-cheezit-original",
+    "name": "Cheez-It Original Snack Crackers",
+    "brand": "Cheez-It",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "us-pringles-original",
+    "name": "Pringles Original Potato Crisps",
+    "brand": "Pringles",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-daisy-cottage-original",
+    "name": "Daisy 4% Cottage Cheese",
+    "brand": "Daisy",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-daisy-light-original",
+    "name": "Daisy Light Sour Cream",
+    "brand": "Daisy",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-eggs-original",
+    "name": "Eggland\u2019s Best Classic Large White Eggs",
+    "brand": "Eggland\u2019s Best",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-corn-chex-original",
+    "name": "Corn Chex Cereal",
+    "brand": "Chex",
+    "category": "breakfast",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-wheat-chex-original",
+    "name": "Wheat Chex Cereal",
+    "brand": "Chex",
+    "category": "breakfast",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-cinnamon-chex-original",
+    "name": "Cinnamon Chex Cereal",
+    "brand": "Chex",
+    "category": "breakfast",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-daves-original",
+    "name": "Dave\u2019s Killer Bread 21 Whole Grains and Seeds",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-natures-original",
+    "name": "Nature\u2019s Own Honey Wheat Bread",
+    "brand": "Nature\u2019s Own",
+    "category": "bread-bakery",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-pepperidge-original",
+    "name": "Pepperidge Farm Farmhouse Hearty White Bread",
+    "brand": "Pepperidge Farm",
+    "category": "bread-bakery",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-broccoli-original",
+    "name": "Birds Eye Steamfresh Broccoli Florets",
+    "brand": "Birds Eye",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-digiorno-original",
+    "name": "DiGiorno Rising Crust Pepperoni Pizza",
+    "brand": "DiGiorno",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "us-eggo-original",
+    "name": "Eggo Homestyle Waffles",
+    "brand": "Eggo",
+    "category": "frozen-foods",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-coke-original",
+    "name": "Coca-Cola Original Taste",
+    "brand": "Coca-Cola",
+    "category": "beverages",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "us-sprite-original",
+    "name": "Sprite Lemon-Lime Soda",
+    "brand": "Sprite",
+    "category": "beverages",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "us-lacroix-original",
+    "name": "LaCroix Lime Sparkling Water",
+    "brand": "LaCroix",
+    "category": "beverages",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-penne-original",
+    "name": "Barilla Penne Pasta",
+    "brand": "Barilla",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-rotini-original",
+    "name": "Barilla Rotini Pasta",
+    "brand": "Barilla",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-campbells-original",
+    "name": "Campbell\u2019s Condensed Tomato Soup",
+    "brand": "Campbell\u2019s",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-bananas-original",
+    "name": "Dole Bananas",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-romaine-original",
+    "name": "Dole Classic Romaine Salad",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-spinach-original",
+    "name": "Dole Baby Spinach",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-starkist-original",
+    "name": "StarKist Chunk Light Tuna in Water",
+    "brand": "StarKist",
+    "category": "meat-seafood",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-bumblebee-original",
+    "name": "Bumble Bee Solid White Albacore in Water",
+    "brand": "Bumble Bee",
+    "category": "meat-seafood",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-jimmydean-original",
+    "name": "Jimmy Dean Fully Cooked Turkey Sausage Patties",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "us-hellmanns-original",
+    "name": "Hellmann\u2019s Real Mayonnaise",
+    "brand": "Hellmann\u2019s",
+    "category": "condiments-dressings",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-ranch-original",
+    "name": "Hidden Valley Original Ranch Dressing",
+    "brand": "Hidden Valley",
+    "category": "condiments-dressings",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "us-frenchs-original",
+    "name": "French\u2019s Spicy Brown Mustard",
+    "brand": "French\u2019s",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-chobani-flip-chocolate-covered-strawberry",
+    "name": "Chocolate Covered Strawberry",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch07-chobani-flip-cinnamon-french-toast",
+    "name": "Cinnamon French Toast",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch07-chobani-flip-perfect-peach-cobbler",
+    "name": "Perfect Peach Cobbler\u2122",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch07-chobani-flip-red-velvet-cupcake",
+    "name": "Red Velvet Cupcake",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch07-dave-killer-classic-rolls",
+    "name": "Killer Classic Rolls",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-dave-21wgs-burger-buns",
+    "name": "21 Whole Grains and Seeds Burger Buns",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-dave-burger-buns-done-right",
+    "name": "BURGER BUNS DONE RIGHT",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-dave-raisin-the-roof",
+    "name": "RAISIN' THE ROOF! Breakfast Bread",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-dave-rock-n-rolls",
+    "name": "Rock \u2018N\u2019 Rolls",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-dave-21wgs-sandwich-rolls",
+    "name": "21 Whole Grains and Seeds Sandwich Rolls",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-cheerios-chocolate-cheerios",
+    "name": "Chocolate Cheerios",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch07-cheerios-frosted-cheerios",
+    "name": "Frosted Cheerios",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch07-cheerios-very-berry-cheerios",
+    "name": "Very Berry Cheerios",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch07-cheerios-cookies-creme-cheerios-protein",
+    "name": "Cookies & Cr\u00e8me Cheerios Protein",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch07-cheerios-strawberry-cheerios-protein",
+    "name": "Strawberry Cheerios Protein",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch07-cheerios-cinnamon-cheerios-protein",
+    "name": "Cinnamon Cheerios Protein",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch07-stubbs-original-barbecue-sauce-18-oz",
+    "name": "Stubb's\u00ae Original Barbecue Sauce, 18 oz",
+    "brand": "Stubb's",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-stubbs-hickory-bourbon-barbecue-sauce-18-oz",
+    "name": "Stubb's\u00ae Hickory Bourbon Barbecue Sauce, 18 oz",
+    "brand": "Stubb's",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch07-stubbs-smokey-mesquite-barbecue-sauce-18-oz",
+    "name": "Stubb's\u00ae Smokey Mesquite Barbecue Sauce, 18 oz",
+    "brand": "Stubb's",
+    "category": "condiments-dressings",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch07-stubbs-spicy-barbecue-sauce-18-oz",
+    "name": "Stubb's\u00ae Spicy Barbecue Sauce, 18 oz",
+    "brand": "Stubb's",
+    "category": "condiments-dressings",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch07-stubbs-sticky-sweet-barbecue-sauce-18-oz",
+    "name": "Stubb's\u00ae Sticky Sweet Barbecue Sauce, 18 oz",
+    "brand": "Stubb's",
+    "category": "condiments-dressings",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch07-stubbs-jalapeno-honey-bar-b-q-sauce-18-oz",
+    "name": "Stubb's\u00ae Jalape\u00f1o & Honey Bar-B-Q Sauce, 18 oz",
+    "brand": "Stubb's",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-chobani-flip-cookie-dough",
+    "name": "Cookie Dough",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-flip-cookies-cream",
+    "name": "Cookies & Cream",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-flip-key-lime-crumble",
+    "name": "Key Lime Crumble\u00ae",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-flip-strawberry-cheesecake",
+    "name": "Strawberry Cheesecake",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-flip-salted-caramel-crunch",
+    "name": "Salted Caramel Crunch\u00ae",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-flip-mint-chocolate-chip",
+    "name": "Mint Chocolate Chip",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-flip-boston-cream-pie",
+    "name": "Boston Cream Pie*",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-flip-confetti-birthday-cake",
+    "name": "Confetti Birthday Cake",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch06-chobani-drink-strawberries-and-cream",
+    "name": "Strawberries & Cream",
+    "brand": "Chobani",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-chobani-drink-peaches-and-cream",
+    "name": "Peaches & Cream",
+    "brand": "Chobani",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-chobani-drink-mixed-berry-vanilla",
+    "name": "Mixed Berry Vanilla",
+    "brand": "Chobani",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-chobani-drink-mango-pineapple",
+    "name": "Mango Pineapple",
+    "brand": "Chobani",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-chobani-drink-cherry-vanilla",
+    "name": "Cherry Vanilla",
+    "brand": "Chobani",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-chobani-drink-vanilla",
+    "name": "Vanilla",
+    "brand": "Chobani",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-jimmy-crumbles-pork",
+    "name": "Fully Cooked Original Pork Sausage Crumbles",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-jimmy-crumbles-turkey",
+    "name": "Fully Cooked Turkey Sausage Crumbles",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-jimmy-fresh-links",
+    "name": "Original Premium Fresh Pork Sausage Links",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch06-jimmy-fresh-patties",
+    "name": "Original Premium Fresh Pork Sausage Patties",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch06-stouffers-roast-turkey-for-one",
+    "name": "Roast Turkey",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch06-stouffers-meatloaf-for-one",
+    "name": "Meatloaf",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch06-stouffers-chicken-alfredo-frozen-entree",
+    "name": "Chicken Alfredo",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch06-stouffers-rigatoni-with-chicken-pesto",
+    "name": "Chicken Pesto Rigatoni",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch05-chobani-blueberry",
+    "name": "Blueberry",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-chobani-black-cherry",
+    "name": "Black Cherry",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-chobani-strawberry",
+    "name": "Strawberry",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-chobani-vanilla",
+    "name": "Vanilla",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-chobani-key-lime",
+    "name": "Key Lime",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-chobani-flip-almond-coco-loco",
+    "name": "Almond Coco Loco\u2122",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch05-chobani-flip-chocolate-haze-craze",
+    "name": "Chocolate Haze Craze\u00ae",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch05-chobani-flip-coconut-caramel-cookie",
+    "name": "Coconut Caramel Cookie",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch05-chobani-flip-peanut-butter-cup",
+    "name": "Peanut Butter Cup",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch05-chobani-flip-smore-smores",
+    "name": "S'more S'mores\u2122",
+    "brand": "Chobani",
+    "category": "dairy-eggs",
+    "presentation": "neutral",
+    "reason": "Exact mix-in shapes, toppings and arrangement need a product-specific visual reference review; flavor names are not depictions of cakes or cookies."
+  },
+  {
+    "productId": "batch05-cheerios-cheerios-oat-crunch",
+    "name": "Cheerios Oat Crunch Cinnamon",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch05-cheerios-cheerios-oat-crunch-chocolate",
+    "name": "Cheerios Oat Crunch Chocolate",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch05-cheerios-cheerios-oat-crunch-almond",
+    "name": "Cheerios Oat Crunch Almond",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch05-cheerios-apple-cinnamon-cheerios",
+    "name": "Apple Cinnamon Cheerios",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch05-cheerios-multi-grain-cheerios",
+    "name": "Multi Grain Cheerios",
+    "brand": "Cheerios",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact variant cereal coloring, coating or oat clusters need product-specific visual corroboration."
+  },
+  {
+    "productId": "batch05-frenchs-classic-yellow-mustard-8-oz",
+    "name": "French's\u00ae Classic Yellow Mustard, 8 oz",
+    "brand": "French's",
+    "category": "condiments-dressings",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "batch05-frenchs-creamy-honey-chipotle-mustard-spread-12-oz",
+    "name": "French's\u00ae Creamy Honey Chipotle Mustard Spread, 12 oz",
+    "brand": "French's",
+    "category": "condiments-dressings",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "batch05-frenchs-creamy-yellow-mustard-spread-12-oz",
+    "name": "French's\u00ae Creamy Yellow Mustard Spread, 12 oz",
+    "brand": "French's",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-frenchs-maple-mustard-12-0-oz",
+    "name": "French's\u00ae Maple Mustard, 12.0 oz",
+    "brand": "French's",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-frenchs-worcestershire-sauce-10-fl-oz",
+    "name": "French's\u00ae Worcestershire Sauce, 10 fl oz",
+    "brand": "French's",
+    "category": "condiments-dressings",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "batch05-fairlife-plan-vanilla",
+    "name": "fairlife Nutrition Plan\u00ae Vanilla",
+    "brand": "fairlife",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-fairlife-plan-chocolate",
+    "name": "fairlife Nutrition Plan\u00ae Chocolate",
+    "brand": "fairlife",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-dave-100-whole-wheat",
+    "name": "100% Whole Wheat",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-dave-supreme-sourdough",
+    "name": "Supreme Sourdough\u2122",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch05-dave-oats-and-blues",
+    "name": "OATS & BLUES",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dave-plain-awesome-bagels",
+    "name": "PLAIN AWESOME BAGELS",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dave-epic-everything-bagels",
+    "name": "EPIC EVERYTHING BAGELS",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dave-cinnamon-raisin-remix-bagels",
+    "name": "CINNAMON RAISIN REMIX BAGELS",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dave-killer-classic-muffins",
+    "name": "KILLER CLASSIC ENGLISH MUFFINS",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dave-rockin-grains-muffins",
+    "name": "ROCKIN' GRAINS ENGLISH MUFFINS",
+    "brand": "Dave\u2019s Killer Bread",
+    "category": "bread-bakery",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dole-american-blend",
+    "name": "American Blend",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dole-arugula",
+    "name": "Arugula",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dole-butter-bliss",
+    "name": "Butter Bliss",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dole-italian-blend",
+    "name": "Italian Blend",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dole-spring-mix",
+    "name": "Spring Mix",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dole-5050-blend",
+    "name": "50/50 Blend",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-dole-chopped-caesar-kit",
+    "name": "Chopped Caesar Kit",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "neutral",
+    "reason": "Salad-kit topping forms and prepared appearance need exact kit visual review; do not invent dressing or garnish."
+  },
+  {
+    "productId": "batch04-dole-chopped-bbq-ranch-kit",
+    "name": "Chopped BBQ Ranch Kit",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "neutral",
+    "reason": "Salad-kit topping forms and prepared appearance need exact kit visual review; do not invent dressing or garnish."
+  },
+  {
+    "productId": "batch04-dole-chopped-avocado-ranch-salad-kit",
+    "name": "Chopped Avocado Ranch Salad Kit",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "neutral",
+    "reason": "Salad-kit topping forms and prepared appearance need exact kit visual review; do not invent dressing or garnish."
+  },
+  {
+    "productId": "batch04-dole-chopped-bacon-caesar-salad-kit",
+    "name": "Chopped Bacon Caesar Salad Kit",
+    "brand": "Dole",
+    "category": "produce",
+    "presentation": "neutral",
+    "reason": "Salad-kit topping forms and prepared appearance need exact kit visual review; do not invent dressing or garnish."
+  },
+  {
+    "productId": "batch04-jimmy-maple",
+    "name": "Maple Premium Pork Sausage",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-jimmy-turkey",
+    "name": "Premium Turkey Sausage Roll",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-jimmy-hot",
+    "name": "Hot Premium Pork Sausage",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-jimmy-country-mild",
+    "name": "Country Mild Premium Pork Sausage",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-jimmy-italian",
+    "name": "Italian Premium Pork Sausage",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch04-stouffers-chicken-a-la-king",
+    "name": "Chicken \u00e0 la King",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch04-stouffers-baked-chicken",
+    "name": "Baked Chicken",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch04-stouffers-fried-chicken",
+    "name": "Fried Chicken",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch04-stouffers-escalloped-chicken-and-noodles-12-oz",
+    "name": "Escalloped Chicken & Noodles Casserole",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch04-stouffers-swedish-meatballs",
+    "name": "Swedish Meatballs",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch03-nature-apple-crisp-crunchy-granola-bars",
+    "name": "Apple Crisp Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-cashew-sweet-salty-granola-bars",
+    "name": "Cashew Sweet & Salty Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-chocolate-pretzel-nut-sweet-salty-granola-bars",
+    "name": "Chocolate Pretzel Nut Sweet & Salty Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-cinnamon-crunchy-granola-bars",
+    "name": "Cinnamon Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-dark-chocolate-peanut-almond-sweet-salty-granola-bars",
+    "name": "Dark Chocolate, Peanut & Almond Sweet & Salty Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-honey-vanilla-wafer-bar",
+    "name": "Honey Vanilla Wafer Bar",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-maple-brown-sugar-crunchy-granola-bars",
+    "name": "Maple Brown Sugar Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-oats-n-dark-chocolate-crunchy-granola-bars",
+    "name": "Oats \u2018n Dark Chocolate Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-peanut-almond-dark-chocolate-protein-chewy-bars",
+    "name": "Peanut, Almond & Dark Chocolate Protein Chewy Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-peanut-butter-chocolate-wafer-bars",
+    "name": "Peanut Butter Chocolate Wafer Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-peanut-butter-crunchy-granola-bars",
+    "name": "Peanut Butter Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-peanut-butter-dark-chocolate-crunchy-granola-bars",
+    "name": "Peanut Butter Dark Chocolate Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-peanut-butter-dark-chocolate-protein-chewy-bars",
+    "name": "Peanut Butter Dark Chocolate Protein Chewy Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-peanut-butter-wafer-bars",
+    "name": "Peanut Butter Wafer Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-pecan-crunchy-granola-bars",
+    "name": "Pecan Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-pretzel-peanut-butter-wafer-bars",
+    "name": "Pretzel Peanut Butter Wafer Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-protein-granola-tub-dark-chocolate",
+    "name": "Protein Granola Tub Dark Chocolate",
+    "brand": "Nature Valley",
+    "category": "breakfast",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-roasted-almond-crunchy-granola-bars",
+    "name": "Roasted Almond Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-nature-roasted-mixed-nut-sweet-salty-granola-bars",
+    "name": "Roasted Mixed Nut Sweet & Salty Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-salted-caramel-chocolate-sweet-salty-granola-bars",
+    "name": "Salted Caramel Chocolate Sweet & Salty Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-strawberry-wafer-bars",
+    "name": "Strawberry Wafer Bars",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-nature-turtle-sweet-salty-nut-granola-bar",
+    "name": "Turtle Sweet & Salty Nut Granola Bar",
+    "brand": "Nature Valley",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Exact wafer layers, coating, drizzle or mix-in appearance needs product-specific reference review; ingredients alone do not establish these details."
+  },
+  {
+    "productId": "batch03-hershey-hersheys-milk-chocolate-with-almonds-candy-bar-1-45-oz",
+    "name": "HERSHEY'S Milk Chocolate with Almonds Candy Bar",
+    "brand": "HERSHEY'S",
+    "category": "snacks-candy",
+    "presentation": "neutral",
+    "reason": "Generated slab and almond distribution were not sufficiently corroborated against exact bar. Retain neutral fallback."
+  },
+  {
+    "productId": "batch03-hershey-hersheys-milk-chocolate-chips-11-5-oz-bag",
+    "name": "HERSHEY'S Milk Chocolate Chips",
+    "brand": "HERSHEY'S",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch03-hershey-hersheys-semi-sweet-chocolate-chips-12-oz-bag",
+    "name": "HERSHEY'S Semi-Sweet Chocolate Chips",
+    "brand": "HERSHEY'S",
+    "category": "pantry",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-stouffers-macaroni-cheese-for-one",
+    "name": "Frozen Macaroni & Cheese",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch02-stouffers-cheeseburger-macaroni-cheese",
+    "name": "Cheeseburger Mac & Cheese",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch02-stouffers-five-cheese-mac-cheese-for-one",
+    "name": "Ultimate Five Cheese Mac & Cheese",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch02-stouffers-lasagna-with-meat-sauce-for-one",
+    "name": "Lasagna with Meat & Sauce",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch02-stouffers-spinach-souffle",
+    "name": "Spinach Souffl\u00e9",
+    "brand": "STOUFFER'S",
+    "category": "frozen-foods",
+    "presentation": "neutral",
+    "reason": "Prepared entree appearance, pasta shape, sauce and side proportions need exact product reference review; do not invent a recipe."
+  },
+  {
+    "productId": "batch02-fairlife-core-power-chocolate-protein-shake-42g",
+    "name": "Core Power Chocolate 42g Protein Shake",
+    "brand": "fairlife",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-core-power-chocolate-protein-shake",
+    "name": "Core Power Chocolate 26g Protein Shake",
+    "brand": "fairlife",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-core-power-strawberry-banana-protein-shake",
+    "name": "Core Power Strawberry Banana 26g Protein Shake",
+    "brand": "fairlife",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-core-power-vanilla-protein-shake-42g",
+    "name": "Core Power Vanilla 42g Protein Shake",
+    "brand": "fairlife",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-core-power-vanilla-protein-shake",
+    "name": "Core Power Vanilla 26g Protein Shake",
+    "brand": "fairlife",
+    "category": "beverages",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-14oz-strawberry-14oz",
+    "name": "fairlife Strawberry 2% Ultra-Filtered Milk 14oz",
+    "brand": "fairlife",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-chocolate-milk",
+    "name": "fairlife Chocolate 2% Ultra-Filtered Milk",
+    "brand": "fairlife",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-fat-free-skim-milk",
+    "name": "fairlife Fat-Free Ultra-Filtered Milk",
+    "brand": "fairlife",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-reduced-fat-2-percent-milk",
+    "name": "fairlife 2% Reduced Fat Ultra-Filtered Milk",
+    "brand": "fairlife",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-whole-milk",
+    "name": "fairlife Whole Ultra-Filtered Milk",
+    "brand": "fairlife",
+    "category": "dairy-eggs",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-jimmydean-00077900003660",
+    "name": "Applewood Chicken Sausage Links",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-jimmydean-00077900115738",
+    "name": "Regular Premium Pork Sausage",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-jimmydean-00077900116735",
+    "name": "Sage Premium Pork Sausage",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-jimmydean-00077900192098",
+    "name": "Fully Cooked Original Pork Sausage Patties",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-jimmydean-00077900192579",
+    "name": "Fully Cooked Turkey Sausage Links",
+    "brand": "Jimmy Dean",
+    "category": "meat-seafood",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-mccormick-franks-redhot-buffalo-wings-hot-sauce-12-fl-oz",
+    "name": "Frank's RedHot\u00ae Buffalo Wings Hot Sauce, 12 fl oz (2-Pack)",
+    "brand": "Frank's RedHot",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-mccormick-franks-redhot-original-cayenne-pepper-hot-sauce-12-fl-oz",
+    "name": "Frank's RedHot Original Cayenne Pepper Hot Sauce, 12.0 fl oz",
+    "brand": "Frank's RedHot",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-mccormick-frenchs-hot-honey-mustard-12-0-oz",
+    "name": "French's\u00ae Hot Honey Mustard, 12.0 oz",
+    "brand": "French's",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-mccormick-frenchs-r-honey-mustard-dipping-sauce-12-oz",
+    "name": "French's\u00ae Honey Mustard Dipping Sauce, 12 oz",
+    "brand": "French's",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "batch02-mccormick-mccormick-r-tartar-sauce-8-fl-oz",
+    "name": "McCormick\u00ae Tartar Sauce, 8 fl oz",
+    "brand": "McCormick",
+    "category": "condiments-dressings",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "oreo-original-family",
+    "name": "OREO Chocolate Sandwich Cookies, Family Size",
+    "brand": "OREO",
+    "category": "cookies",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "goldfish-cheddar-26-3oz",
+    "name": "Pepperidge Farm\u00ae Goldfish\u00ae Crackers, Cheddar, 26.3-oz. Carton",
+    "brand": "Pepperidge Farm",
+    "category": "crackers",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "cheerios-original-8-9oz",
+    "name": "Original Cheerios",
+    "brand": "Cheerios",
+    "category": "cereal",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "ritz-original-13-7oz",
+    "name": "RITZ Original Crackers, Snacks for Kids and Adults, Lunch Snacks, 13.7 oz",
+    "brand": "RITZ",
+    "category": "crackers",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "jif-creamy",
+    "name": "Creamy Peanut Butter",
+    "brand": "Jif",
+    "category": "spreads",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "lays-classic-13oz",
+    "name": "Lay's Potato Chips - Classic",
+    "brand": "Lay's",
+    "category": "chips",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "doritos-nacho-cheese-14-5oz",
+    "name": "Doritos Flavored Tortilla Chips - Nacho Cheese",
+    "brand": "Doritos",
+    "category": "chips",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "kraft-original-7-25oz",
+    "name": "Original Mac & Cheese Macaroni and Cheese Dinner",
+    "brand": "Kraft",
+    "category": "pantry-meals",
+    "presentation": "neutral",
+    "reason": "Exact product-specific physical appearance has not been sufficiently corroborated; retain neutral fallback."
+  },
+  {
+    "productId": "skippy-creamy",
+    "name": "SKIPPY\u00ae Creamy Peanut Butter",
+    "brand": "SKIPPY",
+    "category": "spreads",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "nature-valley-oats-honey-17-88oz",
+    "name": "Oats \u2018n Honey Crunchy Granola Bars",
+    "brand": "Nature Valley",
+    "category": "snack-bars",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "cheerios-honey-nut-10-8oz",
+    "name": "Honey Nut Cheerios",
+    "brand": "Cheerios",
+    "category": "cereal",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "rice-chex",
+    "name": "Rice Chex",
+    "brand": "Chex",
+    "category": "cereal",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "quaker-old-fashioned-18oz",
+    "name": "Quaker, Old Fashioned Oats",
+    "brand": "Quaker",
+    "category": "cereal",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "barilla-spaghetti",
+    "name": "Spaghetti",
+    "brand": "Barilla",
+    "category": "pasta",
+    "presentation": "photo",
+    "reason": null
+  },
+  {
+    "productId": "frenchs-classic-yellow-8oz",
+    "name": "French's\u00ae Classic Yellow Mustard, 8 oz",
+    "brand": "French's",
+    "category": "condiments",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "daisy-classic-sour-cream",
+    "name": "Classic Daisy Sour Cream",
+    "brand": "Daisy",
+    "category": "dairy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "chobani-nonfat-plain",
+    "name": "Chobani\u00ae Greek Yogurt Nonfat Plain",
+    "brand": "Chobani",
+    "category": "dairy",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  },
+  {
+    "productId": "hersheys-milk-chocolate-1-55oz",
+    "name": "HERSHEY'S Movie Milk Chocolate Candy Bar",
+    "brand": "HERSHEY'S",
+    "category": "candy",
+    "presentation": "neutral",
+    "reason": "Generated segmentation was not corroborated against the exact bar. Retain neutral fallback."
+  },
+  {
+    "productId": "reeses-milk-chocolate-cups-1-5oz",
+    "name": "REESE'S Milk Chocolate Peanut Butter Cups",
+    "brand": "REESE'S",
+    "category": "candy",
+    "presentation": "illustration",
+    "reason": null
+  },
+  {
+    "productId": "heinz-simply-ketchup-20oz",
+    "name": "Heinz Simply Tomato Ketchup",
+    "brand": "Heinz",
+    "category": "condiments",
+    "presentation": "neutral",
+    "reason": "Exact ingredient evidence is incomplete or held; do not infer appearance from the name."
+  }
+]

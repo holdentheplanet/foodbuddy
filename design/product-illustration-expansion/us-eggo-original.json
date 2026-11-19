@@ -1,0 +1,16 @@
+{
+  "productId": "us-eggo-original",
+  "name": "Eggo Eggo Homestyle Waffles",
+  "subject": "Two round golden homestyle waffles with a regular square waffle-grid surface, one leaning against the other. Plain unadorned waffles: no butter, syrup, fruit, whipped cream or garnish.",
+  "sourceUrls": [
+    "https://www.leggomyeggo.com/en_US/eggo-homestyle-waffles-product.html"
+  ],
+  "ingredientSha256": "80e6199384df617c7cbf76e993b7db0f929dcb360fdb1b94fb711cf847ff5e89",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Two round golden homestyle waffles with a regular square waffle-grid surface, one leaning against the other. Plain unadorned waffles: no butter, syrup, fruit, whipped cream or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-e01a7fbd-4b4d-4613-92e0-8f15bfb56866.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

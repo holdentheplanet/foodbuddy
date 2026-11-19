@@ -1,0 +1,16 @@
+{
+  "productId": "batch07-dave-raisin-the-roof",
+  "name": "Dave\u2019s Killer Bread RAISIN' THE ROOF! Breakfast Bread",
+  "subject": "Fanned slices of whole-grain cinnamon raisin breakfast bread with natural dark raisin pieces embedded in the tan crumb. No invented spiral icing or glaze, no whole grapes, extra raisins scattered as garnish, butter or toppings.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/raisin-the-roof"
+  ],
+  "ingredientSha256": "2fae96345f2625c2be2720a0fcd232d148b261816f8d451bc2baedff3b95b34a",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Fanned slices of whole-grain cinnamon raisin breakfast bread with natural dark raisin pieces embedded in the tan crumb. No invented spiral icing or glaze, no whole grapes, extra raisins scattered as garnish, butter or toppings.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-dc421edc-ffc7-45ee-949c-599b7d7b550d.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

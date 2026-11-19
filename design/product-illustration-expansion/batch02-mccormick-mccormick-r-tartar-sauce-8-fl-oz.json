@@ -1,0 +1,16 @@
+{
+  "productId": "batch02-mccormick-mccormick-r-tartar-sauce-8-fl-oz",
+  "name": "McCormick McCormick\u00ae Tartar Sauce, 8 fl oz",
+  "subject": "Tartar sauce alone in a small plain white ramekin, creamy off-white sauce with fine pickle/relish flecks as recorded on the ingredient label. No fish, lemon wedges or garnish.",
+  "sourceUrls": [
+    "https://www.mccormick.com/products/mccormick-r-tartar-sauce-8-fl-oz"
+  ],
+  "ingredientSha256": "08cac31d1fd305e3dfb770848e775fa8fe5329877726cc355861dbf8455c2854",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Tartar sauce alone in a small plain white ramekin, creamy off-white sauce with fine pickle/relish flecks as recorded on the ingredient label. No fish, lemon wedges or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-168e543a-8f82-40df-9e99-c5a89e5ae1fe.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

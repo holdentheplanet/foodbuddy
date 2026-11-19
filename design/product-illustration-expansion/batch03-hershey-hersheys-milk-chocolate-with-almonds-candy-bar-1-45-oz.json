@@ -1,0 +1,15 @@
+{
+  "productId": "batch03-hershey-hersheys-milk-chocolate-with-almonds-candy-bar-1-45-oz",
+  "name": "HERSHEY'S HERSHEY'S Milk Chocolate with Almonds Candy Bar",
+  "subject": "Plain rectangular milk-chocolate-colored candy bar pieces with almond fragments embedded in the chocolate, one broken edge showing almond pieces. No logos or stamped words, no wrappers, no caramel or wafer.",
+  "sourceUrls": [
+    "https://www.hersheyland.com/products/hersheys-milk-chocolate-with-almonds-candy-bar-1-45-oz.html"
+  ],
+  "ingredientSha256": "c08253bb9c2d7e4c9b9ca5504565c68a2e0c7bff61b3dcf2e66dd33ad7ad4f1e",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "held",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Plain rectangular milk-chocolate-colored candy bar pieces with almond fragments embedded in the chocolate, one broken edge showing almond pieces. No logos or stamped words, no wrappers, no caramel or wafer.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-73d109e1-634a-4345-b84d-e85538bd21e7.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewReason": "Generated slab and almond distribution were not sufficiently corroborated against exact bar. Retain neutral fallback."
+}

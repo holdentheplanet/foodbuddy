@@ -1,0 +1,16 @@
+{
+  "productId": "batch07-stubbs-original-barbecue-sauce-18-oz",
+  "name": "Stubb's Stubb's\u00ae Original Barbecue Sauce, 18 oz",
+  "subject": "Original barbecue sauce alone in a low white ramekin, dark reddish-brown thick glossy sauce. No meat, vegetables, spices, garnish or bottle.",
+  "sourceUrls": [
+    "https://www.mccormick.com/products/stubbs-r-original-barbecue-sauce-18-oz"
+  ],
+  "ingredientSha256": "e35ef4fa72543fef892d36f9a5b25b776147f3b4ee383961104c0d460b1a8d7f",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Original barbecue sauce alone in a low white ramekin, dark reddish-brown thick glossy sauce. No meat, vegetables, spices, garnish or bottle.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-7e94d310-35a7-4b63-985c-d1439c1e50a6.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

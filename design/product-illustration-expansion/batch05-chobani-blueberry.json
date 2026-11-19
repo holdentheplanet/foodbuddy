@@ -1,0 +1,17 @@
+{
+  "productId": "batch05-chobani-blueberry",
+  "name": "Chobani Blueberry",
+  "subject": "A small plain transparent glass dish of thick white Greek yogurt with a modest layer of blueberry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.",
+  "sourceUrls": [
+    "https://chobani.com/products/yogurt-greek-blueberry-cup"
+  ],
+  "ingredientSha256": "013821f4aa46781c8f441905e0821828185695f52e8c7729eaf30c0e69e4c965",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "ONE square photorealistic food illustration for Chobani Blueberry Greek Yogurt, soft off-white seamless background, natural studio light, realistic food texture, no cartoon. A compact transparent plain glass dish reveals a layer of dark BLUE-PURPLE blueberry fruit preparation at the BOTTOM beneath thick white creamy Greek yogurt. Blueberry preparation should contain modest small dark blueberry pieces, NOT bright red strawberry/cherry/cranberry jam, no red fruit, no raisins. No loose fruit garnish, no toppings, no packaging, labels or logos. Food fills 80 percent of image. Tiny discreet 'Illustrative image' at bottom left. Manufacturer evidence https://chobani.com/products/yogurt-greek-blueberry-cup says real blueberries beneath a layer of creamy Greek yogurt. The bowl is an illustrative serving vessel.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-5b14e1d9-ac29-4ee4-a2c0-3a828d903930.png",
+  "method": "OpenAI built-in imagegen",
+  "correction": "Original generation held for red fruit tint; regenerate dark blueberry preparation",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

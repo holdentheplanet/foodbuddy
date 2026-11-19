@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-campbells-french-onion-soup",
+  "name": "Campbell's French Onion Soup",
+  "subject": "Brown onion broth with soft translucent onion strips in a plain white bowl. No cheesy bread topping, cheese, croutons or herb garnish: those are recipe additions, not the plain soup.",
+  "sourceUrls": [
+    "https://www.campbells.com/products/condensed/french-onion-soup/"
+  ],
+  "ingredientSha256": "0ac281c4b122b1b625f6c590be3ca82ec08d9dfbfe443ca5198f2a6aabeb74f2",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Brown onion broth with soft translucent onion strips in a plain white bowl. No cheesy bread topping, cheese, croutons or herb garnish: those are recipe additions, not the plain soup.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-f44e31a5-fa17-4cc1-a810-cdbb5fd41a95.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

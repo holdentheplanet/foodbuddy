@@ -1,0 +1,16 @@
+{
+  "productId": "batch04-dole-american-blend",
+  "name": "Dole American Blend",
+  "subject": "A realistic loose serving of American Blend raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: ICEBERG LETTUCE, GREEN LEAF LETTUCE, RED CABBAGE, CARROTS, RADISHES.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+  "sourceUrls": [
+    "https://dolefreshvegetables.com/produce/american-blend"
+  ],
+  "ingredientSha256": "695b0a47c729f768a8e1f781b44f7ab33c6424efb99e40dbc80e585bdf7d5990",
+  "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+  "status": "visual_review_passed",
+  "prompt": "Use case: photorealistic-natural. Create a NEW square product-specific food illustration. The reference image is STYLE ONLY: match its soft off-white background, premium realistic studio food textures, upper-left diffused natural lighting, gentle contact shadows and square framing. Do NOT copy its bread subject. Food fills about 80% of frame, consistent three-quarter elevated camera. No cartoon, no painterly outlines, no emojis, no fake packaging, brands, logos or invented food elements. Include small exact disclosure text 'Illustrative image' in the bottom-left margin. This is a generated representation, never an official manufacturer photograph. A realistic loose serving of American Blend raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: ICEBERG LETTUCE, GREEN LEAF LETTUCE, RED CABBAGE, CARROTS, RADISHES.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-31c68c8a-f778-4623-93b0-f320b6074e47.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

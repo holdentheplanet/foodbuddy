@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-campbells-chicken-noodle-soup",
+  "name": "Campbell's Chicken Noodle Soup",
+  "subject": "Golden chicken broth with slender pale egg noodles and small pieces of chicken in a plain white soup bowl. No carrots, celery chunks, parsley or other unlisted visible garnish.",
+  "sourceUrls": [
+    "https://www.campbells.com/products/condensed/chicken-noodle-soup/"
+  ],
+  "ingredientSha256": "b6a5f9e7427e1b3e270e206aea47ff7e1c3285dd92411962eb4b359f304dd2da",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Golden chicken broth with slender pale egg noodles and small pieces of chicken in a plain white soup bowl. No carrots, celery chunks, parsley or other unlisted visible garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-80b23227-164a-4729-9675-955412b0092d.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

@@ -1,0 +1,18 @@
+{
+  "productId": "batch05-dave-supreme-sourdough",
+  "name": "Dave\u2019s Killer Bread Supreme Sourdough\u2122",
+  "subject": "Four slices of hearty sourdough sandwich loaf with a seed-coated golden crust, pale tan crumb with natural pores, flax and sunflower seeds and tiny quinoa on the crust. Do not make a bare-crust white artisan boule. No nuts, spread or garnish. The manufacturer's exact description is a hearty loaf with a seed-coated crust.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/supreme-sourdough"
+  ],
+  "ingredientSha256": "a12cee5ca06ff555d9770bc539bbd44831f170e6b3a28dfd21f4365028a9e548",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration, matching the reference's natural studio lighting, realistic food texture, soft off-white background and framing (STYLE ONLY). Food fills most of frame. No packaging, branding, logos, cartoons or invented ingredients. Add small discreet 'Illustrative image' at bottom left. Four slices of hearty sourdough sandwich loaf with a seed-coated golden crust, pale tan crumb with natural pores, flax and sunflower seeds and tiny quinoa on the crust. Do not make a bare-crust white artisan boule. No nuts, spread or garnish. The manufacturer's exact description is a hearty loaf with a seed-coated crust.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-2270e1ce-cf77-4b65-a78a-7539e746f274.png",
+  "method": "OpenAI built-in imagegen",
+  "correction": "Original generation rejected on direct manufacturer comparison",
+  "sourceReviewedAt": "2026-11-19",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

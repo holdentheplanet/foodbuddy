@@ -1,0 +1,16 @@
+{
+  "productId": "batch07-dave-killer-classic-rolls",
+  "name": "Dave\u2019s Killer Bread Killer Classic Rolls",
+  "subject": "Four small soft light-golden dinner/slider rolls, smooth gently domed tops and pale fine crumb; one torn open. Manufacturer calls these classic slider rolls made with five super grains as flours, not large seeded burger buns. No invented visible seed coating, no butter, burgers or garnish.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/killer-classic-rolls"
+  ],
+  "ingredientSha256": "9c077c02c4aff549b5576009b9c2b4bd5403c89eae47d08a7f5ae3335cfe76bf",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Four small soft light-golden dinner/slider rolls, smooth gently domed tops and pale fine crumb; one torn open. Manufacturer calls these classic slider rolls made with five super grains as flours, not large seeded burger buns. No invented visible seed coating, no butter, burgers or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-88c7b66b-ca69-4b14-a682-77bdd71d30cf.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

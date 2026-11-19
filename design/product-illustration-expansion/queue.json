@@ -1,0 +1,1369 @@
+[
+  {
+    "productId": "batch01-dole-classic-coleslaw",
+    "name": "Dole Classic Coleslaw",
+    "subject": "A realistic loose serving of Classic Coleslaw raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: GREEN CABBAGE, CARROTS.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/classic-coleslaw"
+    ],
+    "ingredientSha256": "42f732c80b8ad07a7bd22a3f01c455958a9bdd498d6bec4a5f58c2e63eb1e029",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-dole-garden-salad",
+    "name": "Dole Garden Salad",
+    "subject": "A realistic loose serving of Garden Salad raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: ICEBERG LETTUCE, CARROTS, RED CABBAGE.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/garden-salad"
+    ],
+    "ingredientSha256": "2ed7a6ad0425f67dfe89e4b1b16c9200ff255c39518b9b06d9b194db7a614b73",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-dole-greener-selection",
+    "name": "Dole Greener Selection",
+    "subject": "A realistic loose serving of Greener Selection raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/greener-selection"
+    ],
+    "ingredientSha256": "780feffc27a6724549dc33c202e6bd19cacf23ca7038ab6f6ba1beda6afa5dc5",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-dole-very-veggie",
+    "name": "Dole Very Veggie",
+    "subject": "A realistic loose serving of Very Veggie raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: ICEBERG LETTUCE, GREEN LEAF LETTUCE, CARROTS, RED CABBAGE, PEA PODS, RADISHES.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/very-veggie"
+    ],
+    "ingredientSha256": "1cece9c84b232b45fa87b267c3d7b9ca647dc9cb286a366bcdd3320a6ce15534",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-romaine-original",
+    "name": "Dole Dole Classic Romaine Salad",
+    "subject": "A realistic loose serving of Dole Classic Romaine Salad raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: ROMAINE LETTUCE, CARROTS, RED CABBAGE. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/classic-romaine"
+    ],
+    "ingredientSha256": "78f92f5dc87bebdebef1adb8457c91507fe6f02722d9ce71df672f7b9dd2164e",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-spinach-original",
+    "name": "Dole Dole Baby Spinach",
+    "subject": "A realistic loose serving of Dole Baby Spinach raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: BABY SPINACH. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/baby-spinach"
+    ],
+    "ingredientSha256": "13c2f3cf26fe796beeb5adf883b633ba096a0511bfb3bd6980a03d8af9639838",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dole-american-blend",
+    "name": "Dole American Blend",
+    "subject": "A realistic loose serving of American Blend raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: ICEBERG LETTUCE, GREEN LEAF LETTUCE, RED CABBAGE, CARROTS, RADISHES.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/american-blend"
+    ],
+    "ingredientSha256": "695b0a47c729f768a8e1f781b44f7ab33c6424efb99e40dbc80e585bdf7d5990",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dole-arugula",
+    "name": "Dole Arugula",
+    "subject": "A realistic loose serving of Arugula raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: ARUGULA. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/arugula"
+    ],
+    "ingredientSha256": "51530261517e4ee1cf7a2607766f99982bc4c48981db21b4378bdc2f23c8ed0e",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dole-butter-bliss",
+    "name": "Dole Butter Bliss",
+    "subject": "A realistic loose serving of Butter Bliss raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: BUTTER LETTUCE, RED LEAF LETTUCE.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/butter-bliss"
+    ],
+    "ingredientSha256": "36c6b80ff3bfe2ceb3f26249ef083fd6eff93fc5548ea36277fecc4c4d90344b",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dole-italian-blend",
+    "name": "Dole Italian Blend",
+    "subject": "A realistic loose serving of Italian Blend raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: ROMAINE LETTUCE, RADICCHIO.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/italian-blend"
+    ],
+    "ingredientSha256": "b668e1528705299b746a8d4a5ae56d3e9721d819783ca157a1a3b42065098e0e",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dole-spring-mix",
+    "name": "Dole Spring Mix",
+    "subject": "A realistic loose serving of Spring Mix raw salad leaves/vegetables on a shallow off-white dish. Use ONLY the listed vegetable components from its verified label: VEGETABLES: BABY LETTUCES(RED OAK, GREEN OAK, TANGO, LOLLA ROSSA, RED LEAF, GREEN LEAF), BABY GREENS(MIZUNA, ARUGULA, TATSOI, MACHE, RED CHARD, GREEN CHARD, BABY SPINACH, KALE, ENDIVE), RADICCHIO. INGREDIENTS MAY VARY.. Leaf shapes, cuts and natural colors should correspond to these exact vegetables. No dressing, garnish, cheese, nuts, croutons, fruit or ingredients not listed. This is the plain produce product, not a recipe or a prepared meal. Ingredients may vary where the manufacturer says so.",
+    "sourceUrls": [
+      "https://dolefreshvegetables.com/produce/spring-mix"
+    ],
+    "ingredientSha256": "cebfa0fd25d3a1136109cd4e063357921826ca107ca08fc1398dd95173e34662",
+    "basis": "Exact product name and previously manufacturer-verified vegetable ingredient panel",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-campbells-beef-consomme",
+    "name": "Campbell's Beef Consomme Soup",
+    "subject": "Clear rich brown beef consomme broth in a shallow plain white soup bowl. No noodles, meat chunks, vegetables, herbs or garnish. This is the beef consomme product, not beef stew.",
+    "sourceUrls": [
+      "https://www.campbells.com/products/condensed/beef-consomme/"
+    ],
+    "ingredientSha256": "5ee04b7c93a410a80c5b1b3edc4b72b66ddceaad5ac84c68ccbfda07f84b8aa1",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-campbells-chicken-noodle-soup",
+    "name": "Campbell's Chicken Noodle Soup",
+    "subject": "Golden chicken broth with slender pale egg noodles and small pieces of chicken in a plain white soup bowl. No carrots, celery chunks, parsley or other unlisted visible garnish.",
+    "sourceUrls": [
+      "https://www.campbells.com/products/condensed/chicken-noodle-soup/"
+    ],
+    "ingredientSha256": "b6a5f9e7427e1b3e270e206aea47ff7e1c3285dd92411962eb4b359f304dd2da",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-campbells-cream-of-celery-soup",
+    "name": "Campbell's Cream of Celery Soup",
+    "subject": "Creamy pale ivory celery soup in a plain white bowl, small subtle celery flecks only, no whole vegetable garnish or bread.",
+    "sourceUrls": [
+      "https://www.campbells.com/products/condensed/cream-of-celery-soup/"
+    ],
+    "ingredientSha256": "3f176e36ccfd219da2f3e1e887d9c255d76800a9dfc1041d018866cf246f2047",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-campbells-cream-of-chicken-soup",
+    "name": "Campbell's Cream of Chicken Soup",
+    "subject": "Thick pale ivory cream of chicken soup in a plain white bowl, subtle small chicken pieces only, no vegetables, herbs or garnish.",
+    "sourceUrls": [
+      "https://www.campbells.com/products/condensed/cream-of-chicken-soup/"
+    ],
+    "ingredientSha256": "5e218133aed7420e160ec926767a53086f53a108881bc0a1962189978fac47d1",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-campbells-cream-of-mushroom-soup",
+    "name": "Campbell's Cream of Mushroom Soup",
+    "subject": "Thick pale beige cream of mushroom soup with small mushroom bits in a plain white bowl. No whole mushrooms added as decoration, no herbs or crackers.",
+    "sourceUrls": [
+      "https://www.campbells.com/products/condensed/cream-of-mushroom-soup"
+    ],
+    "ingredientSha256": "044254de936eafd5f2decacf0239cc83c6b8c40a84115a117d75ff665f9d4dbe",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-campbells-french-onion-soup",
+    "name": "Campbell's French Onion Soup",
+    "subject": "Brown onion broth with soft translucent onion strips in a plain white bowl. No cheesy bread topping, cheese, croutons or herb garnish: those are recipe additions, not the plain soup.",
+    "sourceUrls": [
+      "https://www.campbells.com/products/condensed/french-onion-soup/"
+    ],
+    "ingredientSha256": "0ac281c4b122b1b625f6c590be3ca82ec08d9dfbfe443ca5198f2a6aabeb74f2",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-chex-blueberry-chex",
+    "name": "Chex Blueberry Chex",
+    "subject": "Dry blueberry flavored square-lattice cereal pillows in a plain white bowl. Subtle natural tan cereal with faint berry-colored coating only; no fresh blueberries or milk or invented dark-purple glaze.",
+    "sourceUrls": [
+      "https://www.chex.com/products/blueberry-chex"
+    ],
+    "ingredientSha256": "6c385e76b86be480a643f872ae5c5311dafab02d62b9a34e25c18a43aab872ec",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-chex-chocolate-chex",
+    "name": "Chex Chocolate Chex",
+    "subject": "Dry chocolate flavored square-lattice cereal pillows, a mix of cocoa-brown and pale golden squares in a plain white bowl. No milk, chocolate pieces or fruit.",
+    "sourceUrls": [
+      "https://www.chex.com/products/chocolate-chex"
+    ],
+    "ingredientSha256": "4ba0966a5e882839c7342db90e98719ed59351221483bdcc6364b245ff9c73b3",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-chex-honey-nut-chex",
+    "name": "Chex Honey Nut Chex",
+    "subject": "Dry honey nut square-lattice cereal pillows, golden-tan textured squares in a low white bowl. No whole nuts, honey drizzle, milk or fruit.",
+    "sourceUrls": [
+      "https://www.chex.com/products/honey-nut-chex"
+    ],
+    "ingredientSha256": "28ade3e2ee726d43113f4064b30ed0723efa3d4d9e2da42f7edbda5a31daebd2",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-chex-peanut-butter-chex",
+    "name": "Chex Peanut Butter Chex",
+    "subject": "Dry peanut butter flavored square-lattice cereal pillows, warm tan coated squares in a low white bowl. No whole peanuts, peanut butter dollops, milk or garnish.",
+    "sourceUrls": [
+      "https://www.chex.com/products/peanut-butter-chex"
+    ],
+    "ingredientSha256": "34f3933744edc3a9b40df086e0f92125699b9a3da53de06bc7ebedc877a30106",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-hershey-mounds-dark-chocolate-and-coconut-candy-bar-1-75-oz",
+    "name": "MOUNDS MOUNDS Dark Chocolate and Coconut Candy Bar, 1.75 oz",
+    "subject": "Two small oblong dark-chocolate covered coconut candy pieces, one cut to show dense white shredded coconut inside a thin dark chocolate shell. NO almonds or other nuts, no caramel, wafer or branding.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/mounds-dark-chocolate-and-coconut-candy-bar-1-75-oz.html"
+    ],
+    "ingredientSha256": "46669f653be2981654eea4010436f4edeb76ef745effaddab7a1e645a1fad9a5",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-hershey-york-dark-chocolate-peppermint-patties-1-4-oz",
+    "name": "YORK YORK Dark Chocolate Peppermint Patties, 1.4 oz",
+    "subject": "Two round flat dark-chocolate covered peppermint patties, one cut in half showing smooth white peppermint filling and a thin dark chocolate shell. No coconut fibers, mint leaf garnish, nuts or branding.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/york-dark-chocolate-peppermint-patties-1-4-oz.html"
+    ],
+    "ingredientSha256": "5fedeeaf877212c1d3369eac24cc772aea93fb681c709830d979e0117a102822",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-jif-creamy-reduced-fat-creamy-peanut-butter-spread",
+    "name": "Jif Reduced Fat Creamy Peanut Butter Spread",
+    "subject": "Reduced-fat creamy peanut butter spread, smooth tan paste in a low white dish, gentle overlapping spoon grooves, visibly no nut chunks. No garnish, bread or jar.",
+    "sourceUrls": [
+      "https://www.jif.com/products/creamy/reduced-fat-creamy-peanut-butter"
+    ],
+    "ingredientSha256": "d63c0dd741aa6ff83145566e16aa7500b42fdd3e6596c87df6e83136d3a138a5",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-jif-crunchy-extra-crunchy-peanut-butter",
+    "name": "Jif Extra Crunchy Peanut Butter",
+    "subject": "Extra crunchy peanut butter, a spooned mound of tan peanut butter with abundant small chopped peanut pieces visibly mixed throughout, in a low white ramekin. No garnish or packaging.",
+    "sourceUrls": [
+      "https://www.jif.com/products/crunchy/extra-crunchy-peanut-butter"
+    ],
+    "ingredientSha256": "e34eb9403f9bc391fa9af960901eda5c4df7517a77167d0d7d624f8405d5d6ad",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-jif-natural-natural-creamy-peanut-butter",
+    "name": "Jif Natural Creamy Peanut Butter Spread",
+    "subject": "Natural creamy peanut butter spread, smooth tan spooned paste in a plain oval white dish. No invented oil separation or nut chunks, no garnish or packaging.",
+    "sourceUrls": [
+      "https://www.jif.com/products/natural/natural-creamy-peanut-butter"
+    ],
+    "ingredientSha256": "4ce7e3b0b216b73287057e66da4bbc15f99254b106fb4aafe9788faf416cfb7b",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-daisy-cottage-original",
+    "name": "Daisy Daisy 4% Cottage Cheese",
+    "subject": "A small plain off-white bowl of 4 percent cottage cheese, realistic moist white soft curds in creamy dressing. No fruit, herbs, toast or garnish.",
+    "sourceUrls": [
+      "https://www.daisybrand.com/wp-content/smush-webp/2026/01/cc-product-group-4p-v3-back.jpg.webp"
+    ],
+    "ingredientSha256": "ded9c96e50979e6478073d3969ba52f54a9076f5d9b4ac5e4f540a2ebcc5ec47",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-daisy-light-original",
+    "name": "Daisy Daisy Light Sour Cream",
+    "subject": "A small plain off-white bowl of smooth light sour cream, a natural creamy white swirl. No herbs, vegetable sticks or garnish.",
+    "sourceUrls": [
+      "https://www.daisybrand.com/wp-content/smush-webp/2023/07/073420000158-Daisy-16-ounce-light-sour-cream-nutrition-back-side-2400x2400-1.png.webp"
+    ],
+    "ingredientSha256": "9f401feed22bb4a5b6e3cbabe6a29619285e3805a648029261ffacd3bc276ccd",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-corn-chex-original",
+    "name": "Chex Corn Chex Cereal",
+    "subject": "Dry golden corn cereal pieces shaped as little hollow square woven lattice pillows, in a plain white bowl. No milk, corn cobs, nuts or fruit. Clear square grid structure.",
+    "sourceUrls": [
+      "https://www.chex.com/products/corn-chex/"
+    ],
+    "ingredientSha256": "79ba6286f808873ba968173083c9f4a069bb016d0764dd168bf9c0c5d29bbccc",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-wheat-chex-original",
+    "name": "Chex Wheat Chex Cereal",
+    "subject": "Dry brown whole-wheat cereal pieces shaped as small square woven lattice pillows, a plain white bowl. Distinct darker wheat-brown tone. No milk or garnish.",
+    "sourceUrls": [
+      "https://www.chex.com/products/wheat-chex/"
+    ],
+    "ingredientSha256": "e1dfa50058c4a66810c0a0eea14d2eb82e75a08e1e4b07c926d041fa48d446cc",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-cinnamon-chex-original",
+    "name": "Chex Cinnamon Chex Cereal",
+    "subject": "Dry cinnamon-flavored square lattice cereal pieces with subtle cinnamon-colored coating, in a plain white bowl. No added cinnamon sticks, milk, sugar piles or fruit.",
+    "sourceUrls": [
+      "https://www.chex.com/products/cinnamon-chex/"
+    ],
+    "ingredientSha256": "662122b023467bc3a8e79b0a18de68583b231460c535ae569faf94e36687a85f",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-eggo-original",
+    "name": "Eggo Eggo Homestyle Waffles",
+    "subject": "Two round golden homestyle waffles with a regular square waffle-grid surface, one leaning against the other. Plain unadorned waffles: no butter, syrup, fruit, whipped cream or garnish.",
+    "sourceUrls": [
+      "https://www.leggomyeggo.com/en_US/eggo-homestyle-waffles-product.html"
+    ],
+    "ingredientSha256": "80e6199384df617c7cbf76e993b7db0f929dcb360fdb1b94fb711cf847ff5e89",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-penne-original",
+    "name": "Barilla Barilla Penne Pasta",
+    "subject": "Uncooked golden durum-wheat penne pasta tubes, short straight ridged tubes with diagonal-cut ends in a loose small pile. No sauce, cheese, vegetables or garnish.",
+    "sourceUrls": [
+      "https://www.connect.syncpdi.com/sync_pdi/servlet/ItemDynSpec?GTIN=00076808280739&ID=barillaretail&InstanceID=9c6e678cdec83538c880e1b567dd3ac9"
+    ],
+    "ingredientSha256": "42fc7192e872cc45d75763840dd8431036b9930e5bed6ee87137dc112c85b886",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-rotini-original",
+    "name": "Barilla Barilla Rotini Pasta",
+    "subject": "Uncooked golden durum-wheat rotini corkscrew pasta spirals in a loose small pile. Clearly spiral shape, not penne or fusilli lunghi. No sauce or garnish.",
+    "sourceUrls": [
+      "https://www.connect.syncpdi.com/sync_pdi/servlet/ItemDynSpec?GTIN=00076808280982&ID=barillaretail&InstanceID=9c6e678cdec83538c880e1b567dd3ac9"
+    ],
+    "ingredientSha256": "093991037bad7e6809a434d15b86c28a62cdde9ceba1551055ecdf6407c2919e",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-campbells-original",
+    "name": "Campbell\u2019s Campbell\u2019s Condensed Tomato Soup",
+    "subject": "Smooth red-orange condensed tomato soup in a plain white soup bowl. No cream swirl, crackers, basil or sandwich, no recipe additions.",
+    "sourceUrls": [
+      "https://www.campbells.com/products/condensed/tomato-soup/"
+    ],
+    "ingredientSha256": "34aa7db97e563dda1d81fba581bc8f121a79c29be72d733d073300bbe5f12aa4",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-frenchs-original",
+    "name": "French\u2019s French\u2019s Spicy Brown Mustard",
+    "subject": "Spicy brown mustard in a small plain white dipping bowl, brownish-golden prepared mustard with naturally fine speckled texture. No visible chili peppers or other garnish.",
+    "sourceUrls": [
+      "https://www.mccormick.com/collections/frenchs/products/frenchs-r-spicy-brown-mustard-12-oz"
+    ],
+    "ingredientSha256": "ea4cda5c223034e526b6224fed982801525996107923d6abbc90a525c2a3ad0d",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-stubbs-original-barbecue-sauce-18-oz",
+    "name": "Stubb's Stubb's\u00ae Original Barbecue Sauce, 18 oz",
+    "subject": "Original barbecue sauce alone in a low white ramekin, dark reddish-brown thick glossy sauce. No meat, vegetables, spices, garnish or bottle.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/stubbs-r-original-barbecue-sauce-18-oz"
+    ],
+    "ingredientSha256": "e35ef4fa72543fef892d36f9a5b25b776147f3b4ee383961104c0d460b1a8d7f",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-stubbs-hickory-bourbon-barbecue-sauce-18-oz",
+    "name": "Stubb's Stubb's\u00ae Hickory Bourbon Barbecue Sauce, 18 oz",
+    "subject": "Hickory bourbon barbecue sauce alone in a shallow white dish, dark reddish-brown glossy prepared sauce, distinct spooned composition. No bourbon bottle, wood chips, meat, garnish or packaging.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/stubbs-r-hickory-bourbon-barbecue-sauce-18-oz"
+    ],
+    "ingredientSha256": "0d338fd66eea4220b427e9e8e16f7636bd3f8322c01905aaae32f888363fd103",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-stubbs-jalapeno-honey-bar-b-q-sauce-18-oz",
+    "name": "Stubb's Stubb's\u00ae Jalape\u00f1o & Honey Bar-B-Q Sauce, 18 oz",
+    "subject": "Jalapeno and honey barbecue sauce alone in a shallow off-white ramekin, warm reddish-brown glossy sauce. Do not invent visible jalapeno slices, honeycomb or garnish; no meat or packaging.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/stubbs-r-jalapeno-honey-bar-b-q-sauce-18-oz"
+    ],
+    "ingredientSha256": "596cdc3751b629e01f377e6e6df163fcd5de6b95841967c4190b04bd2059c311",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-frenchs-creamy-yellow-mustard-spread-12-oz",
+    "name": "French's French's\u00ae Creamy Yellow Mustard Spread, 12 oz",
+    "subject": "Creamy yellow mustard spread in a small white dipping dish, pale golden-yellow thick creamy spooned texture. No garnish, sandwiches, labels or bottle.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/frenchs-creamy-yellow-mustard-spread-12-oz"
+    ],
+    "ingredientSha256": "40302c071efa2c7db8b5a7654bba985d4f7c0b8772f603d69041b794be3bd412",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-frenchs-maple-mustard-12-0-oz",
+    "name": "French's French's\u00ae Maple Mustard, 12.0 oz",
+    "subject": "Maple mustard alone in a small white dipping dish, golden prepared mustard with a subtle glossy surface, a natural spooned mound. No maple leaves, syrup pour, seeds or garnish.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/frenchs-maple-mustard-12-0-oz"
+    ],
+    "ingredientSha256": "dec04f27983976bb8db73fbe3f375e5977f78a5e1278832a5e5dcedc3d63eb5b",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-hershey-hersheys-milk-chocolate-chips-11-5-oz-bag",
+    "name": "HERSHEY'S HERSHEY'S Milk Chocolate Chips",
+    "subject": "A small mound of milk chocolate baking chips, small conical drops with circular flat bases and curled pointed tips, realistic medium-brown chocolate. No chocolate bar, nuts, cookie or bag.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/hersheys-milk-chocolate-chips-11-5-oz-bag.html",
+      "https://s7d1.scene7.com/is/image/hersheyprodcloud/0_34000_14600_0_701_14600_018_Item_Back?fmt=webp-alpha&hei=1800&qlt=75"
+    ],
+    "ingredientSha256": "263934349cfe06e24d8e6f7c5c1ba0993b1372cf62fe15692cb69b995b091d47",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-hershey-hersheys-semi-sweet-chocolate-chips-12-oz-bag",
+    "name": "HERSHEY'S HERSHEY'S Semi-Sweet Chocolate Chips",
+    "subject": "A small pile of semi-sweet chocolate baking chips, dark-brown conical drops with round flat bases and pointed tips, distinct arrangement. No milk chocolate, nuts, cookie or bag.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/hersheys-semi-sweet-chocolate-chips-12-oz-bag.html",
+      "https://s7d1.scene7.com/is/image/hersheyprodcloud/0_34000_14830_1_701_14830_032_Item_Back_A?fmt=webp-alpha&hei=1800&qlt=75"
+    ],
+    "ingredientSha256": "e8d8e6cbc1b8a90acf114ea75142fa96fc5202dc8bc4c723e581e4fb0e5e357e",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-mccormick-franks-redhot-buffalo-wings-hot-sauce-12-fl-oz",
+    "name": "Frank's RedHot Frank's RedHot\u00ae Buffalo Wings Hot Sauce, 12 fl oz (2-Pack)",
+    "subject": "Buffalo wings hot sauce alone in a shallow white ramekin, smooth opaque orange-red sauce. No actual chicken wings, celery, butter pat or garnish.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/franks-redhot-buffalo-wings-hot-sauce-12-fl-oz"
+    ],
+    "ingredientSha256": "2cb68c241185f050f6e7abb20a2b98bf7df4d24d45ec32c5cbe6b7c5742f0081",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-mccormick-franks-redhot-original-cayenne-pepper-hot-sauce-12-fl-oz",
+    "name": "Frank's RedHot Frank's RedHot Original Cayenne Pepper Hot Sauce, 12.0 fl oz",
+    "subject": "Original cayenne pepper hot sauce alone in a small shallow white dipping bowl, smooth fluid bright reddish-orange sauce. No peppers, seeds, wings, herbs or bottle.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/franks-redhot-original-cayenne-pepper-hot-sauce-12-fl-oz"
+    ],
+    "ingredientSha256": "567d78bdcd3785931750ef0b59049751595c939b516755a7aa504708ee9cef82",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-mccormick-frenchs-hot-honey-mustard-12-0-oz",
+    "name": "French's French's\u00ae Hot Honey Mustard, 12.0 oz",
+    "subject": "Hot honey mustard alone in a plain white shallow ramekin, golden yellow thick prepared dipping sauce. No chili slices, honeycomb, garnish or packaging.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/frenchs-hot-honey-mustard-12-0-oz"
+    ],
+    "ingredientSha256": "e97fdba81b44c3f03284ae70cc4c7264f4bb6813f388933c86eabd52a28f5662",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-mccormick-frenchs-r-honey-mustard-dipping-sauce-12-oz",
+    "name": "French's French's\u00ae Honey Mustard Dipping Sauce, 12 oz",
+    "subject": "Honey mustard dipping sauce alone in a plain white shallow dish, pale golden creamy glossy swirl. No honey drizzle, mustard seeds, food accompaniments or packaging.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/frenchs-r-honey-mustard-dipping-sauce-12-oz"
+    ],
+    "ingredientSha256": "eba1d26dc0e5ce9d145cb6139d517d46e8361ce7301ea79b5d13ed6bb428d8f4",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-mccormick-mccormick-r-tartar-sauce-8-fl-oz",
+    "name": "McCormick McCormick\u00ae Tartar Sauce, 8 fl oz",
+    "subject": "Tartar sauce alone in a small plain white ramekin, creamy off-white sauce with fine pickle/relish flecks as recorded on the ingredient label. No fish, lemon wedges or garnish.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/mccormick-r-tartar-sauce-8-fl-oz"
+    ],
+    "ingredientSha256": "08cac31d1fd305e3dfb770848e775fa8fe5329877726cc355861dbf8455c2854",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "cheerios-original-8-9oz",
+    "name": "Cheerios Original Cheerios",
+    "subject": "Plain dry toasted oat O-shaped cereal rings, light tan with small central holes, in a low plain white bowl with a few rings beside it. No milk, fruit, honey, nuts or garnish.",
+    "sourceUrls": [
+      "https://www.cheerios.com/products/original-cheerios"
+    ],
+    "ingredientSha256": "cabda14e55284e73814fd8fafd1fa6ee993c576baddd3a23d5f28afeefad45ef",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "jif-creamy",
+    "name": "Jif Creamy Peanut Butter",
+    "subject": "Creamy tan peanut butter in a small white ceramic ramekin, a smooth broad spooned swirl. No whole peanuts, bread, jam, knife or garnish. Do not show branded jar.",
+    "sourceUrls": [
+      "https://www.jif.com/products/creamy/creamy-peanut-butter"
+    ],
+    "ingredientSha256": "e34eb9403f9bc391fa9af960901eda5c4df7517a77167d0d7d624f8405d5d6ad",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "cheerios-honey-nut-10-8oz",
+    "name": "Cheerios Honey Nut Cheerios",
+    "subject": "Dry honey nut toasted oat O-shaped cereal rings, warm golden-tan finish, in a low white bowl with a few scattered rings. No visible whole nuts, honey pour, milk or fruit.",
+    "sourceUrls": [
+      "https://www.cheerios.com/products/honey-nut-cheerios"
+    ],
+    "ingredientSha256": "397dddc0147c810d72519abc745c2d62048b6d7f865e2af008064707a2125ddf",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "rice-chex",
+    "name": "Chex Rice Chex",
+    "subject": "Dry pale golden rice cereal pieces shaped as small hollow square woven lattice pillows in a white bowl, distinct airy grid structure. No milk, rice grains, fruit or garnish.",
+    "sourceUrls": [
+      "https://www.chex.com/products/rice-chex/"
+    ],
+    "ingredientSha256": "791f1585f564bcc1ee1145fdc10d0eac24bb0ff511fa6a25fc3483e3dcca35df",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "frenchs-classic-yellow-8oz",
+    "name": "French's French's\u00ae Classic Yellow Mustard, 8 oz",
+    "subject": "Prepared classic yellow mustard alone in a plain low white ramekin, bright yellow smooth thick folded swirl. No mustard seeds or spices scattered around, no bottle or garnish.",
+    "sourceUrls": [
+      "https://www.mccormick.com/products/frenchs-classic-yellow-mustard-8-oz"
+    ],
+    "ingredientSha256": "de00edf7cc97aadbf1d680fc65aa46cffff07e7045ffa6ce7caa0674e006cd6b",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "daisy-classic-sour-cream",
+    "name": "Daisy Classic Daisy Sour Cream",
+    "subject": "Classic plain sour cream in a low white bowl, dense smooth white texture with a soft folded peak, different composition from the light sour cream image. No garnish or other food.",
+    "sourceUrls": [
+      "https://www.daisybrand.com/wp-content/smush-webp/2023/07/073420000110-Daisy-16-ounce-sour-cream-nutrition-back-side-2400x2400-1.png.webp",
+      "https://www.daisybrand.com/sour-cream/"
+    ],
+    "ingredientSha256": "7a59d9897ae121f4efa04dc874833b39ab736c100184f28932eb86bfded1edd1",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "reeses-milk-chocolate-cups-1-5oz",
+    "name": "REESE'S REESE'S Milk Chocolate Peanut Butter Cups",
+    "subject": "Two small round fluted-edge chocolate peanut butter cups, one whole and one cut in half showing a dense light tan peanut butter filling inside milk-chocolate-colored coating. No stamped logos, wrappers, nuts or garnish.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/reeses-milk-chocolate-peanut-butter-cups-1-5-oz.html"
+    ],
+    "ingredientSha256": "a8ba3be00ea3063d6c82a07b86dd1d155fb08079ee9b6769b68aa14c52b99760",
+    "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-daves-good-seed",
+    "name": "Dave's Killer Bread Good SEED",
+    "subject": "Three slices of hearty tan whole-wheat sandwich bread with natural flax, sunflower and oat flecks from its Good Seed mix. Soft rectangular sandwich loaf shape with rounded top corners and thin brown crust. Only grain/seed components on the ingredient panel may appear; no fruit pieces, nuts, butter or fillings.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/good-seed"
+    ],
+    "ingredientSha256": "afaeae54e1736921d86836cf4d6bd6b7c60fbc299a3a071777b3e61aee9b6a32",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-daves-powerseed",
+    "name": "Dave's Killer Bread PowerSEED",
+    "subject": "Several slices of seeded whole-wheat sandwich bread, dense tan crumb with natural flax, sunflower, oat and pumpkin seed flecks. Do not show pieces of apple, pear or peach: their juices sweeten the bread but are not fruit chunks. No sesame coating invented from another variety, no butter or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/powerseed"
+    ],
+    "ingredientSha256": "4aaf2266e222c0ed71ccdae9018cbdfa3d998a4b014f09e207dbdf00c745f4ec",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-daves-white-bread-done-right",
+    "name": "Dave's Killer Bread White Bread Done Right",
+    "subject": "Three slices of soft artisan-style white sandwich bread, pale creamy golden fine crumb and thin golden crust, classic sliced sandwich-loaf shape. No visible seed or nut coating, no fruit, butter, filling or toast marks.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/white-bread-done-right"
+    ],
+    "ingredientSha256": "853d5d36b7ba384ecd92d0670a25ed3c5763f228ea6f1938b617319ebfb42498",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch01-hershey-kit-kat-dark-chocolate-candy-bar-1-5-oz",
+    "name": "KIT KAT\u00ae KIT KAT\u00ae Dark Chocolate Candy Bar, 1.5 oz",
+    "subject": "Slender rectangular dark-chocolate-covered wafer fingers, one broken to reveal thin pale crisp wafer layers and cream filling under a dark chocolate coating. No embossed logo, labels, wrappers, nuts or caramel.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/kit-kat-dark-chocolate-candy-bar-1-5-oz.html"
+    ],
+    "ingredientSha256": "3d98ed1661c524ef41b8eb02f7db0133d6d7a769894d7634623950c9e7057f2c",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-daves-original",
+    "name": "Dave\u2019s Killer Bread Dave\u2019s Killer Bread 21 Whole Grains and Seeds",
+    "subject": "Sliced 21 Whole Grains and Seeds whole-wheat sandwich bread, tan hearty crumb with fine grain and seed inclusions from its label, brown crust and rounded sandwich-loaf top corners. No raisins, fruit pieces or fillings. A distinct slice arrangement, not the same image as Good Seed or Powerseed.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/21-whole-grains-and-seeds"
+    ],
+    "ingredientSha256": "099319286a88e352e105fb56eb9c5fd1896a2724e9337b9c7f858c65b35d9799",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-dave-killer-classic-rolls",
+    "name": "Dave\u2019s Killer Bread Killer Classic Rolls",
+    "subject": "Four small soft light-golden dinner/slider rolls, smooth gently domed tops and pale fine crumb; one torn open. Manufacturer calls these classic slider rolls made with five super grains as flours, not large seeded burger buns. No invented visible seed coating, no butter, burgers or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/killer-classic-rolls"
+    ],
+    "ingredientSha256": "9c077c02c4aff549b5576009b9c2b4bd5403c89eae47d08a7f5ae3335cfe76bf",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-dave-burger-buns-done-right",
+    "name": "Dave\u2019s Killer Bread BURGER BUNS DONE RIGHT",
+    "subject": "Two plain artisan-style rounded hamburger buns, smooth golden tops, no mixed whole seed coating, one horizontally split showing pale soft crumb. No actual burgers, cheese, lettuce, sauce or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/burger-buns-done-right"
+    ],
+    "ingredientSha256": "7ba6a822269ecc522267e986c8cbc14cf0c41dfda2e2a00625aa8ae0c314720b",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-dave-raisin-the-roof",
+    "name": "Dave\u2019s Killer Bread RAISIN' THE ROOF! Breakfast Bread",
+    "subject": "Fanned slices of whole-grain cinnamon raisin breakfast bread with natural dark raisin pieces embedded in the tan crumb. No invented spiral icing or glaze, no whole grapes, extra raisins scattered as garnish, butter or toppings.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/raisin-the-roof"
+    ],
+    "ingredientSha256": "2fae96345f2625c2be2720a0fcd232d148b261816f8d451bc2baedff3b95b34a",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-dave-rock-n-rolls",
+    "name": "Dave\u2019s Killer Bread Rock \u2018N\u2019 Rolls",
+    "subject": "Four small whole-grain dinner/slider rolls with naturally golden-brown domed tops and whole-grain seed flecks from the 21 Whole Grains and Seeds blend; one pulled open to show tan crumb. These are small slider/dinner rolls, not long hoagie rolls or large burgers. No fillings or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/rock-n-rolls"
+    ],
+    "ingredientSha256": "5b21c79d71e2c94e2655deef5ad94c771c3e61101194cddc32ea64ac87937434",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-fairlife-plan-vanilla",
+    "name": "fairlife fairlife Nutrition Plan\u00ae Vanilla",
+    "subject": "A plain clear glass containing only the fairlife Nutrition Plan\u00ae Vanilla beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/nutrition-plan/vanilla/"
+    ],
+    "ingredientSha256": "adec3d5215da299bb5aa134e300b5f3bb89747789b3802c1194dc5754067deb0",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-fairlife-plan-chocolate",
+    "name": "fairlife fairlife Nutrition Plan\u00ae Chocolate",
+    "subject": "A plain clear glass containing only the fairlife Nutrition Plan\u00ae Chocolate beverage, natural cocoa brown liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/nutrition-plan/chocolate/"
+    ],
+    "ingredientSha256": "dd57181860d9e31f6c4fea4acf6d47043c3df61a39e9ac505f726a71007d1169",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-dave-supreme-sourdough",
+    "name": "Dave\u2019s Killer Bread Supreme Sourdough\u2122",
+    "subject": "Slices from a round artisan-style sourdough bread loaf, pale airy off-white crumb with irregular bread pores and a golden baked crust. No seeds, nuts, spreads or garnish; no fabricated decorative brand scoring.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/supreme-sourdough"
+    ],
+    "ingredientSha256": "a12cee5ca06ff555d9770bc539bbd44831f170e6b3a28dfd21f4365028a9e548",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-dave-oats-and-blues",
+    "name": "Dave\u2019s Killer Bread OATS & BLUES",
+    "subject": "Sliced breakfast bread with visible dried blueberry pieces embedded in tan crumb and oat flecks. No fresh blueberries as garnish, no blueberry glaze or filling invented, no nuts or butter.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/oats-and-blues"
+    ],
+    "ingredientSha256": "b1ed9990fd2a598936e59426b30877dc329d6445e5217188a4863339e9620c6e",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dave-plain-awesome-bagels",
+    "name": "Dave\u2019s Killer Bread PLAIN AWESOME BAGELS",
+    "subject": "Three plain golden bagels with central holes and smooth unseeded tops, one sliced horizontally to reveal pale dense bagel crumb. No sesame seed coating inferred from allergen declaration, no cream cheese, butter or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/plain-awesome-bagels"
+    ],
+    "ingredientSha256": "1c4ccea1bd0b6dbe05c0d8f97d215abc978189928d472ac401c1fabdae748025",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dave-epic-everything-bagels",
+    "name": "Dave\u2019s Killer Bread EPIC EVERYTHING BAGELS",
+    "subject": "Two golden everything bagels with center holes and a natural topping of the label-recorded chia, flax, poppy, quinoa, sunflower, dried minced garlic and onion, and coarse salt. Do not add whole sesame seeds solely because sesame flour appears in the dough. No cream cheese or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/epic-everything-bagels"
+    ],
+    "ingredientSha256": "c2b0b514cd19bfd677124769b5de5596e392d0a6d21732b8ff66a4a565601485",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dave-cinnamon-raisin-remix-bagels",
+    "name": "Dave\u2019s Killer Bread CINNAMON RAISIN REMIX BAGELS",
+    "subject": "Three golden-brown cinnamon raisin bagels with holes, natural dark raisin pieces in the tan dough, one halved. No icing, butter, fresh fruit or seed coating.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/cinnamon-raisin-remix-bagels"
+    ],
+    "ingredientSha256": "093f0740d457bed72cda0a0b406c2f458ad0b0ff73af53cfa73c063189386793",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dave-killer-classic-muffins",
+    "name": "Dave\u2019s Killer Bread KILLER CLASSIC ENGLISH MUFFINS",
+    "subject": "Two classic round English muffins with pale golden lightly griddled surfaces, one fork-split revealing a porous nooks-and-crannies interior. These are English muffins, NOT cupcake-shaped muffins. No butter, jam, seeds or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/killer-classic-muffins"
+    ],
+    "ingredientSha256": "7fa3c71188e7c07618f690039d0ba454bf47439f2deb5dece55a0ed65edf38d9",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-dave-rockin-grains-muffins",
+    "name": "Dave\u2019s Killer Bread ROCKIN' GRAINS ENGLISH MUFFINS",
+    "subject": "Two whole-grain round English muffins with tan lightly griddled surfaces and grain flecks, one split to reveal porous whole-grain crumb. Not sweet cake muffins or bagels. No butter, jam, fruit or garnish.",
+    "sourceUrls": [
+      "https://www.daveskillerbread.com/rockin-grains-muffins"
+    ],
+    "ingredientSha256": "29a82dd704d94d454106c2af016df45f15102cec1937849f25d1c14749729e1c",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-apple-crisp-crunchy-granola-bars",
+    "name": "Nature Valley Apple Crisp Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Apple Crisp Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Dried Apples, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Cinnamon, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/apple-crisp-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "709e3a5ea5cf1966843755a4e349d1e33196560e18b2a6b451a9c40d483efc81",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-cinnamon-crunchy-granola-bars",
+    "name": "Nature Valley Cinnamon Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Cinnamon Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Salt, Cinnamon, Baking Soda, Soy Lecithin.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/cinnamon-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "9116d07e7cfbed863b01c009e4ba8c546ab752026274887e7f9bf87447ceb345",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-maple-brown-sugar-crunchy-granola-bars",
+    "name": "Nature Valley Maple Brown Sugar Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Maple Brown Sugar Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Maple Syrup, Salt, Soy Lecithin, Baking Soda, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/maple-brown-sugar-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "f2e98b05d7c481b3dd35de24ce377f5e7d91d764862e58bb0d79ec5ea5be5d74",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-oats-n-dark-chocolate-crunchy-granola-bars",
+    "name": "Nature Valley Oats \u2018n Dark Chocolate Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Oats \u2018n Dark Chocolate Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Dark Chocolate Pieces (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor, salt), Rice Flour, Brown Sugar Syrup, Cocoa, Salt, Soy Lecithin, Baking Soda, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/oats-n-dark-chocolate-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "b5832fd425603222b280e1045ef92af38a98fa11de24aa8a9edc2189a9e46800",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-peanut-butter-crunchy-granola-bars",
+    "name": "Nature Valley Peanut Butter Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Peanut Butter Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Peanut Butter (peanuts, salt), Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/peanut-butter-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "f409a4756f76e47c6165c2abf733b3db954e5e26e6c240cbb03a3ddc55e8b034",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-peanut-butter-dark-chocolate-crunchy-granola-bars",
+    "name": "Nature Valley Peanut Butter Dark Chocolate Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Peanut Butter Dark Chocolate Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Peanut Butter (peanuts, salt), Dark Chocolate Chips (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor, salt), Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/peanut-butter-dark-chocolate-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "36dc39f26f6425acfe9fa718d3c875170b37f66a0cfd709a706077e79535b494",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-pecan-crunchy-granola-bars",
+    "name": "Nature Valley Pecan Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Pecan Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Pecan Pieces, Brown Sugar Syrup, Salt, Soy Lecithin, Baking Soda, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/pecan-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "1b1db905ce1059aa26d9fcc94914c44c1564d8632a1be03f2e5b395feca92057",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-nature-roasted-almond-crunchy-granola-bars",
+    "name": "Nature Valley Roasted Almond Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Roasted Almond Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Almond Pieces, Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/roasted-almond-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "f9c1f344455829f6a6fd39eec4f535c44e63257b5b7f85372af2117b55dc6582",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch03-hershey-hersheys-milk-chocolate-with-almonds-candy-bar-1-45-oz",
+    "name": "HERSHEY'S HERSHEY'S Milk Chocolate with Almonds Candy Bar",
+    "subject": "Plain rectangular milk-chocolate-colored candy bar pieces with almond fragments embedded in the chocolate, one broken edge showing almond pieces. No logos or stamped words, no wrappers, no caramel or wafer.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/hersheys-milk-chocolate-with-almonds-candy-bar-1-45-oz.html"
+    ],
+    "ingredientSha256": "c08253bb9c2d7e4c9b9ca5504565c68a2e0c7bff61b3dcf2e66dd33ad7ad4f1e",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-core-power-chocolate-protein-shake-42g",
+    "name": "fairlife Core Power Chocolate 42g Protein Shake",
+    "subject": "A plain clear glass containing only the Core Power Chocolate 42g Protein Shake beverage, natural cocoa brown liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/core-power/chocolate-protein-shake-42g/"
+    ],
+    "ingredientSha256": "0631a3fca7817b3303fe4f2d4afb0580c5e756edce9f412b2e520da0de6750cc",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-core-power-chocolate-protein-shake",
+    "name": "fairlife Core Power Chocolate 26g Protein Shake",
+    "subject": "A plain clear glass containing only the Core Power Chocolate 26g Protein Shake beverage, natural cocoa brown liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/core-power/chocolate-protein-shake/"
+    ],
+    "ingredientSha256": "01c00bc43c634e76dee3ddbfd056c0b29126fbdd4609d504ed7edc05c3583b59",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-core-power-strawberry-banana-protein-shake",
+    "name": "fairlife Core Power Strawberry Banana 26g Protein Shake",
+    "subject": "A plain clear glass containing only the Core Power Strawberry Banana 26g Protein Shake beverage, pale strawberry pink liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/core-power/strawberry-banana-protein-shake/"
+    ],
+    "ingredientSha256": "593a72f0c27123a308ee59ad60032053aed64144388282ea778d2f96afd3d3d9",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-core-power-vanilla-protein-shake-42g",
+    "name": "fairlife Core Power Vanilla 42g Protein Shake",
+    "subject": "A plain clear glass containing only the Core Power Vanilla 42g Protein Shake beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/core-power/vanilla-protein-shake-42g/"
+    ],
+    "ingredientSha256": "811b017c10b9b110890ac413fbb7c5afd0076e29dc3a2599424f6cee7cb1cb69",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-core-power-vanilla-protein-shake",
+    "name": "fairlife Core Power Vanilla 26g Protein Shake",
+    "subject": "A plain clear glass containing only the Core Power Vanilla 26g Protein Shake beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/core-power/vanilla-protein-shake/"
+    ],
+    "ingredientSha256": "f80776ee42157ad74756205cea5032535656160028de1a39c9a7b4acd5c67b75",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-14oz-strawberry-14oz",
+    "name": "fairlife fairlife Strawberry 2% Ultra-Filtered Milk 14oz",
+    "subject": "A plain clear glass containing only the fairlife Strawberry 2% Ultra-Filtered Milk 14oz beverage, pale strawberry pink liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/ultra-filtered-milk-14oz/strawberry-14oz/"
+    ],
+    "ingredientSha256": "4747ece29b5f1e18fc1811a8ff1e8db8a019762e38d30e95da3def4d772cadfb",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-chocolate-milk",
+    "name": "fairlife fairlife Chocolate 2% Ultra-Filtered Milk",
+    "subject": "A plain clear glass containing only the fairlife Chocolate 2% Ultra-Filtered Milk beverage, natural cocoa brown liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/ultra-filtered-milk/chocolate-milk/"
+    ],
+    "ingredientSha256": "4a88173b00ec3457c3983e8efb0880b9e45e7f578174b02e11bb934aa85bfb47",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-fat-free-skim-milk",
+    "name": "fairlife fairlife Fat-Free Ultra-Filtered Milk",
+    "subject": "A plain clear glass containing only the fairlife Fat-Free Ultra-Filtered Milk beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/ultra-filtered-milk/fat-free-skim-milk/"
+    ],
+    "ingredientSha256": "3a88c5b1994787b3dc4bb679f1063e99cb7e20f66e0aeed729fca35a5ac93929",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-reduced-fat-2-percent-milk",
+    "name": "fairlife fairlife 2% Reduced Fat Ultra-Filtered Milk",
+    "subject": "A plain clear glass containing only the fairlife 2% Reduced Fat Ultra-Filtered Milk beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/ultra-filtered-milk/reduced-fat-2-percent-milk/"
+    ],
+    "ingredientSha256": "887be1c2f99f5dae892317b6f19c7b1aa7a7dd9af0fbbc3d510d376a76367f1c",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-fairlife-ultra-filtered-milk-whole-milk",
+    "name": "fairlife fairlife Whole Ultra-Filtered Milk",
+    "subject": "A plain clear glass containing only the fairlife Whole Ultra-Filtered Milk beverage, creamy white liquid, no added toppings, foam, whipped cream, fruit, vanilla pods, chocolate pieces, ice cubes or garnish. No bottle, label, logo or invented packaging. A unique glass placement and soft natural shadows distinguish this product illustration; do not reuse another milk/shake image.",
+    "sourceUrls": [
+      "https://fairlife.com/ultra-filtered-milk/whole-milk/"
+    ],
+    "ingredientSha256": "38df12602dd4e33b79aafd7705969c79fd0ab3c6441697e0235335b962c3a04b",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "nature-valley-oats-honey-17-88oz",
+    "name": "Nature Valley Oats \u2018n Honey Crunchy Granola Bars",
+    "subject": "Two thin rectangular crunchy oat granola bars corresponding specifically to Oats \u2018n Honey Crunchy Granola Bars. Realistic pressed whole-oat texture and golden baked edges, one bar broken naturally. Use ONLY visible components explicitly named in this ingredient panel: Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Honey, Salt, Brown Sugar Syrup, Baking Soda, Soy Lecithin, Natural Flavor.. Do not add full chocolate coating, drizzles, fruit slices, decorative whole nuts, syrup pour or any garnish. Nuts/chocolate may appear only as small embedded pieces if the ingredient list explicitly contains them. A standalone food representation, no wrapper or logo.",
+    "sourceUrls": [
+      "https://www.naturevalley.com/products/oats-n-honey-crunchy-granola-bars"
+    ],
+    "ingredientSha256": "03661ec41a06ce6dbca442d403e09a3bc52d0b7a0a428bf65bb0d9b42f08a4f6",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "hersheys-milk-chocolate-1-55oz",
+    "name": "HERSHEY'S HERSHEY'S Movie Milk Chocolate Candy Bar",
+    "subject": "A plain segmented milk-chocolate-colored candy bar in rectangular pieces, realistic smooth medium-brown chocolate. NO stamped brand name, letters, logos, wrappers, nuts or filling; do not reproduce branded packaging.",
+    "sourceUrls": [
+      "https://www.hersheyland.com/products/hersheys-milk-chocolate-candy-bar-1-55-oz.html"
+    ],
+    "ingredientSha256": "d46080e6f0e674171956768f70ec52d8b4c624ac40676fd070d85797434cc0c1",
+    "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "us-jimmydean-original",
+    "name": "Jimmy Dean Jimmy Dean Fully Cooked Turkey Sausage Patties",
+    "subject": "Three round browned fully cooked turkey breakfast sausage patties on a plain dish. No eggs, bread, syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fully-cooked-sausage/00077900194160"
+    ],
+    "ingredientSha256": "5672127b4ef6987b5f71a84f71fdada74efb6d9e27049b08a5dc0ebf9eaf691b",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-cheerios-cookies-creme-cheerios-protein",
+    "name": "Cheerios Cookies & Cr\u00e8me Cheerios Protein",
+    "subject": "A shallow plain bowl of dry Cookies & Cr\u00e8me Cheerios Protein toasted cereal in little O-shaped rings, tan and dark brown. No milk, loose fruits, cookies, nuts, cinnamon sticks or other garnishes. Flavor does not mean whole fruits or dessert pieces.",
+    "sourceUrls": [
+      "https://www.cheerios.com/products/cookies-creme-cheerios-protein"
+    ],
+    "ingredientSha256": "113cffa168eb772fd096ec4c51e78b5061097b886088d637c8fe2f164e7bd42b",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-cheerios-strawberry-cheerios-protein",
+    "name": "Cheerios Strawberry Cheerios Protein",
+    "subject": "A shallow plain bowl of dry Strawberry Cheerios Protein toasted cereal in little O-shaped rings, pale pink and tan. No milk, loose fruits, cookies, nuts, cinnamon sticks or other garnishes. Flavor does not mean whole fruits or dessert pieces.",
+    "sourceUrls": [
+      "https://www.cheerios.com/products/strawberry-cheerios-protein"
+    ],
+    "ingredientSha256": "1ee16f85f13a9d4d59304ee106a989ce76a72424f164755a00674a0217c07154",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch07-cheerios-cinnamon-cheerios-protein",
+    "name": "Cheerios Cinnamon Cheerios Protein",
+    "subject": "A shallow plain bowl of dry Cinnamon Cheerios Protein toasted cereal in little O-shaped rings, light cinnamon-brown. No milk, loose fruits, cookies, nuts, cinnamon sticks or other garnishes. Flavor does not mean whole fruits or dessert pieces.",
+    "sourceUrls": [
+      "https://www.cheerios.com/products/cinnamon-cheerios-protein"
+    ],
+    "ingredientSha256": "9b3f730cd906aae0f1a6e7606acc6a6bedf4880a50454c1be752c349733c23da",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-chobani-drink-strawberries-and-cream",
+    "name": "Chobani Strawberries & Cream",
+    "subject": "A short plain clear glass of smooth pale pink Strawberries & Cream high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+    "sourceUrls": [
+      "https://chobani.com/products/high-protein-greek-yogurt-drinks-strawberries-and-cream-20g"
+    ],
+    "ingredientSha256": "b59b5e095ee25687175afbc690db0d171535f04f708e3ca5a7aad9d526fb58ed",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-chobani-drink-peaches-and-cream",
+    "name": "Chobani Peaches & Cream",
+    "subject": "A short plain clear glass of smooth pale peach Peaches & Cream high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+    "sourceUrls": [
+      "https://chobani.com/products/high-protein-greek-yogurt-drinks-peaches-and-cream-20g"
+    ],
+    "ingredientSha256": "d88a1bd165b385d61dbafa10cd45cf7a991bf85963637f0759aa65efd5c5f2c6",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-chobani-drink-mixed-berry-vanilla",
+    "name": "Chobani Mixed Berry Vanilla",
+    "subject": "A short plain clear glass of smooth pale pink Mixed Berry Vanilla high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+    "sourceUrls": [
+      "https://chobani.com/products/high-protein-greek-yogurt-drinks-mixed-berry-vanilla-20g"
+    ],
+    "ingredientSha256": "2a5d2963589a966b30d30337e6532223b56ad7d6ec53dc1312e2119bf1052df9",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-chobani-drink-mango-pineapple",
+    "name": "Chobani Mango Pineapple",
+    "subject": "A short plain clear glass of smooth pale yellow Mango Pineapple high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+    "sourceUrls": [
+      "https://chobani.com/products/high-protein-greek-yogurt-drinks-mango-pineapple-20g"
+    ],
+    "ingredientSha256": "18b7c11187a2b29dde196096c9d561c8ac813c3c8b61f6c57ee0832ab7e391d3",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-chobani-drink-cherry-vanilla",
+    "name": "Chobani Cherry Vanilla",
+    "subject": "A short plain clear glass of smooth pale pink Cherry Vanilla high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+    "sourceUrls": [
+      "https://chobani.com/products/high-protein-greek-yogurt-drinks-cherry-vanilla-20g"
+    ],
+    "ingredientSha256": "1097512f5a07908fe0d08afb3e77d2197f29b5d892555c9d18c52e70b7fca638",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-chobani-drink-vanilla",
+    "name": "Chobani Vanilla",
+    "subject": "A short plain clear glass of smooth off-white Vanilla high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+    "sourceUrls": [
+      "https://chobani.com/products/high-protein-greek-yogurt-drinks-vanilla-20g"
+    ],
+    "ingredientSha256": "e8ca3a46ece5b35743ddb9e6a1c13773f0db0ff8beeaf975e044d62220a3ca6d",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-jimmy-crumbles-pork",
+    "name": "Jimmy Dean Fully Cooked Original Pork Sausage Crumbles",
+    "subject": "A modest serving of irregular browned fully cooked pork breakfast sausage crumbles on a plain dish. No other food or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fully-cooked-sausage-crumbles/00077900196300"
+    ],
+    "ingredientSha256": "eee4c50dc25f25bc327b1fc7816b558658d35257bcb2dea80654504fe50173f5",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-jimmy-crumbles-turkey",
+    "name": "Jimmy Dean Fully Cooked Turkey Sausage Crumbles",
+    "subject": "A modest serving of irregular browned fully cooked turkey breakfast sausage crumbles on a plain dish. No other food or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fully-cooked-sausage-crumbles/00077900196317"
+    ],
+    "ingredientSha256": "17b1c253d1cf37c2f008e42b37e38865c7462259aef3fb0b38a1c85c8226e14c",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch06-jimmy-fresh-patties",
+    "name": "Jimmy Dean Original Premium Fresh Pork Sausage Patties",
+    "subject": "Three round raw pink fresh pork breakfast sausage patties on a plain dish. No eggs, bread, syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900195464"
+    ],
+    "ingredientSha256": "58d427d34f2fff66663948d79bb843fd0c909cee336793e902f6bf8b9b681b98",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-chobani-blueberry",
+    "name": "Chobani Blueberry",
+    "subject": "A small plain transparent glass dish of thick white Greek yogurt with a modest layer of blueberry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.",
+    "sourceUrls": [
+      "https://chobani.com/products/yogurt-greek-blueberry-cup"
+    ],
+    "ingredientSha256": "013821f4aa46781c8f441905e0821828185695f52e8c7729eaf30c0e69e4c965",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-chobani-black-cherry",
+    "name": "Chobani Black Cherry",
+    "subject": "A small plain transparent glass dish of thick white Greek yogurt with a modest layer of black cherry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.",
+    "sourceUrls": [
+      "https://chobani.com/products/yogurt-greek-black-cherry-cup"
+    ],
+    "ingredientSha256": "9e89b1a527dcc9a7c3dff95fd8b45074c704496eaca9365b6a42a7bb4ace827b",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-chobani-strawberry",
+    "name": "Chobani Strawberry",
+    "subject": "A small plain transparent glass dish of thick white Greek yogurt with a modest layer of strawberry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.",
+    "sourceUrls": [
+      "https://chobani.com/products/yogurt-greek-strawberry-cup"
+    ],
+    "ingredientSha256": "7139dc5ca7f21fdff5773ad608a9c78acbbe573d438646176a19cec0e789cac4",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-chobani-vanilla",
+    "name": "Chobani Vanilla",
+    "subject": "A small plain off-white dish of smooth thick vanilla Greek yogurt. No fruit slices, vanilla beans, nuts, mint or other garnishes.",
+    "sourceUrls": [
+      "https://chobani.com/products/yogurt-greek-vanilla-cup"
+    ],
+    "ingredientSha256": "40e68476f72d55bfe6e1c1e3907f4af8dac5d76ad35a2477907f4707c9d1de58",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-chobani-key-lime",
+    "name": "Chobani Key Lime",
+    "subject": "A small plain off-white dish of smooth thick key lime Greek yogurt. No fruit slices, vanilla beans, nuts, mint or other garnishes.",
+    "sourceUrls": [
+      "https://chobani.com/products/yogurt-greek-key-lime-cup"
+    ],
+    "ingredientSha256": "0f1fb22b926d5b3fc7c88edc2fd604b157da1e7387e3fb67448911c192f36a88",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-cheerios-apple-cinnamon-cheerios",
+    "name": "Cheerios Apple Cinnamon Cheerios",
+    "subject": "A shallow plain bowl of dry Apple Cinnamon Cheerios toasted cereal in little O-shaped rings, light cinnamon-brown. No milk, loose fruits, cookies, nuts, cinnamon sticks or other garnishes. Flavor does not mean whole fruits or dessert pieces.",
+    "sourceUrls": [
+      "https://www.cheerios.com/products/apple-cinnamon-cheerios"
+    ],
+    "ingredientSha256": "53eaffc5dac4b3f694f871b8b46122d1d34ab258ff0e95bc778b5e98a7f89fee",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch05-cheerios-multi-grain-cheerios",
+    "name": "Cheerios Multi Grain Cheerios",
+    "subject": "A shallow plain bowl of dry Multi Grain Cheerios toasted cereal in little O-shaped rings, several natural golden to brown shades. No milk, loose fruits, cookies, nuts, cinnamon sticks or other garnishes. Flavor does not mean whole fruits or dessert pieces.",
+    "sourceUrls": [
+      "https://www.cheerios.com/products/multi-grain-cheerios"
+    ],
+    "ingredientSha256": "fce482372f9d0366ed553380646441f696380d3e94dcb4cd6836c7d626cb74e3",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-jimmy-maple",
+    "name": "Jimmy Dean Maple Premium Pork Sausage",
+    "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Maple Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900301001"
+    ],
+    "ingredientSha256": "095533ce565ddf260c722559afe130f9a9dc162206daf632c78a3baec7d9eddb",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-jimmy-turkey",
+    "name": "Jimmy Dean Premium Turkey Sausage Roll",
+    "subject": "An unwrapped cylinder of raw ground turkey breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Premium Turkey Sausage Roll. No cooking, added food, packaging, maple syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900003349"
+    ],
+    "ingredientSha256": "32022f18ed59a307da1b3e42e760c759d40b565d73f1f41dd85c6798016841f4",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-jimmy-hot",
+    "name": "Jimmy Dean Hot Premium Pork Sausage",
+    "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Hot Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900115639"
+    ],
+    "ingredientSha256": "9c6b04bd71394d599c2fc3125e171494c755e807fff8f25382be61d21a8364e8",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-jimmy-country-mild",
+    "name": "Jimmy Dean Country Mild Premium Pork Sausage",
+    "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Country Mild Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900114618"
+    ],
+    "ingredientSha256": "79ff93746940a63357b3d636398f9d422f87165240478aba7874ba479836f089",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch04-jimmy-italian",
+    "name": "Jimmy Dean Italian Premium Pork Sausage",
+    "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Italian Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900210501"
+    ],
+    "ingredientSha256": "2780daa75d5330fa85d7db5d4d8324bf04acbb9db18222e7240736d3dee5583d",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-jimmydean-00077900003660",
+    "name": "Jimmy Dean Applewood Chicken Sausage Links",
+    "subject": "A small serving of browned fully cooked chicken breakfast sausage links on a plain dish. No eggs, bread, syrup, herbs or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fully-cooked-sausage/00077900003660"
+    ],
+    "ingredientSha256": "a45cc1c41b94fca600f3097543bc6d89bd28c19184e7f6dba24445fa1ee020f3",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-jimmydean-00077900115738",
+    "name": "Jimmy Dean Regular Premium Pork Sausage",
+    "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Regular Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900115738"
+    ],
+    "ingredientSha256": "b85caac393bbf4fb650584541d7157de1f49b5f816547e472ecd98b1773469f6",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-jimmydean-00077900116735",
+    "name": "Jimmy Dean Sage Premium Pork Sausage",
+    "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Sage Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900116735"
+    ],
+    "ingredientSha256": "ff95c8a7c2e9d2cb120f64703a0339c73420a966294f1c23ae7e8a932bd166cb",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-jimmydean-00077900192098",
+    "name": "Jimmy Dean Fully Cooked Original Pork Sausage Patties",
+    "subject": "Three round browned fully cooked pork breakfast sausage patties on a plain dish. No eggs, bread, syrup or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fully-cooked-sausage/00077900192098"
+    ],
+    "ingredientSha256": "aee2a35ce9dcbadbda57e4035bf5d95eab53dcdc37d6c2a414212bdfaffc565a",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  },
+  {
+    "productId": "batch02-jimmydean-00077900192579",
+    "name": "Jimmy Dean Fully Cooked Turkey Sausage Links",
+    "subject": "A small serving of browned fully cooked turkey breakfast sausage links on a plain dish. No eggs, bread, syrup, herbs or garnish.",
+    "sourceUrls": [
+      "https://www.jimmydean.com/products/fully-cooked-sausage/00077900192579"
+    ],
+    "ingredientSha256": "5672127b4ef6987b5f71a84f71fdada74efb6d9e27049b08a5dc0ebf9eaf691b",
+    "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+    "status": "pending_generation"
+  }
+]

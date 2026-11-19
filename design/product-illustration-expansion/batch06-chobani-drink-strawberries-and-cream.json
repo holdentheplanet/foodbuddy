@@ -1,0 +1,16 @@
+{
+  "productId": "batch06-chobani-drink-strawberries-and-cream",
+  "name": "Chobani Strawberries & Cream",
+  "subject": "A short plain clear glass of smooth pale pink Strawberries & Cream high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+  "sourceUrls": [
+    "https://chobani.com/products/high-protein-greek-yogurt-drinks-strawberries-and-cream-20g"
+  ],
+  "ingredientSha256": "b59b5e095ee25687175afbc690db0d171535f04f708e3ca5a7aad9d526fb58ed",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: A short plain clear glass of smooth pale pink Strawberries & Cream high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.\nProduct identity: Chobani Strawberries & Cream\nEvidence URLs (for provenance, not text to print): https://chobani.com/products/high-protein-greek-yogurt-drinks-strawberries-and-cream-20g",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-05bb4635-ab01-4fae-bd18-892c227e885f.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

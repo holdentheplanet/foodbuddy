@@ -1,0 +1,1091 @@
+{
+  "formatVersion": 1,
+  "catalogId": "us-reviewed-batch-03",
+  "products": [
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains soy; may contain peanut, almond and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "soy"
+      ],
+      "id": "batch03-nature-apple-crisp-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Dried Apples, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Cinnamon, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Apple Crisp Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "peanuts",
+        "almond",
+        "pecan"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains soy; may contain peanut, almond and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Apple Crisp Crunchy Granola Bars\nApple Crisp Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Dried Apples, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Cinnamon, Natural Flavor.\nContains soy; may contain peanut, almond and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/apple-crisp-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Apple Crisp Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains cashew, almond, peanut, milk, soy; may contain macadamia and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "soy",
+        "almond",
+        "cashew"
+      ],
+      "id": "batch03-nature-cashew-sweet-salty-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Corn Syrup, Cashews Roasted In Safflower Oil, Sugar, Rice Flour, Palm Kernel Oil, Fructose, Tapioca Syrup, Vegetable Glycerin, Cashew Butter (cashew nuts, safflower oil), Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Barley Malt Extract, Honey Roasted Almond Butter (almonds, honey, maltodextrin, palm oil, mixed tocopherols), Peanut Flour, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Cashew Sweet & Salty Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "7.2 oz",
+      "precautionaryAllergens": [
+        "pecan",
+        "macadamia"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains cashew, almond, peanut, milk, soy; may contain macadamia and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Cashew Sweet & Salty Granola Bars\nCashew Sweet & Salty Granola Bars\n7.2 oz\nNature Valley\nWhole Grain Oats, Corn Syrup, Cashews Roasted In Safflower Oil, Sugar, Rice Flour, Palm Kernel Oil, Fructose, Tapioca Syrup, Vegetable Glycerin, Cashew Butter (cashew nuts, safflower oil), Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Barley Malt Extract, Honey Roasted Almond Butter (almonds, honey, maltodextrin, palm oil, mixed tocopherols), Peanut Flour, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.\nContains cashew, almond, peanut, milk, soy; may contain macadamia and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/cashew-sweet-salty-granola-bars"
+        }
+      ],
+      "variant": "Cashew Sweet & Salty Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains wheat, almond, soy and milk ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "milk",
+        "wheat",
+        "soy",
+        "almond"
+      ],
+      "id": "batch03-nature-chocolate-pretzel-nut-sweet-salty-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Corn Syrup, Sugar, Pretzel Pieces (enriched wheat flour [wheat flour, niacin, iron, thiamin mononitrate, riboflavin, folic acid], malt, salt, soybean oil), Almonds, Palm Kernel Oil, Rice Flour, Fructose, Tapioca Syrup, Vegetable Glycerin, Cocoa, Canola and/or Sunflower Oil, Soy Lecithin, Corn Starch, Salt, Barley Malt Extract, Baking Soda, Milk, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Chocolate Pretzel Nut Sweet & Salty Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "7.2 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Chocolate Pretzel Nut Sweet & Salty Granola Bars\nChocolate Pretzel Nut Sweet & Salty Granola Bars\n7.2 oz\nNature Valley\nWhole Grain Oats, Corn Syrup, Sugar, Pretzel Pieces (enriched wheat flour [wheat flour, niacin, iron, thiamin mononitrate, riboflavin, folic acid], malt, salt, soybean oil), Almonds, Palm Kernel Oil, Rice Flour, Fructose, Tapioca Syrup, Vegetable Glycerin, Cocoa, Canola and/or Sunflower Oil, Soy Lecithin, Corn Starch, Salt, Barley Malt Extract, Baking Soda, Milk, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.\nContains wheat, almond, soy and milk ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/chocolate-pretzel-nut-sweet-salty-granola-bars"
+        }
+      ],
+      "variant": "Chocolate Pretzel Nut Sweet & Salty Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains soy; may contain peanut, almond and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "soy"
+      ],
+      "id": "batch03-nature-cinnamon-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Salt, Cinnamon, Baking Soda, Soy Lecithin.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Cinnamon Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "peanuts",
+        "almond",
+        "pecan"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains soy; may contain peanut, almond and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Cinnamon Crunchy Granola Bars\nCinnamon Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Salt, Cinnamon, Baking Soda, Soy Lecithin.\nContains soy; may contain peanut, almond and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/cinnamon-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Cinnamon Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, almond, soy and milk ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "soy",
+        "almond"
+      ],
+      "id": "batch03-nature-dark-chocolate-peanut-almond-sweet-salty-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Roasted Peanuts, Corn Syrup, Sugar, Whole Grain Oats, Dark Chocolate Chunks (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor), Rice Flour, Palm Kernel Oil, Almonds, Fructose, Cocoa, Vegetable Glycerin, Canola and/or Sunflower Oil, Salt, Soy Lecithin, Corn Starch, Barley Malt Extract, Milk, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Dark Chocolate, Peanut & Almond Sweet & Salty Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "7.2 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Dark Chocolate, Peanut & Almond Sweet & Salty Granola Bars\nDark Chocolate, Peanut & Almond Sweet & Salty Granola Bars\n7.2 oz\nNature Valley\nRoasted Peanuts, Corn Syrup, Sugar, Whole Grain Oats, Dark Chocolate Chunks (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor), Rice Flour, Palm Kernel Oil, Almonds, Fructose, Cocoa, Vegetable Glycerin, Canola and/or Sunflower Oil, Salt, Soy Lecithin, Corn Starch, Barley Malt Extract, Milk, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.\nContains peanut, almond, soy and milk ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/dark-chocolate-peanut-almond-sweet-salty-granola-bars"
+        }
+      ],
+      "variant": "Dark Chocolate, Peanut & Almond Sweet & Salty Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains wheat, milk and soy ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "id": "batch03-nature-honey-vanilla-wafer-bar",
+      "imageReference": null,
+      "ingredientLabelText": "Oat Butter (whole grain oat flour, palm oil, sugar, canola oil, corn starch, salt), Whole Grain Wheat Flour, Sugar, Palm and Palm Kernel Oil, Whole Grain Oats, Honey, Fructose, Maltodextrin, Whey, Corn Starch, Soy Lecithin, Salt, Natural Flavor, Baking Soda.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Honey Vanilla Wafer Bar",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "6.5 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Honey Vanilla Wafer Bar\nHoney Vanilla Wafer Bar\n6.5 oz\nNature Valley\nOat Butter (whole grain oat flour, palm oil, sugar, canola oil, corn starch, salt), Whole Grain Wheat Flour, Sugar, Palm and Palm Kernel Oil, Whole Grain Oats, Honey, Fructose, Maltodextrin, Whey, Corn Starch, Soy Lecithin, Salt, Natural Flavor, Baking Soda.\nContains wheat, milk and soy ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/honey-vanilla-wafer-bar"
+        }
+      ],
+      "variant": "Honey Vanilla Wafer Bar",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains soy; may contain peanut, almond and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "soy"
+      ],
+      "id": "batch03-nature-maple-brown-sugar-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Maple Syrup, Salt, Soy Lecithin, Baking Soda, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Maple Brown Sugar Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "peanuts",
+        "almond",
+        "pecan"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains soy; may contain peanut, almond and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Maple Brown Sugar Crunchy Granola Bars\nMaple Brown Sugar Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Maple Syrup, Salt, Soy Lecithin, Baking Soda, Natural Flavor.\nContains soy; may contain peanut, almond and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/maple-brown-sugar-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Maple Brown Sugar Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains soy; may contain peanut, almond, and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "soy"
+      ],
+      "id": "batch03-nature-oats-n-dark-chocolate-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Dark Chocolate Pieces (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor, salt), Rice Flour, Brown Sugar Syrup, Cocoa, Salt, Soy Lecithin, Baking Soda, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Oats ‘n Dark Chocolate Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "peanuts",
+        "almond",
+        "pecan"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains soy; may contain peanut, almond, and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Oats ‘n Dark Chocolate Crunchy Granola Bars\nOats ‘n Dark Chocolate Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Canola and/or Sunflower Oil, Dark Chocolate Pieces (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor, salt), Rice Flour, Brown Sugar Syrup, Cocoa, Salt, Soy Lecithin, Baking Soda, Natural Flavor.\nContains soy; may contain peanut, almond, and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/oats-n-dark-chocolate-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Oats ‘n Dark Chocolate Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, almond, soy, milk, and coconut ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "soy",
+        "almond",
+        "coconut"
+      ],
+      "id": "batch03-nature-peanut-almond-dark-chocolate-protein-chewy-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Roasted Peanuts, Soy Protein Isolate, Almonds, Chicory Root Extract, Sugar, Corn Syrup, Vegetable Oils (palm, palm kernel, canola), Roasted Sunflower Seeds (sunflower seeds, sunflower oil), Toasted Coconut, Fructose, Vegetable Glycerin, Rice Starch, Cocoa, Corn Starch, Soy Lecithin, Whey Protein Concentrate, Salt, Dextrose, Baking Soda, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Peanut, Almond & Dark Chocolate Protein Chewy Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "7.1 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Peanut, Almond & Dark Chocolate Protein Chewy Bars\nPeanut, Almond & Dark Chocolate Protein Chewy Bars\n7.1 oz\nNature Valley\nRoasted Peanuts, Soy Protein Isolate, Almonds, Chicory Root Extract, Sugar, Corn Syrup, Vegetable Oils (palm, palm kernel, canola), Roasted Sunflower Seeds (sunflower seeds, sunflower oil), Toasted Coconut, Fructose, Vegetable Glycerin, Rice Starch, Cocoa, Corn Starch, Soy Lecithin, Whey Protein Concentrate, Salt, Dextrose, Baking Soda, Natural Flavor.\nContains peanut, almond, soy, milk, and coconut ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/peanut-almond-dark-chocolate-protein-chewy-bars"
+        }
+      ],
+      "variant": "Peanut, Almond & Dark Chocolate Protein Chewy Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, wheat, soy, milk; may contain almond ingredients",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "id": "batch03-nature-peanut-butter-chocolate-wafer-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Peanut Butter (peanuts, salt), Sugar, Palm and Palm Kernel Oil, Whole Grain Wheat Flour, Whole Grain Oats, Maltodextrin, Peanut Flour, Cocoa Powder, Corn Starch, Milk Powder, Salt, Honey, Natural Flavor, Soy Lecithin, Baking Soda.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Peanut Butter Chocolate Wafer Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "6.5 oz",
+      "precautionaryAllergens": [
+        "almond"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains peanut, wheat, soy, milk; may contain almond ingredients",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Peanut Butter Chocolate Wafer Bars\nPeanut Butter Chocolate Wafer Bars\n6.5 oz\nNature Valley\nPeanut Butter (peanuts, salt), Sugar, Palm and Palm Kernel Oil, Whole Grain Wheat Flour, Whole Grain Oats, Maltodextrin, Peanut Flour, Cocoa Powder, Corn Starch, Milk Powder, Salt, Honey, Natural Flavor, Soy Lecithin, Baking Soda.\nContains peanut, wheat, soy, milk; may contain almond ingredients",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/peanut-butter-chocolate-wafer-bars"
+        }
+      ],
+      "variant": "Peanut Butter Chocolate Wafer Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, soy; may contain almond and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "soy"
+      ],
+      "id": "batch03-nature-peanut-butter-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Peanut Butter (peanuts, salt), Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Peanut Butter Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "almond",
+        "pecan"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains peanut, soy; may contain almond and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Peanut Butter Crunchy Granola Bars\nPeanut Butter Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Canola and/or Sunflower Oil, Peanut Butter (peanuts, salt), Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin.\nContains peanut, soy; may contain almond and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/peanut-butter-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Peanut Butter Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, soy; may contain almond and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "soy"
+      ],
+      "id": "batch03-nature-peanut-butter-dark-chocolate-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Peanut Butter (peanuts, salt), Dark Chocolate Chips (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor, salt), Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Peanut Butter Dark Chocolate Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "almond",
+        "pecan"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains peanut, soy; may contain almond and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Peanut Butter Dark Chocolate Crunchy Granola Bars\nPeanut Butter Dark Chocolate Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Peanut Butter (peanuts, salt), Dark Chocolate Chips (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor, salt), Canola and/or Sunflower Oil, Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Natural Flavor.\nContains peanut, soy; may contain almond and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/peanut-butter-dark-chocolate-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Peanut Butter Dark Chocolate Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, soy and milk ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "soy"
+      ],
+      "id": "batch03-nature-peanut-butter-dark-chocolate-protein-chewy-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Roasted Peanuts, Soy Protein Isolate, Chicory Root Extract, Semisweet Chocolate Chips (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor), Vegetable Oils (palm, palm kernel, canola, peanut), Sugar, Corn Syrup, Fructose, Peanut Butter (peanuts, salt), Vegetable Glycerin, Rice Starch, Cocoa, Soy Lecithin, Salt, Whey Protein Concentrate, Corn Starch, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Peanut Butter Dark Chocolate Protein Chewy Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "7.1 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Peanut Butter Dark Chocolate Protein Chewy Bars\nPeanut Butter Dark Chocolate Protein Chewy Bars\n7.1 oz\nNature Valley\nRoasted Peanuts, Soy Protein Isolate, Chicory Root Extract, Semisweet Chocolate Chips (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor), Vegetable Oils (palm, palm kernel, canola, peanut), Sugar, Corn Syrup, Fructose, Peanut Butter (peanuts, salt), Vegetable Glycerin, Rice Starch, Cocoa, Soy Lecithin, Salt, Whey Protein Concentrate, Corn Starch, Natural Flavor.\nContains peanut, soy and milk ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/peanut-butter-dark-chocolate-protein-chewy-bars"
+        }
+      ],
+      "variant": "Peanut Butter Dark Chocolate Protein Chewy Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, wheat, milk, soy; may contain almond ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "id": "batch03-nature-peanut-butter-wafer-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Peanut Butter (peanuts, salt), Sugar, Palm and Palm Kernel Oil, Whole Grain Wheat Flour, Whole Grain Oats, Maltodextrin, Partially Defatted Peanut Flour, Peanut Flour, Peanuts, Salt, Nonfat Milk, Corn Starch, Honey, Soy Lecithin, Baking Soda, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Peanut Butter Wafer Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "6.5 oz",
+      "precautionaryAllergens": [
+        "almond"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains peanut, wheat, milk, soy; may contain almond ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Peanut Butter Wafer Bars\nPeanut Butter Wafer Bars\n6.5 oz\nNature Valley\nPeanut Butter (peanuts, salt), Sugar, Palm and Palm Kernel Oil, Whole Grain Wheat Flour, Whole Grain Oats, Maltodextrin, Partially Defatted Peanut Flour, Peanut Flour, Peanuts, Salt, Nonfat Milk, Corn Starch, Honey, Soy Lecithin, Baking Soda, Natural Flavor.\nContains peanut, wheat, milk, soy; may contain almond ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/peanut-butter-wafer-bars"
+        }
+      ],
+      "variant": "Peanut Butter Wafer Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains pecan, soy; may contain peanut and almond ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "soy",
+        "pecan"
+      ],
+      "id": "batch03-nature-pecan-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Pecan Pieces, Brown Sugar Syrup, Salt, Soy Lecithin, Baking Soda, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Pecan Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "peanuts",
+        "almond"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains pecan, soy; may contain peanut and almond ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Pecan Crunchy Granola Bars\nPecan Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Canola and/or Sunflower Oil, Rice Flour, Pecan Pieces, Brown Sugar Syrup, Salt, Soy Lecithin, Baking Soda, Natural Flavor.\nContains pecan, soy; may contain peanut and almond ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/pecan-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Pecan Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, wheat, milk, soy; may contain almond ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "id": "batch03-nature-pretzel-peanut-butter-wafer-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Peanut Butter (peanuts, salt), Sugar, Palm and Palm Kernel Oil, Whole Grain Wheat Flour, Wheat Flour, Maltodextrin, Peanut Flour, Whole Grain Oats, Whey, Salt, Corn Starch, Soy Lecithin, Barley Malt, Soybean Oil, Baking Soda.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Pretzel Peanut Butter Wafer Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "6.5 oz",
+      "precautionaryAllergens": [
+        "almond"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains peanut, wheat, milk, soy; may contain almond ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Pretzel Peanut Butter Wafer Bars\nPretzel Peanut Butter Wafer Bars\n6.5 oz\nNature Valley\nPeanut Butter (peanuts, salt), Sugar, Palm and Palm Kernel Oil, Whole Grain Wheat Flour, Wheat Flour, Maltodextrin, Peanut Flour, Whole Grain Oats, Whey, Salt, Corn Starch, Soy Lecithin, Barley Malt, Soybean Oil, Baking Soda.\nContains peanut, wheat, milk, soy; may contain almond ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/pretzel-peanut-butter-wafer-bars"
+        }
+      ],
+      "variant": "Pretzel Peanut Butter Wafer Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains soy; may contain milk ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "breakfast",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "soy"
+      ],
+      "id": "batch03-nature-protein-granola-tub-dark-chocolate",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Soy Protein Isolate, Semisweet Chocolate Chunks (sugar, chocolate liquor, cocoa butter, natural flavor, soy lecithin), Canola and/or Sunflower Oil, Tapioca Syrup, Molasses, Rice Starch, Cocoa Processed with Alkali, Soy Lecithin, Salt, Baking Soda, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Protein Granola Tub Dark Chocolate",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "22.5 oz",
+      "precautionaryAllergens": [
+        "milk"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains soy; may contain milk ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Protein Granola Tub Dark Chocolate\nProtein Granola Tub Dark Chocolate\n22.5 oz\nNature Valley\nWhole Grain Oats, Sugar, Soy Protein Isolate, Semisweet Chocolate Chunks (sugar, chocolate liquor, cocoa butter, natural flavor, soy lecithin), Canola and/or Sunflower Oil, Tapioca Syrup, Molasses, Rice Starch, Cocoa Processed with Alkali, Soy Lecithin, Salt, Baking Soda, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness.\nContains soy; may contain milk ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/protein-granola-tub-dark-chocolate"
+        }
+      ],
+      "variant": "Protein Granola Tub Dark Chocolate",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains almond, soy; may contain peanut and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "soy",
+        "almond"
+      ],
+      "id": "batch03-nature-roasted-almond-crunchy-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Sugar, Canola and/or Sunflower Oil, Almond Pieces, Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Natural Flavor.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Roasted Almond Crunchy Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "8.94 oz",
+      "precautionaryAllergens": [
+        "peanuts",
+        "pecan"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains almond, soy; may contain peanut and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Roasted Almond Crunchy Granola Bars\nRoasted Almond Crunchy Granola Bars\n8.94 oz\nNature Valley\nWhole Grain Oats, Sugar, Canola and/or Sunflower Oil, Almond Pieces, Rice Flour, Brown Sugar Syrup, Salt, Baking Soda, Soy Lecithin, Natural Flavor.\nContains almond, soy; may contain peanut and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/roasted-almond-crunchy-granola-bars"
+        }
+      ],
+      "variant": "Roasted Almond Crunchy Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, cashew, almond, milk, soy; may contain macadamia and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "soy",
+        "almond",
+        "cashew"
+      ],
+      "id": "batch03-nature-roasted-mixed-nut-sweet-salty-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Roasted Peanuts, Corn Syrup, Sugar, Rice Flour, Palm Kernel Oil, Fructose, Cashews Roasted In Safflower Oil, Almonds, Vegetable Glycerin, Tapioca Syrup, Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Peanut Flour, Honey Roasted Almond Butter (almonds, honey, maltodextrin, palm oil, mixed tocopherols), Barley Malt Extract, Cashew Butter (cashew nuts, safflower oil), Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Roasted Mixed Nut Sweet & Salty Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": null,
+      "precautionaryAllergens": [
+        "pecan",
+        "macadamia"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains peanut, cashew, almond, milk, soy; may contain macadamia and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Roasted Mixed Nut Sweet & Salty Granola Bars\nRoasted Mixed Nut Sweet & Salty Granola Bars\nNature Valley\nWhole Grain Oats, Roasted Peanuts, Corn Syrup, Sugar, Rice Flour, Palm Kernel Oil, Fructose, Cashews Roasted In Safflower Oil, Almonds, Vegetable Glycerin, Tapioca Syrup, Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Peanut Flour, Honey Roasted Almond Butter (almonds, honey, maltodextrin, palm oil, mixed tocopherols), Barley Malt Extract, Cashew Butter (cashew nuts, safflower oil), Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.\nContains peanut, cashew, almond, milk, soy; may contain macadamia and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/roasted-mixed-nut-sweet-salty-granola-bars"
+        }
+      ],
+      "variant": "Roasted Mixed Nut Sweet & Salty Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, cashew, almond, milk, soy; may contain macadamia and pecan ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "complete",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "soy",
+        "almond",
+        "cashew"
+      ],
+      "id": "batch03-nature-salted-caramel-chocolate-sweet-salty-granola-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Roasted Peanuts, Corn Syrup, Sugar, Semisweet Chocolate Chunks (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor), Palm Kernel Oil, Rice Flour, Fructose, Cashews Roasted In Safflower Oil, Almonds, Vegetable Glycerin, Tapioca Syrup, Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Peanut Flour, Barley Malt Extract, Cocoa, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Salted Caramel Chocolate Sweet & Salty Granola Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": null,
+      "precautionaryAllergens": [
+        "pecan",
+        "macadamia"
+      ],
+      "precautionarySourceId": "primary",
+      "precautionaryStatement": "Contains peanut, cashew, almond, milk, soy; may contain macadamia and pecan ingredients.",
+      "precautionaryStatus": "documented",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Salted Caramel Chocolate Sweet & Salty Granola Bars\nSalted Caramel Chocolate Sweet & Salty Granola Bars\nNature Valley\nWhole Grain Oats, Roasted Peanuts, Corn Syrup, Sugar, Semisweet Chocolate Chunks (sugar, chocolate liquor, cocoa butter, soy lecithin, natural flavor), Palm Kernel Oil, Rice Flour, Fructose, Cashews Roasted In Safflower Oil, Almonds, Vegetable Glycerin, Tapioca Syrup, Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Peanut Flour, Barley Malt Extract, Cocoa, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.\nContains peanut, cashew, almond, milk, soy; may contain macadamia and pecan ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/salted-caramel-chocolate-sweet-salty-granola-bars"
+        }
+      ],
+      "variant": "Salted Caramel Chocolate Sweet & Salty Granola Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains wheat, milk and soy ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "id": "batch03-nature-strawberry-wafer-bars",
+      "imageReference": null,
+      "ingredientLabelText": "Oat Butter (whole grain oat flour, palm oil, sugar, canola oil, corn starch, salt), Whole Grain Wheat Flour, Sugar, Palm and Palm Kernel Oil, Whole Grain Oats, Maltodextrin, Fructose, Whey, Strawberry Powder, Soy Lecithin, Corn Starch, Salt, Natural Flavor, Baking Soda.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Strawberry Wafer Bars",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "6.5 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Strawberry Wafer Bars\nStrawberry Wafer Bars\n6.5 oz\nNature Valley\nOat Butter (whole grain oat flour, palm oil, sugar, canola oil, corn starch, salt), Whole Grain Wheat Flour, Sugar, Palm and Palm Kernel Oil, Whole Grain Oats, Maltodextrin, Fructose, Whey, Strawberry Powder, Soy Lecithin, Corn Starch, Salt, Natural Flavor, Baking Soda.\nContains wheat, milk and soy ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/strawberry-wafer-bars"
+        }
+      ],
+      "variant": "Strawberry Wafer Bars",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains peanut, milk and soy ingredients.",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "Nature Valley",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "peanuts",
+        "milk",
+        "soy"
+      ],
+      "id": "batch03-nature-turtle-sweet-salty-nut-granola-bar",
+      "imageReference": null,
+      "ingredientLabelText": "Whole Grain Oats, Corn Syrup, Sugar, Roasted Peanuts, Semisweet Chocolate Chips (sugar, chocolate liquor, cocoa butter, soy lecithin, salt, natural flavor), Rice Flour, Palm Kernel Oil, Fructose, Vegetable Glycerin, Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Peanut Flour, Barley Malt Extract, Cocoa, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "Turtle Sweet & Salty Nut Granola Bar",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+      "packageSize": "7.2 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "Turtle Sweet & Salty Nut Granola Bar\nTurtle Sweet & Salty Nut Granola Bar\n7.2 oz\nNature Valley\nWhole Grain Oats, Corn Syrup, Sugar, Roasted Peanuts, Semisweet Chocolate Chips (sugar, chocolate liquor, cocoa butter, soy lecithin, salt, natural flavor), Rice Flour, Palm Kernel Oil, Fructose, Vegetable Glycerin, Canola and/or Sunflower Oil, Whey, Salt, Soy Lecithin, Corn Starch, Peanut Flour, Barley Malt Extract, Cocoa, Baking Soda, Natural Flavor, Vitamin E (mixed tocopherols) Added to Retain Freshness.\nContains peanut, milk and soy ingredients.",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, flavor, ingredient panel and allergen statement reviewed. The full combined contains/may-contain sentence is preserved verbatim in both declaration fields when applicable. No warnings inferred from ingredients or other flavors. Whitespace normalized only; unsupported barcodes and images remain null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.naturevalley.com/products/turtle-sweet-salty-nut-granola-bar"
+        }
+      ],
+      "variant": "Turtle Sweet & Salty Nut Granola Bar",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Milk, Soy, Almonds",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "HERSHEY'S",
+      "category": "snacks-candy",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "milk",
+        "soy",
+        "almond"
+      ],
+      "id": "batch03-hershey-hersheys-milk-chocolate-with-almonds-candy-bar-1-45-oz",
+      "imageReference": null,
+      "ingredientLabelText": "Milk Chocolate (Sugar, Milk, Chocolate, Cocoa Butter, Milk Fat, Lecithin (Soy), PGPR, Natural Flavor), Almonds, Sunflower Oil",
+      "ingredientSourceId": "primary",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "HERSHEY'S Milk Chocolate with Almonds Candy Bar",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, size and explicit allergen declaration reviewed. No precautionary statement documented; it remains unknown. Barcode not independently established for the selected package; remains null.",
+      "packageSize": "1.45 oz",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "HERSHEY'S Milk Chocolate with Almonds Candy Bar\nHERSHEY'S Milk Chocolate with Almonds Candy Bar\n1.45 oz\nHERSHEY'S\nMilk Chocolate (Sugar, Milk, Chocolate, Cocoa Butter, Milk Fat, Lecithin (Soy), PGPR, Natural Flavor), Almonds, Sunflower Oil\nContains: Milk, Soy, Almonds",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, size and explicit allergen declaration reviewed. No precautionary statement documented; it remains unknown. Barcode not independently established for the selected package; remains null.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/hersheys-milk-chocolate-with-almonds-candy-bar-1-45-oz.html"
+        }
+      ],
+      "variant": "HERSHEY'S Milk Chocolate with Almonds Candy Bar",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Milk, Soy",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "HERSHEY'S",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "milk",
+        "soy"
+      ],
+      "id": "batch03-hershey-hersheys-milk-chocolate-chips-11-5-oz-bag",
+      "imageReference": null,
+      "ingredientLabelText": "INGREDIENTS: MILK CHOCOLATE [SUGAR; CHOCOLATE; SKIM MILK; COCOA BUTTER; MILK FAT; LECITHIN (SOY); NATURAL FLAVOR].",
+      "ingredientSourceId": "label-photo",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "HERSHEY'S Milk Chocolate Chips",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, size and explicit allergen declaration reviewed. No precautionary statement documented; it remains unknown. Barcode not independently established for the selected package; remains null. Ingredient text was visually transcribed from the manufacturer-linked back-of-package photo, not the cookie recipe above it. The milk chocolate chips photo explicitly qualifies lecithin as soy; that qualification is retained instead of the less detailed page text.",
+      "packageSize": "11.5 oz bag",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "HERSHEY'S Milk Chocolate Chips\nHERSHEY'S Milk Chocolate Chips\n11.5 oz bag\nHERSHEY'S\nMilk Chocolate (Sugar, Chocolate, Skim Milk, Cocoa Butter, Milk Fat, Lecithin, Natural Flavor)\nContains: Milk, Soy",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, size and explicit allergen declaration reviewed. No precautionary statement documented; it remains unknown. Barcode not independently established for the selected package; remains null. Ingredient text was visually transcribed from the manufacturer-linked back-of-package photo, not the cookie recipe above it. The milk chocolate chips photo explicitly qualifies lecithin as soy; that qualification is retained instead of the less detailed page text.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/hersheys-milk-chocolate-chips-11-5-oz-bag.html"
+        },
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "INGREDIENTS: MILK CHOCOLATE [SUGAR; CHOCOLATE; SKIM MILK; COCOA BUTTER; MILK FAT; LECITHIN (SOY); NATURAL FLAVOR].",
+          "id": "label-photo",
+          "kind": "manufacturer_label_photo",
+          "notes": "Readable back-of-package photograph linked by the official manufacturer product page. Reviewed visually; source capture SHA-256 7f96f3bb6e7b35b034c95cda342891d63c810c39dc0fc95380b5d911bb9b3a8b. No image copied into the app.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://s7d1.scene7.com/is/image/hersheyprodcloud/0_34000_14600_0_701_14600_018_Item_Back?fmt=webp-alpha&hei=1800&qlt=75"
+        }
+      ],
+      "variant": "HERSHEY'S Milk Chocolate Chips",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "allergenSourceId": "primary",
+      "allergenStatement": "Contains: Milk, Soy",
+      "allergenStatus": "documented",
+      "barcode": null,
+      "barcodeSourceId": null,
+      "brand": "HERSHEY'S",
+      "category": "pantry",
+      "completenessStatus": "partial",
+      "declaredAllergens": [
+        "milk",
+        "soy"
+      ],
+      "id": "batch03-hershey-hersheys-semi-sweet-chocolate-chips-12-oz-bag",
+      "imageReference": null,
+      "ingredientLabelText": "INGREDIENTS: SEMI-SWEET CHOCOLATE (SUGAR, CHOCOLATE, COCOA BUTTER, MILK FAT, LECITHIN (SOY), NATURAL FLAVOR).",
+      "ingredientSourceId": "label-photo",
+      "ingredientVerificationStatus": "verified",
+      "market": "US",
+      "name": "HERSHEY'S Semi-Sweet Chocolate Chips",
+      "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Documented declarations are not an allergy-safety determination. Missing precautions remain unknown. Exact US manufacturer product heading, size and explicit allergen declaration reviewed. No precautionary statement documented; it remains unknown. Barcode not independently established for the selected package; remains null. Ingredient text was visually transcribed from the manufacturer-linked back-of-package photo, not the cookie recipe above it. The milk chocolate chips photo explicitly qualifies lecithin as soy; that qualification is retained instead of the less detailed page text.",
+      "packageSize": "12 oz bag",
+      "precautionaryAllergens": null,
+      "precautionarySourceId": null,
+      "precautionaryStatement": null,
+      "precautionaryStatus": "unknown",
+      "sources": [
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "HERSHEY'S Semi-Sweet Chocolate Chips\nHERSHEY'S Semi-Sweet Chocolate Chips\n12 oz bag\nHERSHEY'S\nSemi-Sweet Chocolate (Sugar, Chocolate, Cocoa Butter, Milk Fat, Lecithin (Soy), Natural Flavor)\nContains: Milk, Soy",
+          "id": "primary",
+          "kind": "manufacturer_page",
+          "notes": "Exact US manufacturer product heading, size and explicit allergen declaration reviewed. No precautionary statement documented; it remains unknown. Barcode not independently established for the selected package; remains null. Ingredient text was visually transcribed from the manufacturer-linked back-of-package photo, not the cookie recipe above it. The milk chocolate chips photo explicitly qualifies lecithin as soy; that qualification is retained instead of the less detailed page text.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://www.hersheyland.com/products/hersheys-semi-sweet-chocolate-chips-12-oz-bag.html"
+        },
+        {
+          "checkedAt": "2026-11-18",
+          "evidence": "INGREDIENTS: SEMI-SWEET CHOCOLATE (SUGAR, CHOCOLATE, COCOA BUTTER, MILK FAT, LECITHIN (SOY), NATURAL FLAVOR).",
+          "id": "label-photo",
+          "kind": "manufacturer_label_photo",
+          "notes": "Readable back-of-package photograph linked by the official manufacturer product page. Reviewed visually; source capture SHA-256 3ef77cd004b055969f51936612f8816fb155e18af72aa30ac90f535d629960cd. No image copied into the app.",
+          "reviewStatus": "label_reviewed",
+          "url": "https://s7d1.scene7.com/is/image/hersheyprodcloud/0_34000_14830_1_701_14830_032_Item_Back_A?fmt=webp-alpha&hei=1800&qlt=75"
+        }
+      ],
+      "variant": "HERSHEY'S Semi-Sweet Chocolate Chips",
+      "verifiedAt": "2026-11-18"
+    }
+  ]
+}

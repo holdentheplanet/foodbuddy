@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-hershey-mounds-dark-chocolate-and-coconut-candy-bar-1-75-oz",
+  "name": "MOUNDS MOUNDS Dark Chocolate and Coconut Candy Bar, 1.75 oz",
+  "subject": "Two small oblong dark-chocolate covered coconut candy pieces, one cut to show dense white shredded coconut inside a thin dark chocolate shell. NO almonds or other nuts, no caramel, wafer or branding.",
+  "sourceUrls": [
+    "https://www.hersheyland.com/products/mounds-dark-chocolate-and-coconut-candy-bar-1-75-oz.html"
+  ],
+  "ingredientSha256": "46669f653be2981654eea4010436f4edeb76ef745effaddab7a1e645a1fad9a5",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Two small oblong dark-chocolate covered coconut candy pieces, one cut to show dense white shredded coconut inside a thin dark chocolate shell. NO almonds or other nuts, no caramel, wafer or branding.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-398991bd-dcf0-4b84-b7d5-05e322a3087e.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

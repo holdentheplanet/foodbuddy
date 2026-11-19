@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-daves-powerseed",
+  "name": "Dave's Killer Bread PowerSEED",
+  "subject": "Several slices of seeded whole-wheat sandwich bread, dense tan crumb with natural flax, sunflower, oat and pumpkin seed flecks. Do not show pieces of apple, pear or peach: their juices sweeten the bread but are not fruit chunks. No sesame coating invented from another variety, no butter or garnish.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/powerseed"
+  ],
+  "ingredientSha256": "4aaf2266e222c0ed71ccdae9018cbdfa3d998a4b014f09e207dbdf00c745f4ec",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Several slices of seeded whole-wheat sandwich bread, dense tan crumb with natural flax, sunflower, oat and pumpkin seed flecks. Do not show pieces of apple, pear or peach: their juices sweeten the bread but are not fruit chunks. No sesame coating invented from another variety, no butter or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-45af97c3-9bc1-45da-90ee-8ce2381e55c2.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

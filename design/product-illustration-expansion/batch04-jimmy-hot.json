@@ -1,0 +1,16 @@
+{
+  "productId": "batch04-jimmy-hot",
+  "name": "Jimmy Dean Hot Premium Pork Sausage",
+  "subject": "An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Hot Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.",
+  "sourceUrls": [
+    "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900115639"
+  ],
+  "ingredientSha256": "9c6b04bd71394d599c2fc3125e171494c755e807fff8f25382be61d21a8364e8",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: An unwrapped cylinder of raw ground pork breakfast sausage meat with one thick round slice separated, representing the fresh sausage roll variety Hot Premium Pork Sausage. No cooking, added food, packaging, maple syrup or garnish.\nProduct identity: Jimmy Dean Hot Premium Pork Sausage\nEvidence URLs (for provenance, not text to print): https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900115639",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-57dcb84b-2be0-47b7-9b6a-609a5e446912.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

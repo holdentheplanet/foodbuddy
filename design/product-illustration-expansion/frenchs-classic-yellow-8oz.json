@@ -1,0 +1,16 @@
+{
+  "productId": "frenchs-classic-yellow-8oz",
+  "name": "French's French's\u00ae Classic Yellow Mustard, 8 oz",
+  "subject": "Prepared classic yellow mustard alone in a plain low white ramekin, bright yellow smooth thick folded swirl. No mustard seeds or spices scattered around, no bottle or garnish.",
+  "sourceUrls": [
+    "https://www.mccormick.com/products/frenchs-classic-yellow-mustard-8-oz"
+  ],
+  "ingredientSha256": "de00edf7cc97aadbf1d680fc65aa46cffff07e7045ffa6ce7caa0674e006cd6b",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Prepared classic yellow mustard alone in a plain low white ramekin, bright yellow smooth thick folded swirl. No mustard seeds or spices scattered around, no bottle or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-cf2229d6-38da-45c9-ba2c-9e996d77ff91.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

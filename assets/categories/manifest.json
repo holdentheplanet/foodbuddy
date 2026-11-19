@@ -1,0 +1,92 @@
+[
+  {
+    "categoryId": "produce",
+    "file": "produce.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Original produce still life: apple, carrot, broccoli, pear; editorial gouache/vector-like cartoon, 3:2, pale mint, no packaging/text/logos.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "snacks-candy",
+    "file": "snacks-candy.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the snacks-candy category of a modern grocery mobile app. Subject: a small pile of ridged golden potato chips, a segmented dark chocolate bar and fluffy popcorn. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale peach background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "dairy-eggs",
+    "file": "dairy-eggs.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the dairy-eggs category of a modern grocery mobile app. Subject: a glass of milk, a wedge of golden cheese and two eggs, one cracked to show yolk. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale sky blue background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "breakfast",
+    "file": "breakfast.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the breakfast category of a modern grocery mobile app. Subject: a stack of pancakes with berries and a simple ceramic bowl of cereal. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale warm cream background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "bread-bakery",
+    "file": "bread-bakery.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the bread-bakery category of a modern grocery mobile app. Subject: a crusty bread loaf, a golden croissant and a small muffin. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale rose cream background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "frozen-foods",
+    "file": "frozen-foods.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the frozen-foods category of a modern grocery mobile app. Subject: a plain ceramic dish of frozen vegetable lasagna beside an ice cream cone and a few illustrated ice crystals. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale icy blue background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "beverages",
+    "file": "beverages.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the beverages category of a modern grocery mobile app. Subject: a glass of orange juice, a glass of water and a tall glass of berry smoothie, no labels. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale aqua background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "pantry",
+    "file": "pantry.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the pantry category of a modern grocery mobile app. Subject: a little nest of dry pasta, a wooden bowl of rice and a plain open metal can of beans with no label. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale sage background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "meat-seafood",
+    "file": "meat-seafood.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the meat-seafood category of a modern grocery mobile app. Subject: a salmon fillet, two shrimp and a raw chicken breast on a small simple plate, appetizing and non-graphic. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale blush background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  },
+  {
+    "categoryId": "condiments-dressings",
+    "file": "condiments-dressings.jpg",
+    "createdAt": "2026-11-19",
+    "method": "OpenAI built-in imagegen",
+    "purpose": "Original generic category artwork; not actual product packaging",
+    "prompt": "Create an original polished cartoon food illustration for the condiments-dressings category of a modern grocery mobile app. Subject: two small ceramic dishes of red ketchup and golden mustard, a glass cruet of olive oil and a herb sprig. Cohesive editorial gouache/vector-like cartoon style, rounded dimensional shapes, delicate grain texture, soft shadows, refined warm green and cream palette with appetizing natural colors. Landscape 3:2 composition, subjects large and centered, occupying 80% of frame on a very pale lavender cream background. Match an editorial painted food still life style across the category set. No text, no letters, no logos, no branded or fake product packaging, no emoji, no faces, no borders. This is generic category artwork, never product-specific packaging.",
+    "encoding": "768px JPEG, quality 85; source original retained in imagegen output directory"
+  }
+]

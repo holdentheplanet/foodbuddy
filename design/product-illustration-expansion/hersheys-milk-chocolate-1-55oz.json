@@ -1,0 +1,15 @@
+{
+  "productId": "hersheys-milk-chocolate-1-55oz",
+  "name": "HERSHEY'S HERSHEY'S Movie Milk Chocolate Candy Bar",
+  "subject": "A plain segmented milk-chocolate-colored candy bar in rectangular pieces, realistic smooth medium-brown chocolate. NO stamped brand name, letters, logos, wrappers, nuts or filling; do not reproduce branded packaging.",
+  "sourceUrls": [
+    "https://www.hersheyland.com/products/hersheys-milk-chocolate-candy-bar-1-55-oz.html"
+  ],
+  "ingredientSha256": "d46080e6f0e674171956768f70ec52d8b4c624ac40676fd070d85797434cc0c1",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "held",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. A plain segmented milk-chocolate-colored candy bar in rectangular pieces, realistic smooth medium-brown chocolate. NO stamped brand name, letters, logos, wrappers, nuts or filling; do not reproduce branded packaging.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-1144d4ee-dfc0-4e08-af86-a279acd86e9e.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewReason": "Generated segmentation was not corroborated against the exact bar. Retain neutral fallback."
+}

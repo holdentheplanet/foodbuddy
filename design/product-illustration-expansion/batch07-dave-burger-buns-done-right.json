@@ -1,0 +1,16 @@
+{
+  "productId": "batch07-dave-burger-buns-done-right",
+  "name": "Dave\u2019s Killer Bread BURGER BUNS DONE RIGHT",
+  "subject": "Two plain artisan-style rounded hamburger buns, smooth golden tops, no mixed whole seed coating, one horizontally split showing pale soft crumb. No actual burgers, cheese, lettuce, sauce or garnish.",
+  "sourceUrls": [
+    "https://www.daveskillerbread.com/burger-buns-done-right"
+  ],
+  "ingredientSha256": "7ba6a822269ecc522267e986c8cbc14cf0c41dfda2e2a00625aa8ae0c314720b",
+  "basis": "Exact named food form/flavor, existing manufacturer ingredient evidence, and reviewed product description where available",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: off-white neutral seamless background, realistic premium professional studio food textures, upper-left softbox lighting and gentle natural shadows. Do not copy the bread subject unless this request is for bread. Food fills 80 percent of frame, elevated three-quarter camera, square composition. No cartoon, emojis, drawings, logos, brands, fake packaging, unsupported garnishes, ingredients or invented food features. Small exact text 'Illustrative image' at bottom-left margin. Generated food representation, not official product photography. Two plain artisan-style rounded hamburger buns, smooth golden tops, no mixed whole seed coating, one horizontally split showing pale soft crumb. No actual burgers, cheese, lettuce, sauce or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-a861c271-2f21-4c68-b92e-1f09b584635b.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

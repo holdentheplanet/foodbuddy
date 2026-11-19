@@ -1,0 +1,16 @@
+{
+  "productId": "batch01-chex-blueberry-chex",
+  "name": "Chex Blueberry Chex",
+  "subject": "Dry blueberry flavored square-lattice cereal pillows in a plain white bowl. Subtle natural tan cereal with faint berry-colored coating only; no fresh blueberries or milk or invented dark-purple glaze.",
+  "sourceUrls": [
+    "https://www.chex.com/products/blueberry-chex"
+  ],
+  "ingredientSha256": "6c385e76b86be480a643f872ae5c5311dafab02d62b9a34e25c18a43aab872ec",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY, not a subject to copy: soft off-white background, premium professional food photography appearance, upper-left diffused studio lighting, gentle natural shadows and realistic food textures. Food fills 80 percent of the frame, consistent three-quarter elevated camera. No cartoon, emoji, illustration outlines, labels, logos, fake packaging, decorative extra ingredients or unsupported product features. Include the small exact text 'Illustrative image' in bottom-left margin. Generated representation, not official product photo. Dry blueberry flavored square-lattice cereal pillows in a plain white bowl. Subtle natural tan cereal with faint berry-colored coating only; no fresh blueberries or milk or invented dark-purple glaze.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-4f174b58-dd78-460e-860a-15789ecf5ca1.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

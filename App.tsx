@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useEffectEvent, useState } from 'react';
 import {
   ActivityIndicator,
   Alert,
@@ -12,6 +12,9 @@ import {
   View,
 } from 'react-native';
 
+import PasswordRecovery from './components/PasswordRecovery';
+import { waitForProfileSync } from './auth/navigationSync';
+import { syncCloudProfile } from './auth/cloudProfile';
 import HomeScreen from './screens/HomeScreen';
 import NearbyStoresScreen from './screens/NearbyStoresScreen';
 import SettingsScreen from './screens/SettingsScreen';
@@ -25,7 +28,7 @@ import {
   User,
   registerUser,
   loginUser,
-  getCurrentUser,
+  watchCurrentUser,
   logoutUser,
 } from './database/auth';
 
@@ -36,10 +39,15 @@ const CREAM = '#F7F5EF';
 type Tab = 'stores' | 'home' | 'products' | 'allergies' | 'settings';
 
 export default function App() {
+  const [homeShopEntry, setHomeShopEntry] = useState<{ productId?: string; categoryId?: string }>({});
   const [activeTab, setActiveTab] = useState<Tab>('home');
   const [storeSessionOwner, setStoreSessionOwner] = useState<number | null>(null);
   const [user, setUser] = useState<User | null>(null);
   const [ready, setReady] = useState(false);
+  const [recoveryOpen, setRecoveryOpen] = useState(false);
+  const [recovering, setRecovering] = useState(false);
+  const [profileSyncing, setProfileSyncing] = useState(false);
+  const [profileSyncMessage, setProfileSyncMessage] = useState<string | null>(null);
   const [mode, setMode] = useState<'login' | 'signup'>('login');
 
   const [username, setUsername] = useState('');
@@ -48,29 +56,63 @@ export default function App() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
+  const localUserId = user?.id;
   useEffect(() => {
-    if (!user) setStoreSessionOwner(null);
-    else if (activeTab === 'stores') setStoreSessionOwner(user.id);
-  }, [activeTab, user?.id]);
+    if (localUserId === undefined) setStoreSessionOwner(null);
+    else if (activeTab === 'stores') setStoreSessionOwner(localUserId);
+  }, [activeTab, localUserId]);
 
   useEffect(() => {
+    let alive = true;
+    let stop: (() => void) | undefined;
     async function start() {
       try {
         await initializeDatabase();
         await seedAllergyCatalog();
-
-        const savedUser = await getCurrentUser();
-        setUser(savedUser);
-      } catch (error) {
-        console.error(error);
-        Alert.alert('Startup Error', 'Could not load FoodBuddy.');
-      } finally {
-        setReady(true);
+        if (!alive) return;
+        stop = watchCurrentUser(next => {
+          if (!alive) return;
+          setUser(next);
+          setReady(true);
+        }, () => {
+          if (alive) { setReady(true); Alert.alert('Session unavailable', 'Connect to the internet and sign in again. Local data is preserved.'); }
+        });
+      } catch {
+        if (alive) { setReady(true); Alert.alert('Startup error', 'Check the Supabase configuration and database setup. Local data is preserved.'); }
       }
     }
-
-    start();
+    void start();
+    return () => { alive = false; stop?.(); };
   }, []);
+
+  const accountId = user?.supabaseId;
+  const syncActiveProfile = useEffectEvent(() => user ? syncCloudProfile(user) : Promise.resolve());
+
+  // Pull/push account selections at navigation boundaries; errors keep the local copy.
+  useEffect(() => {
+    let alive = true;
+    if (accountId && !recovering) {
+      const sync = syncActiveProfile();
+      if (activeTab === 'allergies') {
+        setProfileSyncing(true);
+        void waitForProfileSync(sync).then(status => {
+          if (!alive) return;
+          setProfileSyncMessage(status === 'synced' ? null : status === 'offline'
+            ? 'Cloud sync unavailable. Showing your saved local profile.'
+            : 'Showing your local profile while sync continues. Reopen this tab after syncing to see remote updates.');
+          setProfileSyncing(false);
+        });
+      } else void sync.catch(() => undefined);
+    }
+    return () => { alive = false; };
+  }, [accountId, activeTab, recovering]);
+
+  function navigate(tab: Tab) {
+    if (tab === activeTab) return;
+    if (tab === 'products') setHomeShopEntry({});
+    setProfileSyncing(tab === 'allergies');
+    setActiveTab(tab);
+  }
 
   async function handleSubmit() {
     if (loading) return;
@@ -100,7 +142,7 @@ export default function App() {
           ? await registerUser(username, email, password)
           : await loginUser(email, password);
 
-      setUser(signedInUser);
+      if (!signedInUser && mode === 'signup') Alert.alert('Signup pending', 'Supabase did not return a signed-in session. Check the project signup settings before trying again. Your old local account remains unchanged.');
       setActiveTab('home');
       setPassword('');
       setConfirmPassword('');
@@ -124,6 +166,8 @@ export default function App() {
       setPassword('');
       setConfirmPassword('');
       setMode('login');
+      setEmail('');
+      setUsername('');
     } catch {
       Alert.alert('Error', 'Could not log out.');
     }
@@ -138,9 +182,9 @@ export default function App() {
     );
   }
 
-  if (user) {
+  if (user && !recovering) {
     return (
-      <SafeAreaView style={styles.container}>
+      <SafeAreaView key={user.supabaseId} style={styles.container}>
         <View style={styles.screen}>
           {(activeTab === 'stores' || storeSessionOwner === user.id) && <View style={styles.storeLayer}
             pointerEvents={activeTab === 'stores' ? 'auto' : 'none'} accessibilityElementsHidden={activeTab !== 'stores'}
@@ -148,11 +192,12 @@ export default function App() {
             <NearbyStoresScreen userId={user.id} isActive={activeTab === 'stores'} onBack={() => setActiveTab('home')} />
           </View>}
           {activeTab !== 'stores' && <View style={styles.foregroundLayer}>
-            {activeTab === 'settings' ? <SettingsScreen user={user} onUserUpdated={setUser} onLogout={handleLogout} />
-              : activeTab === 'allergies' ? <AllergyProfileScreen userId={user.id} />
-              : activeTab === 'products' ? <ProductSearchScreen userId={user.id} onBack={() => setActiveTab('home')} />
-              : <HomeScreen username={user.username} onProducts={() => setActiveTab('products')}
-                  onStores={() => setActiveTab('stores')} onAllergies={() => setActiveTab('allergies')} />}
+            {activeTab === 'settings' ? <SettingsScreen user={user} onUserUpdated={next => setUser(current => current?.supabaseId === next.supabaseId ? next : current)} onLogout={handleLogout} />
+              : activeTab === 'allergies' ? profileSyncing ? <View style={styles.center} accessibilityLiveRegion="polite"><ActivityIndicator color={GREEN} /><Text style={styles.subtitle}>Opening your allergy profile…</Text></View>
+                : <View style={styles.screen}>{profileSyncMessage && <Text accessibilityLiveRegion="polite" style={styles.syncNotice}>{profileSyncMessage}</Text>}<AllergyProfileScreen key={user.supabaseId} userId={user.id} /></View>
+              : activeTab === 'products' ? <ProductSearchScreen initialProductId={homeShopEntry.productId} initialCategoryId={homeShopEntry.categoryId} userId={user.id} onBack={() => setActiveTab('home')} />
+              : <HomeScreen userId={user.id} username={user.username} onProducts={destination => { setHomeShopEntry(destination ?? {}); setActiveTab('products'); }}
+                  onStores={() => setActiveTab('stores')} onAllergies={() => navigate('allergies')} />}
           </View>}
         </View>
         <View style={styles.tabBar}>
@@ -160,9 +205,9 @@ export default function App() {
             { id: 'stores', label: 'Stores', icon: '⌖' }, { id: 'allergies', label: 'Allergies', icon: '♡' },
             { id: 'settings', label: 'Settings', icon: '⚙︎' }] as const).map(tab => <TouchableOpacity key={tab.id}
               accessibilityRole="tab" accessibilityLabel={`Navigate to ${tab.label}`} accessibilityState={{ selected: activeTab === tab.id }}
-              style={[styles.tab, activeTab === tab.id && styles.activeTab]} onPress={() => setActiveTab(tab.id)}>
+              style={[styles.tab, activeTab === tab.id && styles.activeTab]} onPress={() => navigate(tab.id)}>
               <Text accessible={false} maxFontSizeMultiplier={1.3} style={[styles.tabIcon, activeTab === tab.id && styles.activeTabText]}>{tab.icon}</Text>
-              <Text maxFontSizeMultiplier={1.3} style={[styles.tabText, activeTab === tab.id && styles.activeTabText]}>{tab.label}</Text>
+              <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.85} maxFontSizeMultiplier={1.3} style={[styles.tabText, activeTab === tab.id && styles.activeTabText]}>{tab.label}</Text>
             </TouchableOpacity>)}
         </View>
       </SafeAreaView>
@@ -192,8 +237,9 @@ export default function App() {
         {mode === 'signup' && (
           <TextInput
             style={styles.input}
+            accessibilityLabel="Username"
             placeholder="Username"
-            placeholderTextColor="#777"
+            placeholderTextColor="#53645F"
             autoCapitalize="none"
             value={username}
             onChangeText={setUsername}
@@ -202,8 +248,9 @@ export default function App() {
 
         <TextInput
           style={styles.input}
+          accessibilityLabel="Email address"
           placeholder="Email"
-          placeholderTextColor="#777"
+          placeholderTextColor="#53645F"
           keyboardType="email-address"
           autoCapitalize="none"
           autoCorrect={false}
@@ -213,8 +260,9 @@ export default function App() {
 
         <TextInput
           style={styles.input}
+          accessibilityLabel="Password"
           placeholder="Password"
-          placeholderTextColor="#777"
+          placeholderTextColor="#53645F"
           secureTextEntry
           value={password}
           onChangeText={setPassword}
@@ -223,8 +271,9 @@ export default function App() {
         {mode === 'signup' && (
           <TextInput
             style={styles.input}
+            accessibilityLabel="Confirm password"
             placeholder="Confirm Password"
-            placeholderTextColor="#777"
+            placeholderTextColor="#53645F"
             secureTextEntry
             value={confirmPassword}
             onChangeText={setConfirmPassword}
@@ -236,6 +285,7 @@ export default function App() {
             styles.authButton,
             loading && styles.disabledButton,
           ]}
+          accessibilityRole="button" accessibilityLabel={mode === 'signup' ? 'Sign up' : 'Log in'} accessibilityState={{ disabled: loading, busy: loading }}
           onPress={handleSubmit}
           disabled={loading}
         >
@@ -248,8 +298,12 @@ export default function App() {
           )}
         </TouchableOpacity>
 
+        <Text style={styles.subtitle}>Use your Supabase email and password on any device. Existing local accounts are preserved; after signing in, Settings can verify and copy supported legacy allergy selections.</Text>
+        {recoveryOpen ? <PasswordRecovery onDone={() => setRecoveryOpen(false)} onRecoveryMode={setRecovering} /> :
+          <TouchableOpacity accessibilityRole="button" style={styles.switchButton} onPress={() => setRecoveryOpen(true)}><Text style={styles.switchText}>Forgot password?</Text></TouchableOpacity>}
         <TouchableOpacity
           style={styles.switchButton}
+          accessibilityRole="button"
           onPress={() => {
             setMode(mode === 'login' ? 'signup' : 'login');
             setPassword('');
@@ -268,6 +322,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  syncNotice: { color: '#704018', backgroundColor: '#FFF1D6', padding: 12, fontSize: 13, lineHeight: 20 },
   storeLayer: { position: 'absolute', top: 0, bottom: 0, left: 0, right: 0 },
   foregroundLayer: { flex: 1, backgroundColor: CREAM },
   activeTab: { backgroundColor: '#EAF1E9' },
@@ -406,6 +461,7 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
   },
   tabText: {
+    maxWidth: '100%',
     fontSize: 11,
     color: '#53645F',
     fontWeight: '500',
@@ -445,6 +501,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   switchButton: {
+    minHeight: 44, justifyContent: 'center',
     alignItems: 'center',
     marginTop: 24,
   },

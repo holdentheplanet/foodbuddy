@@ -1,0 +1,16 @@
+{
+  "productId": "batch05-chobani-strawberry",
+  "name": "Chobani Strawberry",
+  "subject": "A small plain transparent glass dish of thick white Greek yogurt with a modest layer of strawberry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.",
+  "sourceUrls": [
+    "https://chobani.com/products/yogurt-greek-strawberry-cup"
+  ],
+  "ingredientSha256": "7139dc5ca7f21fdff5773ad608a9c78acbbe573d438646176a19cec0e789cac4",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: A small plain transparent glass dish of thick white Greek yogurt with a modest layer of strawberry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.\nProduct identity: Chobani Strawberry\nEvidence URLs (for provenance, not text to print): https://chobani.com/products/yogurt-greek-strawberry-cup",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-8a401876-cb0e-4334-a8f4-1c09063c3d25.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

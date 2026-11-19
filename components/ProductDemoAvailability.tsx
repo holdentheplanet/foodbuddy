@@ -21,7 +21,7 @@ export default function ProductDemoAvailability({ productId }: { productId: stri
     return () => { current = false; };
   }, [open, productId]);
   return <View style={{ marginTop: 20, gap: 8 }}>
-    <TouchableOpacity accessibilityRole="button" accessibilityLabel="Toggle demo store availability" accessibilityState={{ expanded: open }} style={{ minHeight: 48, justifyContent: 'center', padding: 12, borderWidth: 1, borderColor: c.border, borderRadius: 12 }} onPress={() => setOpen(value => !value)}>
+    <TouchableOpacity accessibilityRole="button" accessibilityLabel="Toggle demo store availability" accessibilityState={{ expanded: open }} style={{ minHeight: 48, justifyContent: 'center', paddingVertical: 12, borderBottomWidth: 1, borderColor: c.border }} onPress={() => setOpen(value => !value)}>
       <Text style={{ color: '#183D32', fontWeight: 'bold' }}>{open ? 'Hide demo store availability' : 'View demo store availability'}</Text>
     </TouchableOpacity>
     {open && <>
@@ -29,7 +29,7 @@ export default function ProductDemoAvailability({ productId }: { productId: stri
       {loading && <ActivityIndicator color="#183D32" />}
       {error && <Text>Demo availability could not be loaded. Ingredient information is separate.</Text>}
       {!loading && !error && rows.length === 0 && <Text>No demo inventory assignments for this product. Actual availability is unknown.</Text>}
-      {rows.map(row => <View key={row.storeId} style={{ padding: 12, borderRadius: 12, backgroundColor: c.cream, gap: 4 }}>
+      {rows.map(row => <View key={row.storeId} style={{ paddingVertical: 12, borderBottomWidth: 1, borderColor: c.border, gap: 4 }}>
         <Text style={{ color: '#172B4D', fontWeight: 'bold' }}>{row.name}</Text>
         <StockBadge status={row.status} />
       </View>)}

@@ -1,0 +1,16 @@
+{
+  "productId": "us-rotini-original",
+  "name": "Barilla Barilla Rotini Pasta",
+  "subject": "Uncooked golden durum-wheat rotini corkscrew pasta spirals in a loose small pile. Clearly spiral shape, not penne or fusilli lunghi. No sauce or garnish.",
+  "sourceUrls": [
+    "https://www.connect.syncpdi.com/sync_pdi/servlet/ItemDynSpec?GTIN=00076808280982&ID=barillaretail&InstanceID=9c6e678cdec83538c880e1b567dd3ac9"
+  ],
+  "ingredientSha256": "093991037bad7e6809a434d15b86c28a62cdde9ceba1551055ecdf6407c2919e",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Uncooked golden durum-wheat rotini corkscrew pasta spirals in a loose small pile. Clearly spiral shape, not penne or fusilli lunghi. No sauce or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-fe23424a-f1ee-4b62-b3da-3d22347add40.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

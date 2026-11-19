@@ -1,0 +1,16 @@
+{
+  "productId": "rice-chex",
+  "name": "Chex Rice Chex",
+  "subject": "Dry pale golden rice cereal pieces shaped as small hollow square woven lattice pillows in a white bowl, distinct airy grid structure. No milk, rice grains, fruit or garnish.",
+  "sourceUrls": [
+    "https://www.chex.com/products/rice-chex/"
+  ],
+  "ingredientSha256": "791f1585f564bcc1ee1145fdc10d0eac24bb0ff511fa6a25fc3483e3dcca35df",
+  "basis": "Exact named food format/flavor and previously reviewed manufacturer ingredient evidence; no recipe additions or packaging",
+  "status": "visual_review_passed",
+  "prompt": "Create a NEW square photorealistic product-specific food illustration. Reference image is STYLE ONLY: match soft off-white background, premium studio food photography, upper-left diffused lighting, gentle shadows, natural fine textures and square framing. Do not copy the reference bread subject. Food fills 80 percent of frame, three-quarter elevated camera. No cartoons, emojis, drawings, logos, fake packaging, extra ingredients or unsupported product features. Include small exact text 'Illustrative image' bottom-left. This is generated food illustration, not official manufacturer photography. Dry pale golden rice cereal pieces shaped as small hollow square woven lattice pillows in a white bowl, distinct airy grid structure. No milk, rice grains, fruit or garnish.",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-45a4755c-77c4-4435-8097-4ec6ca5e4ab4.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

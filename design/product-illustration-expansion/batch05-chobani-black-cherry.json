@@ -1,0 +1,16 @@
+{
+  "productId": "batch05-chobani-black-cherry",
+  "name": "Chobani Black Cherry",
+  "subject": "A small plain transparent glass dish of thick white Greek yogurt with a modest layer of black cherry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.",
+  "sourceUrls": [
+    "https://chobani.com/products/yogurt-greek-black-cherry-cup"
+  ],
+  "ingredientSha256": "9e89b1a527dcc9a7c3dff95fd8b45074c704496eaca9365b6a42a7bb4ace827b",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: A small plain transparent glass dish of thick white Greek yogurt with a modest layer of black cherry fruit preparation beneath it, visible through the side; only fruit incorporated in the preparation, no loose whole fruit garnish or other toppings.\nProduct identity: Chobani Black Cherry\nEvidence URLs (for provenance, not text to print): https://chobani.com/products/yogurt-greek-black-cherry-cup",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-9748db4c-c65a-4424-907c-9b82c1843955.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

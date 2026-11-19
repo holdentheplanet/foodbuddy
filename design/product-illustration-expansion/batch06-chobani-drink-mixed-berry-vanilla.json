@@ -1,0 +1,16 @@
+{
+  "productId": "batch06-chobani-drink-mixed-berry-vanilla",
+  "name": "Chobani Mixed Berry Vanilla",
+  "subject": "A short plain clear glass of smooth pale pink Mixed Berry Vanilla high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.",
+  "sourceUrls": [
+    "https://chobani.com/products/high-protein-greek-yogurt-drinks-mixed-berry-vanilla-20g"
+  ],
+  "ingredientSha256": "2a5d2963589a966b30d30337e6532223b56ad7d6ec53dc1312e2119bf1052df9",
+  "basis": "Exact manufacturer-documented product line, variant, named physical food form and verified ingredient panel. Serving vessels are illustrative, not branded packaging.",
+  "status": "visual_review_passed",
+  "prompt": "Create ONE square photorealistic food illustration for an offline grocery app, in the same restrained professional studio food-photography style as the reference (STYLE ONLY). Soft off-white background, natural soft studio lighting, realistic textures, food fills most of the frame, no cartoon, no outlines. This is NOT a manufacturer photograph. No branded packaging, logos, labels, watermarks, fake text or ingredient claims. Do not include any unlisted garnish or food. Add only a tiny discreet 'Illustrative image' caption at bottom left. The reference bread must not appear unless the requested food is bread. Exact food subject: A short plain clear glass of smooth pale pink Mixed Berry Vanilla high-protein Greek yogurt drink. A drink, not a spoonable yogurt parfait. No toppings, foam, ice, fruit garnish or packaging.\nProduct identity: Chobani Mixed Berry Vanilla\nEvidence URLs (for provenance, not text to print): https://chobani.com/products/high-protein-greek-yogurt-drinks-mixed-berry-vanilla-20g",
+  "sourcePath": "/Users/alexysguevara/.codex/generated_images/01a1cbd7-613e-73f2-80fe-ea328e1a5d7f/exec-46453b43-3b95-4d81-be79-7cac2e84de77.png",
+  "method": "OpenAI built-in imagegen",
+  "reviewedAt": "2026-11-19",
+  "reviewScope": "Product-specific illustrative food form, no fake packaging, no unlisted garnish, framing and texture. Not a manufacturer photograph or ingredient evidence."
+}

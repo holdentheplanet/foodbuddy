@@ -1,0 +1,1156 @@
+{
+  "formatVersion": 1,
+  "catalogId": "us-reviewed-batch-06",
+  "candidates": [
+    {
+      "product": {
+        "id": "batch06-chobani-flip-cookie-dough",
+        "name": "Cookie Dough",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, brown sugar, milk, palm kernel oil, chocolate, wheat syrup, cocoa butter, natural flavors, whole grain brown rice flour, fruit pectin, tapioca flour, salt, skim milk, wheat flour, soy lecithin, sunflower oil, guar gum, wheat starch, cocoa, honey, milk protein, vanilla extract, lemon juice concentrate, baking soda.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-cookie-dough-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cookie Dough\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, brown sugar, milk, palm kernel oil, chocolate, wheat syrup, cocoa butter, natural flavors, whole grain brown rice flour, fruit pectin, tapioca flour, salt, skim milk, wheat flour, soy lecithin, sunflower oil, guar gum, wheat starch, cocoa, honey, milk protein, vanilla extract, lemon juice concentrate, baking soda.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, brown sugar, milk, palm kernel oil, chocolate, wheat syrup, cocoa butter, natural flavors, whole grain brown rice flour, fruit pectin, tapioca flour, salt, skim milk, wheat flour, soy lecithin, sunflower oil, guar gum, wheat starch, cocoa, honey, milk protein, vanilla extract, lemon juice concentrate, baking soda. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cookie Dough\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "3ee63f6d2549d6b49a02f7d19b9f1cbb1ba9ab47dbc031e076d9e0cb4b048435"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-flip-cookies-cream",
+        "name": "Cookies & Cream",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), cocoa, natural flavors, fruit pectin, chocolate, cocoa butter, tapioca flour, caramel color, guar gum, skim milk, salt, baking soda, soy lecithin, lemon juice concentrate, locust bean gum, vanilla extract.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-cookies-cream-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cookies & Cream\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), cocoa, natural flavors, fruit pectin, chocolate, cocoa butter, tapioca flour, caramel color, guar gum, skim milk, salt, baking soda, soy lecithin, lemon juice concentrate, locust bean gum, vanilla extract.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), cocoa, natural flavors, fruit pectin, chocolate, cocoa butter, tapioca flour, caramel color, guar gum, skim milk, salt, baking soda, soy lecithin, lemon juice concentrate, locust bean gum, vanilla extract. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cookies & Cream\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "f05545266e6aa50c325d2a40fb6696c1cd2dbb96e25dad248368e5573de0fd28"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-flip-key-lime-crumble",
+        "name": "Key Lime Crumble®",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, brown sugar, soybean oil, key lime puree, cocoa butter, key lime juice concentrate, milk, fruit pectin, skim milk, guar gum, natural flavors, white vinegar, cinnamon, baking soda, salt, honey, soy lecithin, tapioca flour, fruit juice concentrate and turmeric (for color), lemon juice concentrate, vanilla extract.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-key-lime-crumble-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Key Lime Crumble®\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, brown sugar, soybean oil, key lime puree, cocoa butter, key lime juice concentrate, milk, fruit pectin, skim milk, guar gum, natural flavors, white vinegar, cinnamon, baking soda, salt, honey, soy lecithin, tapioca flour, fruit juice concentrate and turmeric (for color), lemon juice concentrate, vanilla extract.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, brown sugar, soybean oil, key lime puree, cocoa butter, key lime juice concentrate, milk, fruit pectin, skim milk, guar gum, natural flavors, white vinegar, cinnamon, baking soda, salt, honey, soy lecithin, tapioca flour, fruit juice concentrate and turmeric (for color), lemon juice concentrate, vanilla extract. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Key Lime Crumble®\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "ad49783a0800292670b2e12a4e1a2ade3b3e7d17c4c70b72c2f375313aaede3c"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-flip-strawberry-cheesecake",
+        "name": "Strawberry Cheesecake",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, strawberries, water, wheat flour, vegetable oils (palm, palm kernel), natural flavors, rice flour, brown sugar, tapioca flour, fruit pectin, skim milk, wheat germ, honey, salt, wheat bran, locust bean gum, vegetable juice concentrate (for color), guar gum, soy lecithin, baking soda, citric acid, calcium carbonate, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-strawberry-cheesecake-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Strawberry Cheesecake\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, strawberries, water, wheat flour, vegetable oils (palm, palm kernel), natural flavors, rice flour, brown sugar, tapioca flour, fruit pectin, skim milk, wheat germ, honey, salt, wheat bran, locust bean gum, vegetable juice concentrate (for color), guar gum, soy lecithin, baking soda, citric acid, calcium carbonate, lemon juice concentrate.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, strawberries, water, wheat flour, vegetable oils (palm, palm kernel), natural flavors, rice flour, brown sugar, tapioca flour, fruit pectin, skim milk, wheat germ, honey, salt, wheat bran, locust bean gum, vegetable juice concentrate (for color), guar gum, soy lecithin, baking soda, citric acid, calcium carbonate, lemon juice concentrate. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Strawberry Cheesecake\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "5ef19d1c9d4b08eb47628ef00dfed0f5a849d9663db4799b04e0c9b956b4a048"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-flip-salted-caramel-crunch",
+        "name": "Salted Caramel Crunch®",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, chocolate, cocoa butter, tapioca flour, milk, natural flavors, caramelized syrup, salt, guar gum, caramel color, malted barley flour, fruit pectin, soybean oil, soy lecithin, lemon juice concentrate, baking soda.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-salted-caramel-crunch-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Salted Caramel Crunch®\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, chocolate, cocoa butter, tapioca flour, milk, natural flavors, caramelized syrup, salt, guar gum, caramel color, malted barley flour, fruit pectin, soybean oil, soy lecithin, lemon juice concentrate, baking soda.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, chocolate, cocoa butter, tapioca flour, milk, natural flavors, caramelized syrup, salt, guar gum, caramel color, malted barley flour, fruit pectin, soybean oil, soy lecithin, lemon juice concentrate, baking soda. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Salted Caramel Crunch®\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "e8ee0b1cbd6d49c7f7b2473586d6dd1c73d2572bc18510590bcc5717fd931338"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-flip-mint-chocolate-chip",
+        "name": "Mint Chocolate Chip",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, chocolate, vegetable oils (palm, palm kernel), rice flour, cocoa, fruit pectin, natural flavors, guar gum, salt, caramel color, skim milk, milk, cocoa butter, baking soda, fruit juice concentrate and turmeric (for color), soy lecithin, vanilla extract, lemon juice concentrate, peppermint oil, tapioca flour.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-mint-chocolate-chip-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Mint Chocolate Chip\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, chocolate, vegetable oils (palm, palm kernel), rice flour, cocoa, fruit pectin, natural flavors, guar gum, salt, caramel color, skim milk, milk, cocoa butter, baking soda, fruit juice concentrate and turmeric (for color), soy lecithin, vanilla extract, lemon juice concentrate, peppermint oil, tapioca flour.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, chocolate, vegetable oils (palm, palm kernel), rice flour, cocoa, fruit pectin, natural flavors, guar gum, salt, caramel color, skim milk, milk, cocoa butter, baking soda, fruit juice concentrate and turmeric (for color), soy lecithin, vanilla extract, lemon juice concentrate, peppermint oil, tapioca flour. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Mint Chocolate Chip\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "14a185b6f838ee451d25addd7770714e71c0ab2da1b5eaf2d0bab47f0b342296"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-flip-boston-cream-pie",
+        "name": "Boston Cream Pie*",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, sweetened condensed milk (milk, cane sugar), vegetable oils (palm, palm kernel), chocolate, cocoa butter, milk, fruit pectin, natural flavors, salt, brown sugar, skim milk, fruit and vegetable juice concentrate & beta carotene (for color), guar gum, soy lecithin, lemon juice concentrate, tapioca flour, vanilla extract.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-boston-cream-pie-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Boston Cream Pie*\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, sweetened condensed milk (milk, cane sugar), vegetable oils (palm, palm kernel), chocolate, cocoa butter, milk, fruit pectin, natural flavors, salt, brown sugar, skim milk, fruit and vegetable juice concentrate & beta carotene (for color), guar gum, soy lecithin, lemon juice concentrate, tapioca flour, vanilla extract.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, sweetened condensed milk (milk, cane sugar), vegetable oils (palm, palm kernel), chocolate, cocoa butter, milk, fruit pectin, natural flavors, salt, brown sugar, skim milk, fruit and vegetable juice concentrate & beta carotene (for color), guar gum, soy lecithin, lemon juice concentrate, tapioca flour, vanilla extract. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts. *Does not contain eggs.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Boston Cream Pie*\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "7e6c8b65a51909825806c6a536a45968bb969d2a112ef0deb969afaf75646a37"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-flip-confetti-birthday-cake",
+        "name": "Confetti Birthday Cake",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), brown sugar, rice flour, tapioca flour, natural flavors, skim milk, milk, salt, guar gum, fruit pectin, vegetable juice concentrate, beta carotene and spirulina (for color), soy lecithin, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-confetti-birthday-cake-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Confetti Birthday Cake\nChobani® Flip®\n4.5oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), brown sugar, rice flour, tapioca flour, natural flavors, skim milk, milk, salt, guar gum, fruit pectin, vegetable juice concentrate, beta carotene and spirulina (for color), soy lecithin, lemon juice concentrate.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), brown sugar, rice flour, tapioca flour, natural flavors, skim milk, milk, salt, guar gum, fruit pectin, vegetable juice concentrate, beta carotene and spirulina (for color), soy lecithin, lemon juice concentrate. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Confetti Birthday Cake\nChobani® Flip®\n4.5oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US flavor heading, Flip product line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences are stored separately. Generic tree nuts remain generic, without derivative inference. The Boston Cream Pie negative egg footnote is retained in source evidence only; it is neither a positive egg declaration nor a precautionary egg warning. Manufacturer spelling retained; whitespace normalized only.",
+        "sourceCaptureSha256": "547e6a6e3eb57f786d34ebeaccaf6cebe0d13e07ad1f49bb7d486402cae0b9ab"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-drink-strawberries-and-cream",
+        "name": "Strawberries & Cream",
+        "brand": "Chobani",
+        "variant": "Chobani® 20G High Protein Greek Yogurt Drink",
+        "packageSize": "10 fl oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Lowfat greek yogurt (cultured skim milk and cream), water, strawberries, less than 2% of: chicory root fiber, natural flavors, lactase**, fruit pectin, vegetable juice concentrate (for color), stevia extract, locust bean gum, monk fruit extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/high-protein-greek-yogurt-drinks-strawberries-and-cream-20g",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Strawberries & Cream\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz\nChobani\nLowfat greek yogurt (cultured skim milk and cream), water, strawberries, less than 2% of: chicory root fiber, natural flavors, lactase**, fruit pectin, vegetable juice concentrate (for color), stevia extract, locust bean gum, monk fruit extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+            "notes": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Strawberries & Cream\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized.",
+        "sourceCaptureSha256": "8386a22b97251951157ff0489d5a0633199aad515ccb5b85fead1a64c42731b7"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-drink-peaches-and-cream",
+        "name": "Peaches & Cream",
+        "brand": "Chobani",
+        "variant": "Chobani® 20G High Protein Greek Yogurt Drink",
+        "packageSize": "10 fl oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Lowfat greek yogurt (cultured skim milk and cream), peaches, water, less than 2% of: chicory root fiber, natural flavors, lactase**, fruit pectin, fruit and vegetable juice concentrate (for color), guar gum, stevia extract, monk fruit extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/high-protein-greek-yogurt-drinks-peaches-and-cream-20g",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Peaches & Cream\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz\nChobani\nLowfat greek yogurt (cultured skim milk and cream), peaches, water, less than 2% of: chicory root fiber, natural flavors, lactase**, fruit pectin, fruit and vegetable juice concentrate (for color), guar gum, stevia extract, monk fruit extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+            "notes": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Peaches & Cream\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized.",
+        "sourceCaptureSha256": "327d4b923577f08c2a9367bb7501fca5f489c3cf701be766e29f290f8d12d79d"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-drink-mixed-berry-vanilla",
+        "name": "Mixed Berry Vanilla",
+        "brand": "Chobani",
+        "variant": "Chobani® 20G High Protein Greek Yogurt Drink",
+        "packageSize": "10 fl oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Lowfat greek yogurt (cultured skim milk and cream), water, fruit blend (blueberries, raspberries, blackberries, strawberries), less than 2% of: vanilla extract, natural flavors, chicory root fiber, lactase**, fruit pectin, fruit and vegetable juice concentrate (for color), stevia extract, locust bean gum, monk fruit extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/high-protein-greek-yogurt-drinks-mixed-berry-vanilla-20g",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Mixed Berry Vanilla\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz\nChobani\nLowfat greek yogurt (cultured skim milk and cream), water, fruit blend (blueberries, raspberries, blackberries, strawberries), less than 2% of: vanilla extract, natural flavors, chicory root fiber, lactase**, fruit pectin, fruit and vegetable juice concentrate (for color), stevia extract, locust bean gum, monk fruit extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+            "notes": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Mixed Berry Vanilla\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized.",
+        "sourceCaptureSha256": "8c00656c27fd1663871f1321e6b5894d2a547488f3cb759a22a643ef9e0e4fbe"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-drink-mango-pineapple",
+        "name": "Mango Pineapple",
+        "brand": "Chobani",
+        "variant": "Chobani® 20G High Protein Greek Yogurt Drink",
+        "packageSize": "10 fl oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Lowfat greek yogurt (cultured skim milk and cream), water, fruit puree blend (mangoes, pineapples), less than 2% of: chicory root fiber, natural flavors, fruit pectin, stevia extract, monk fruit extract, lactase**, lemon juice concentrate, locust bean gum. **Ingredient not found in regular yogurt.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/high-protein-greek-yogurt-drinks-mango-pineapple-20g",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Mango Pineapple\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz\nChobani\nLowfat greek yogurt (cultured skim milk and cream), water, fruit puree blend (mangoes, pineapples), less than 2% of: chicory root fiber, natural flavors, fruit pectin, stevia extract, monk fruit extract, lactase**, lemon juice concentrate, locust bean gum. **Ingredient not found in regular yogurt.",
+            "notes": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Mango Pineapple\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized.",
+        "sourceCaptureSha256": "0265a66230aa238994e77a9b84638e6579f56b79f24b1ac901048ca17a728c91"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-drink-cherry-vanilla",
+        "name": "Cherry Vanilla",
+        "brand": "Chobani",
+        "variant": "Chobani® 20G High Protein Greek Yogurt Drink",
+        "packageSize": "10 fl oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Lowfat greek yogurt (cultured skim milk and cream), water, cherries, less than 2% of: vanilla extract, chicory root fiber, natural flavors, lactase**, fruit pectin, fruit and vegetable juice (for color), monk fruit extract, locust bean gum, stevia extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/high-protein-greek-yogurt-drinks-cherry-vanilla-20g",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cherry Vanilla\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz\nChobani\nLowfat greek yogurt (cultured skim milk and cream), water, cherries, less than 2% of: vanilla extract, chicory root fiber, natural flavors, lactase**, fruit pectin, fruit and vegetable juice (for color), monk fruit extract, locust bean gum, stevia extract, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+            "notes": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cherry Vanilla\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized.",
+        "sourceCaptureSha256": "e14fb33b76c3c65e558976fed336ba1321ab928a2c9bf0af98faa2e9f857e7b4"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-chobani-drink-vanilla",
+        "name": "Vanilla",
+        "brand": "Chobani",
+        "variant": "Chobani® 20G High Protein Greek Yogurt Drink",
+        "packageSize": "10 fl oz",
+        "category": "beverages",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Lowfat greek yogurt (cultured skim milk and cream), water, less than 2% of: vanilla extract, chicory root fiber, natural flavors, lactase**, fruit pectin, stevia extract, monk fruit extract, locust bean gum, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/high-protein-greek-yogurt-drinks-vanilla-20g",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Vanilla\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz\nChobani\nLowfat greek yogurt (cultured skim milk and cream), water, less than 2% of: vanilla extract, chicory root fiber, natural flavors, lactase**, fruit pectin, stevia extract, monk fruit extract, locust bean gum, lemon juice concentrate. **Ingredient not found in regular yogurt.",
+            "notes": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Vanilla\nChobani® 20G High Protein Greek Yogurt Drink\n10 fl oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, 20G Greek Yogurt Drink line, single-bottle size and complete ingredient paragraph reviewed. The lactase footnote is retained verbatim. This is a drink, distinct from the existing yogurt cups even when flavor names overlap. No separate contains or precautionary declaration documented on the page; both remain unknown, with no absence inferred from ingredients or lactose-free marketing. Only whitespace normalized.",
+        "sourceCaptureSha256": "c28b7bb5b690d4cd2150efb5c12d0a299e972e9535392d7bf0105737eda3b2d3"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-jimmy-crumbles-pork",
+        "name": "Fully Cooked Original Pork Sausage Crumbles",
+        "brand": "Jimmy Dean",
+        "variant": "Fully Cooked Original Pork Sausage Crumbles",
+        "packageSize": "9.6 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900196300",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, contains 2% or less: sodium lactate, salt, water, spices, sugar, sodium phosphates, caramel color, sodium diacetate, monosodium glutamate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fully-cooked-sausage-crumbles/00077900196300",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Fully Cooked Original Pork Sausage Crumbles\nFully Cooked Original Pork Sausage Crumbles\n9.6 oz\nJimmy Dean\nPork, contains 2% or less: sodium lactate, salt, water, spices, sugar, sodium phosphates, caramel color, sodium diacetate, monosodium glutamate.\n00077900196300\n\"gtin\":\"00077900196300\"",
+            "notes": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Fully Cooked Original Pork Sausage Crumbles\nFully Cooked Original Pork Sausage Crumbles\n9.6 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "a933cd045339e096a4711cd6bc7064f2321b6cf7a8d60a6e099b21b30672d0da"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-jimmy-crumbles-turkey",
+        "name": "Fully Cooked Turkey Sausage Crumbles",
+        "brand": "Jimmy Dean",
+        "variant": "Fully Cooked Turkey Sausage Crumbles",
+        "packageSize": "9.6 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900196317",
+        "imageReference": null,
+        "ingredientLabelText": "Turkey, corn syrup, contains 2% or less: salt, potassium lactate, water, spices, dextrose, sugar, sodium propionate, yeast extract, sodium diacetate, caramel color, citric acid.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fully-cooked-sausage-crumbles/00077900196317",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Fully Cooked Turkey Sausage Crumbles\nFully Cooked Turkey Sausage Crumbles\n9.6 oz\nJimmy Dean\nTurkey, corn syrup, contains 2% or less: salt, potassium lactate, water, spices, dextrose, sugar, sodium propionate, yeast extract, sodium diacetate, caramel color, citric acid.\n00077900196317\n\"gtin\":\"00077900196317\"",
+            "notes": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Fully Cooked Turkey Sausage Crumbles\nFully Cooked Turkey Sausage Crumbles\n9.6 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "6d69c84d3f783b882c80694e0de0d1f20f61ba0612acdd6c8838f4af0af4bb6a"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-jimmy-fresh-links",
+        "name": "Original Premium Fresh Pork Sausage Links",
+        "brand": "Jimmy Dean",
+        "variant": "Original Premium Fresh Pork Sausage Links",
+        "packageSize": "12 oz",
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900195440",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less of: corn syrup, distilled vinegar, monosodium glutamate, natural flavors, salt, sugar. stuffed in a beef collagen casing.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900195440",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Original Premium Fresh Pork Sausage Links\nOriginal Premium Fresh Pork Sausage Links\n12 oz\nJimmy Dean\nPork, water, contains 2% or less of: corn syrup, distilled vinegar, monosodium glutamate, natural flavors, salt, sugar. stuffed in a beef collagen casing.\n00077900195440\n\"gtin\":\"00077900195440\"",
+            "notes": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Original Premium Fresh Pork Sausage Links\nOriginal Premium Fresh Pork Sausage Links\n12 oz",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "848eedf2093d6c88579bd25247d00d7f66b7adaa075c7027450fd30e5f754100"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-jimmy-fresh-patties",
+        "name": "Original Premium Fresh Pork Sausage Patties",
+        "brand": "Jimmy Dean",
+        "variant": "Original Premium Fresh Pork Sausage Patties",
+        "packageSize": null,
+        "category": "meat-seafood",
+        "market": "US",
+        "barcode": "00077900195464",
+        "imageReference": null,
+        "ingredientLabelText": "Pork, water, contains 2% or less of: corn syrup, distilled vinegar, monosodium glutamate, natural flavors, salt, sugar.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.jimmydean.com/products/fresh-sausage-and-breakfast-sausage/00077900195464",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Original Premium Fresh Pork Sausage Patties\nOriginal Premium Fresh Pork Sausage Patties\nJimmy Dean\nPork, water, contains 2% or less of: corn syrup, distilled vinegar, monosodium glutamate, natural flavors, salt, sugar.\n00077900195464\n\"gtin\":\"00077900195464\"",
+            "notes": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Original Premium Fresh Pork Sausage Patties\nOriginal Premium Fresh Pork Sausage Patties",
+        "brandEvidence": "Jimmy Dean",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact sausage format, ingredient panel and matching product JSON-LD GTIN reviewed. Fresh links/patties are distinct from already-cooked products; pork and turkey crumbles are separate formulations. Size retained only where printed explicitly, not inferred from servings. No separate contains or precautionary statement documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "b0f8594688ddb933d58d3d7f814afaa7721bca71ea188095250244e712e3c3f8"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-stouffers-roast-turkey-for-one",
+        "name": "Roast Turkey",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "272 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "WATER, POTATOES, GLAZED TURKEY TENDERLOINS (COOKED TURKEY TENDERLOINS, WATER, MODIFIED FOOD STARCH, SEASONING [AUTOLYZED YEAST EXTRACT, MALTODEXTRIN, SALT, TURKEY FLAVOR, TURKEY STOCK, FLAVOR, GUM ARABIC], CARRAGEENAN, CANOLA OIL, SODIUM PHOSPHATE, NATURAL FLAVORING, SALT, POTASSIUM SALT, PAPRIKA), CREAM, CROUTONS (ENRICHED WHEAT FLOUR [FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID], SUGAR, SALT, 2% OR LESS OF PALM OIL, YEAST, GRAIN VINEGAR, SOY LECITHIN), 2% OR LESS OF ONIONS, SKIM MILK, CELERY, MODIFIED FOOD STARCH, CHICKEN FAT, ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), SALT, SOYBEAN OIL, MALTODEXTRIN (CORN, POTATO, SWEET POTATO), DRIED CREAM (CREAM, NONFAT MILK, CULTURES), SPICES, ENZYME MODIFIED BUTTERMILK SOLIDS, AUTOLYZED YEAST EXTRACT, POTASSIUM SALT, CARAMEL COLOR, MONO- AND DIGLYCERIDES, NATURAL FLAVORS, DRIED TURKEY BROTH, WHEY, WHEAT STARCH, CARRAGEENAN, DRIED GARLIC, ENZYME MODIFIED WHEY, TURKEY FAT, CITRIC ACID, DEXTROSE, SESAME OIL, GUM ARABIC, SODIUM PHOSPHATE, GRILL FLAVOR (FROM VEGETABLE OIL), EXTRACTIVES OF ANNATTO & TURMERIC COLOR, LACTIC ACID, SODIUM CITRATE, CORN SYRUP SOLIDS, TOCOPHEROL, VINEGAR.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK, SESAME, SOY.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/roast-turkey-for-one/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Roast Turkey\nFor One\n272 g\nSTOUFFER'S\nWATER, POTATOES, GLAZED TURKEY TENDERLOINS (COOKED TURKEY TENDERLOINS, WATER, MODIFIED FOOD STARCH, SEASONING [AUTOLYZED YEAST EXTRACT, MALTODEXTRIN, SALT, TURKEY FLAVOR, TURKEY STOCK, FLAVOR, GUM ARABIC], CARRAGEENAN, CANOLA OIL, SODIUM PHOSPHATE, NATURAL FLAVORING, SALT, POTASSIUM SALT, PAPRIKA), CREAM, CROUTONS (ENRICHED WHEAT FLOUR [FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID], SUGAR, SALT, 2% OR LESS OF PALM OIL, YEAST, GRAIN VINEGAR, SOY LECITHIN), 2% OR LESS OF ONIONS, SKIM MILK, CELERY, MODIFIED FOOD STARCH, CHICKEN FAT, ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), SALT, SOYBEAN OIL, MALTODEXTRIN (CORN, POTATO, SWEET POTATO), DRIED CREAM (CREAM, NONFAT MILK, CULTURES), SPICES, ENZYME MODIFIED BUTTERMILK SOLIDS, AUTOLYZED YEAST EXTRACT, POTASSIUM SALT, CARAMEL COLOR, MONO- AND DIGLYCERIDES, NATURAL FLAVORS, DRIED TURKEY BROTH, WHEY, WHEAT STARCH, CARRAGEENAN, DRIED GARLIC, ENZYME MODIFIED WHEY, TURKEY FAT, CITRIC ACID, DEXTROSE, SESAME OIL, GUM ARABIC, SODIUM PHOSPHATE, GRILL FLAVOR (FROM VEGETABLE OIL), EXTRACTIVES OF ANNATTO & TURMERIC COLOR, LACTIC ACID, SODIUM CITRATE, CORN SYRUP SOLIDS, TOCOPHEROL, VINEGAR.\nCONTAINS: WHEAT, MILK, SESAME, SOY.",
+            "notes": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Roast Turkey\nFor One\n272 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "959a527da30019a3293a3a0fa9194f1d1844195f5a6d4cb19ec0094ef8964ddf"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-stouffers-meatloaf-for-one",
+        "name": "Meatloaf",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "280 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "WATER, COOKED BEEF AND PORK BLEND, POTATOES, CREAM, TEXTURED SOY FLOUR, 2% OR LESS OF ONIONS, KETCHUP (TOMATO CONCENTRATE [WATER, TOMATO PASTE], SUGAR, VINEGAR, SEA SALT, DRIED ONION, NATURAL FLAVORS, DRIED GARLIC), MODIFIED FOOD STARCH, SKIM MILK, SALT, ROLLED OATS, REDUCED LACTOSE WHEY, GREEN BELL PEPPERS, SOUR CREAM FLAVOR (MALTODEXTRIN, SOUR CREAM SOLIDS, CULTURED BUTTERMILK, NATURAL FLAVORS, CITRIC ACID, YEAST EXTRACT), TOMATO PASTE, DEHYDRATED SOY SAUCE (SOYBEANS, SALT, WHEAT), BLEACHED WHEAT FLOUR, POTASSIUM SALT, WORCESTERSHIRE SAUCE (DISTILLED VINEGAR, MOLASSES, CORN SYRUP, WATER, SALT, CARAMEL COLOR, GARLIC POWDER, SUGAR, SPICES, TAMARIND, NATURAL FLAVOR), SOYBEAN OIL, CARAMEL COLOR, SUGAR, MALTODEXTRIN, ONION POWDER, SEASONING (WATER, FLAVOR, MALTODEXTRIN, SALT, CARAMEL COLOR, LESS THAN 2% OF LACTIC ACID, ENZYME MODIFIED CREAM), MONO- AND DIGLYCERIDES, SPICES, AUTOLYZED YEAST EXTRACT, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), BEEF FAT, CANOLA OIL, BEEF STOCK, DRIED GARLIC, BEEF FLAVOR (DRIED BEEF BROTH, MALTODEXTRIN, SALT, FLAVORING, DISODIUM PHOSPHATE, GRILL FLAVOR [FROM VEGETABLE OIL], SMOKE FLAVOR), XANTHAN GUM, SEASONING (SOY SAUCE [WATER, SOYBEANS, WHEAT, SALT], AUTOLYZED YEAST EXTRACT, DEXTROSE, SOYBEAN OIL), SOY LECITHIN, COCONUT OIL, SEASONING (SALT, DRIED BEEF BROTH, FLAVORING, MALTODEXTRIN, BEEF FAT, DISODIUM PHOSPHATE, GRILL FLAVOR [FROM VEGETABLE OIL], MODIFIED CORNSTARCH, SMOKE FLAVOR), SEASONING (MALTODEXTRIN, FLAVOR, CULTURED WHEY, DEXTROSE, FRUCTOSE, SALT), GUM ARABIC, LACTIC ACID BLEND (LACTIC ACID, CALCIUM LACTATE), NATURAL FLAVORS, SUNFLOWER OIL, TRIACETIN, OLEORESIN CELERY.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK, SOY.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/meatloaf-for-one/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Meatloaf\nFor One\n280 g\nSTOUFFER'S\nWATER, COOKED BEEF AND PORK BLEND, POTATOES, CREAM, TEXTURED SOY FLOUR, 2% OR LESS OF ONIONS, KETCHUP (TOMATO CONCENTRATE [WATER, TOMATO PASTE], SUGAR, VINEGAR, SEA SALT, DRIED ONION, NATURAL FLAVORS, DRIED GARLIC), MODIFIED FOOD STARCH, SKIM MILK, SALT, ROLLED OATS, REDUCED LACTOSE WHEY, GREEN BELL PEPPERS, SOUR CREAM FLAVOR (MALTODEXTRIN, SOUR CREAM SOLIDS, CULTURED BUTTERMILK, NATURAL FLAVORS, CITRIC ACID, YEAST EXTRACT), TOMATO PASTE, DEHYDRATED SOY SAUCE (SOYBEANS, SALT, WHEAT), BLEACHED WHEAT FLOUR, POTASSIUM SALT, WORCESTERSHIRE SAUCE (DISTILLED VINEGAR, MOLASSES, CORN SYRUP, WATER, SALT, CARAMEL COLOR, GARLIC POWDER, SUGAR, SPICES, TAMARIND, NATURAL FLAVOR), SOYBEAN OIL, CARAMEL COLOR, SUGAR, MALTODEXTRIN, ONION POWDER, SEASONING (WATER, FLAVOR, MALTODEXTRIN, SALT, CARAMEL COLOR, LESS THAN 2% OF LACTIC ACID, ENZYME MODIFIED CREAM), MONO- AND DIGLYCERIDES, SPICES, AUTOLYZED YEAST EXTRACT, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), BEEF FAT, CANOLA OIL, BEEF STOCK, DRIED GARLIC, BEEF FLAVOR (DRIED BEEF BROTH, MALTODEXTRIN, SALT, FLAVORING, DISODIUM PHOSPHATE, GRILL FLAVOR [FROM VEGETABLE OIL], SMOKE FLAVOR), XANTHAN GUM, SEASONING (SOY SAUCE [WATER, SOYBEANS, WHEAT, SALT], AUTOLYZED YEAST EXTRACT, DEXTROSE, SOYBEAN OIL), SOY LECITHIN, COCONUT OIL, SEASONING (SALT, DRIED BEEF BROTH, FLAVORING, MALTODEXTRIN, BEEF FAT, DISODIUM PHOSPHATE, GRILL FLAVOR [FROM VEGETABLE OIL], MODIFIED CORNSTARCH, SMOKE FLAVOR), SEASONING (MALTODEXTRIN, FLAVOR, CULTURED WHEY, DEXTROSE, FRUCTOSE, SALT), GUM ARABIC, LACTIC ACID BLEND (LACTIC ACID, CALCIUM LACTATE), NATURAL FLAVORS, SUNFLOWER OIL, TRIACETIN, OLEORESIN CELERY.\nCONTAINS: WHEAT, MILK, SOY.",
+            "notes": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Meatloaf\nFor One\n280 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "9db97997c28115a8d29abf14c12d4db15b4e8acf1758ef65c14dcf11c7ae1d14"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-stouffers-chicken-alfredo-frozen-entree",
+        "name": "Chicken Alfredo",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "297 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), MILK, COOKED WHITE MEAT CHICKEN (WHITE MEAT CHICKEN, WATER, ISOLATED SOY PROTEIN, MODIFIED FOOD STARCH, SEASONING [DRIED CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR], SODIUM PHOSPHATE, MALTODEXTRIN, SALT), WATER, BROCCOLI, PARMESAN CHEESE (CULTURED MILK, SALT, ENZYMES), 2% OR LESS OF ASIAGO CHEESE (CULTURED MILK, SALT, ENZYMES), MODIFIED FOOD STARCH, SOYBEAN OIL, SALT, ROMANO CHEESE WITH FLAVOR (ROMANO CHEESE [CULTURED COW'S MILK, SALT, ENZYMES], ENZYME MODIFIED ROMANO CHEESE [ROMANO CHEESE {CULTURED COW'S MILK, WATER, SALT, ENZYMES}, SALT]), GARLIC, DATEM AND MONO-DIGLYCERIDES, SPICES, DRIED GARLIC, XANTHAN GUM, MALTODEXTRIN, NATURAL FLAVORS (INCLUDING ENZYME MODIFIED BUTTER FATS AND OILS).",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK, SOY.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/chicken-alfredo-frozen-entree/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chicken Alfredo\nFor One\n297 g\nSTOUFFER'S\nCOOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), MILK, COOKED WHITE MEAT CHICKEN (WHITE MEAT CHICKEN, WATER, ISOLATED SOY PROTEIN, MODIFIED FOOD STARCH, SEASONING [DRIED CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR], SODIUM PHOSPHATE, MALTODEXTRIN, SALT), WATER, BROCCOLI, PARMESAN CHEESE (CULTURED MILK, SALT, ENZYMES), 2% OR LESS OF ASIAGO CHEESE (CULTURED MILK, SALT, ENZYMES), MODIFIED FOOD STARCH, SOYBEAN OIL, SALT, ROMANO CHEESE WITH FLAVOR (ROMANO CHEESE [CULTURED COW'S MILK, SALT, ENZYMES], ENZYME MODIFIED ROMANO CHEESE [ROMANO CHEESE {CULTURED COW'S MILK, WATER, SALT, ENZYMES}, SALT]), GARLIC, DATEM AND MONO-DIGLYCERIDES, SPICES, DRIED GARLIC, XANTHAN GUM, MALTODEXTRIN, NATURAL FLAVORS (INCLUDING ENZYME MODIFIED BUTTER FATS AND OILS).\nCONTAINS: WHEAT, MILK, SOY.",
+            "notes": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chicken Alfredo\nFor One\n297 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "1127b7517540deb301e615256997076cc6e48eb25c14ae7ac8ab8e1d8658ce02"
+      }
+    },
+    {
+      "product": {
+        "id": "batch06-stouffers-rigatoni-with-chicken-pesto",
+        "name": "Chicken Pesto Rigatoni",
+        "brand": "STOUFFER'S",
+        "variant": "For One",
+        "packageSize": "237 g",
+        "category": "frozen-foods",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "COOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), COOKED WHITE MEAT CHICKEN (WHITE MEAT CHICKEN, WATER, MODIFIED TAPIOCA STARCH, CHICKEN FLAVOR [CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR], CARRAGEENAN, WHEY PROTEIN CONCENTRATE, SOYBEAN OIL, CORN SYRUP SOLIDS, SODIUM PHOSPHATES, SALT), SKIM MILK, PARMESAN CHEESE (CULTURED MILK, SALT, ENZYMES), SOYBEAN OIL, SPICES, WATER, 2% OR LESS OF CREAM, ROMANO CHEESE (CULTURED COW'S MILK, SALT, ENZYMES), ASIAGO CHEESE (CULTURED MILK, SALT, ENZYMES), GARLIC, MODIFIED FOOD STARCH, SALT, SUGAR, DATEM, MONO- AND DIGLYCERIDES, POTASSIUM SALT, CITRIC ACID.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: WHEAT, MILK.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.goodnes.com/stouffers/products/rigatoni-with-chicken-pesto/",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chicken Pesto Rigatoni\nFor One\n237 g\nSTOUFFER'S\nCOOKED PASTA (WATER, SEMOLINA WHEAT FLOUR, WHEAT GLUTEN), COOKED WHITE MEAT CHICKEN (WHITE MEAT CHICKEN, WATER, MODIFIED TAPIOCA STARCH, CHICKEN FLAVOR [CHICKEN BROTH, CHICKEN POWDER, NATURAL FLAVOR], CARRAGEENAN, WHEY PROTEIN CONCENTRATE, SOYBEAN OIL, CORN SYRUP SOLIDS, SODIUM PHOSPHATES, SALT), SKIM MILK, PARMESAN CHEESE (CULTURED MILK, SALT, ENZYMES), SOYBEAN OIL, SPICES, WATER, 2% OR LESS OF CREAM, ROMANO CHEESE (CULTURED COW'S MILK, SALT, ENZYMES), ASIAGO CHEESE (CULTURED MILK, SALT, ENZYMES), GARLIC, MODIFIED FOOD STARCH, SALT, SUGAR, DATEM, MONO- AND DIGLYCERIDES, POTASSIUM SALT, CITRIC ACID.\nCONTAINS: WHEAT, MILK.",
+            "notes": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chicken Pesto Rigatoni\nFor One\n237 g",
+        "brandEvidence": "STOUFFER'S",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US manufacturer heading, For One serving variant, whole-package grams, full ingredient panel and explicit contains declaration reviewed in browser-rendered source. Direct HTTP access is blocked; capture hash refers to the rendered excerpt. All nested ingredients retained; only whitespace normalized. No separate precautionary statement documented; remains unknown.",
+        "sourceCaptureSha256": "67bac8d2929480e3f8e62712b6bc6fdbdb4bf98e2f3d334a719d5591db4dc12b"
+      }
+    }
+  ]
+}

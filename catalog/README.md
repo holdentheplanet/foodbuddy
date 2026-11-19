@@ -184,3 +184,62 @@ remain unknown even where the ingredient list is short.
 Run all regression tests with `node --experimental-sqlite --test tests/*.test.cjs`.
 Category tests include a frozen v3 upgrade fixture, foreign keys, per-category
 counts, search/filter separation, pagination, repeated imports, and unknown labels.
+
+## Reviewed expansion pipeline (November 18, 2026)
+
+`catalog/index.ts` now additionally imports `data/us-reviewed-batch-01.json`:
+25 newly reviewed products, bringing the bundled catalog to 75. The prior audit's
+conservative goal count increases from 31 to 56 verified products toward 200.
+See [candidate review instructions](candidates/README.md) for approval gates,
+source provenance, unknown information, duplicate handling, and batch details.
+The original two manifests and their verification statuses remain unchanged.
+
+Batch 02 adds another 25 ingredient-verified products in five smaller categories:
+100 total identities and 81 conservatively verified toward 200. All new
+precautionary statements remain unknown; 93 of the 100 products have incomplete
+allergen/precautionary information. See the candidate review guide for sources,
+research exclusions, counts, and simulator validation.
+
+Batch 03 brings the catalog to 125 products and 106 conservatively verified toward
+200. All 25 additions have explicit allergen declarations; 15 also have documented
+precautions. In total, 22 records have both declaration fields documented and 103
+retain unknown allergen/precautionary fields. Eleven existing incomplete sources
+were reviewed, with no unsupported changes made. Details and source-review records
+are linked from the candidate review guide.
+
+
+Batch 04 adds 25 reviewed identities in Produce (10), Bread & Bakery (5), Frozen
+Foods (5) and Meat & Seafood (5). The catalog now contains 150 products, with
+131 conservatively verified toward the 200-product goal. Fourteen new contains
+declarations are documented; all new precautionary fields remain unknown.
+Whole-catalog completeness is 22 complete and 128 missing allergen or precautionary
+information. See [candidate review notes](candidates/README.md#batch-04--reviewed-november-18-2026)
+for exact source URLs, evidence limits and verification details. Products remain
+bundled for SQLite initialization; search never fetches these source pages.
+
+
+Batch 05 adds 25 reviewed products: ten dairy, five breakfast, five condiments,
+two beverages and three bakery products. There are now 175 identities, with 156
+conservatively verified toward 200. Five additions have complete documented
+contains/shared-line statements; two more have documented may-contain warnings.
+Whole-catalog documentation completeness is 27 complete and 148 incomplete.
+Missing statements remain unknown. See [batch review and sources](candidates/README.md#batch-05--reviewed-november-18-2026).
+
+
+Batch 06 adds the requested 22 reviewed identities: eight dairy, six beverages,
+four meat and four frozen meals. There are 197 total products, with 178
+conservatively verified ingredient lists; another 22 verified products are
+needed for the 200-verified goal. Allergen/precautionary documentation is complete
+for 35 products and incomplete for 162. All unknown fields remain explicit.
+See [batch review and sources](candidates/README.md#batch-06--reviewed-november-18-2026).
+
+
+The ingredient goal is complete after batch 07: **219 total records, with exactly
+200 conservatively verified ingredient lists**. Imports stop at this milestone.
+The final 22 additions comprise four dairy, six bakery, six breakfast and six
+condiments. Allergen/precautionary documentation is complete for 39 records and
+incomplete for 180; missing statements remain unknown. The original 17 unverified
+products and two unresolved audit items remain preserved outside the goal count.
+See [final review and sources](candidates/README.md#batch-07--final-ingredient-goal-batch-november-18-2026)
+and [milestone recount](reviews/2026-11-18-goal-200.json). The catalog is ready for
+final UI improvements; this is not an allergy-safety certification.

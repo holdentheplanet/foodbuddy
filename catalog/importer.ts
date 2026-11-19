@@ -1,3 +1,4 @@
+import { canonicalBarcode, productIdentity } from './identity';
 import { resolveCategoryId } from './categories';
 import type { SQLiteDatabase } from 'expo-sqlite';
 import type { CatalogProduct, ProductCatalog } from './types';
@@ -48,6 +49,12 @@ async function importValidated(database: CatalogDatabase, catalog: ProductCatalo
   const allergenIds = new Map<string, number | null>();
   await database.execAsync('BEGIN IMMEDIATE');
   try {
+    const identityRows = await database.getFirstAsync<{ records: string }>(
+      "SELECT json_group_array(json_object('id', id, 'name', name, 'brand', coalesce(brand, ''), 'variant', coalesce(variant, ''))) AS records FROM products");
+    const identities = new Map<string, string>();
+    for (const row of JSON.parse(identityRows?.records ?? '[]') as { id: string; name: string; brand: string; variant: string }[]) {
+      identities.set(row.id, productIdentity(row));
+    }
     for (const product of catalog.products) {
       const recordJson = canonicalRecord(product);
       const existing = await database.getFirstAsync<Existing>(
@@ -65,6 +72,16 @@ async function importValidated(database: CatalogDatabase, catalog: ProductCatalo
           || (existing.last_verified_at && (!product.verifiedAt || product.verifiedAt < existing.last_verified_at))) {
           result.skipped.push({ id: product.id, reason: 'Incomplete, unverified, or older record would replace existing evidence.' }); continue;
         }
+      }
+      // Check against every existing row inside the same write transaction. No schema/data rewrite.
+      const barcodeConflict = product.barcode === null ? null : await database.getFirstAsync<{ id: string }>(
+        "SELECT id FROM products WHERE id <> ? AND barcode IS NOT NULL AND substr('00000000000000' || barcode, -14, 14) = ? LIMIT 1",
+        [product.id, canonicalBarcode(product.barcode)]);
+      const identity = productIdentity(product);
+      const identityConflict = [...identities].find(([id, key]) => id !== product.id && key === identity)?.[0];
+      if (barcodeConflict || identityConflict) {
+        result.skipped.push({ id: product.id, reason: `Duplicate barcode or product identity: ${barcodeConflict?.id ?? identityConflict}` });
+        continue;
       }
       const ingredientSource = product.sources.find(entry => entry.id === product.ingredientSourceId);
       await database.runAsync(
@@ -109,6 +126,7 @@ async function importValidated(database: CatalogDatabase, catalog: ProductCatalo
       await database.runAsync(`INSERT INTO product_catalog_entries(product_id, catalog_id, record_json) VALUES (?, ?, ?)
         ON CONFLICT(product_id) DO UPDATE SET record_json=excluded.record_json, imported_at=CURRENT_TIMESTAMP`,
         [product.id, catalog.catalogId, recordJson]);
+      identities.set(product.id, identity);
       if (existing) result.updated++; else result.inserted++;
     }
     await database.execAsync('COMMIT');

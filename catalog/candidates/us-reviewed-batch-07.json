@@ -1,0 +1,1129 @@
+{
+  "formatVersion": 1,
+  "catalogId": "us-reviewed-batch-07",
+  "candidates": [
+    {
+      "product": {
+        "id": "batch07-chobani-flip-chocolate-covered-strawberry",
+        "name": "Chocolate Covered Strawberry",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, strawberries, water, cocoa, vegetable oils (palm, palm kernel), cocoa butter, sweetened condensed milk (milk, sugar), wheat syrup, milk, natural flavors, tapioca flour, skim milk, sunflower oil, fruit pectin, soy lecithin, vanilla extract, guar gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-chocolate-covered-strawberry-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chocolate Covered Strawberry\nChobani® Flip®\n4.5oz\nChobani\nCultured lowfat milk, cane sugar, strawberries, water, cocoa, vegetable oils (palm, palm kernel), cocoa butter, sweetened condensed milk (milk, sugar), wheat syrup, milk, natural flavors, tapioca flour, skim milk, sunflower oil, fruit pectin, soy lecithin, vanilla extract, guar gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, strawberries, water, cocoa, vegetable oils (palm, palm kernel), cocoa butter, sweetened condensed milk (milk, sugar), wheat syrup, milk, natural flavors, tapioca flour, skim milk, sunflower oil, fruit pectin, soy lecithin, vanilla extract, guar gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chocolate Covered Strawberry\nChobani® Flip®\n4.5oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor.",
+        "sourceCaptureSha256": "4c1e10365a0582ce568ce81339251525821d987c3764ae607bfa35c6da27b8e1"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-chobani-flip-cinnamon-french-toast",
+        "name": "Cinnamon French Toast",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, rice flour, brown sugar, vegetable oils (palm, palm kernel), maple syrup, sunflower oil, rice syrup, fruit pectin, salt, coconut oil, tapioca flour, sunflower lecithin, baking soda, milk, whey, guar gum, natural flavors, nutmeg, cinnamon, fruit and vegetable juice (for color), vanilla powder, lemon juice concentrate.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-cinnamon-french-toast-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cinnamon French Toast\nChobani® Flip®\n4.5oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, rice flour, brown sugar, vegetable oils (palm, palm kernel), maple syrup, sunflower oil, rice syrup, fruit pectin, salt, coconut oil, tapioca flour, sunflower lecithin, baking soda, milk, whey, guar gum, natural flavors, nutmeg, cinnamon, fruit and vegetable juice (for color), vanilla powder, lemon juice concentrate.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, rice flour, brown sugar, vegetable oils (palm, palm kernel), maple syrup, sunflower oil, rice syrup, fruit pectin, salt, coconut oil, tapioca flour, sunflower lecithin, baking soda, milk, whey, guar gum, natural flavors, nutmeg, cinnamon, fruit and vegetable juice (for color), vanilla powder, lemon juice concentrate. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cinnamon French Toast\nChobani® Flip®\n4.5oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor.",
+        "sourceCaptureSha256": "d88e905e2d69b222e2213b5ed5766be295bd6df07372c822ace305eea08c72fc"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-chobani-flip-perfect-peach-cobbler",
+        "name": "Perfect Peach Cobbler™",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, peaches, water, wheat flour, vegetable oils (palm, palm kernel), oatmeal, salt, fruit pectin, cinnamon, fruit juice concentrate (for color), skim milk, natural flavors, milk, raisin paste, soy lecithin, guar gum, baking soda, tapioca syrup, caramel color, lemon juice concentrate, tapioca flour.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-perfect-peach-cobbler-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Perfect Peach Cobbler™\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, peaches, water, wheat flour, vegetable oils (palm, palm kernel), oatmeal, salt, fruit pectin, cinnamon, fruit juice concentrate (for color), skim milk, natural flavors, milk, raisin paste, soy lecithin, guar gum, baking soda, tapioca syrup, caramel color, lemon juice concentrate, tapioca flour.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, peaches, water, wheat flour, vegetable oils (palm, palm kernel), oatmeal, salt, fruit pectin, cinnamon, fruit juice concentrate (for color), skim milk, natural flavors, milk, raisin paste, soy lecithin, guar gum, baking soda, tapioca syrup, caramel color, lemon juice concentrate, tapioca flour. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Perfect Peach Cobbler™\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor.",
+        "sourceCaptureSha256": "70a326c1c2d20780da654bdaa732b433e593e30f312a2ff16ce31c3fe7ed82af"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-chobani-flip-red-velvet-cupcake",
+        "name": "Red Velvet Cupcake",
+        "brand": "Chobani",
+        "variant": "Chobani® Flip®",
+        "packageSize": "4.5 oz",
+        "category": "dairy-eggs",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Cultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), cocoa, fruit pectin, skim milk, natural flavors, vegetable juice concentrate (for color), guar gum, salt, soy lecithin, caramel color, baking soda, lemon juice concentrate, tapioca flour.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "Contains milk, wheat, and soy.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "milk",
+          "wheat",
+          "soy"
+        ],
+        "precautionaryStatement": "Manufactured on a line that also handles peanuts and tree nuts.",
+        "precautionaryStatus": "documented",
+        "precautionaryAllergens": [
+          "peanuts",
+          "tree nuts"
+        ],
+        "completenessStatus": "complete",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": "primary",
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://chobani.com/products/yogurt-flip-red-velvet-cupcake-cup",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Red Velvet Cupcake\nChobani® Flip®\n4.5 oz\nChobani\nCultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), cocoa, fruit pectin, skim milk, natural flavors, vegetable juice concentrate (for color), guar gum, salt, soy lecithin, caramel color, baking soda, lemon juice concentrate, tapioca flour.\nContains milk, wheat, and soy.\nManufactured on a line that also handles peanuts and tree nuts.\nCultured lowfat milk, cane sugar, water, wheat flour, vegetable oils (palm, palm kernel), cocoa, fruit pectin, skim milk, natural flavors, vegetable juice concentrate (for color), guar gum, salt, soy lecithin, caramel color, baking soda, lemon juice concentrate, tapioca flour. Contains milk, wheat, and soy. Manufactured on a line that also handles peanuts and tree nuts.",
+            "notes": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Red Velvet Cupcake\nChobani® Flip®\n4.5 oz",
+        "brandEvidence": "Chobani",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact flavor, Flip line, single-cup size and full ingredient/contains/shared-line panel reviewed. Exact sentences stored separately. Tree nuts remain the generic manufacturer declaration, without inference of individual nut types or derivative relationships. Only whitespace normalized; no warning copied from another flavor.",
+        "sourceCaptureSha256": "c7dd64090cfd3752ca0b00869659538e3825d925a7bc8ec7800c689b2375d62c"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-dave-killer-classic-rolls",
+        "name": "Killer Classic Rolls",
+        "brand": "Dave’s Killer Bread",
+        "variant": "Killer Classic Rolls",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, organic cane sugar, yeast, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, salt, organic cultured wheat flour, organic vinegar, enzymes, organic sesame.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/killer-classic-rolls",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Killer Classic Rolls\nKiller Classic Rolls\nDAVE’S KILLER BREAD\nOrganic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, organic cane sugar, yeast, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, salt, organic cultured wheat flour, organic vinegar, enzymes, organic sesame.\nCONTAINS: Wheat, sesame.",
+            "notes": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Killer Classic Rolls\nKiller Classic Rolls",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown.",
+        "sourceCaptureSha256": "5164516c49a77474709f387a246d482e22c37627e6c901f976fc64bea76fe9f4"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-dave-21wgs-burger-buns",
+        "name": "21 Whole Grains and Seeds Burger Buns",
+        "brand": "Dave’s Killer Bread",
+        "variant": "21 Whole Grains and Seeds Burger Buns",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic wheat (organic wheat flour, organic whole wheat flour), water, organic cane sugar, organic 21 Whole Grains and Seeds mix (organic whole flax seeds, organic sunflower seeds, organic brown sesame seeds, organic triticale, organic rolled barley, organic rolled oats, organic pumpkin seeds, organic rolled rye, organic black sesame seeds, organic millet, organic rolled spelt, organic yellow cornmeal, organic KAMUT® khorasan wheat, organic quinoa, organic poppy seeds, organic buckwheat flour, organic brown rice flour, organic blue cornmeal, organic amaranth flour, organic sorghum flour), organic wheat gluten, yeast, contains 2% or less of each of the following: organic expeller pressed canola oil, sea salt, organic cultured wheat flour, organic vinegar, organic acerola cherry powder, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/21wgs-burger-buns",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "21 Whole Grains and Seeds Burger Buns\n21 Whole Grains and Seeds Burger Buns\nDAVE’S KILLER BREAD\nOrganic wheat (organic wheat flour, organic whole wheat flour), water, organic cane sugar, organic 21 Whole Grains and Seeds mix (organic whole flax seeds, organic sunflower seeds, organic brown sesame seeds, organic triticale, organic rolled barley, organic rolled oats, organic pumpkin seeds, organic rolled rye, organic black sesame seeds, organic millet, organic rolled spelt, organic yellow cornmeal, organic KAMUT® khorasan wheat, organic quinoa, organic poppy seeds, organic buckwheat flour, organic brown rice flour, organic blue cornmeal, organic amaranth flour, organic sorghum flour), organic wheat gluten, yeast, contains 2% or less of each of the following: organic expeller pressed canola oil, sea salt, organic cultured wheat flour, organic vinegar, organic acerola cherry powder, enzymes.\nCONTAINS: Wheat, sesame.",
+            "notes": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "21 Whole Grains and Seeds Burger Buns\n21 Whole Grains and Seeds Burger Buns",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown.",
+        "sourceCaptureSha256": "6d711a67992390cbeaa8cee715e875a8f8bdc8bfcc5987b3d7d335147aca7d12"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-dave-burger-buns-done-right",
+        "name": "BURGER BUNS DONE RIGHT",
+        "brand": "Dave’s Killer Bread",
+        "variant": "BURGER BUNS DONE RIGHT",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, organic cane sugar, organic wheat gluten, yeast, contains 2% or less of each of the following: sea salt, organic expeller pressed canola oil, organic cultured wheat flour, organic vinegar, organic sesame flour, organic acerola cherry powder.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/burger-buns-done-right",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "BURGER BUNS DONE RIGHT\nBURGER BUNS DONE RIGHT\nDAVE’S KILLER BREAD\nOrganic flours (organic wheat flour, organic whole wheat flour, organic barley flour, organic rye flour, organic spelt flour, organic millet flour, organic quinoa flour), water, organic cane sugar, organic wheat gluten, yeast, contains 2% or less of each of the following: sea salt, organic expeller pressed canola oil, organic cultured wheat flour, organic vinegar, organic sesame flour, organic acerola cherry powder.\nCONTAINS: Wheat, sesame.",
+            "notes": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "BURGER BUNS DONE RIGHT\nBURGER BUNS DONE RIGHT",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown.",
+        "sourceCaptureSha256": "ae2b70b6462fc7a6c0e7b38b156d973cca6dfcf1ede08a2adda518f32ba4ad72"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-dave-raisin-the-roof",
+        "name": "RAISIN' THE ROOF! Breakfast Bread",
+        "brand": "Dave’s Killer Bread",
+        "variant": "RAISIN' THE ROOF! Breakfast Bread",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic wheat (organic whole wheat flour, organic wheat flour), water, organic raisins, organic cinnamon bits (organic cane sugar, organic wheat flour, organic cinnamon, organic sunflower oil), organic cane sugar, organic Raisin’ the Roof!® grain and seed mix (organic rolled oats, organic rolled wheat, organic whole flax seeds, organic tri-color quinoa, organic sunflower seeds), organic wheat gluten, yeast, contains 2% or less of each of the following: organic expeller pressed canola oil, sea salt, organic vinegar, organic cultured wheat flour, enzymes, organic acerola cherry powder.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/raisin-the-roof",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "RAISIN' THE ROOF! Breakfast Bread\nRAISIN' THE ROOF! Breakfast Bread\nDAVE’S KILLER BREAD\nOrganic wheat (organic whole wheat flour, organic wheat flour), water, organic raisins, organic cinnamon bits (organic cane sugar, organic wheat flour, organic cinnamon, organic sunflower oil), organic cane sugar, organic Raisin’ the Roof!® grain and seed mix (organic rolled oats, organic rolled wheat, organic whole flax seeds, organic tri-color quinoa, organic sunflower seeds), organic wheat gluten, yeast, contains 2% or less of each of the following: organic expeller pressed canola oil, sea salt, organic vinegar, organic cultured wheat flour, enzymes, organic acerola cherry powder.\nCONTAINS: Wheat.",
+            "notes": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "RAISIN' THE ROOF! Breakfast Bread\nRAISIN' THE ROOF! Breakfast Bread",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown.",
+        "sourceCaptureSha256": "c32f9c142af72e36f7232118bd46384ee800318f8da618ede2247e56b44ecc77"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-dave-rock-n-rolls",
+        "name": "Rock ‘N’ Rolls",
+        "brand": "Dave’s Killer Bread",
+        "variant": "Rock ‘N’ Rolls",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic wheat (organic whole wheat flour, organic wheat flour), water, organic 21 whole grains and seeds mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa], organic triticale, organic pumpkin seeds, organic rolled barley, organic rolled oats, organic rolled rye, organic millet, organic rolled spelt, organic yellow cornmeal, organic kamut® khorasan wheat, organic quinoa, organic poppy seeds, organic blue cornmeal), organic cane sugar, yeast, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, organic good seed® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), salt, organic cultured wheat flour, organic vinegar, enzymes, organic sesame flour.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/rock-n-rolls",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Rock ‘N’ Rolls\nRock ‘N’ Rolls\nDAVE’S KILLER BREAD\nOrganic wheat (organic whole wheat flour, organic wheat flour), water, organic 21 whole grains and seeds mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa], organic triticale, organic pumpkin seeds, organic rolled barley, organic rolled oats, organic rolled rye, organic millet, organic rolled spelt, organic yellow cornmeal, organic kamut® khorasan wheat, organic quinoa, organic poppy seeds, organic blue cornmeal), organic cane sugar, yeast, organic wheat gluten, contains 2% or less of each of the following: organic expeller pressed canola oil, organic good seed® grain and seed mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa]), salt, organic cultured wheat flour, organic vinegar, enzymes, organic sesame flour.\nCONTAINS: Wheat, sesame.",
+            "notes": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Rock ‘N’ Rolls\nRock ‘N’ Rolls",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown.",
+        "sourceCaptureSha256": "31dac896d93bec3a6bdb4f6226dd0de6c79d3586aa598874e9d3fdaa1920b7f6"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-dave-21wgs-sandwich-rolls",
+        "name": "21 Whole Grains and Seeds Sandwich Rolls",
+        "brand": "Dave’s Killer Bread",
+        "variant": "21 Whole Grains and Seeds Sandwich Rolls",
+        "packageSize": null,
+        "category": "bread-bakery",
+        "market": "US",
+        "barcode": null,
+        "imageReference": null,
+        "ingredientLabelText": "Organic wheat (organic wheat flour, organic whole wheat flour), water, organic cane sugar, organic wheat gluten, organic 21 whole grains and seeds mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa], organic triticale, organic pumpkin seeds, organic rolled barley, organic rolled oats, organic rolled rye, organic millet, organic rolled spelt, organic yellow cornmeal, organic KAMUT® khorasan wheat, organic quinoa, organic sorghum flour, organic buckwheat flour, organic brown rice flour, organic blue cornmeal, organic amaranth flour, organic poppy seeds), yeast, contains 2% or less of each of the following: organic expeller pressed canola oil, salt, organic cultured wheat flour, organic vinegar, organic fermented rye flour, organic sesame flour, enzymes.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": "CONTAINS: Wheat, sesame.",
+        "allergenStatus": "documented",
+        "declaredAllergens": [
+          "wheat",
+          "sesame"
+        ],
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": "primary",
+        "precautionarySourceId": null,
+        "barcodeSourceId": null,
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.daveskillerbread.com/21wgs-sandwich-rolls",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "21 Whole Grains and Seeds Sandwich Rolls\n21 Whole Grains and Seeds Sandwich Rolls\nDAVE’S KILLER BREAD\nOrganic wheat (organic wheat flour, organic whole wheat flour), water, organic cane sugar, organic wheat gluten, organic 21 whole grains and seeds mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa [organic black quinoa, organic red quinoa, organic white quinoa], organic triticale, organic pumpkin seeds, organic rolled barley, organic rolled oats, organic rolled rye, organic millet, organic rolled spelt, organic yellow cornmeal, organic KAMUT® khorasan wheat, organic quinoa, organic sorghum flour, organic buckwheat flour, organic brown rice flour, organic blue cornmeal, organic amaranth flour, organic poppy seeds), yeast, contains 2% or less of each of the following: organic expeller pressed canola oil, salt, organic cultured wheat flour, organic vinegar, organic fermented rye flour, organic sesame flour, enzymes.\nCONTAINS: Wheat, sesame.",
+            "notes": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "21 Whole Grains and Seeds Sandwich Rolls\n21 Whole Grains and Seeds Sandwich Rolls",
+        "brandEvidence": "DAVE’S KILLER BREAD",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact loaf/bun/roll variety, full ingredient panel and contains declaration reviewed. Product formats and recipes are distinct from existing loaves and bagels; no extra package size or thin-sliced duplicate counted. Manufacturer wording retained; only whitespace normalized. No separate precautionary statement, barcode or net weight corroborated; remains unknown.",
+        "sourceCaptureSha256": "9bffa844ad1f33dc46eba3b9e6f930245119c0dfd1168233f03b43b1d8980c7f"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-cheerios-chocolate-cheerios",
+        "name": "Chocolate Cheerios",
+        "brand": "Cheerios",
+        "variant": "Chocolate Cheerios",
+        "packageSize": "14.3 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000163478",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Corn Syrup, Corn Starch, Cocoa Processed with Alkali, Salt, Caramel Color, Canola and/or Sunflower Oil, Tripotassium Phosphate, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/chocolate-cheerios",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Chocolate Cheerios\nChocolate Cheerios\n14.3 oz\nCheerios\nWhole Grain Oats, Sugar, Corn Syrup, Corn Starch, Cocoa Processed with Alkali, Salt, Caramel Color, Canola and/or Sunflower Oil, Tripotassium Phosphate, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\n016000163478\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/chocolate-cheerios\", \"name\": \"Chocolate Cheerios\", \"gtin\": \"016000163478\"}",
+            "notes": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Chocolate Cheerios\nChocolate Cheerios\n14.3 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "2aa2d078d08b4da3348d9a255af948784e9d21c58faed73aba46d67f94499b3a"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-cheerios-frosted-cheerios",
+        "name": "Frosted Cheerios",
+        "brand": "Cheerios",
+        "variant": "Frosted Cheerios",
+        "packageSize": "18.4 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000169142",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Corn Starch, Corn Syrup, Salt, Trisodium Phosphate, Brown Sugar Syrup, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/frosted-cheerios",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Frosted Cheerios\nFrosted Cheerios\n18.4 oz\nCheerios\nWhole Grain Oats, Sugar, Corn Starch, Corn Syrup, Salt, Trisodium Phosphate, Brown Sugar Syrup, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\n016000169142\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/frosted-cheerios\", \"name\": \"Frosted Cheerios\", \"gtin\": \"016000169142\"}",
+            "notes": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Frosted Cheerios\nFrosted Cheerios\n18.4 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "586242c64e0135f086bdb3018bdfc9cd8e4379587082be1dacd803a465c4fd13"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-cheerios-very-berry-cheerios",
+        "name": "Very Berry Cheerios",
+        "brand": "Cheerios",
+        "variant": "Very Berry Cheerios",
+        "packageSize": "18.6 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000169319",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Corn Syrup, Corn Starch, Salt, Blueberry Powder, Canola and/or Sunflower Oil, Tripotassium Phosphate, Strawberry Powder, Cranberry Powder, Vegetable and Fruit Juice Color, Raspberry Powder, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/very-berry-cheerios",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Very Berry Cheerios\nVery Berry Cheerios\n18.6 oz\nCheerios\nWhole Grain Oats, Sugar, Corn Syrup, Corn Starch, Salt, Blueberry Powder, Canola and/or Sunflower Oil, Tripotassium Phosphate, Strawberry Powder, Cranberry Powder, Vegetable and Fruit Juice Color, Raspberry Powder, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\n016000169319\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/very-berry-cheerios\", \"name\": \"Very Berry Cheerios\", \"gtin\": \"016000169319\"}",
+            "notes": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Very Berry Cheerios\nVery Berry Cheerios\n18.6 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "340d56a3dd0a11d46dbb6778c374f4d019ba8ac1c8124bf4adcd82864dd83079"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-cheerios-cookies-creme-cheerios-protein",
+        "name": "Cookies & Crème Cheerios Protein",
+        "brand": "Cheerios",
+        "variant": "Cookies & Crème Cheerios Protein",
+        "packageSize": "11.2 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000229969",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Pea Protein, Corn Starch, Corn Syrup, Canola and/or Sunflower Oil, Salt, Caramel Color, Tripotassium Phosphate, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/cookies-creme-cheerios-protein",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cookies & Crème Cheerios Protein\nCookies & Crème Cheerios Protein\n11.2 oz\nCheerios\nWhole Grain Oats, Sugar, Pea Protein, Corn Starch, Corn Syrup, Canola and/or Sunflower Oil, Salt, Caramel Color, Tripotassium Phosphate, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\n016000229969\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/cookies-creme-cheerios-protein\", \"name\": \"Cookies & Crème Cheerios Protein\", \"gtin\": \"016000229969\"}",
+            "notes": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cookies & Crème Cheerios Protein\nCookies & Crème Cheerios Protein\n11.2 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "6b732c9723d625e61d839bd3a5efdfd19fa9104cdf4f99802452561e60076a1e"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-cheerios-strawberry-cheerios-protein",
+        "name": "Strawberry Cheerios Protein",
+        "brand": "Cheerios",
+        "variant": "Strawberry Cheerios Protein",
+        "packageSize": "11.2 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000226340",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Pea Protein, Corn Starch, Strawberry Puree, Apple Puree Concentrate, Corn Syrup, Canola and/or Sunflower Oil, Salt, Tripotassium Phosphate, Vegetable and Fruit Juice Color, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/strawberry-cheerios-protein",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Strawberry Cheerios Protein\nStrawberry Cheerios Protein\n11.2 oz\nCheerios\nWhole Grain Oats, Sugar, Pea Protein, Corn Starch, Strawberry Puree, Apple Puree Concentrate, Corn Syrup, Canola and/or Sunflower Oil, Salt, Tripotassium Phosphate, Vegetable and Fruit Juice Color, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\n016000226340\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/strawberry-cheerios-protein\", \"name\": \"Strawberry Cheerios Protein\", \"gtin\": \"016000226340\"}",
+            "notes": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Strawberry Cheerios Protein\nStrawberry Cheerios Protein\n11.2 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "8e5c05764ef149644ae7029d00ee49a232a6cb6d05226d5dec191945c29f375e"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-cheerios-cinnamon-cheerios-protein",
+        "name": "Cinnamon Cheerios Protein",
+        "brand": "Cheerios",
+        "variant": "Cinnamon Cheerios Protein",
+        "packageSize": "11.2 oz",
+        "category": "breakfast",
+        "market": "US",
+        "barcode": "016000226364",
+        "imageReference": null,
+        "ingredientLabelText": "Whole Grain Oats, Sugar, Pea Protein, Brown Sugar Syrup, Corn Starch, Canola and/or Sunflower Oil, Salt, Cinnamon, Tripotassium Phosphate, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.cheerios.com/products/cinnamon-cheerios-protein",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Cinnamon Cheerios Protein\nCinnamon Cheerios Protein\n11.2 oz\nCheerios\nWhole Grain Oats, Sugar, Pea Protein, Brown Sugar Syrup, Corn Starch, Canola and/or Sunflower Oil, Salt, Cinnamon, Tripotassium Phosphate, Natural Flavor. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Vitamin C (sodium ascorbate), Iron and Zinc (mineral nutrients), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3.\n016000226364\nDoes not contain declaration obligatory allergens\n{\"@id\": \"https://www.cheerios.com/products/cinnamon-cheerios-protein\", \"name\": \"Cinnamon Cheerios Protein\", \"gtin\": \"016000226364\"}",
+            "notes": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Cinnamon Cheerios Protein\nCinnamon Cheerios Protein\n11.2 oz",
+        "brandEvidence": "Cheerios",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact cereal variant, package size, complete ingredient and vitamins/minerals paragraphs, and matching primary product JSON-LD GTIN reviewed. Protein varieties have different formulations from existing ordinary Cheerios. Generic website wording about declaration-obligatory allergens is retained in source evidence without being interpreted as allergy safety or as an explicit contains declaration. No separate positive declaration or precaution documented; both remain unknown. Only whitespace normalized.",
+        "sourceCaptureSha256": "88b09427388f88fc71a00d5bbed1d0706b82d5a25c6c7f4eef454b8a182655e6"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-stubbs-original-barbecue-sauce-18-oz",
+        "name": "Stubb's® Original Barbecue Sauce, 18 oz",
+        "brand": "Stubb's",
+        "variant": "Stubb's® Original Barbecue Sauce, 18 oz",
+        "packageSize": "18 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00734756000020",
+        "imageReference": null,
+        "ingredientLabelText": "Tomato Puree (Water, Tomato Paste), Distilled Vinegar, Sugar, Molasses, Salt, Spices (Including Black Pepper, Paprika, Chili Pepper), Corn Starch, Brown Sugar, Contains Less than 0.5% of: Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Natural Flavor (Including Hickory Smoke).",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/stubbs-r-original-barbecue-sauce-18-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Stubb's® Original Barbecue Sauce, 18 oz\nStubb's® Original Barbecue Sauce, 18 oz\n18 oz\nStubb's\nTomato Puree (Water, Tomato Paste), Distilled Vinegar, Sugar, Molasses, Salt, Spices (Including Black Pepper, Paprika, Chili Pepper), Corn Starch, Brown Sugar, Contains Less than 0.5% of: Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Natural Flavor (Including Hickory Smoke).\n00734756000020\nINGREDIENTS: Tomato Puree (Water, Tomato Paste), Distilled Vinegar, Sugar, Molasses, Salt, Spices (Including Black Pepper, Paprika, Chili Pepper), Corn Starch, Brown Sugar, Contains Less than 0.5% of: Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Natural Flavor (Including Hickory Smoke).\n{\"name\": \"Stubb's\\u00ae Original Barbecue Sauce, 18 oz\", \"url\": \"https://www.mccormick.com/products/stubbs-r-original-barbecue-sauce-18-oz\", \"gtin14\": \"00734756000020\"}",
+            "notes": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Stubb's® Original Barbecue Sauce, 18 oz\nStubb's® Original Barbecue Sauce, 18 oz\n18 oz",
+        "brandEvidence": "Stubb's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "7ed2b19f41022cfb504ae63ab37706b605a0ecc3b4c6b6648ce8ed1c89091e90"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-stubbs-hickory-bourbon-barbecue-sauce-18-oz",
+        "name": "Stubb's® Hickory Bourbon Barbecue Sauce, 18 oz",
+        "brand": "Stubb's",
+        "variant": "Stubb's® Hickory Bourbon Barbecue Sauce, 18 oz",
+        "packageSize": "18 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00734756000082",
+        "imageReference": null,
+        "ingredientLabelText": "Tomato Puree (Water, Tomato Paste), Sugar, Distilled Vinegar, Molasses, Bourbon, Salt, Corn Starch, Spices (Including Red Pepper), Contains Less than 0.5% of Natural Flavor (Including Hickory Smoke), Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener).",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/stubbs-r-hickory-bourbon-barbecue-sauce-18-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Stubb's® Hickory Bourbon Barbecue Sauce, 18 oz\nStubb's® Hickory Bourbon Barbecue Sauce, 18 oz\n18 oz\nStubb's\nTomato Puree (Water, Tomato Paste), Sugar, Distilled Vinegar, Molasses, Bourbon, Salt, Corn Starch, Spices (Including Red Pepper), Contains Less than 0.5% of Natural Flavor (Including Hickory Smoke), Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener).\n00734756000082\nINGREDIENTS: Tomato Puree (Water, Tomato Paste), Sugar, Distilled Vinegar, Molasses, Bourbon, Salt, Corn Starch, Spices (Including Red Pepper), Contains Less than 0.5% of Natural Flavor (Including Hickory Smoke), Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener).\n{\"name\": \"Stubb's\\u00ae Hickory Bourbon Barbecue Sauce, 18 oz\", \"url\": \"https://www.mccormick.com/products/stubbs-r-hickory-bourbon-barbecue-sauce-18-oz\", \"gtin14\": \"00734756000082\"}",
+            "notes": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Stubb's® Hickory Bourbon Barbecue Sauce, 18 oz\nStubb's® Hickory Bourbon Barbecue Sauce, 18 oz\n18 oz",
+        "brandEvidence": "Stubb's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "9c01e6a0078cdf9591023aff5c3408111aaaa67e031aecaaf9ec75f4f1b06bb8"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-stubbs-smokey-mesquite-barbecue-sauce-18-oz",
+        "name": "Stubb's® Smokey Mesquite Barbecue Sauce, 18 oz",
+        "brand": "Stubb's",
+        "variant": "Stubb's® Smokey Mesquite Barbecue Sauce, 18 oz",
+        "packageSize": "18 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00734756000068",
+        "imageReference": null,
+        "ingredientLabelText": "Tomato Puree (Water, Tomato Paste), Sugar, Distilled Vinegar, Salt, Organic Honey, Natural Flavor (Including Mesquite Smoke), Corn Starch, Spices, Contains Less than 0.5% of Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Garlic.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/stubbs-r-smokey-mesquite-barbecue-sauce-18-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Stubb's® Smokey Mesquite Barbecue Sauce, 18 oz\nStubb's® Smokey Mesquite Barbecue Sauce, 18 oz\n18 oz\nStubb's\nTomato Puree (Water, Tomato Paste), Sugar, Distilled Vinegar, Salt, Organic Honey, Natural Flavor (Including Mesquite Smoke), Corn Starch, Spices, Contains Less than 0.5% of Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Garlic.\n00734756000068\nINGREDIENTS: Tomato Puree (Water, Tomato Paste), Sugar, Distilled Vinegar, Salt, Organic Honey, Natural Flavor (Including Mesquite Smoke), Corn Starch, Spices, Contains Less than 0.5% of Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Garlic.\n{\"name\": \"Stubb's\\u00ae Smokey Mesquite Barbecue Sauce, 18 oz\", \"url\": \"https://www.mccormick.com/products/stubbs-r-smokey-mesquite-barbecue-sauce-18-oz\", \"gtin14\": \"00734756000068\"}",
+            "notes": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Stubb's® Smokey Mesquite Barbecue Sauce, 18 oz\nStubb's® Smokey Mesquite Barbecue Sauce, 18 oz\n18 oz",
+        "brandEvidence": "Stubb's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "12dc4945bcda38d6eb1aa5975a661071346de95d55b3938829e9fe9cbf6ca851"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-stubbs-spicy-barbecue-sauce-18-oz",
+        "name": "Stubb's® Spicy Barbecue Sauce, 18 oz",
+        "brand": "Stubb's",
+        "variant": "Stubb's® Spicy Barbecue Sauce, 18 oz",
+        "packageSize": "18 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00734756000013",
+        "imageReference": null,
+        "ingredientLabelText": "Tomato Puree (Water, Tomato Paste), Distilled Vinegar, Sugar, Molasses, Salt, Spices (Including Black Pepper, Paprika, Red Pepper), Corn Starch, Brown Sugar, Habanero Peppers, Contains Less than 0.5% of Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Natural Flavor (Including Hickory Smoke).",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/stubbs-r-spicy-barbecue-sauce-18-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Stubb's® Spicy Barbecue Sauce, 18 oz\nStubb's® Spicy Barbecue Sauce, 18 oz\n18 oz\nStubb's\nTomato Puree (Water, Tomato Paste), Distilled Vinegar, Sugar, Molasses, Salt, Spices (Including Black Pepper, Paprika, Red Pepper), Corn Starch, Brown Sugar, Habanero Peppers, Contains Less than 0.5% of Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Natural Flavor (Including Hickory Smoke).\n00734756000013\nINGREDIENTS: Tomato Puree (Water, Tomato Paste), Distilled Vinegar, Sugar, Molasses, Salt, Spices (Including Black Pepper, Paprika, Red Pepper), Corn Starch, Brown Sugar, Habanero Peppers, Contains Less than 0.5% of Onion, Garlic, Guar Gum (Thickener), Xanthan Gum (Thickener), Natural Flavor (Including Hickory Smoke).\n{\"name\": \"Stubb's\\u00ae Spicy Barbecue Sauce, 18 oz\", \"url\": \"https://www.mccormick.com/products/stubbs-r-spicy-barbecue-sauce-18-oz\", \"gtin14\": \"00734756000013\"}",
+            "notes": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Stubb's® Spicy Barbecue Sauce, 18 oz\nStubb's® Spicy Barbecue Sauce, 18 oz\n18 oz",
+        "brandEvidence": "Stubb's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "4ee3f3fe7a20e11eefee7a90bd9b903751e149ac462330738451119fbfb417e2"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-stubbs-sticky-sweet-barbecue-sauce-18-oz",
+        "name": "Stubb's® Sticky Sweet Barbecue Sauce, 18 oz",
+        "brand": "Stubb's",
+        "variant": "Stubb's® Sticky Sweet Barbecue Sauce, 18 oz",
+        "packageSize": "18 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00734756000105",
+        "imageReference": null,
+        "ingredientLabelText": "Tomato Puree (Water, Tomato Paste), Brown Sugar, Sugar, Apple Cider Vinegar, Distilled Vinegar, Molasses, Water, Corn Starch, Salt, Spices (Including Paprika), Onion, Contains Less than 0.5% of: Garlic, Natural Flavor (Including Hickory Smoke).",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/stubbs-r-sticky-sweet-barbecue-sauce-18-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Stubb's® Sticky Sweet Barbecue Sauce, 18 oz\nStubb's® Sticky Sweet Barbecue Sauce, 18 oz\n18 oz\nStubb's\nTomato Puree (Water, Tomato Paste), Brown Sugar, Sugar, Apple Cider Vinegar, Distilled Vinegar, Molasses, Water, Corn Starch, Salt, Spices (Including Paprika), Onion, Contains Less than 0.5% of: Garlic, Natural Flavor (Including Hickory Smoke).\n00734756000105\nINGREDIENTS: Gluten-Free Ingredients: Tomato Puree (Water, Tomato Paste), Brown Sugar, Sugar, Apple Cider Vinegar, Distilled Vinegar, Molasses, Water, Corn Starch, Salt, Spices (Including Paprika), Onion, Contains Less than 0.5% of: Garlic, Natural Flavor (Including Hickory Smoke).\n{\"name\": \"Stubb's\\u00ae Sticky Sweet Barbecue Sauce, 18 oz\", \"url\": \"https://www.mccormick.com/products/stubbs-r-sticky-sweet-barbecue-sauce-18-oz\", \"gtin14\": \"00734756000105\"}",
+            "notes": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Stubb's® Sticky Sweet Barbecue Sauce, 18 oz\nStubb's® Sticky Sweet Barbecue Sauce, 18 oz\n18 oz",
+        "brandEvidence": "Stubb's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "d7919d1300b5eaf1f2fbfed52b1a87cc906ffbb62b0b78f3518b31f8600a7bc5"
+      }
+    },
+    {
+      "product": {
+        "id": "batch07-stubbs-jalapeno-honey-bar-b-q-sauce-18-oz",
+        "name": "Stubb's® Jalapeño & Honey Bar-B-Q Sauce, 18 oz",
+        "brand": "Stubb's",
+        "variant": "Stubb's® Jalapeño & Honey Bar-B-Q Sauce, 18 oz",
+        "packageSize": "18 oz",
+        "category": "condiments-dressings",
+        "market": "US",
+        "barcode": "00734756010937",
+        "imageReference": null,
+        "ingredientLabelText": "Tomato puree (water, tomato paste), sugar, distilled vinegar, jalapeno pepper, organic honey, salt, corn starch, spices (including black pepper, chili pepper) & garlic powder.",
+        "ingredientVerificationStatus": "verified",
+        "verifiedAt": "2026-11-18",
+        "allergenStatement": null,
+        "allergenStatus": "unknown",
+        "declaredAllergens": null,
+        "precautionaryStatement": null,
+        "precautionaryStatus": "unknown",
+        "precautionaryAllergens": null,
+        "completenessStatus": "partial",
+        "ingredientSourceId": "primary",
+        "allergenSourceId": null,
+        "precautionarySourceId": null,
+        "barcodeSourceId": "primary",
+        "sources": [
+          {
+            "id": "primary",
+            "url": "https://www.mccormick.com/products/stubbs-r-jalapeno-honey-bar-b-q-sauce-18-oz",
+            "kind": "manufacturer_page",
+            "checkedAt": "2026-11-18",
+            "reviewStatus": "label_reviewed",
+            "evidence": "Stubb's® Jalapeño & Honey Bar-B-Q Sauce, 18 oz\nStubb's® Jalapeño & Honey Bar-B-Q Sauce, 18 oz\n18 oz\nStubb's\nTomato puree (water, tomato paste), sugar, distilled vinegar, jalapeno pepper, organic honey, salt, corn starch, spices (including black pepper, chili pepper) & garlic powder.\n00734756010937\nINGREDIENTS: Tomato puree (water, tomato paste), sugar, distilled vinegar, jalapeno pepper, organic honey, salt, corn starch, spices (including black pepper, chili pepper) & garlic powder.\n{\"name\": \"Stubb's\\u00ae Jalape\\u00f1o & Honey Bar-B-Q Sauce, 18 oz\", \"url\": \"https://www.mccormick.com/products/stubbs-r-jalapeno-honey-bar-b-q-sauce-18-oz\", \"gtin14\": \"00734756010937\"}",
+            "notes": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+          }
+        ],
+        "notes": "Manufacturers can change ingredients. Always check physical packaging before consuming. Missing declarations or precautions remain unknown, not proof of allergy safety. Image rights not established; use the existing placeholder. Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-11-18",
+        "identitySourceId": "primary",
+        "identityEvidence": "Stubb's® Jalapeño & Honey Bar-B-Q Sauce, 18 oz\nStubb's® Jalapeño & Honey Bar-B-Q Sauce, 18 oz\n18 oz",
+        "brandEvidence": "Stubb's",
+        "ingredientTextCorroborated": true,
+        "rationale": "Official US exact retail sauce flavor, size, full ingredient panel and matching primary-product JSON-LD GTIN reviewed. Only the ingredient heading and Sticky Sweet marketing heading \"Gluten-Free Ingredients:\" are excluded from the ingredient-list field; full source wording is retained in evidence. Actual list wording and punctuation are unchanged, with whitespace normalized only. Marketing claims are not translated into allergen absence. No separate contains or precautionary statement documented; both remain unknown.",
+        "sourceCaptureSha256": "38e01d2556457412ec56957d4c6025d57565b11a10b0957910cd4e3594a34698"
+      }
+    }
+  ]
+}
